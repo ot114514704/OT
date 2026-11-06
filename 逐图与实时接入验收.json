@@ -1,0 +1,62 @@
+{
+  "observed_at": 1793800191.1229985,
+  "references": [
+    {
+      "id": 1,
+      "hash_matches": true
+    },
+    {
+      "id": 2,
+      "hash_matches": true
+    },
+    {
+      "id": 3,
+      "hash_matches": true
+    },
+    {
+      "id": 4,
+      "hash_matches": true
+    },
+    {
+      "id": 5,
+      "hash_matches": true
+    },
+    {
+      "id": 6,
+      "hash_matches": true
+    },
+    {
+      "id": 7,
+      "hash_matches": true
+    },
+    {
+      "id": 8,
+      "hash_matches": true
+    },
+    {
+      "id": 9,
+      "hash_matches": true
+    },
+    {
+      "id": 10,
+      "hash_matches": true
+    },
+    {
+      "id": 11,
+      "hash_matches": true
+    },
+    {
+      "id": 12,
+      "hash_matches": true
+    }
+  ],
+  "poll_advanced": true,
+  "heartbeat_advanced": true,
+  "quote_before": "2026-11-04 15:49:46",
+  "quote_after": "2026-11-04 15:49:48",
+  "closed_ends_same": true,
+  "model_unchanged": true,
+  "source": "verified",
+  "supervisor": "healthy",
+  "browser_visual_verification": "not_performed_work_settings_disabled"
+}

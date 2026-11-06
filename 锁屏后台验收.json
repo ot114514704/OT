@@ -1,0 +1,25 @@
+{
+  "scope": "锁屏期间继续后台及网页工作；MT5 1.04 原生拖动验收待完成",
+  "status": "connected",
+  "model_revision": "1793890909506895900",
+  "quote_time": "2026-11-05 17:06:16",
+  "quote_advanced_since_audit": true,
+  "audit_passed": true,
+  "live_ready": true,
+  "audit_issues": [],
+  "historical_comparison_passed": true,
+  "history_scope": "全部已加载历史，非经纪商全部历史；H1 1000根、M15 3000根已收盘数据",
+  "tests": {
+    "python_passed": 158,
+    "canvas_contract_passed": true
+  },
+  "mt5": {
+    "installed_version": "1.04",
+    "running_version": "1.03",
+    "native_drag_acceptance": "pending"
+  },
+  "evidence": [
+    "盘整全历史网页验收.png",
+    "盘整实时识别验收.png"
+  ]
+}

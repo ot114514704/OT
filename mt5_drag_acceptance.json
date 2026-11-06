@@ -1,0 +1,107 @@
+[
+  {
+    "stage": "right_drag_hold",
+    "observed_at": 1793885871.9428577,
+    "bridge": {
+      "enabled": true,
+      "model_revision": "1793885777827392400",
+      "sequence": 663,
+      "updated_at": 1793885870.0515723,
+      "indicator": {
+        "status": "attached",
+        "charts": [
+          {
+            "chart_id": "92498776577755",
+            "status": "attached",
+            "version": "1.03",
+            "model_revision": "1793885777827392400",
+            "period": "H1",
+            "age_seconds": 1.6,
+            "drawn_count": 18,
+            "heartbeat_sequence": 662,
+            "first_visible_bar": 141,
+            "auto_scroll": false,
+            "mouse_scroll": true,
+            "completed_gestures": 1,
+            "health": "实时 · 盘整候选 · 11-05 15:00"
+          }
+        ]
+      }
+    },
+    "quote": {
+      "bid": 4118.73,
+      "ask": 4118.82,
+      "raw_time": "2026-11-05 15:37:49"
+    }
+  },
+  {
+    "stage": "left_drag",
+    "observed_at": 1793885901.5514412,
+    "bridge": {
+      "enabled": true,
+      "model_revision": "1793885777827392400",
+      "sequence": 677,
+      "updated_at": 1793885900.307234,
+      "indicator": {
+        "status": "attached",
+        "charts": [
+          {
+            "chart_id": "92498776577755",
+            "status": "attached",
+            "version": "1.03",
+            "model_revision": "1793885777827392400",
+            "period": "H1",
+            "age_seconds": 0.6,
+            "drawn_count": 18,
+            "heartbeat_sequence": 676,
+            "first_visible_bar": 91,
+            "auto_scroll": false,
+            "mouse_scroll": true,
+            "completed_gestures": 2,
+            "health": "实时 · 盘整候选 · 11-05 15:00"
+          }
+        ]
+      }
+    },
+    "quote": {
+      "bid": 4117.37,
+      "ask": 4117.46,
+      "raw_time": "2026-11-05 15:38:19"
+    }
+  },
+  {
+    "stage": "return_latest",
+    "observed_at": 1793885972.1407187,
+    "bridge": {
+      "enabled": true,
+      "model_revision": "1793885777827392400",
+      "sequence": 710,
+      "updated_at": 1793885971.952895,
+      "indicator": {
+        "status": "attached",
+        "charts": [
+          {
+            "chart_id": "92498776577755",
+            "status": "attached",
+            "version": "1.03",
+            "model_revision": "1793885777827392400",
+            "period": "H1",
+            "age_seconds": 1.6,
+            "drawn_count": 18,
+            "heartbeat_sequence": 709,
+            "first_visible_bar": 91,
+            "auto_scroll": true,
+            "mouse_scroll": true,
+            "completed_gestures": 2,
+            "health": "实时 · 盘整候选 · 11-05 15:00"
+          }
+        ]
+      }
+    },
+    "quote": {
+      "bid": 4118.91,
+      "ask": 4118.99,
+      "raw_time": "2026-11-05 15:39:31"
+    }
+  }
+]

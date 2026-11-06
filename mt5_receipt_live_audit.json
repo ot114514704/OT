@@ -1,0 +1,51 @@
+{
+  "audit_version": "live_model_acceptance_v1",
+  "passed": true,
+  "live_ready": true,
+  "current": {
+    "H1": {
+      "availability": "live",
+      "label": "盘整候选",
+      "known_at": "2026-11-05T15:00:00+00:00"
+    },
+    "M15": {
+      "availability": "live",
+      "label": "证据不足",
+      "known_at": "2026-11-05T15:00:00+00:00"
+    }
+  },
+  "model_revision": "1793883896134024900",
+  "server_now": 1793883950.3435626,
+  "quote_raw_time": "2026-11-05 15:05:49",
+  "market_source": {
+    "version": "tmgm_source_labels_v1",
+    "status": "verified",
+    "company": "TradeMax Global Limited",
+    "server": "TradeMaxGlobal-Live",
+    "symbol": "XAUUSD",
+    "reason": "终端经纪商、服务器及XAUUSD标签匹配本项目TMGM来源配置"
+  },
+  "status": "connected",
+  "freeze_integrity": {
+    "version": "range_freeze_ledger_v1",
+    "engine": "e15d8877392eec46676eac87c6e4cf450e97a08436d2f504ac7f9431bb0e9a24",
+    "passed": true,
+    "checked_ranges": 353,
+    "previously_recorded": 353,
+    "source_revisions": [],
+    "issues": [],
+    "checked_at": 1793883897.426118
+  },
+  "counts": {
+    "closed_bars": 4000,
+    "phase_rows": 1400,
+    "frozen_observations": 165,
+    "geometry_profiles": 1371,
+    "score_tables": 1470,
+    "swing_candidates": 4,
+    "structural_candidates": 98,
+    "geometric_candidates": 161
+  },
+  "issues": [],
+  "scope": "单次模型快照结构验收；冻结检查仅涵盖本次返回的历史观察；不证明市场识别准确率或盈利能力"
+}

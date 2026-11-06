@@ -1,0 +1,625 @@
+{
+  "test_count": 136,
+  "tests_passed": true,
+  "model_audit": {
+    "audit_version": "live_model_acceptance_v1",
+    "passed": true,
+    "live_ready": true,
+    "current": {
+      "H1": {
+        "availability": "live",
+        "label": "非盘整",
+        "known_at": "2026-11-04T17:00:00+00:00"
+      },
+      "M15": {
+        "availability": "live",
+        "label": "已确认盘整",
+        "known_at": "2026-11-04T17:45:00+00:00"
+      }
+    },
+    "model_revision": "1793807203016757200",
+    "server_now": 1793807628.0289986,
+    "quote_raw_time": "2026-11-04 17:53:46",
+    "market_source": {
+      "version": "tmgm_source_labels_v1",
+      "status": "verified",
+      "company": "TradeMax Global Limited",
+      "server": "TradeMaxGlobal-Live",
+      "symbol": "XAUUSD",
+      "reason": "终端经纪商、服务器及XAUUSD标签匹配本项目TMGM来源配置"
+    },
+    "status": "connected",
+    "freeze_integrity": {
+      "version": "range_freeze_ledger_v1",
+      "engine": "0f768f67e3ae91555b75e2aa123d384f4532a1a31e098743bdc09c7022b3fd86",
+      "passed": true,
+      "checked_ranges": 212,
+      "previously_recorded": 0,
+      "source_revisions": [],
+      "issues": [],
+      "checked_at": 1793807203.4490654
+    },
+    "counts": {
+      "closed_bars": 4000,
+      "phase_rows": 1400,
+      "frozen_observations": 186,
+      "geometry_profiles": 1135,
+      "score_tables": 1472,
+      "swing_candidates": 8,
+      "structural_candidates": 110
+    },
+    "issues": [],
+    "scope": "单次模型快照结构验收；冻结检查仅涵盖本次返回的历史观察；不证明市场识别准确率或盈利能力"
+  },
+  "live_poll_samples": [
+    {
+      "polled_at": 1793807623.3231335,
+      "worker_heartbeat_at": 1793807623.3231335,
+      "model_revision": "1793807203016757200",
+      "status": "connected",
+      "quote_raw_time": "2026-11-04 17:53:42"
+    },
+    {
+      "polled_at": 1793807627.603089,
+      "worker_heartbeat_at": 1793807627.6040623,
+      "model_revision": "1793807203016757200",
+      "status": "connected",
+      "quote_raw_time": "2026-11-04 17:53:46"
+    }
+  ],
+  "targets": [
+    {
+      "id": "upper_wide",
+      "title": "顶部宽幅箱体",
+      "period": "H1",
+      "shape": "rectangle",
+      "source_image": 12,
+      "start": "2026-10-08T00:00:00+00:00",
+      "end": "2026-10-15T00:00:00+00:00",
+      "reference_low": 4150,
+      "reference_high": 4241,
+      "range_kind": "structural",
+      "matched": true,
+      "role": "historical_review_bookmark",
+      "alignment_status": "approximate",
+      "confirmed": false,
+      "range_id": "price_structure_candidate_v3:48:horizontal:2026-10-13T05:00:00+00:00",
+      "reason": "按图片位置找到独立模型证据；红框起止尚非逐像素对齐，当前状态与确认资格独立判断",
+      "observed_from": "2026-10-09T03:00:00+00:00",
+      "first_observed_at": "2026-10-13T05:00:00+00:00",
+      "end_at": "2026-10-14T16:00:00+00:00",
+      "actual_low": 4141.56,
+      "actual_high": 4217.3,
+      "status": "向下离开结构观察区",
+      "window": 48,
+      "evidence_confirmed": false
+    },
+    {
+      "id": "middle_channel",
+      "title": "下跌中途倾斜通道",
+      "period": "M15",
+      "shape": "tilted",
+      "source_image": 12,
+      "start": "2026-10-19T00:00:00+00:00",
+      "end": "2026-10-23T00:00:00+00:00",
+      "reference_low": 4080,
+      "reference_high": 4120,
+      "range_kind": "structural",
+      "matched": true,
+      "role": "historical_review_bookmark",
+      "alignment_status": "approximate",
+      "confirmed": false,
+      "range_id": "price_structure_candidate_v3:48:auto:2026-10-22T16:30:00+00:00",
+      "reason": "按图片位置找到独立模型证据；红框起止尚非逐像素对齐，当前状态与确认资格独立判断",
+      "observed_from": "2026-10-22T04:30:00+00:00",
+      "first_observed_at": "2026-10-22T16:30:00+00:00",
+      "end_at": "2026-10-22T17:30:00+00:00",
+      "actual_low": 4057.39,
+      "actual_high": 4124.01,
+      "status": "向下离开结构观察区",
+      "window": 48,
+      "evidence_confirmed": false
+    },
+    {
+      "id": "lower_wide",
+      "title": "底部宽幅盘整",
+      "period": "M15",
+      "shape": "rectangle",
+      "source_image": 12,
+      "start": "2026-10-30T17:00:00+00:00",
+      "end": "2026-11-02T15:30:00+00:00",
+      "reference_low": 3845,
+      "reference_high": 3920,
+      "range_kind": "structural",
+      "matched": true,
+      "role": "historical_review_bookmark",
+      "alignment_status": "approximate",
+      "confirmed": false,
+      "range_id": "price_structure_candidate_v3:48:horizontal:2026-11-02T13:15:00+00:00",
+      "reason": "按图片位置找到独立模型证据；红框起止尚非逐像素对齐，当前状态与确认资格独立判断",
+      "observed_from": "2026-11-02T01:15:00+00:00",
+      "first_observed_at": "2026-11-02T13:15:00+00:00",
+      "end_at": "2026-11-02T16:00:00+00:00",
+      "actual_low": 3891.13,
+      "actual_high": 3919.34,
+      "status": "向上离开结构观察区",
+      "window": 48,
+      "evidence_confirmed": false
+    },
+    {
+      "id": "phone_converging_up",
+      "title": "参考6 · 三角收敛向上突破",
+      "period": "M15",
+      "shape": "converging",
+      "range_kind": "range",
+      "source_image": 6,
+      "geometry_subtype": "triangle",
+      "start": "2026-11-03T10:00:00+00:00",
+      "end": "2026-11-03T14:15:00+00:00",
+      "reference_low": 3895,
+      "reference_high": 3911,
+      "matched": true,
+      "role": "historical_review_bookmark",
+      "alignment_status": "approximate",
+      "confirmed": false,
+      "range_id": "ipda_body_balance_ranges_v4:2026-11-03T13:45:00+00:00",
+      "reason": "按图片位置找到独立模型证据；红框起止尚非逐像素对齐，当前状态与确认资格独立判断",
+      "observed_from": "2026-11-03T11:00:00+00:00",
+      "first_observed_at": "2026-11-03T14:00:00+00:00",
+      "end_at": "2026-11-03T14:45:00+00:00",
+      "actual_low": 3895.5,
+      "actual_high": 3910.55,
+      "status": "向上突破条件触发",
+      "window": 12,
+      "evidence_confirmed": true
+    },
+    {
+      "id": "phone_high_box",
+      "title": "参考7 · 高位箱体向下离开",
+      "period": "M15",
+      "shape": "rectangle",
+      "source_image": 7,
+      "start": "2026-11-02T15:00:00+00:00",
+      "end": "2026-11-03T05:30:00+00:00",
+      "reference_low": 3936,
+      "reference_high": 3970,
+      "range_kind": "structural",
+      "matched": true,
+      "role": "historical_review_bookmark",
+      "alignment_status": "approximate",
+      "confirmed": false,
+      "range_id": "price_structure_candidate_v3:48:horizontal:2026-11-03T05:00:00+00:00",
+      "reason": "按图片位置找到独立模型证据；红框起止尚非逐像素对齐，当前状态与确认资格独立判断",
+      "observed_from": "2026-11-02T16:00:00+00:00",
+      "first_observed_at": "2026-11-03T05:00:00+00:00",
+      "end_at": "2026-11-03T06:00:00+00:00",
+      "actual_low": 3934.85,
+      "actual_high": 3970.33,
+      "status": "向下离开结构观察区",
+      "window": 48,
+      "evidence_confirmed": false
+    },
+    {
+      "id": "phone_low_box",
+      "title": "参考8 · 底部箱体向上离开",
+      "period": "M15",
+      "shape": "rectangle",
+      "source_image": 8,
+      "start": "2026-11-02T00:00:00+00:00",
+      "end": "2026-11-02T15:30:00+00:00",
+      "reference_low": 3892,
+      "reference_high": 3921,
+      "range_kind": "structural",
+      "matched": true,
+      "role": "historical_review_bookmark",
+      "alignment_status": "approximate",
+      "confirmed": false,
+      "range_id": "price_structure_candidate_v3:48:horizontal:2026-11-02T13:15:00+00:00",
+      "reason": "按图片位置找到独立模型证据；红框起止尚非逐像素对齐，当前状态与确认资格独立判断",
+      "observed_from": "2026-11-02T01:15:00+00:00",
+      "first_observed_at": "2026-11-02T13:15:00+00:00",
+      "end_at": "2026-11-02T16:00:00+00:00",
+      "actual_low": 3891.13,
+      "actual_high": 3919.34,
+      "status": "向上离开结构观察区",
+      "window": 48,
+      "evidence_confirmed": false
+    },
+    {
+      "id": "phone_ascending_down",
+      "title": "参考10 · 外层上升三角形",
+      "period": "M15",
+      "shape": "converging",
+      "range_kind": "range",
+      "source_image": 10,
+      "geometry_subtype": "ascending_triangle",
+      "start": "2026-10-23T01:00:00+00:00",
+      "end": "2026-10-23T16:30:00+00:00",
+      "reference_low": 3985,
+      "reference_high": 4035,
+      "missing_reason": "截图价格序列已有对应，但现有短窗口未完整复现外层上升三角形；仍待补长尺度锚点，未用附近小框冒充",
+      "matched": false,
+      "role": "historical_review_bookmark",
+      "alignment_status": "approximate",
+      "confirmed": false,
+      "range_id": null,
+      "reason": "截图价格序列已有对应，但现有短窗口未完整复现外层上升三角形；仍待补长尺度锚点，未用附近小框冒充"
+    }
+  ],
+  "reference_reviews": [
+    {
+      "image_id": 1,
+      "image_sha256": "65a29fed0237ad5c50bf45731cb0150733b09d771b4df5659a7a73f569dc0e55",
+      "title": "多阶段局部盘整与不同宽度",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "pending",
+      "reason": "尚未完成截图价格序列与红框逐段标定；未将图片框补造成自动确认",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": false
+    },
+    {
+      "image_id": 2,
+      "image_sha256": "2212a6a2fcc2178b16783aa3ac17b53e6f3afcd4d46bb974aadee7f907bcf66d",
+      "title": "宽幅外层往返与内部小框",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "pending",
+      "reason": "尚未完成截图价格序列与红框逐段标定；未将图片框补造成自动确认",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": false
+    },
+    {
+      "image_id": 3,
+      "image_sha256": "3b5135d8a950e0e3775df24d6e9564922638d1eb06f3a0d316f7df1cdc5132ac",
+      "title": "双向趋势中的局部停顿",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "pending",
+      "reason": "尚未完成截图价格序列与红框逐段标定；未将图片框补造成自动确认",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": false
+    },
+    {
+      "image_id": 4,
+      "image_sha256": "db8dccde68f4823f033de218d4d2022f8b5d396053fd07ac35ab2a4c473ce137",
+      "title": "下跌阶段的平台与倾斜折返",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "pending",
+      "reason": "尚未完成截图价格序列与红框逐段标定；未将图片框补造成自动确认",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": false
+    },
+    {
+      "image_id": 5,
+      "image_sha256": "6046b9fc0c897adc2a24223e34b03ecd4fda21090b6086b8f5450916590fb3f5",
+      "title": "大盘整包容内部小框",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "pending",
+      "reason": "尚未完成截图价格序列与红框逐段标定；未将图片框补造成自动确认",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": false
+    },
+    {
+      "image_id": 6,
+      "image_sha256": "4f48caf7d5a7bde21074a10a3b9e733729e405b8cd0a16e700c133eeb81cddbb",
+      "title": "收敛三角形向上突破",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "sequence_correspondence",
+      "calibration": {
+        "phase": -3,
+        "step": 34.94,
+        "grid": [
+          [
+            358,
+            3975.45
+          ],
+          [
+            1525,
+            3896.95
+          ]
+        ]
+      },
+      "calibration_source": "人工读取图片网格与等间距K线中心；截图箭头/细实体可产生提取误差",
+      "extracted_body_count": 32,
+      "sequence_bar_count": 32,
+      "price_per_pixel": 0.06726649528706084,
+      "first_bar_open_at": "2026-11-03T07:45:00+00:00",
+      "last_bar_open_at": "2026-11-03T15:30:00+00:00",
+      "native_segment_sha256": "f656c217885b1a52d9f88dba593f7afdcde70c88226f8ac2f8ef2c42f777e366",
+      "ranking": [
+        {
+          "score": 5.99629976114821,
+          "median_price_error": 0.12175664095991579,
+          "mean_price_error": 0.5600357487147605,
+          "direction_mismatch_fraction": 0.03125,
+          "first_bar_open_at": "2026-11-03T07:45:00+00:00",
+          "last_bar_open_at": "2026-11-03T15:30:00+00:00"
+        },
+        {
+          "score": 28.594675557325367,
+          "median_price_error": 2.532892030848302,
+          "mean_price_error": 3.4826124678663675,
+          "direction_mismatch_fraction": 0.40625,
+          "first_bar_open_at": "2026-11-03T08:00:00+00:00",
+          "last_bar_open_at": "2026-11-03T15:45:00+00:00"
+        },
+        {
+          "score": 29.462531847133633,
+          "median_price_error": 2.1523371893745207,
+          "mean_price_error": 3.534000642673533,
+          "direction_mismatch_fraction": 0.46875,
+          "first_bar_open_at": "2026-11-03T07:30:00+00:00",
+          "last_bar_open_at": "2026-11-03T15:15:00+00:00"
+        }
+      ],
+      "ranking_separation": 22.59837579617716,
+      "reason": "连续实体价格与涨跌顺序有明显对应；像素提取有箭头/标线误差，尚不证明全部OHLC或红框边界精确对齐",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": true
+    },
+    {
+      "image_id": 7,
+      "image_sha256": "e95e011000e948dcdc0ad873c0465a4073034a88456526b833926e6c8db4976c",
+      "title": "高位矩形箱体向下突破",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "sequence_correspondence",
+      "calibration": {
+        "phase": 5,
+        "step": 8.75,
+        "grid": [
+          [
+            363,
+            3979.65
+          ],
+          [
+            1527,
+            3888.15
+          ]
+        ]
+      },
+      "calibration_source": "人工读取图片网格与等间距K线中心；截图箭头/细实体可产生提取误差",
+      "extracted_body_count": 122,
+      "sequence_bar_count": 126,
+      "price_per_pixel": 0.07860824742268041,
+      "first_bar_open_at": "2026-11-02T05:15:00+00:00",
+      "last_bar_open_at": "2026-11-03T13:30:00+00:00",
+      "native_segment_sha256": "2c573e7e7476140d9e0c1ae42a306676922c6bcc9d88fc1738cfe0db9c5035a3",
+      "ranking": [
+        {
+          "score": 7.389328137597289,
+          "median_price_error": 0.2419587628867248,
+          "mean_price_error": 1.5876007689707448,
+          "direction_mismatch_fraction": 0.040983606557377046,
+          "first_bar_open_at": "2026-11-02T05:15:00+00:00",
+          "last_bar_open_at": "2026-11-03T13:30:00+00:00"
+        },
+        {
+          "score": 28.90589895189487,
+          "median_price_error": 1.8960953608246882,
+          "mean_price_error": 3.4584584671286276,
+          "direction_mismatch_fraction": 0.5409836065573771,
+          "first_bar_open_at": "2026-11-02T05:30:00+00:00",
+          "last_bar_open_at": "2026-11-03T13:45:00+00:00"
+        },
+        {
+          "score": 29.743262563826818,
+          "median_price_error": 1.6648711340204727,
+          "mean_price_error": 3.5301683707959928,
+          "direction_mismatch_fraction": 0.5655737704918032,
+          "first_bar_open_at": "2026-11-02T05:00:00+00:00",
+          "last_bar_open_at": "2026-11-03T13:15:00+00:00"
+        }
+      ],
+      "ranking_separation": 21.51657081429758,
+      "reason": "连续实体价格与涨跌顺序有明显对应；像素提取有箭头/标线误差，尚不证明全部OHLC或红框边界精确对齐",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": true
+    },
+    {
+      "image_id": 8,
+      "image_sha256": "03e3779dbd719f03b0cb42b9e25d0f218d5f799d5aa7f1f222c02a53833b22d3",
+      "title": "低位矩形箱体向上突破",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "sequence_correspondence",
+      "calibration": {
+        "phase": 3,
+        "step": 11.67,
+        "grid": [
+          [
+            358,
+            3970.95
+          ],
+          [
+            1526,
+            3872.45
+          ]
+        ]
+      },
+      "calibration_source": "人工读取图片网格与等间距K线中心；截图箭头/细实体可产生提取误差",
+      "extracted_body_count": 92,
+      "sequence_bar_count": 95,
+      "price_per_pixel": 0.08433219178082192,
+      "first_bar_open_at": "2026-10-30T16:30:00+00:00",
+      "last_bar_open_at": "2026-11-02T17:00:00+00:00",
+      "native_segment_sha256": "f8e9de342698eeb6df31004397f12e06d4e1c6f239579f79ed7f3ccbf5d6b750",
+      "ranking": [
+        {
+          "score": 14.184649084088264,
+          "median_price_error": 0.2799443493150875,
+          "mean_price_error": 4.334588296605192,
+          "direction_mismatch_fraction": 0.22826086956521738,
+          "first_bar_open_at": "2026-10-30T16:30:00+00:00",
+          "last_bar_open_at": "2026-11-02T17:00:00+00:00"
+        },
+        {
+          "score": 30.541483116309777,
+          "median_price_error": 3.23008133561666,
+          "mean_price_error": 6.1981607355568755,
+          "direction_mismatch_fraction": 0.5108695652173914,
+          "first_bar_open_at": "2026-10-30T16:45:00+00:00",
+          "last_bar_open_at": "2026-11-02T17:15:00+00:00"
+        },
+        {
+          "score": 32.545465680865426,
+          "median_price_error": 3.0974143835614996,
+          "mean_price_error": 6.565380062537261,
+          "direction_mismatch_fraction": 0.5543478260869565,
+          "first_bar_open_at": "2026-10-30T16:15:00+00:00",
+          "last_bar_open_at": "2026-11-02T16:45:00+00:00"
+        }
+      ],
+      "ranking_separation": 16.356834032221514,
+      "reason": "连续实体价格与涨跌顺序有明显对应；像素提取有箭头/标线误差，尚不证明全部OHLC或红框边界精确对齐",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": true
+    },
+    {
+      "image_id": 9,
+      "image_sha256": "62d7e2280f705868df16b3b8989ec5f550ccf19f7ad1dd572250a935ddbca308",
+      "title": "下降通道、向下加速与后续反弹",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "pending",
+      "reason": "尚未完成截图价格序列与红框逐段标定；未将图片框补造成自动确认",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": false
+    },
+    {
+      "image_id": 10,
+      "image_sha256": "06025762165c0db8bc5bf17856b1c9680ad5e6a444eebe79d549cf655e7aafd1",
+      "title": "上升三角形向下破位与反抽",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "sequence_correspondence",
+      "calibration": {
+        "phase": 5,
+        "step": 11.67,
+        "grid": [
+          [
+            360,
+            4065.95
+          ],
+          [
+            1525,
+            3965.45
+          ]
+        ]
+      },
+      "calibration_source": "人工读取图片网格与等间距K线中心；截图箭头/细实体可产生提取误差",
+      "extracted_body_count": 89,
+      "sequence_bar_count": 94,
+      "price_per_pixel": 0.08626609442060086,
+      "first_bar_open_at": "2026-10-22T20:15:00+00:00",
+      "last_bar_open_at": "2026-10-23T20:30:00+00:00",
+      "native_segment_sha256": "05afd179a9eb584c4bac186b4bf523c0ba09d2a882535317ff1e58c4d227d4f9",
+      "ranking": [
+        {
+          "score": 7.226091452848254,
+          "median_price_error": 0.20914163090128568,
+          "mean_price_error": 1.7249746829338952,
+          "direction_mismatch_fraction": 0.06741573033707865,
+          "first_bar_open_at": "2026-10-22T20:15:00+00:00",
+          "last_bar_open_at": "2026-10-23T20:30:00+00:00"
+        },
+        {
+          "score": 29.486287662809954,
+          "median_price_error": 2.2739914163091726,
+          "mean_price_error": 3.9659625307421944,
+          "direction_mismatch_fraction": 0.5168539325842697,
+          "first_bar_open_at": "2026-10-22T20:00:00+00:00",
+          "last_bar_open_at": "2026-10-23T20:15:00+00:00"
+        },
+        {
+          "score": 30.752322656381025,
+          "median_price_error": 2.4621888412018507,
+          "mean_price_error": 4.21140786999082,
+          "direction_mismatch_fraction": 0.5393258426966292,
+          "first_bar_open_at": "2026-10-22T20:30:00+00:00",
+          "last_bar_open_at": "2026-10-23T20:45:00+00:00"
+        }
+      ],
+      "ranking_separation": 22.2601962099617,
+      "reason": "连续实体价格与涨跌顺序有明显对应；像素提取有箭头/标线误差，尚不证明全部OHLC或红框边界精确对齐",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": true
+    },
+    {
+      "image_id": 11,
+      "image_sha256": "fc64a051f39528cc39cb62730530a7c91f9459a4ef7d6206bc5badf37e28de5b",
+      "title": "嵌套盘整与扩张误包范围诊断",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "pending",
+      "reason": "尚未完成截图价格序列与红框逐段标定；未将图片框补造成自动确认",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": false
+    },
+    {
+      "image_id": 12,
+      "image_sha256": "999d352dfd9db5569856818d46a3341e812004f33c8bf34f4cc8d7704f91b468",
+      "title": "宏观遗漏与微型噪声诊断",
+      "raw_candle_alignment_verified": false,
+      "timezone_verified": false,
+      "red_box_boundaries_verified": false,
+      "confirmed": false,
+      "score_included": false,
+      "status": "pending",
+      "reason": "尚未完成截图价格序列与红框逐段标定；未将图片框补造成自动确认",
+      "role": "reference_sequence_review",
+      "native_sequence_currently_verified": false
+    }
+  ],
+  "browser_verified": [
+    "实际8773页面显示七项定位/待补清单",
+    "新增高位矩形以实线和半透明填色显示",
+    "12张原图各有独立核对状态",
+    "窄窗日期与标签重叠已修正并实看"
+  ],
+  "browser_screenshot": "C:\\Users\\qkn\\Documents\\Codex\\2026-11-02\\ipda\\outputs\\新增高位箱体验收.jpg",
+  "limitations": [
+    "仍未全部逐框复现",
+    "参考10外层上升三角形仍待长尺度锚点",
+    "1-5、9、11-12尚待逐框原生OHLC标定",
+    "参考6/7/8/10仅实体序列明显对应，不证明完整OHLC或历史时区",
+    "规则版本改变后建立新的冻结记录，不声称跨规则保持同一冻结基线"
+  ]
+}
