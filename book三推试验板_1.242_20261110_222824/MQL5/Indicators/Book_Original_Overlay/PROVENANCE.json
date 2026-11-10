@@ -1,0 +1,22 @@
+{
+  "archive": "C:\\Users\\qkn\\Downloads\\forex-ai-source-main.zip",
+  "archive_release": "Unified_1.133",
+  "detector": "nested_balanced_three_push_v4",
+  "ipda_source_sha256": "eaee0d49850818c5fd19e594b5a977a42065b951e194ff1a73d544314ad3641e",
+  "ipda_modified": false,
+  "book_modified": false,
+  "additional_consolidation_filter": false,
+  "original_files": {
+    "Machine1_UnifiedNativeKernel.mqh": "f818bcebda4651d6568dfb46ac99489235655656d985d901a46cc609a92f0ee1",
+    "Machine1_UnifiedNativeLegacyPush.mqh": "c42c5d3471f4b07edd61c55b44f3ce0b687d0ffcf95ff76dc1fed6cd46c01d95",
+    "Machine1_UnifiedNativeColours.mqh": "5770a8bbfebb491b8970f672410dfb7860db1b6448472d7a2d2f8ad56384acf2"
+  },
+  "display_changes": [
+    "repair damaged Chinese captions",
+    "isolated prefix and buttons; no IPDA object filtering",
+    "native original tip-to-tip dashed strokes and 1/2/3 labels",
+    "independent large/small display switches based on original same-period parent; no detector changes"
+  ],
+  "version": "1.242",
+  "native_visual_verified": false
+}

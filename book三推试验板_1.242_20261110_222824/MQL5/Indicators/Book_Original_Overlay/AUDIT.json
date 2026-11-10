@@ -1,0 +1,85 @@
+{
+  "source_host_checks": [
+    {
+      "name": "parallel_three_push_accepted_False",
+      "passed": true,
+      "accepted": true
+    },
+    {
+      "name": "future_last_point_rejected_False",
+      "passed": true,
+      "accepted": false
+    },
+    {
+      "name": "misbound_price_rejected_False",
+      "passed": true,
+      "accepted": false
+    },
+    {
+      "name": "horizontal_not_three_push_False",
+      "passed": true,
+      "accepted": false
+    },
+    {
+      "name": "two_times_allowed_False",
+      "passed": true,
+      "accepted": true
+    },
+    {
+      "name": "larger_than_two_rejected_False",
+      "passed": true,
+      "accepted": false
+    },
+    {
+      "name": "future_bars_do_not_change_False",
+      "passed": true,
+      "accepted": true
+    },
+    {
+      "name": "parallel_three_push_accepted_True",
+      "passed": true,
+      "accepted": true
+    },
+    {
+      "name": "future_last_point_rejected_True",
+      "passed": true,
+      "accepted": false
+    },
+    {
+      "name": "misbound_price_rejected_True",
+      "passed": true,
+      "accepted": false
+    },
+    {
+      "name": "horizontal_not_three_push_True",
+      "passed": true,
+      "accepted": false
+    },
+    {
+      "name": "two_times_allowed_True",
+      "passed": true,
+      "accepted": true
+    },
+    {
+      "name": "larger_than_two_rejected_True",
+      "passed": true,
+      "accepted": false
+    },
+    {
+      "name": "future_bars_do_not_change_True",
+      "passed": true,
+      "accepted": true
+    }
+  ],
+  "display_switch_checks": {
+    "states": 4,
+    "passed": true
+  },
+  "original_dependencies_byte_identical": true,
+  "original_renderer_geometry_identical_apart_from_requested_layer_selection": true,
+  "ipda_source_unchanged": true,
+  "additional_consolidation_filter": false,
+  "original_book_project_modified": false,
+  "native_visual_verified": false,
+  "scope": "Host execution of original numeric source plus compile/provenance; no EX5 runtime or visual claim."
+}

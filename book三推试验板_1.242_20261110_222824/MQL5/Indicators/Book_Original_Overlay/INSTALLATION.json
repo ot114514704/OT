@@ -1,0 +1,19 @@
+{
+  "version": "1.242",
+  "compiled": true,
+  "compile_result": "0 errors, 0 warnings",
+  "native_reload_verified": true,
+  "native_buttons_visible": true,
+  "native_all_four_states_clicked": false,
+  "host_four_states_passed": true,
+  "original_ipda_source_unchanged": true,
+  "book_project_modified": false,
+  "checked_at": 1794320726.1827762,
+  "files": {
+    "book三推试验板.ex5": "569b003281ec98a4ee81fc6f4dc27bb47622ffc4de70892d70a46f67be4328f5",
+    "book三推试验板.mq5": "80b583626527c5a5ef2371f306535d58c201573b615ee65c9d32aae4c5dab15a",
+    "Machine1_UnifiedNativeColours.mqh": "5770a8bbfebb491b8970f672410dfb7860db1b6448472d7a2d2f8ad56384acf2",
+    "Machine1_UnifiedNativeKernel.mqh": "f818bcebda4651d6568dfb46ac99489235655656d985d901a46cc609a92f0ee1",
+    "Machine1_UnifiedNativeLegacyPush.mqh": "c42c5d3471f4b07edd61c55b44f3ce0b687d0ffcf95ff76dc1fed6cd46c01d95"
+  }
+}
