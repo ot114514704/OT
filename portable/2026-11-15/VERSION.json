@@ -1,0 +1,16 @@
+{
+  "versions": {
+    "IPDA_Drag_Trial": "1.25",
+    "Book_Original_Overlay": "1.248",
+    "Book_PA_Shapes": "1.249"
+  },
+  "engine": "dfcb08c13e80ac018699c2a3b9b47bed4859e6d9d242668f88f64f24ca8865b6",
+  "calculation_version": "viewport-history-1.17-backup-standard:dense-horizontal-compact-geometry-v22-m15-closed-pauses",
+  "model_revision": "1794680133115208300",
+  "history_records": 256901,
+  "source": "TradeMax Global Limited | TradeMaxGlobal-Live",
+  "physical_second_computer_verified": false,
+  "private_terminal_config_included": false,
+  "account_credentials_included": false,
+  "policy": "Current installed code and historical observation snapshot; fresh quotes require target broker login."
+}

@@ -1,0 +1,20 @@
+{
+  "cache_valid": true,
+  "closed_bars": {
+    "H1": 1144,
+    "M15": 3578
+  },
+  "engine": "dfcb08c13e80ac018699c2a3b9b47bed4859e6d9d242668f88f64f24ca8865b6",
+  "restored_model": "1794680133115208300",
+  "physical_second_computer_verified": false,
+  "recovery_tests_passed": 9,
+  "offline_dependencies_installed": true,
+  "history_periods_restored": [
+    "M5",
+    "M15",
+    "H1"
+  ],
+  "existing_engine_preserved": true,
+  "conflicting_indicators_preserved": true,
+  "native_template_load_verified": false
+}
