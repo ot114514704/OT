@@ -1,0 +1,10 @@
+# Local working files; curated release ZIPs, EX5s and historical logs remain tracked.
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.tmp
+.env
+.env.*
+!.env.example

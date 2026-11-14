@@ -1,0 +1,532 @@
+{
+  "repository": "ot114514704/OT",
+  "source_revision": "b2b99148b48c3f779a8f7a9e5f60419595b04f89",
+  "files": [
+    {
+      "original": "MT5_历史拖动验收.png",
+      "path": "projects/consolidation/screenshots/MT5_历史拖动验收.png",
+      "bytes": 353976,
+      "git_blob": "a6c4fb448abf3f21e94ee8cc575e03e816b27fc1",
+      "sha256": "8795ca7a4cbbe11c07cb3e38f47554f1781d1dfd462a1e5fdff2652ae09879c3"
+    },
+    {
+      "original": "MT5_盘整指标_逐段说明.png",
+      "path": "projects/consolidation/screenshots/MT5_盘整指标_逐段说明.png",
+      "bytes": 337740,
+      "git_blob": "417f116e939d6f37d2b6c9becbc05a4320e0dcd0",
+      "sha256": "09e1b0aae73ef3ccd7914f64923d3ce555672bf528c8636d8456e959cf957bd3"
+    },
+    {
+      "original": "MT5加载状态核验.png",
+      "path": "projects/consolidation/screenshots/MT5加载状态核验.png",
+      "bytes": 68693,
+      "git_blob": "6e4fd821b168a9ea8080255bfb47e3918528201a",
+      "sha256": "ffba71934703120af00a70f8737eab6b7517342c5831d442fdda6c0d0ac0c0d5"
+    },
+    {
+      "original": "MT5右拖历史验证.png",
+      "path": "projects/consolidation/screenshots/MT5右拖历史验证.png",
+      "bytes": 311019,
+      "git_blob": "8e78467cf6be37e6b1a246f7e974ddd53cb5e49a",
+      "sha256": "9da4e02877a6f10678c96212b4fc3a1eaebaf628856b5fee1dfa5772171bda66"
+    },
+    {
+      "original": "MT5拖动修复已验证.png",
+      "path": "projects/consolidation/screenshots/MT5拖动修复已验证.png",
+      "bytes": 318758,
+      "git_blob": "dc5c2fb1294bac0db37cc34a4f52037586539f0b",
+      "sha256": "adefa73d2e7bef90bbebc23db518ca84c4a520625ade2a0d3cb38665739a9200"
+    },
+    {
+      "original": "book三推楔形_1.247_当前逻辑备份_20261113_123125.zip",
+      "path": "projects/book-three-push/packages/book三推楔形_1.247_当前逻辑备份_20261113_123125.zip",
+      "bytes": 216488,
+      "git_blob": "c4f575f820aa6f6507e33c916fd7f79e9cce9ce8",
+      "sha256": "7344dcd8a2513510df1a649772d56b5b3aa35b132a7f619dd9701857cdeeda31"
+    },
+    {
+      "original": "book三推楔形旗形_1.249_含原生有限验收_20261114_135230.zip",
+      "path": "projects/book-three-push/packages/book三推楔形旗形_1.249_含原生有限验收_20261114_135230.zip",
+      "bytes": 849236,
+      "git_blob": "19af0777921f06a7743b0cb1a4cfd8d7964c29ec",
+      "sha256": "2cd57885e2db6d1b65016ff0166ddf0375af5715b77016bf15119b2d86ce21f2"
+    },
+    {
+      "original": "book三推楔形旗形_1.249_当前版本备份_20261113_223316.zip",
+      "path": "projects/book-three-push/packages/book三推楔形旗形_1.249_当前版本备份_20261113_223316.zip",
+      "bytes": 280243,
+      "git_blob": "998dbedfe5dc15576757b10062b788f724cf83fd",
+      "sha256": "4e487c64467f49305d11a30c9fadb7621871256b1ac4ec9e96449398bb4b230e"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/AUDIT.json",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/AUDIT.json",
+      "bytes": 2072,
+      "git_blob": "42e66558614b965d74c28354e4ac81a9f3e55162",
+      "sha256": "2084a3514ff4c928d9acff8af2b085e52a237c8850ab5648124028ed95bae298"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/BookOriginalOverlay_96783387287713.tsv",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/BookOriginalOverlay_96783387287713.tsv",
+      "bytes": 17642,
+      "git_blob": "391cb39bb054d584d46c76915ac6142766588837",
+      "sha256": "425d2c38e3cce17a0feb0ddf708ee5ab26e8df319bf7da58831a8faa29998f77"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/BookOriginalSwitches_96783387287713.tsv",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/BookOriginalSwitches_96783387287713.tsv",
+      "bytes": 176,
+      "git_blob": "7009a6a520c807b7595098076c1d1c9315cf718f",
+      "sha256": "fec913f370bd17b39992f2bc8da3de84b339e077e31b5513d2acad06f6b9ff28"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/INSTALLATION.json",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/INSTALLATION.json",
+      "bytes": 908,
+      "git_blob": "32f963e95ac22561d61b00d75f4b5ee603a9758a",
+      "sha256": "78b98dd5fb2083e45b0b2629b48f7317556cfd85aa0698b1f1ca14c6d9614e32"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/Machine1_UnifiedNativeColours.mqh",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/Machine1_UnifiedNativeColours.mqh",
+      "bytes": 3077,
+      "git_blob": "db7115c0fc5c8729b197233e139919c20e1ed928",
+      "sha256": "5770a8bbfebb491b8970f672410dfb7860db1b6448472d7a2d2f8ad56384acf2"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/Machine1_UnifiedNativeKernel.mqh",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/Machine1_UnifiedNativeKernel.mqh",
+      "bytes": 14481,
+      "git_blob": "c1eaa89fca3d6b927bf4ef47cad0cbcc599c5a04",
+      "sha256": "f818bcebda4651d6568dfb46ac99489235655656d985d901a46cc609a92f0ee1"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/Machine1_UnifiedNativeLegacyPush.mqh",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/Machine1_UnifiedNativeLegacyPush.mqh",
+      "bytes": 7499,
+      "git_blob": "b3b027a631b150f3cba6a1d97dcd775d6455d687",
+      "sha256": "c42c5d3471f4b07edd61c55b44f3ce0b687d0ffcf95ff76dc1fed6cd46c01d95"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/PROVENANCE.json",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/PROVENANCE.json",
+      "bytes": 1075,
+      "git_blob": "1f91380db1feeba1bcfe71e10e06635e636f4cd4",
+      "sha256": "d296e3e17c9bbdaa2f1e0b8e5d58b8e0dc4062e8e21cd4be391d07d8b75f46af"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/book三推试验板.ex5",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/book三推试验板.ex5",
+      "bytes": 50710,
+      "git_blob": "95a96497aeed12cdea75abe57b71376ea07eb63c",
+      "sha256": "569b003281ec98a4ee81fc6f4dc27bb47622ffc4de70892d70a46f67be4328f5"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/book三推试验板.mq5",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/book三推试验板.mq5",
+      "bytes": 13935,
+      "git_blob": "4ceeb246d87479b399b04a426a002023e6a64c5a",
+      "sha256": "80b583626527c5a5ef2371f306535d58c201573b615ee65c9d32aae4c5dab15a"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/compile.log",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/MQL5/Indicators/Book_Original_Overlay/compile.log",
+      "bytes": 5232,
+      "git_blob": "3664b5de4fa322d166941d82e7ab4a5b75690875",
+      "sha256": "d322c865d1f14dbd54fd4e36b5151f74608d7c6a27d844d26611efaf71a32b68"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/manifest.json",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/manifest.json",
+      "bytes": 3405,
+      "git_blob": "df6b42c9f345b6b7e6343b1d82a96693cf04703f",
+      "sha256": "fea5168175037a3d6b999b5f9a256227909f131c106f78ac21487faa0c60e034"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/上一版_1.241/AUDIT.json",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/上一版_1.241/AUDIT.json",
+      "bytes": 1978,
+      "git_blob": "9478cc28ac09edeba6af25a4ddcd3bd34904304e",
+      "sha256": "bc6301013f72017d24714106e02e6234fc7e2aafef9892f313b7fae47a61643d"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/上一版_1.241/Machine1_UnifiedNativeColours.mqh",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/上一版_1.241/Machine1_UnifiedNativeColours.mqh",
+      "bytes": 3077,
+      "git_blob": "db7115c0fc5c8729b197233e139919c20e1ed928",
+      "sha256": "5770a8bbfebb491b8970f672410dfb7860db1b6448472d7a2d2f8ad56384acf2"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/上一版_1.241/Machine1_UnifiedNativeKernel.mqh",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/上一版_1.241/Machine1_UnifiedNativeKernel.mqh",
+      "bytes": 14481,
+      "git_blob": "c1eaa89fca3d6b927bf4ef47cad0cbcc599c5a04",
+      "sha256": "f818bcebda4651d6568dfb46ac99489235655656d985d901a46cc609a92f0ee1"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/上一版_1.241/Machine1_UnifiedNativeLegacyPush.mqh",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/上一版_1.241/Machine1_UnifiedNativeLegacyPush.mqh",
+      "bytes": 7499,
+      "git_blob": "b3b027a631b150f3cba6a1d97dcd775d6455d687",
+      "sha256": "c42c5d3471f4b07edd61c55b44f3ce0b687d0ffcf95ff76dc1fed6cd46c01d95"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/上一版_1.241/PROVENANCE.json",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/上一版_1.241/PROVENANCE.json",
+      "bytes": 945,
+      "git_blob": "008d194d0828deaac912194612f0946659045212",
+      "sha256": "1052e7b9fb3e8a88463431040b57c251fab4d22ffcb79880da33b8a8d602d628"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/上一版_1.241/book三推试验板.ex5",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/上一版_1.241/book三推试验板.ex5",
+      "bytes": 47010,
+      "git_blob": "fa0f0e18a08cac25ad73389f998bada3b6c6aa8e",
+      "sha256": "5be86b64c076425bf180c5336c963f566c75dba8582cd743f7febba2abcd9d62"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/上一版_1.241/book三推试验板.mq5",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/上一版_1.241/book三推试验板.mq5",
+      "bytes": 11867,
+      "git_blob": "0c9cf6d599a8511e51c8f120769512b1f6363d8e",
+      "sha256": "5c626c302d88aa10e673ca9f4dbd318b71e7318ae73475260166203253c3c66b"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/上一版_1.241/compile.log",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/上一版_1.241/compile.log",
+      "bytes": 5232,
+      "git_blob": "fa4af1425ea8e3eff0d20b5567848957698b9e90",
+      "sha256": "42a15274c095d284a7bbb84391f3963ae5fb01fe3c5200a362354dc34e7a1ecc"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/上一版_1.241/native_receipt.tsv",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/上一版_1.241/native_receipt.tsv",
+      "bytes": 13356,
+      "git_blob": "24cfefd3ef21e6e3aad4ba9288945cfb862c3cf4",
+      "sha256": "cb72c962e74908f84976ecc1a5ad96740ff9e765f329f26e745b273ce878e650"
+    },
+    {
+      "original": "book三推试验板_1.242_20261110_222824/使用说明.txt",
+      "path": "projects/book-three-push/snapshots/book三推试验板_1.242_20261110_222824/使用说明.txt",
+      "bytes": 1767,
+      "git_blob": "464440be9ac58d93b2f57d753c8cc46afa359f79",
+      "sha256": "ac33a82fcbe35ccce0b917cd2c758a9c31494be035ae59e80e42d83ac60dfaa3"
+    },
+    {
+      "original": "book三推试验板_1.246_原Book适配旗楔_20261112_224810.zip",
+      "path": "projects/book-three-push/packages/book三推试验板_1.246_原Book适配旗楔_20261112_224810.zip",
+      "bytes": 561057,
+      "git_blob": "591d7e16fc35fbd2fae937cfa719550f399dc98d",
+      "sha256": "63ec4aac51a1c4565f009262632dad8dff888938889d94b00ad0f7eafd0ba7ca"
+    },
+    {
+      "original": "consolidation-preview.png",
+      "path": "projects/consolidation/screenshots/consolidation-preview.png",
+      "bytes": 339532,
+      "git_blob": "95014663342d924357fc224bfea108ca7c14e1b9",
+      "sha256": "cdbf637fab241c9d61aee2cd64aca3ebf4228b4af289eb7e173e8601dbbdb974"
+    },
+    {
+      "original": "github-upload-1.06-20261106_171454/SHA256SUMS.txt",
+      "path": "projects/consolidation/packages/github-upload-1.06-20261106_171454/SHA256SUMS.txt",
+      "bytes": 115,
+      "git_blob": "73fef6801d53c36113475ea55c491de954294acc",
+      "sha256": "c65a1961fd62a1d12e71eb481a4da51c09c302d6a90397ba05a7f39c0c999c7f"
+    },
+    {
+      "original": "github-upload-1.06-20261106_171454/盘整研究_MT5指标_1.06_待原生验收.zip",
+      "path": "projects/consolidation/packages/github-upload-1.06-20261106_171454/盘整研究_MT5指标_1.06_待原生验收.zip",
+      "bytes": 3534684,
+      "git_blob": "62648208db2539ef3c978b0d625479125fb0cdaf",
+      "sha256": "3f5a75002bd47dbd0d5504de1cd72b7c39567c8d3a65d051b4c927bebb42e56a"
+    },
+    {
+      "original": "github-upload-1.06-20261106_171454/说明.txt",
+      "path": "projects/consolidation/packages/github-upload-1.06-20261106_171454/说明.txt",
+      "bytes": 492,
+      "git_blob": "c14ce3edfd0b786228910f624c9918355d88e0e0",
+      "sha256": "bae1d73533cbbf4458362e6e6ac10a3bb60d8a31e8134ce445d986025fbb5dbb"
+    },
+    {
+      "original": "ipda-current-verdict.png",
+      "path": "projects/consolidation/screenshots/ipda-current-verdict.png",
+      "bytes": 61114,
+      "git_blob": "09b042c663803241c6714b96a29febc305a7b090",
+      "sha256": "ad702b934f526ca1d33325b478e5a0fa4f91bceeba7debad36bf4525819aefb8"
+    },
+    {
+      "original": "ipda-drag.png",
+      "path": "projects/consolidation/screenshots/ipda-drag.png",
+      "bytes": 52034,
+      "git_blob": "6f757fbf03fd3b3206b08fce9614c804f6a6ff2d",
+      "sha256": "d8f6a56aaada29e5549d8621a61ef99822fada3dc6967ad84445b3e308250f04"
+    },
+    {
+      "original": "ipda-five-shapes.png",
+      "path": "projects/consolidation/screenshots/ipda-five-shapes.png",
+      "bytes": 258445,
+      "git_blob": "78412361a7858f219bd89e8cc45ddcc1e42c44c6",
+      "sha256": "0d92337695950120f5dac8dff72bd3aff7f7f1a035fe3e37406c3c6d807e62ac"
+    },
+    {
+      "original": "ipda-forming-observation.png",
+      "path": "projects/consolidation/screenshots/ipda-forming-observation.png",
+      "bytes": 68019,
+      "git_blob": "0dfc97002b1aa6fce9007cab7b92b35859adc070",
+      "sha256": "990b585e50ed8ad04622ca8ec1ea5e4e38af26496637cd7b943f3704703dcf3a"
+    },
+    {
+      "original": "ipda-live-8773.png",
+      "path": "projects/consolidation/screenshots/ipda-live-8773.png",
+      "bytes": 233321,
+      "git_blob": "301bb6294787c5d7fa8566cae2fa224bc6c67fc5",
+      "sha256": "600e442d72c20c71b385c4e37a7ff34692278613ff5adae260ebc5bd66928735"
+    },
+    {
+      "original": "ipda-slanted-detail.png",
+      "path": "projects/consolidation/screenshots/ipda-slanted-detail.png",
+      "bytes": 42348,
+      "git_blob": "469c6d2cc3727adc9ea9df72f12043d8c641375c",
+      "sha256": "8092ba99a12f1f6692cd338d682bb59439023a4e161e201fa0325c033825eacc"
+    },
+    {
+      "original": "ipda-slanted-shapes.png",
+      "path": "projects/consolidation/screenshots/ipda-slanted-shapes.png",
+      "bytes": 301021,
+      "git_blob": "272d09ebe3e3d9e0073bf6117e84cea107cb9270",
+      "sha256": "8e5af70e3a00717bfa9da859bf446b17a0db3a83d59bf80c93d6cf276edaba78"
+    },
+    {
+      "original": "ipda-state-changes.png",
+      "path": "projects/consolidation/screenshots/ipda-state-changes.png",
+      "bytes": 68063,
+      "git_blob": "25e2dabcac0593eebd56b68e3529d61fec85bd6f",
+      "sha256": "4a5c99345dcd19fda334d24a79d12dd49d85ddd2fdc75212bb094036a82a3902"
+    },
+    {
+      "original": "mt5_bridge_live_audit.json",
+      "path": "projects/consolidation/validation/mt5_bridge_live_audit.json",
+      "bytes": 1563,
+      "git_blob": "69118e822e591676d70234b4ff8a987db684af80",
+      "sha256": "e3f0ca4a12968c653b7151aa6f2af4e7a6ae6407898e3040575b98b100c10e7a"
+    },
+    {
+      "original": "mt5_drag_acceptance.json",
+      "path": "projects/consolidation/validation/mt5_drag_acceptance.json",
+      "bytes": 2942,
+      "git_blob": "eef7221599e370d20b6f2dfc928426ed1029fd74",
+      "sha256": "8030f938439e550db18408abe7bb6ca5450f946daa6905db5fdd35f8b424176f"
+    },
+    {
+      "original": "mt5_receipt_live_audit.json",
+      "path": "projects/consolidation/validation/mt5_receipt_live_audit.json",
+      "bytes": 1565,
+      "git_blob": "2868cce4630300b5763a0c5316b23a536e66b0d8",
+      "sha256": "906f1dc315717ae8a3634c09663f4b7ec65ee405fc2dc0b9b6556cff77076db8"
+    },
+    {
+      "original": "人工盘整参考展开验收.png",
+      "path": "projects/consolidation/screenshots/人工盘整参考展开验收.png",
+      "bytes": 60544,
+      "git_blob": "11f1266ed74200ca744eaec879d01709a87eef0b",
+      "sha256": "74b4f5b853d5911a14942fdb25a4692f4abcc926fce2e3c980cb2b5a1f53c660"
+    },
+    {
+      "original": "冻结记录跨重启验收.json",
+      "path": "projects/consolidation/validation/冻结记录跨重启验收.json",
+      "bytes": 668,
+      "git_blob": "ceff91eab0a72311f1cacab948b603bb23e775cc",
+      "sha256": "1180dfffbd7baef9596ddd9174f7dd66af07d30888464601d04e0c26a2c4065d"
+    },
+    {
+      "original": "参考17通道延长核验.png",
+      "path": "projects/consolidation/screenshots/参考17通道延长核验.png",
+      "bytes": 49551,
+      "git_blob": "05f9f115803d754bd5cb194409935a72e968a81b",
+      "sha256": "5b85cb94dc446e0824160068a01332360598f4dbc2df76b1c189ed19c6520a61"
+    },
+    {
+      "original": "四图盘整参考接入.png",
+      "path": "projects/consolidation/screenshots/四图盘整参考接入.png",
+      "bytes": 5659,
+      "git_blob": "e2f6f34a5763d1bdf204103e76421f11202f5292",
+      "sha256": "880225555389dc0ca0890979d5b6df4cb328db609ed833ba4dec83ec16b178d5"
+    },
+    {
+      "original": "图片漏标与逐图进度验收.json",
+      "path": "projects/consolidation/validation/图片漏标与逐图进度验收.json",
+      "bytes": 24837,
+      "git_blob": "bb63b57ca3c56bd4327a0f23489df1199f8357e9",
+      "sha256": "f7b49cb6ec1261a446cb7439c5bfcee5f89fc029efff48bb556491941bbc8555"
+    },
+    {
+      "original": "大盘整实时观察.png",
+      "path": "projects/consolidation/screenshots/大盘整实时观察.png",
+      "bytes": 68764,
+      "git_blob": "53eb54b19e0cb44ae8381c9382041d903ed20a62",
+      "sha256": "367aa26c5d60ce62ba663b3855d59eeea9d15559568744aa3953bc74f5bc7cd5"
+    },
+    {
+      "original": "大盘整识别.png",
+      "path": "projects/consolidation/screenshots/大盘整识别.png",
+      "bytes": 40466,
+      "git_blob": "e4550c431374f2676d4ec46eab10b987bbfdf072",
+      "sha256": "a0e1a9d79b2f800455aabaf412178c3d7b011d660ee9cbe39559a77f986bfefc"
+    },
+    {
+      "original": "实时模型结构验收.json",
+      "path": "projects/consolidation/validation/实时模型结构验收.json",
+      "bytes": 1533,
+      "git_blob": "0bb27485cca0bcafaa93d7eb670f6ac748fc453e",
+      "sha256": "7ca5fbef3248b1a6d5f82d7b545b5429370c1f7dba5ab96eb8592099fa93c201"
+    },
+    {
+      "original": "新增高位箱体验收.jpg",
+      "path": "projects/consolidation/screenshots/新增高位箱体验收.jpg",
+      "bytes": 27649,
+      "git_blob": "1bb442b58810b7693481fe7685bd66cdad655989",
+      "sha256": "92e96ea4157f70596e43e62d8c11eb7f9636ec60cdaa8f9bef8242982508ada4"
+    },
+    {
+      "original": "漏框补全验收.json",
+      "path": "projects/consolidation/validation/漏框补全验收.json",
+      "bytes": 3389,
+      "git_blob": "d3b23beb71b1f355ec3c789fc4f182a48dc3d4d9",
+      "sha256": "95a5cf095e793e2a20f137993f803f87992c1218f71ba21c55b078c0f7559cb4"
+    },
+    {
+      "original": "盘整专用图表.png",
+      "path": "projects/consolidation/screenshots/盘整专用图表.png",
+      "bytes": 35261,
+      "git_blob": "dfe8ffe97a931639e8848cbddb3c3049c1d8d5b1",
+      "sha256": "ffa17690759d8ceaee5d75ffd29cf5ae0d3af600f01dee30f336d698153aabc5"
+    },
+    {
+      "original": "盘整全历史网页验收.png",
+      "path": "projects/consolidation/screenshots/盘整全历史网页验收.png",
+      "bytes": 51188,
+      "git_blob": "515b587a4bff59b39edd3be4c34672fbc3b873ae",
+      "sha256": "233f6a02dae63119808a75be2a8bc035c283ada96ca14c54395d181971eae1fb"
+    },
+    {
+      "original": "盘整图表历史缩放验收.png",
+      "path": "projects/consolidation/screenshots/盘整图表历史缩放验收.png",
+      "bytes": 72754,
+      "git_blob": "94213d5542d3e9c670b26d579e5c3a6f3cad1d80",
+      "sha256": "77b95b43f699bb2c3984dd6bf14441b824ca536d78f00a4340f0f2bc235f9fbf"
+    },
+    {
+      "original": "盘整实时同步验收.png",
+      "path": "projects/consolidation/screenshots/盘整实时同步验收.png",
+      "bytes": 56199,
+      "git_blob": "50f002c052169bed73914dd19ad3910722ac200c",
+      "sha256": "ce782b7af0d499d30a7c3fb918aec59b4bcab1b599e0b1af499d49af78adc609"
+    },
+    {
+      "original": "盘整实时识别验收.png",
+      "path": "projects/consolidation/screenshots/盘整实时识别验收.png",
+      "bytes": 50463,
+      "git_blob": "2c302d451291ab86c12168217b5f43531b383cf7",
+      "sha256": "595226eb21a842344a9f59b90d73d4ebcf3116f860db5fbdf30d1d9c33274c9f"
+    },
+    {
+      "original": "盘整方框调整.png",
+      "path": "projects/consolidation/screenshots/盘整方框调整.png",
+      "bytes": 34461,
+      "git_blob": "29baddf0b0ea521896b0f1c7220aeac183b6c65b",
+      "sha256": "7fa4f38230436bdd410d16b00bdaccf8be636c3e753fd9c93d1db8184dab086c"
+    },
+    {
+      "original": "盘整概念整合.png",
+      "path": "projects/consolidation/screenshots/盘整概念整合.png",
+      "bytes": 75717,
+      "git_blob": "fe965f61425782a5947fe79ad9aff2b447e0124e",
+      "sha256": "d076241e7268e425252137987b1635e6ccfd57527e38d6245bcf6a10b91bf97c"
+    },
+    {
+      "original": "盘整研究.png",
+      "path": "projects/consolidation/screenshots/盘整研究.png",
+      "bytes": 54214,
+      "git_blob": "d902a37cf2cc2f5a0201dbf84ac355a8efac69c1",
+      "sha256": "8aa300c9109caf18f4b34a429c82798cfb9cba68ed7ac317e00e7a05d3e41605"
+    },
+    {
+      "original": "盘整研究_MT5指标_1.05.zip",
+      "path": "projects/consolidation/packages/盘整研究_MT5指标_1.05.zip",
+      "bytes": 3521548,
+      "git_blob": "2c7eb4298ac2a0cae512a190c7772eb55762e368",
+      "sha256": "bdb531112c6111224123b6774723ebd7a3e57914937eecb6dec40d5ba6cc2afe"
+    },
+    {
+      "original": "盘整研究_MT5指标_1.06_待原生验收.zip",
+      "path": "projects/consolidation/packages/盘整研究_MT5指标_1.06_待原生验收.zip",
+      "bytes": 3534684,
+      "git_blob": "62648208db2539ef3c978b0d625479125fb0cdaf",
+      "sha256": "3f5a75002bd47dbd0d5504de1cd72b7c39567c8d3a65d051b4c927bebb42e56a"
+    },
+    {
+      "original": "盘整研究_三推楔形旗形_1.249_备份更新包_20261114_142308_25MB内高压缩.zip",
+      "path": "bundles/盘整研究_三推楔形旗形_1.249_备份更新包_20261114_142308_25MB内高压缩.zip",
+      "bytes": 17619589,
+      "git_blob": "b53b75701f6e485b0ffe429da9f1e499cb901edf",
+      "sha256": "9dd1c01b874fd2f20d1f865de0757b0cd60831c8cde62afc0eff6dbae0ddde86"
+    },
+    {
+      "original": "盘整研究实时页面验收.png",
+      "path": "projects/consolidation/screenshots/盘整研究实时页面验收.png",
+      "bytes": 74054,
+      "git_blob": "7aa228b3bdb4fbe6b52d59a1aff1b980b2898307",
+      "sha256": "26463a21a5b214f537ab165a3e1faca3047d8eb41a8fa50f28bc227116e8349a"
+    },
+    {
+      "original": "盘整结束评分证据.png",
+      "path": "projects/consolidation/screenshots/盘整结束评分证据.png",
+      "bytes": 45067,
+      "git_blob": "fabd53cda5fd580cf0a1c5680320be4ff750a046",
+      "sha256": "dc107e2a3084c29f2374b33c7cc2122f78ba69b7d48680b80561e7b221e34151"
+    },
+    {
+      "original": "跨K线扫荡收回验收.png",
+      "path": "projects/consolidation/screenshots/跨K线扫荡收回验收.png",
+      "bytes": 20842,
+      "git_blob": "4a6a5eaaeac77b027accfc6905195eff565c8507",
+      "sha256": "d11d412ce51e425b9493d01babb8682cf4ca944572ec25a4749f3f23229408c5"
+    },
+    {
+      "original": "逐图与实时接入验收.json",
+      "path": "projects/consolidation/validation/逐图与实时接入验收.json",
+      "bytes": 1102,
+      "git_blob": "d590d4ec3f8d2ab3cfec03f7f29e131cd3cfb894",
+      "sha256": "beddfce9fb4fa81188134ff3103cffddc735ef753304bf13d68562b2fc84ca6f"
+    },
+    {
+      "original": "通道趋势线色块验收.jpg",
+      "path": "projects/consolidation/screenshots/通道趋势线色块验收.jpg",
+      "bytes": 51162,
+      "git_blob": "c664e4970c7187266efef1bede3260fdf6395e25",
+      "sha256": "163a7af2f2c1aaa9f1ce92b1f06e2db5526c5c91abba5ac3dd292db62da5a7d4"
+    },
+    {
+      "original": "重算期间实时接入验收.json",
+      "path": "projects/consolidation/validation/重算期间实时接入验收.json",
+      "bytes": 17781,
+      "git_blob": "1945b27aa8e0e68973695d4cfed1a81b30951977",
+      "sha256": "604dc0fdb0cc0a726129bf117214ee1f2a988dc331091b3c75c157b98ae11bf4"
+    },
+    {
+      "original": "锁屏后台验收.json",
+      "path": "projects/consolidation/validation/锁屏后台验收.json",
+      "bytes": 779,
+      "git_blob": "e30c99a6d65369d2fcc6dfe00b372105efe400ac",
+      "sha256": "44a5c975652151b003a22a9fea587a19c707eb9acaa1b3bd8e7fc64e009343cd"
+    },
+    {
+      "original": "长尺度三角形色块验收.jpg",
+      "path": "projects/consolidation/screenshots/长尺度三角形色块验收.jpg",
+      "bytes": 45389,
+      "git_blob": "8ef746cb5754392814f026b2d484c96582de2513",
+      "sha256": "cad650b981c89a6720aed9a845dd756a4124d17114a1c5b6b669233f196eb11e"
+    }
+  ],
+  "organized_on": "2026-11-15"
+}
