@@ -1,12 +1,26 @@
 """Download/assemble the OT recovery package using Python 3.12 standard library."""
 from pathlib import Path,PurePosixPath
-import argparse,hashlib,json,urllib.request,zipfile,shutil
+import argparse,hashlib,json,urllib.request,urllib.error,zipfile,shutil,time
 REPO='ot114514704/OT'
 LOCATION='portable/2026-11-15'
 
 def get(url):
     req=urllib.request.Request(url,headers={'User-Agent':'OT-Recovery'})
-    with urllib.request.urlopen(req,timeout=120) as r:return r.read()
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(req,timeout=45) as r:return r.read()
+        except (urllib.error.URLError,TimeoutError,ConnectionError) as exc:
+            if isinstance(exc,urllib.error.HTTPError) and exc.code not in (429,500,502,503,504):raise
+            if attempt==5:raise
+            # GitHub's raw CDN and Contents API are independent download routes.
+            prefix='https://raw.githubusercontent.com/'
+            if url.startswith(prefix):
+                owner,repo,commit,path=url[len(prefix):].split('/',3)
+                fallback=f'https://api.github.com/repos/{owner}/{repo}/contents/{path}?ref={commit}'
+                req=urllib.request.Request(fallback,headers={'User-Agent':'OT-Recovery','Accept':'application/vnd.github.raw+json'})
+            delay=min(2**attempt,16)
+            print(f'Temporary download failure; retrying in {delay}s...',flush=True)
+            time.sleep(delay)
 
 def sha(p):
     h=hashlib.sha256()
