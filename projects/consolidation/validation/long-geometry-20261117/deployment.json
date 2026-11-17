@@ -1,0 +1,33 @@
+{
+  "deployed_at": 1794922845.2406917,
+  "old_engine": "39711f51ba70fcdc727610ab90580b244168b8a0e4d07df33695f024925a0300",
+  "new_engine": "496c0518dbfb8771c4a031cac172de1452f54ccb0545d925fecfc9eb01f766ba",
+  "generation": "viewport-history-1.17-backup-standard:preserved-layout-boundary-shapes-v24-20261116",
+  "backup": "D:\\盘整研究资料\\验收\\长形态耗时_20261117\\before_deploy_verified",
+  "latest_model_equal": true,
+  "latest_model_revision": "1794922637367333700",
+  "equivalence_seconds": 25.821002199998475,
+  "integrity": {
+    "version": "range_freeze_ledger_v1",
+    "engine": "496c0518dbfb8771c4a031cac172de1452f54ccb0545d925fecfc9eb01f766ba",
+    "passed": true,
+    "checked_ranges": 2820,
+    "previously_recorded": 2820,
+    "source_revisions": [],
+    "issues": [],
+    "checked_at": 1794922843.469628
+  },
+  "prior_frozen_entries_unchanged": 2820,
+  "source_files_changed": [
+    "ict_trader/long_geometry.py",
+    "ict_trader/native_triangles.py"
+  ],
+  "source_sha256": {
+    "long_geometry.py": "b7eb2e08d5c74c70f1760df5203fcbd331908c8a5e5ff622108ea8f81cecbd2d",
+    "native_triangles.py": "093a2a76676ede5fbc77c7cee7074b97d0b55ab9b6d1ed59dc4840911415a282"
+  },
+  "indicator_unchanged": true,
+  "history_generation_unchanged": true,
+  "live_acceptance_pending": false,
+  "live_acceptance": "live_acceptance.json"
+}

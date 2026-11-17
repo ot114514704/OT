@@ -1,5 +1,11 @@
 # Book 三推、楔形与旗形
 
+## 2026-11-17：与 Book 最新项目融合前的当前版备份
+
+[融合前组合包](../../bundles/consolidation1.232-book1.250-20261117-pre-book-fusion.zip) · [完整本地备份校验](../../bundles/consolidation1.232-book1.250-20261117-pre-book-fusion.receipt.json) · [长形态等价更新验收](../consolidation/validation/long-geometry-20261117/live_acceptance.json)
+
+包含盘整 1.232、三推反转证据 1.250、原 Book 三推 1.248，以及计算引擎 496c0518 的等价耗时优化。完整 H1/M15 图表和六处参考逐项一致；2,820 条冻结记录及 35 次实时采样通过。整模延迟仍未解决。727 文件、8 个数据库快照的完整恢复 ZIP 留在 D 盘；上传组合包提供当前源码、指标、测试、截图和验证。Book 1.302 / 实验 1.221 的新融合尚未包含，另建实验，不覆盖此备份或以前版本。
+
 ## 2026-11-17：三推反转证据 1.250
 
 [当前组合备份](../../bundles/consolidation1.232-book1.250-20261117-native-limited.zip) · [联合原生有限验收](../consolidation/validation/1.232-20261117/native_acceptance.json)

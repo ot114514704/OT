@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "backup": "D:\\盘整研究资料\\备份\\盘整1.232_三推1.250_Book融合前备份_20261117_214336.zip",
+  "sha256": "08e910077d8ec5826e91dcb6dfb2027a490c1ef6e4245fa0d9ad7a0e1c27bade",
+  "bytes": 155751609,
+  "files_verified": 727,
+  "sqlite_snapshots": 8,
+  "staging": "D:\\盘整研究资料\\打包\\盘整1.232_三推1.250_Book融合前备份_20261117_214336",
+  "engine": "496c0518dbfb8771c4a031cac172de1452f54ccb0545d925fecfc9eb01f766ba"
+}

@@ -1,0 +1,66 @@
+{
+  "native": [
+    {
+      "period": "H1",
+      "bars": 1180,
+      "ranges": 617,
+      "exact": true,
+      "timings": [
+        {
+          "mode": "after",
+          "seconds": 5.9069931999983964
+        },
+        {
+          "mode": "before",
+          "seconds": 15.10223779999069
+        },
+        {
+          "mode": "before",
+          "seconds": 14.834414600001764
+        },
+        {
+          "mode": "after",
+          "seconds": 9.900918699990143
+        }
+      ],
+      "medians": {
+        "before": 14.968326199996227,
+        "after": 7.90395594999427
+      },
+      "reduction": 0.4719545896857684
+    },
+    {
+      "period": "M15",
+      "bars": 3719,
+      "ranges": 598,
+      "exact": true,
+      "timings": [
+        {
+          "mode": "after",
+          "seconds": 7.177455500001088
+        },
+        {
+          "mode": "before",
+          "seconds": 11.2707112999924
+        },
+        {
+          "mode": "before",
+          "seconds": 15.130302599995048
+        },
+        {
+          "mode": "after",
+          "seconds": 8.238573999988148
+        }
+      ],
+      "medians": {
+        "before": 13.200506949993724,
+        "after": 7.708014749994618
+      },
+      "reduction": 0.41608191418752427
+    }
+  ],
+  "unit_checks": 8,
+  "passed": true,
+  "full_chart_equal": true,
+  "scope": "Fixed closed native inputs; all output fields equal. Timing is isolated offline scanning, not live delay or accuracy."
+}

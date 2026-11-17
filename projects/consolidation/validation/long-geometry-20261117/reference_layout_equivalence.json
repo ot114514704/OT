@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "triangle_march",
+      "bars": 173,
+      "raw_records": 112,
+      "selected_records": 21,
+      "raw_and_selected_equal": true,
+      "selected_sha256": "70b15ec3eda8375a641a2b71aa64623446ec011b7671ca7820b9984e42aea7ff"
+    },
+    {
+      "case": "triangle_april",
+      "bars": 173,
+      "raw_records": 101,
+      "selected_records": 24,
+      "raw_and_selected_equal": true,
+      "selected_sha256": "01bb92a0220e7dcc189219f12a50dfbf14ac8b5f205ab1bae2f735eb02481aa8"
+    },
+    {
+      "case": "channel_triangle_august",
+      "bars": 266,
+      "raw_records": 148,
+      "selected_records": 37,
+      "raw_and_selected_equal": true,
+      "selected_sha256": "80e63b2f62b194bdd26c21256ba83211b1dca0df26db54726fb4d5d152aa5b93"
+    },
+    {
+      "case": "july_august_latest_two",
+      "bars": 1070,
+      "raw_records": 618,
+      "selected_records": 124,
+      "raw_and_selected_equal": true,
+      "selected_sha256": "ea7e71caf1ea379e51c2ec19a94ccffb845945136fdc2816dbd86ef4fcb16b2d"
+    }
+  ],
+  "old_engine": "39711f51ba70fcdc727610ab90580b244168b8a0e4d07df33695f024925a0300",
+  "new_engine": "496c0518dbfb8771c4a031cac172de1452f54ccb0545d925fecfc9eb01f766ba",
+  "old_source_sha256": "18e5dd5a46d9057281784d84121c7e855dcca01270f3788b5fc1e84a7be889c3",
+  "new_source_sha256": "b7eb2e08d5c74c70f1760df5203fcbd331908c8a5e5ff622108ea8f81cecbd2d",
+  "scope": "Four fixed native regions cover six user references. Exact raw records and final selection; native rendering still requires separate acceptance."
+}

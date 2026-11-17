@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "pid": 1892,
+  "samples": 35,
+  "heartbeat_values": 35,
+  "quote_times": 35,
+  "live_ready": true,
+  "model_origin": "native",
+  "revision": "1794922908617168700",
+  "freeze": {
+    "version": "range_freeze_ledger_v1",
+    "engine": "496c0518dbfb8771c4a031cac172de1452f54ccb0545d925fecfc9eb01f766ba",
+    "passed": true,
+    "checked_ranges": 2820,
+    "previously_recorded": 2820,
+    "source_revisions": [],
+    "issues": [],
+    "checked_at": 1794922912.171796
+  },
+  "latest_analysis_seconds": 57.81040287017822,
+  "scope": "Finite post-reload sample; does not establish permanent uptime or solve whole-model latency."
+}
