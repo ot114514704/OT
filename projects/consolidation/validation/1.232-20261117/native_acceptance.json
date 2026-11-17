@@ -1,0 +1,68 @@
+{
+  "at": "2026-11-17T19:03:22.811429",
+  "versions": {
+    "consolidation": "1.232",
+    "three_push_PA": "1.250",
+    "original_book": "1.248"
+  },
+  "period": "H1",
+  "native_reload_verified": true,
+  "channel_off_on_observed": true,
+  "channel_off_preserves_boxes": true,
+  "triangle_off_on_observed": true,
+  "triangle_off_preserves_boxes_and_book": true,
+  "both_buttons_restored_on": true,
+  "ordinary_lines_px": 1,
+  "channels_and_triangles_px": 2,
+  "distinct_colours_observed": true,
+  "channel_translucent_fill_observed": true,
+  "reference_exports": [
+    {
+      "file": "march_triangle.png",
+      "sha256": "988e5ac94253027c2a0feb131f90695c16dad8f14e9bdb001e77c5c2cfc33512",
+      "bytes": 183064,
+      "references": [
+        "March 23-24 triangle"
+      ]
+    },
+    {
+      "file": "april_triangle.png",
+      "sha256": "bef2b641fd387405f210504f062eaec327db2d1dbb34f323e42d2ebc75d7c96c",
+      "bytes": 232571,
+      "references": [
+        "April 2-6 triangle"
+      ]
+    },
+    {
+      "file": "august_channel_box_triangle.png",
+      "sha256": "9208ffb6c25575147e1158c71a308ca256dc59be49b892c5de18c3083477e976",
+      "bytes": 205115,
+      "references": [
+        "August 21-28 channel with nested box",
+        "August 28-31 triangle"
+      ]
+    },
+    {
+      "file": "july_august_consolidations.png",
+      "sha256": "4688f55f3835f16aad8a3aafc19f039e18614d8c4b9788a0fb083532f200e9d7",
+      "bytes": 184665,
+      "references": [
+        "July 29-August 4 converging consolidation",
+        "August 5-7 channel"
+      ]
+    }
+  ],
+  "export_method": "MT5 active chart as-is, MQL5 online publishing unchecked",
+  "native_reversal_receipt_on_D": true,
+  "reversal_detail_observed": true,
+  "exact_manual_boundary_acceptance": false,
+  "full_history_accuracy_certified": false,
+  "latency_solved": false,
+  "legacy_orphan_labels_cleaned": false,
+  "limitations": [
+    "Native verification is limited to supplied regions and individual channel/triangle switches; not every Book toggle combination.",
+    "Legacy saved labels and historical headers overlap. Indicator list and receipts identify actual loaded versions.",
+    "First three exports precede the receipt-path-only rebuild; drawing/recognition source unchanged.",
+    "Historical coarse source rows and missing M15 current-generation full archive remain unresolved."
+  ]
+}

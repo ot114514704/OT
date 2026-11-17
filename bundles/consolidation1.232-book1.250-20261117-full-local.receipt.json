@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "backup": "D:\\盘整研究资料\\备份\\盘整1.232_三推1.250_原生有限验收备份_20261117_190323.zip",
+  "sha256": "03edbbdc7656a6c1f93f5fcc14ba723c968757a6af7c94b1fdbdeb29e14e5e57",
+  "bytes": 154500251,
+  "files_verified": 701,
+  "sqlite_snapshots": 8,
+  "staging": "D:\\盘整研究资料\\打包\\盘整1.232_三推1.250_原生有限验收备份_20261117_190323",
+  "engine": "39711f51ba70fcdc727610ab90580b244168b8a0e4d07df33695f024925a0300"
+}
