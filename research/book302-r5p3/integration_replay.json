@@ -1,0 +1,441 @@
+[
+  {
+    "token": "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+    "count": 107,
+    "checked": 24,
+    "counts": {
+      "old_context/none": 3,
+      "link/none": 5,
+      "old_context/overlap": 18,
+      "link/triangle": 12,
+      "overlap_box": 15,
+      "link/channel": 4,
+      "link/box": 3,
+      "old_context/unproven": 3
+    },
+    "examples": [
+      {
+        "id": "b1279909c5fd410f4c482a78",
+        "at": "2026-10-02 22:00",
+        "prior_context": null,
+        "prior_context_evidence": "none",
+        "prior_rejection": null,
+        "selected": null,
+        "description": "Book原线与盘整：缺少连续两收盘的同区证据"
+      },
+      {
+        "id": "beb903acbeeccaaaa4824e7a",
+        "at": "2026-10-05 22:00",
+        "prior_context": "native_session_triangle_candidate_v1:28:2026-10-05T18:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:36:2026-10-05T19:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4123.93～4150.28，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "b96e69bb15e35dba002f6b0d",
+        "at": "2026-10-07 00:00",
+        "prior_context": "long_converging_candidate_v1:16:2026-10-06T19:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_boundary_shape_candidate_v1:r2:p4:s1791259200:2026-10-06T20:00:00+00:00",
+        "description": "Book原线两收盘均在通道内；当根边界 4153.97～4207.22，收盘在区内"
+      },
+      {
+        "id": "be51cb4e16d7904497d4c09c",
+        "at": "2026-10-08 23:00",
+        "prior_context": "native_session_triangle_candidate_v1:32:2026-10-08T16:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:32:2026-10-08T16:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4128.49～4143.85，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "bad9151ec7e19ce1762af5a6",
+        "at": "2026-10-09 20:00",
+        "prior_context": "native_session_triangle_candidate_v1:48:2026-10-09T19:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_boundary_shape_candidate_v1:r2:p4:s1791486000:2026-10-09T19:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4181.92～4192.34，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "befc1bf6e68df621092db24a",
+        "at": "2026-10-09 19:00",
+        "prior_context": "dense_horizontal_pause_v1:density4:2026-10-09T12:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "dense_horizontal_pause_v1:density4:2026-10-09T12:00:00+00:00",
+        "description": "Book原线两收盘均在箱体内；当根边界 4181.80～4207.66，收盘在区内"
+      },
+      {
+        "id": "b2fa7d5139bcd36117697dbb",
+        "at": "2026-10-15 23:00",
+        "prior_context": "long_converging_candidate_v1:12:2026-10-15T21:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_boundary_shape_candidate_v1:r2:p8:s1791957600:2026-10-15T22:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4152.90～4168.20，收盘在区外；同处另一个箱体"
+      },
+      {
+        "id": "b8a59842f9256b596537c5d6",
+        "at": "2026-10-20 18:00",
+        "prior_context": "native_session_triangle_candidate_v1:24:2026-10-20T17:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:24:2026-10-20T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4113.53～4144.65，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "be8a2a49f721eef9570df4c2",
+        "at": "2026-10-21 22:00",
+        "prior_context": "native_session_triangle_candidate_v1:28:2026-10-21T17:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4116.60～4138.10，收盘在区外；同处另一个箱体"
+      },
+      {
+        "id": "b2994deaad318a5af9754353",
+        "at": "2026-10-21 22:00",
+        "prior_context": "native_session_triangle_candidate_v1:28:2026-10-21T17:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4116.60～4138.10，收盘在区外；同处另一个箱体"
+      },
+      {
+        "id": "b23df36497f2670f9aab3fe0",
+        "at": "2026-10-21 20:00",
+        "prior_context": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4115.37～4139.40，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "b09d5f66d3a89eb9c29ffa45",
+        "at": "2026-10-21 21:00",
+        "prior_context": "long_converging_candidate_v1:16:2026-10-21T17:00:00+00:00",
+        "prior_context_evidence": "unproven",
+        "prior_rejection": "前一收盘不在盘整内",
+        "selected": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4115.98～4138.75，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "b50befae26da9baa7d73ce77",
+        "at": "2026-10-22 13:00",
+        "prior_context": "dense_horizontal_pause_v1:core3:2026-10-22T10:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "price_structure_candidate_v5:48:auto:2026-10-21T16:00:00+00:00",
+        "description": "Book原线两收盘均在通道内；当根边界 4079.66～4132.47，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "bf9328dc2fa13848922267fe",
+        "at": "2026-10-23 18:00",
+        "prior_context": "long_converging_candidate_v1:edge:12:2026-10-23T17:00:00+00:00",
+        "prior_context_evidence": "unproven",
+        "prior_rejection": "Book 原线不在该盘整内",
+        "selected": null,
+        "description": "Book原线与盘整：缺少连续两收盘的同区证据"
+      },
+      {
+        "id": "b4e48192d4d359124fa8b616",
+        "at": "2026-10-29 20:00",
+        "prior_context": "long_converging_candidate_v1:10:2026-10-29T17:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "long_converging_candidate_v1:10:2026-10-29T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4017.57～4033.59，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "bf03d108abedffde0b9a49f7",
+        "at": "2026-11-02 11:00",
+        "prior_context": "dense_horizontal_pause_v1:body8:2026-11-02T09:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "dense_horizontal_pause_v1:body8:2026-11-02T09:00:00+00:00",
+        "description": "Book原线两收盘均在箱体内；当根边界 3873.44～3919.34，收盘在区内"
+      },
+      {
+        "id": "b0728831cb9e085974430ee9",
+        "at": "2026-11-02 14:00",
+        "prior_context": "dense_horizontal_pause_v1:body8:2026-11-02T09:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "dense_horizontal_pause_v1:body12:2026-11-02T13:00:00+00:00",
+        "description": "Book原线两收盘均在箱体内；当根边界 3873.44～3919.34，收盘在区内"
+      },
+      {
+        "id": "b5e98b6d6481e99fb430b0e1",
+        "at": "2026-11-02 22:00",
+        "prior_context": "dense_horizontal_pause_v1:density3:2026-11-02T20:00:00+00:00",
+        "prior_context_evidence": "unproven",
+        "prior_rejection": "Book 原线不在该盘整内",
+        "selected": null,
+        "description": "Book原线与盘整：缺少连续两收盘的同区证据"
+      },
+      {
+        "id": "b3d2df90f8218321688ef3bb",
+        "at": "2026-11-06 16:00",
+        "prior_context": "dense_horizontal_pause_v1:density5:2026-11-06T09:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_boundary_shape_candidate_v1:r2:p4:s1793883600:2026-11-06T10:00:00+00:00",
+        "description": "Book原线两收盘均在通道内；当根边界 4011.68～4073.22，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "b0aad2b41ae9e9a0e97b6a6e",
+        "at": "2026-11-06 19:00",
+        "prior_context": "dense_horizontal_pause_v1:density5:2026-11-06T09:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_boundary_shape_candidate_v1:r2:p4:s1793883600:2026-11-06T10:00:00+00:00",
+        "description": "Book原线两收盘均在通道内；当根边界 4003.11～4064.64，收盘在区外；同处另一个箱体"
+      },
+      {
+        "id": "b9f05a25fab61e41b2368d6c",
+        "at": "2026-11-09 13:00",
+        "prior_context": "native_session_triangle_candidate_v1:32:2026-11-09T08:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:28:2026-11-09T10:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4088.02～4128.54，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "b4368020f5aad9a768dd37c7",
+        "at": "2026-11-09 22:00",
+        "prior_context": "price_structure_candidate_v5:48:horizontal:2026-11-06T13:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_boundary_shape_candidate_v1:r8:p4:s1793703600:2026-11-09T13:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4078.89～4129.32，收盘在区外；同处另一个箱体"
+      },
+      {
+        "id": "b77e4b07a8224be14b800831",
+        "at": "2026-11-10 22:00",
+        "prior_context": null,
+        "prior_context_evidence": "none",
+        "prior_rejection": null,
+        "selected": null,
+        "description": "Book原线与盘整：缺少连续两收盘的同区证据"
+      },
+      {
+        "id": "b246e33e2a6c537582d51a71",
+        "at": "2026-11-10 22:00",
+        "prior_context": null,
+        "prior_context_evidence": "none",
+        "prior_rejection": null,
+        "selected": null,
+        "description": "Book原线与盘整：缺少连续两收盘的同区证据"
+      }
+    ]
+  },
+  {
+    "token": "b3c17e701792316c0c7e9d0099a040394a3f8298fb59f5adba931da6c381df71",
+    "count": 92,
+    "checked": 21,
+    "counts": {
+      "old_context/overlap": 16,
+      "link/triangle": 11,
+      "overlap_box": 14,
+      "old_context/unproven": 3,
+      "link/channel": 4,
+      "link/none": 4,
+      "link/box": 2,
+      "old_context/none": 2
+    },
+    "examples": [
+      {
+        "id": "b2fa7d5139bcd36117697dbb",
+        "at": "2026-10-15 23:00",
+        "prior_context": "long_converging_candidate_v1:12:2026-10-15T21:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_boundary_shape_candidate_v1:r2:p8:s1791957600:2026-10-15T22:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4152.90～4168.20，收盘在区外；同处另一个箱体"
+      },
+      {
+        "id": "b8a59842f9256b596537c5d6",
+        "at": "2026-10-20 18:00",
+        "prior_context": "native_session_triangle_candidate_v1:24:2026-10-20T17:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:24:2026-10-20T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4113.53～4144.65，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "be8a2a49f721eef9570df4c2",
+        "at": "2026-10-21 22:00",
+        "prior_context": "native_session_triangle_candidate_v1:28:2026-10-21T17:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4116.60～4138.10，收盘在区外；同处另一个箱体"
+      },
+      {
+        "id": "b2994deaad318a5af9754353",
+        "at": "2026-10-21 22:00",
+        "prior_context": "native_session_triangle_candidate_v1:28:2026-10-21T17:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4116.60～4138.10，收盘在区外；同处另一个箱体"
+      },
+      {
+        "id": "b23df36497f2670f9aab3fe0",
+        "at": "2026-10-21 20:00",
+        "prior_context": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4115.37～4139.40，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "b09d5f66d3a89eb9c29ffa45",
+        "at": "2026-10-21 21:00",
+        "prior_context": "long_converging_candidate_v1:16:2026-10-21T17:00:00+00:00",
+        "prior_context_evidence": "unproven",
+        "prior_rejection": "前一收盘不在盘整内",
+        "selected": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4115.98～4138.75，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "b50befae26da9baa7d73ce77",
+        "at": "2026-10-22 13:00",
+        "prior_context": "dense_horizontal_pause_v1:core3:2026-10-22T10:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "price_structure_candidate_v5:48:auto:2026-10-21T16:00:00+00:00",
+        "description": "Book原线两收盘均在通道内；当根边界 4079.66～4132.47，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "bf9328dc2fa13848922267fe",
+        "at": "2026-10-23 18:00",
+        "prior_context": "long_converging_candidate_v1:edge:12:2026-10-23T17:00:00+00:00",
+        "prior_context_evidence": "unproven",
+        "prior_rejection": "Book 原线不在该盘整内",
+        "selected": null,
+        "description": "Book原线与盘整：缺少连续两收盘的同区证据"
+      },
+      {
+        "id": "b4e48192d4d359124fa8b616",
+        "at": "2026-10-29 20:00",
+        "prior_context": "long_converging_candidate_v1:10:2026-10-29T17:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "long_converging_candidate_v1:10:2026-10-29T17:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4017.57～4033.59，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "bf03d108abedffde0b9a49f7",
+        "at": "2026-11-02 11:00",
+        "prior_context": "dense_horizontal_pause_v1:body8:2026-11-02T09:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "dense_horizontal_pause_v1:body8:2026-11-02T09:00:00+00:00",
+        "description": "Book原线两收盘均在箱体内；当根边界 3873.44～3919.34，收盘在区内"
+      },
+      {
+        "id": "b0728831cb9e085974430ee9",
+        "at": "2026-11-02 14:00",
+        "prior_context": "dense_horizontal_pause_v1:body8:2026-11-02T09:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "dense_horizontal_pause_v1:body12:2026-11-02T13:00:00+00:00",
+        "description": "Book原线两收盘均在箱体内；当根边界 3873.44～3919.34，收盘在区内"
+      },
+      {
+        "id": "b5e98b6d6481e99fb430b0e1",
+        "at": "2026-11-02 22:00",
+        "prior_context": "dense_horizontal_pause_v1:density3:2026-11-02T20:00:00+00:00",
+        "prior_context_evidence": "unproven",
+        "prior_rejection": "Book 原线不在该盘整内",
+        "selected": null,
+        "description": "Book原线与盘整：缺少连续两收盘的同区证据"
+      },
+      {
+        "id": "b3d2df90f8218321688ef3bb",
+        "at": "2026-11-06 16:00",
+        "prior_context": "dense_horizontal_pause_v1:density5:2026-11-06T09:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_boundary_shape_candidate_v1:r2:p4:s1793883600:2026-11-06T10:00:00+00:00",
+        "description": "Book原线两收盘均在通道内；当根边界 4011.68～4073.22，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "b0aad2b41ae9e9a0e97b6a6e",
+        "at": "2026-11-06 19:00",
+        "prior_context": "dense_horizontal_pause_v1:density5:2026-11-06T09:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_boundary_shape_candidate_v1:r2:p4:s1793883600:2026-11-06T10:00:00+00:00",
+        "description": "Book原线两收盘均在通道内；当根边界 4003.11～4064.64，收盘在区外；同处另一个箱体"
+      },
+      {
+        "id": "b9f05a25fab61e41b2368d6c",
+        "at": "2026-11-09 13:00",
+        "prior_context": "native_session_triangle_candidate_v1:32:2026-11-09T08:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:28:2026-11-09T10:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4088.02～4128.54，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "b4368020f5aad9a768dd37c7",
+        "at": "2026-11-09 22:00",
+        "prior_context": "price_structure_candidate_v5:48:horizontal:2026-11-06T13:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_boundary_shape_candidate_v1:r8:p4:s1793703600:2026-11-09T13:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 4078.89～4129.32，收盘在区外；同处另一个箱体"
+      },
+      {
+        "id": "b77e4b07a8224be14b800831",
+        "at": "2026-11-10 22:00",
+        "prior_context": null,
+        "prior_context_evidence": "none",
+        "prior_rejection": null,
+        "selected": null,
+        "description": "Book原线与盘整：缺少连续两收盘的同区证据"
+      },
+      {
+        "id": "b246e33e2a6c537582d51a71",
+        "at": "2026-11-10 22:00",
+        "prior_context": null,
+        "prior_context_evidence": "none",
+        "prior_rejection": null,
+        "selected": null,
+        "description": "Book原线与盘整：缺少连续两收盘的同区证据"
+      },
+      {
+        "id": "b9cb3ae36a09c215d1930eda",
+        "at": "2026-11-16 17:00",
+        "prior_context": "price_structure_candidate_v5:compact:8:auto:2026-11-16T16:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "price_structure_candidate_v5:compact:8:auto:2026-11-16T16:00:00+00:00",
+        "description": "Book原线两收盘均在通道内；当根边界 3854.53～3885.74，收盘在区内"
+      },
+      {
+        "id": "be18b65a52c1137c670d9196",
+        "at": "2026-11-17 00:00",
+        "prior_context": "native_session_triangle_candidate_v1:24:2026-11-16T22:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:24:2026-11-16T22:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 3843.16～3883.26，收盘在区内；同处另一个箱体"
+      },
+      {
+        "id": "b0cccb993738a7bd57e78cf5",
+        "at": "2026-11-17 12:00",
+        "prior_context": "native_session_triangle_candidate_v1:edge:24:2026-11-17T03:00:00+00:00",
+        "prior_context_evidence": "overlap",
+        "prior_rejection": null,
+        "selected": "native_session_triangle_candidate_v1:edge:24:2026-11-17T03:00:00+00:00",
+        "description": "Book原线两收盘均在三角内；当根边界 3850.59～3874.18，收盘在区内；同处另一个箱体"
+      }
+    ]
+  }
+]
