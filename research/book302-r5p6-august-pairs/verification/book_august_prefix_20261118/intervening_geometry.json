@@ -1,0 +1,3193 @@
+[
+  {
+    "id": "native_scope:af772af71a3af39bed6ff336",
+    "window_start": "2026-08-17T00:00:00Z",
+    "dual_close": "2026-09-01T12:00:00Z",
+    "rows": [
+      {
+        "close_time": "2026-08-25T16:00:00Z",
+        "close": 4640.85,
+        "same": true,
+        "levels": [
+          4363.82,
+          4629.0264
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T17:00:00Z",
+        "close": 4616.73,
+        "same": true,
+        "levels": [
+          4364.11,
+          4631.612
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T18:00:00Z",
+        "close": 4635.59,
+        "same": true,
+        "levels": [
+          4364.4,
+          4634.1976
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T19:00:00Z",
+        "close": 4652.68,
+        "same": true,
+        "levels": [
+          4364.69,
+          4636.7832
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T20:00:00Z",
+        "close": 4643.57,
+        "same": true,
+        "levels": [
+          4364.98,
+          4639.3688
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T21:00:00Z",
+        "close": 4648.43,
+        "same": true,
+        "levels": [
+          4365.27,
+          4641.9544
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T22:00:00Z",
+        "close": 4654.61,
+        "same": true,
+        "levels": [
+          4365.56,
+          4644.54
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T23:00:00Z",
+        "close": 4666.97,
+        "same": true,
+        "levels": [
+          4365.85,
+          4647.1256
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T00:00:00Z",
+        "close": 4658.71,
+        "same": true,
+        "levels": [
+          4366.14,
+          4649.7112
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T02:00:00Z",
+        "close": 4672.68,
+        "same": true,
+        "levels": [
+          4366.43,
+          4652.2968
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-26T03:00:00Z",
+        "close": 4654.92,
+        "same": true,
+        "levels": [
+          4366.72,
+          4654.8824
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T04:00:00Z",
+        "close": 4637.56,
+        "same": true,
+        "levels": [
+          4367.01,
+          4657.468
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T05:00:00Z",
+        "close": 4657.04,
+        "same": true,
+        "levels": [
+          4367.3,
+          4660.0536
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T06:00:00Z",
+        "close": 4658.45,
+        "same": true,
+        "levels": [
+          4367.59,
+          4662.6392
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T07:00:00Z",
+        "close": 4642.75,
+        "same": true,
+        "levels": [
+          4367.88,
+          4665.2248
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T08:00:00Z",
+        "close": 4640.69,
+        "same": true,
+        "levels": [
+          4368.17,
+          4667.8104
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T09:00:00Z",
+        "close": 4639.82,
+        "same": true,
+        "levels": [
+          4368.46,
+          4670.396
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T10:00:00Z",
+        "close": 4634.36,
+        "same": true,
+        "levels": [
+          4368.75,
+          4672.9816
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T11:00:00Z",
+        "close": 4629.06,
+        "same": true,
+        "levels": [
+          4369.04,
+          4675.5672
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T12:00:00Z",
+        "close": 4628.37,
+        "same": true,
+        "levels": [
+          4369.33,
+          4678.1528
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T13:00:00Z",
+        "close": 4623.27,
+        "same": true,
+        "levels": [
+          4369.62,
+          4680.7384
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T14:00:00Z",
+        "close": 4620.34,
+        "same": true,
+        "levels": [
+          4369.91,
+          4683.324
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T15:00:00Z",
+        "close": 4624.62,
+        "same": true,
+        "levels": [
+          4370.2,
+          4685.9096
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T16:00:00Z",
+        "close": 4614.45,
+        "same": true,
+        "levels": [
+          4370.49,
+          4688.4952
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T17:00:00Z",
+        "close": 4631.59,
+        "same": true,
+        "levels": [
+          4370.78,
+          4691.0808
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T18:00:00Z",
+        "close": 4603.1,
+        "same": true,
+        "levels": [
+          4371.07,
+          4693.6664
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T19:00:00Z",
+        "close": 4596.18,
+        "same": true,
+        "levels": [
+          4371.36,
+          4696.252
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T20:00:00Z",
+        "close": 4591.6,
+        "same": true,
+        "levels": [
+          4371.65,
+          4698.8376
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T21:00:00Z",
+        "close": 4597.8,
+        "same": true,
+        "levels": [
+          4371.94,
+          4701.4232
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T22:00:00Z",
+        "close": 4593.88,
+        "same": true,
+        "levels": [
+          4372.23,
+          4704.0088
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T23:00:00Z",
+        "close": 4594.31,
+        "same": true,
+        "levels": [
+          4372.52,
+          4706.5944
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T00:00:00Z",
+        "close": 4594.65,
+        "same": true,
+        "levels": [
+          4372.81,
+          4709.18
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T02:00:00Z",
+        "close": 4609.47,
+        "same": true,
+        "levels": [
+          4373.1,
+          4711.7656
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-27T03:00:00Z",
+        "close": 4623.66,
+        "same": true,
+        "levels": [
+          4373.39,
+          4714.3512
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T04:00:00Z",
+        "close": 4605.26,
+        "same": true,
+        "levels": [
+          4373.68,
+          4716.9368
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T05:00:00Z",
+        "close": 4640.08,
+        "same": true,
+        "levels": [
+          4373.97,
+          4719.5224
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T06:00:00Z",
+        "close": 4629.74,
+        "same": true,
+        "levels": [
+          4374.26,
+          4722.108
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T07:00:00Z",
+        "close": 4625.56,
+        "same": true,
+        "levels": [
+          4374.55,
+          4724.6936
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T08:00:00Z",
+        "close": 4618.82,
+        "same": true,
+        "levels": [
+          4374.84,
+          4727.2792
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T09:00:00Z",
+        "close": 4607.09,
+        "same": true,
+        "levels": [
+          4375.13,
+          4729.8648
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T10:00:00Z",
+        "close": 4600.24,
+        "same": true,
+        "levels": [
+          4375.42,
+          4732.4504
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T11:00:00Z",
+        "close": 4600.3,
+        "same": true,
+        "levels": [
+          4375.71,
+          4735.036
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T12:00:00Z",
+        "close": 4599.1,
+        "same": true,
+        "levels": [
+          4376.0,
+          4737.6216
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T13:00:00Z",
+        "close": 4580.43,
+        "same": true,
+        "levels": [
+          4376.29,
+          4740.2072
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T14:00:00Z",
+        "close": 4590.08,
+        "same": true,
+        "levels": [
+          4376.58,
+          4742.7928
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T15:00:00Z",
+        "close": 4598.31,
+        "same": true,
+        "levels": [
+          4376.87,
+          4745.3784
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T16:00:00Z",
+        "close": 4585.97,
+        "same": true,
+        "levels": [
+          4377.16,
+          4747.964
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T17:00:00Z",
+        "close": 4572.46,
+        "same": true,
+        "levels": [
+          4377.45,
+          4750.5496
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T18:00:00Z",
+        "close": 4591.36,
+        "same": true,
+        "levels": [
+          4377.74,
+          4753.1352
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T19:00:00Z",
+        "close": 4610.48,
+        "same": true,
+        "levels": [
+          4378.03,
+          4755.7208
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T20:00:00Z",
+        "close": 4614.94,
+        "same": true,
+        "levels": [
+          4378.32,
+          4758.3064
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T21:00:00Z",
+        "close": 4606.55,
+        "same": true,
+        "levels": [
+          4378.61,
+          4760.892
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T22:00:00Z",
+        "close": 4610.33,
+        "same": true,
+        "levels": [
+          4378.9,
+          4763.4776
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T23:00:00Z",
+        "close": 4609.41,
+        "same": true,
+        "levels": [
+          4379.19,
+          4766.0632
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T00:00:00Z",
+        "close": 4601.75,
+        "same": true,
+        "levels": [
+          4379.48,
+          4768.6488
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T02:00:00Z",
+        "close": 4610.71,
+        "same": true,
+        "levels": [
+          4379.77,
+          4771.2344
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-28T03:00:00Z",
+        "close": 4594.53,
+        "same": true,
+        "levels": [
+          4380.06,
+          4773.82
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T04:00:00Z",
+        "close": 4588.81,
+        "same": true,
+        "levels": [
+          4380.35,
+          4776.4056
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T05:00:00Z",
+        "close": 4575.96,
+        "same": true,
+        "levels": [
+          4380.64,
+          4778.9912
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T06:00:00Z",
+        "close": 4586.46,
+        "same": true,
+        "levels": [
+          4380.93,
+          4781.5768
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T07:00:00Z",
+        "close": 4580.05,
+        "same": true,
+        "levels": [
+          4381.22,
+          4784.1624
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T08:00:00Z",
+        "close": 4584.36,
+        "same": true,
+        "levels": [
+          4381.51,
+          4786.748
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T09:00:00Z",
+        "close": 4573.43,
+        "same": true,
+        "levels": [
+          4381.8,
+          4789.3336
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T10:00:00Z",
+        "close": 4612.61,
+        "same": true,
+        "levels": [
+          4382.09,
+          4791.9192
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T11:00:00Z",
+        "close": 4611.8,
+        "same": true,
+        "levels": [
+          4382.38,
+          4794.5048
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T12:00:00Z",
+        "close": 4603.01,
+        "same": true,
+        "levels": [
+          4382.67,
+          4797.0904
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T13:00:00Z",
+        "close": 4605.23,
+        "same": true,
+        "levels": [
+          4382.96,
+          4799.676
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T14:00:00Z",
+        "close": 4600.27,
+        "same": true,
+        "levels": [
+          4383.25,
+          4802.2616
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T15:00:00Z",
+        "close": 4593.47,
+        "same": true,
+        "levels": [
+          4383.54,
+          4804.8472
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T16:00:00Z",
+        "close": 4601.72,
+        "same": true,
+        "levels": [
+          4383.83,
+          4807.4328
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T17:00:00Z",
+        "close": 4606.01,
+        "same": true,
+        "levels": [
+          4384.12,
+          4810.0184
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T18:00:00Z",
+        "close": 4576.7,
+        "same": true,
+        "levels": [
+          4384.41,
+          4812.604
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T19:00:00Z",
+        "close": 4524.57,
+        "same": true,
+        "levels": [
+          4384.7,
+          4815.1896
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T20:00:00Z",
+        "close": 4479.54,
+        "same": true,
+        "levels": [
+          4384.99,
+          4817.7752
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T21:00:00Z",
+        "close": 4469.44,
+        "same": true,
+        "levels": [
+          4385.28,
+          4820.3608
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T22:00:00Z",
+        "close": 4456.89,
+        "same": true,
+        "levels": [
+          4385.57,
+          4822.9464
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T23:00:00Z",
+        "close": 4458.43,
+        "same": true,
+        "levels": [
+          4385.86,
+          4825.532
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-29T00:00:00Z",
+        "close": 4454.45,
+        "same": true,
+        "levels": [
+          4386.15,
+          4828.1176
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T02:00:00Z",
+        "close": 4461.45,
+        "same": true,
+        "levels": [
+          4386.44,
+          4830.7032
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-31T03:00:00Z",
+        "close": 4458.53,
+        "same": true,
+        "levels": [
+          4386.73,
+          4833.2888
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T04:00:00Z",
+        "close": 4456.35,
+        "same": true,
+        "levels": [
+          4387.02,
+          4835.8744
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T05:00:00Z",
+        "close": 4440.21,
+        "same": true,
+        "levels": [
+          4387.31,
+          4838.46
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T06:00:00Z",
+        "close": 4422.97,
+        "same": true,
+        "levels": [
+          4387.6,
+          4841.0456
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T07:00:00Z",
+        "close": 4422.59,
+        "same": true,
+        "levels": [
+          4387.89,
+          4843.6312
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T08:00:00Z",
+        "close": 4424.62,
+        "same": true,
+        "levels": [
+          4388.18,
+          4846.2168
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T09:00:00Z",
+        "close": 4443.04,
+        "same": true,
+        "levels": [
+          4388.47,
+          4848.8024
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T10:00:00Z",
+        "close": 4439.4,
+        "same": true,
+        "levels": [
+          4388.76,
+          4851.388
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T11:00:00Z",
+        "close": 4443.4,
+        "same": true,
+        "levels": [
+          4389.05,
+          4853.9736
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T12:00:00Z",
+        "close": 4435.66,
+        "same": true,
+        "levels": [
+          4389.34,
+          4856.5592
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T13:00:00Z",
+        "close": 4445.4,
+        "same": true,
+        "levels": [
+          4389.63,
+          4859.1448
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T14:00:00Z",
+        "close": 4453.94,
+        "same": true,
+        "levels": [
+          4389.92,
+          4861.7304
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T15:00:00Z",
+        "close": 4455.34,
+        "same": true,
+        "levels": [
+          4390.21,
+          4864.316
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T16:00:00Z",
+        "close": 4435.9,
+        "same": true,
+        "levels": [
+          4390.5,
+          4866.9016
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T17:00:00Z",
+        "close": 4418.64,
+        "same": true,
+        "levels": [
+          4390.79,
+          4869.4872
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T18:00:00Z",
+        "close": 4431.73,
+        "same": true,
+        "levels": [
+          4391.08,
+          4872.0728
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T19:00:00Z",
+        "close": 4426.36,
+        "same": true,
+        "levels": [
+          4391.37,
+          4874.6584
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T20:00:00Z",
+        "close": 4433.27,
+        "same": true,
+        "levels": [
+          4391.66,
+          4877.244
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T21:00:00Z",
+        "close": 4436.59,
+        "same": true,
+        "levels": [
+          4391.95,
+          4879.8296
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T22:00:00Z",
+        "close": 4430.89,
+        "same": true,
+        "levels": [
+          4392.24,
+          4882.4152
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T23:00:00Z",
+        "close": 4453.35,
+        "same": true,
+        "levels": [
+          4392.53,
+          4885.0008
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T00:00:00Z",
+        "close": 4449.07,
+        "same": true,
+        "levels": [
+          4392.82,
+          4887.5864
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T02:00:00Z",
+        "close": 4447.03,
+        "same": true,
+        "levels": [
+          4393.11,
+          4890.172
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-09-01T03:00:00Z",
+        "close": 4452.27,
+        "same": true,
+        "levels": [
+          4393.4,
+          4892.7576
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T04:00:00Z",
+        "close": 4453.8,
+        "same": true,
+        "levels": [
+          4393.69,
+          4895.3432
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T05:00:00Z",
+        "close": 4444.51,
+        "same": true,
+        "levels": [
+          4393.98,
+          4897.9288
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T06:00:00Z",
+        "close": 4443.12,
+        "same": true,
+        "levels": [
+          4394.27,
+          4900.5144
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T07:00:00Z",
+        "close": 4436.77,
+        "same": true,
+        "levels": [
+          4394.56,
+          4903.1
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T08:00:00Z",
+        "close": 4426.76,
+        "same": true,
+        "levels": [
+          4394.85,
+          4905.6856
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T09:00:00Z",
+        "close": 4440.14,
+        "same": true,
+        "levels": [
+          4395.14,
+          4908.2712
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T10:00:00Z",
+        "close": 4429.68,
+        "same": true,
+        "levels": [
+          4395.43,
+          4910.8568
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T11:00:00Z",
+        "close": 4420.32,
+        "same": true,
+        "levels": [
+          4395.72,
+          4913.4424
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T12:00:00Z",
+        "close": 4370.85,
+        "same": true,
+        "levels": [
+          4396.01,
+          4916.028
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T13:00:00Z",
+        "close": 4364.79,
+        "same": true,
+        "levels": [
+          4396.3,
+          4918.6136
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T14:00:00Z",
+        "close": 4378.23,
+        "same": true,
+        "levels": [
+          4396.59,
+          4921.1992
+        ],
+        "gap_at_open": false
+      }
+    ]
+  },
+  {
+    "id": "native_scope:af772af71a3af39bed6ff336",
+    "window_start": "2026-08-13T00:00:00Z",
+    "dual_close": "2026-09-01T12:00:00Z",
+    "rows": [
+      {
+        "close_time": "2026-08-25T16:00:00Z",
+        "close": 4640.85,
+        "same": true,
+        "levels": [
+          4363.82,
+          4629.0264
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T17:00:00Z",
+        "close": 4616.73,
+        "same": true,
+        "levels": [
+          4364.11,
+          4631.612
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T18:00:00Z",
+        "close": 4635.59,
+        "same": true,
+        "levels": [
+          4364.4,
+          4634.1976
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T19:00:00Z",
+        "close": 4652.68,
+        "same": true,
+        "levels": [
+          4364.69,
+          4636.7832
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T20:00:00Z",
+        "close": 4643.57,
+        "same": true,
+        "levels": [
+          4364.98,
+          4639.3688
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T21:00:00Z",
+        "close": 4648.43,
+        "same": true,
+        "levels": [
+          4365.27,
+          4641.9544
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T22:00:00Z",
+        "close": 4654.61,
+        "same": true,
+        "levels": [
+          4365.56,
+          4644.54
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-25T23:00:00Z",
+        "close": 4666.97,
+        "same": true,
+        "levels": [
+          4365.85,
+          4647.1256
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T00:00:00Z",
+        "close": 4658.71,
+        "same": true,
+        "levels": [
+          4366.14,
+          4649.7112
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T02:00:00Z",
+        "close": 4672.68,
+        "same": true,
+        "levels": [
+          4366.43,
+          4652.2968
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-26T03:00:00Z",
+        "close": 4654.92,
+        "same": true,
+        "levels": [
+          4366.72,
+          4654.8824
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T04:00:00Z",
+        "close": 4637.56,
+        "same": true,
+        "levels": [
+          4367.01,
+          4657.468
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T05:00:00Z",
+        "close": 4657.04,
+        "same": true,
+        "levels": [
+          4367.3,
+          4660.0536
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T06:00:00Z",
+        "close": 4658.45,
+        "same": true,
+        "levels": [
+          4367.59,
+          4662.6392
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T07:00:00Z",
+        "close": 4642.75,
+        "same": true,
+        "levels": [
+          4367.88,
+          4665.2248
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T08:00:00Z",
+        "close": 4640.69,
+        "same": true,
+        "levels": [
+          4368.17,
+          4667.8104
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T09:00:00Z",
+        "close": 4639.82,
+        "same": true,
+        "levels": [
+          4368.46,
+          4670.396
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T10:00:00Z",
+        "close": 4634.36,
+        "same": true,
+        "levels": [
+          4368.75,
+          4672.9816
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T11:00:00Z",
+        "close": 4629.06,
+        "same": true,
+        "levels": [
+          4369.04,
+          4675.5672
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T12:00:00Z",
+        "close": 4628.37,
+        "same": true,
+        "levels": [
+          4369.33,
+          4678.1528
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T13:00:00Z",
+        "close": 4623.27,
+        "same": true,
+        "levels": [
+          4369.62,
+          4680.7384
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T14:00:00Z",
+        "close": 4620.34,
+        "same": true,
+        "levels": [
+          4369.91,
+          4683.324
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T15:00:00Z",
+        "close": 4624.62,
+        "same": true,
+        "levels": [
+          4370.2,
+          4685.9096
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T16:00:00Z",
+        "close": 4614.45,
+        "same": true,
+        "levels": [
+          4370.49,
+          4688.4952
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T17:00:00Z",
+        "close": 4631.59,
+        "same": true,
+        "levels": [
+          4370.78,
+          4691.0808
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T18:00:00Z",
+        "close": 4603.1,
+        "same": true,
+        "levels": [
+          4371.07,
+          4693.6664
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T19:00:00Z",
+        "close": 4596.18,
+        "same": true,
+        "levels": [
+          4371.36,
+          4696.252
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T20:00:00Z",
+        "close": 4591.6,
+        "same": true,
+        "levels": [
+          4371.65,
+          4698.8376
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T21:00:00Z",
+        "close": 4597.8,
+        "same": true,
+        "levels": [
+          4371.94,
+          4701.4232
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T22:00:00Z",
+        "close": 4593.88,
+        "same": true,
+        "levels": [
+          4372.23,
+          4704.0088
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T23:00:00Z",
+        "close": 4594.31,
+        "same": true,
+        "levels": [
+          4372.52,
+          4706.5944
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T00:00:00Z",
+        "close": 4594.65,
+        "same": true,
+        "levels": [
+          4372.81,
+          4709.18
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T02:00:00Z",
+        "close": 4609.47,
+        "same": true,
+        "levels": [
+          4373.1,
+          4711.7656
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-27T03:00:00Z",
+        "close": 4623.66,
+        "same": true,
+        "levels": [
+          4373.39,
+          4714.3512
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T04:00:00Z",
+        "close": 4605.26,
+        "same": true,
+        "levels": [
+          4373.68,
+          4716.9368
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T05:00:00Z",
+        "close": 4640.08,
+        "same": true,
+        "levels": [
+          4373.97,
+          4719.5224
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T06:00:00Z",
+        "close": 4629.74,
+        "same": true,
+        "levels": [
+          4374.26,
+          4722.108
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T07:00:00Z",
+        "close": 4625.56,
+        "same": true,
+        "levels": [
+          4374.55,
+          4724.6936
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T08:00:00Z",
+        "close": 4618.82,
+        "same": true,
+        "levels": [
+          4374.84,
+          4727.2792
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T09:00:00Z",
+        "close": 4607.09,
+        "same": true,
+        "levels": [
+          4375.13,
+          4729.8648
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T10:00:00Z",
+        "close": 4600.24,
+        "same": true,
+        "levels": [
+          4375.42,
+          4732.4504
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T11:00:00Z",
+        "close": 4600.3,
+        "same": true,
+        "levels": [
+          4375.71,
+          4735.036
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T12:00:00Z",
+        "close": 4599.1,
+        "same": true,
+        "levels": [
+          4376.0,
+          4737.6216
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T13:00:00Z",
+        "close": 4580.43,
+        "same": true,
+        "levels": [
+          4376.29,
+          4740.2072
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T14:00:00Z",
+        "close": 4590.08,
+        "same": true,
+        "levels": [
+          4376.58,
+          4742.7928
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T15:00:00Z",
+        "close": 4598.31,
+        "same": true,
+        "levels": [
+          4376.87,
+          4745.3784
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T16:00:00Z",
+        "close": 4585.97,
+        "same": true,
+        "levels": [
+          4377.16,
+          4747.964
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T17:00:00Z",
+        "close": 4572.46,
+        "same": true,
+        "levels": [
+          4377.45,
+          4750.5496
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T18:00:00Z",
+        "close": 4591.36,
+        "same": true,
+        "levels": [
+          4377.74,
+          4753.1352
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T19:00:00Z",
+        "close": 4610.48,
+        "same": true,
+        "levels": [
+          4378.03,
+          4755.7208
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T20:00:00Z",
+        "close": 4614.94,
+        "same": true,
+        "levels": [
+          4378.32,
+          4758.3064
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T21:00:00Z",
+        "close": 4606.55,
+        "same": true,
+        "levels": [
+          4378.61,
+          4760.892
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T22:00:00Z",
+        "close": 4610.33,
+        "same": true,
+        "levels": [
+          4378.9,
+          4763.4776
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T23:00:00Z",
+        "close": 4609.41,
+        "same": true,
+        "levels": [
+          4379.19,
+          4766.0632
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T00:00:00Z",
+        "close": 4601.75,
+        "same": true,
+        "levels": [
+          4379.48,
+          4768.6488
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T02:00:00Z",
+        "close": 4610.71,
+        "same": true,
+        "levels": [
+          4379.77,
+          4771.2344
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-28T03:00:00Z",
+        "close": 4594.53,
+        "same": true,
+        "levels": [
+          4380.06,
+          4773.82
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T04:00:00Z",
+        "close": 4588.81,
+        "same": true,
+        "levels": [
+          4380.35,
+          4776.4056
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T05:00:00Z",
+        "close": 4575.96,
+        "same": true,
+        "levels": [
+          4380.64,
+          4778.9912
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T06:00:00Z",
+        "close": 4586.46,
+        "same": true,
+        "levels": [
+          4380.93,
+          4781.5768
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T07:00:00Z",
+        "close": 4580.05,
+        "same": true,
+        "levels": [
+          4381.22,
+          4784.1624
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T08:00:00Z",
+        "close": 4584.36,
+        "same": true,
+        "levels": [
+          4381.51,
+          4786.748
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T09:00:00Z",
+        "close": 4573.43,
+        "same": true,
+        "levels": [
+          4381.8,
+          4789.3336
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T10:00:00Z",
+        "close": 4612.61,
+        "same": true,
+        "levels": [
+          4382.09,
+          4791.9192
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T11:00:00Z",
+        "close": 4611.8,
+        "same": true,
+        "levels": [
+          4382.38,
+          4794.5048
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T12:00:00Z",
+        "close": 4603.01,
+        "same": true,
+        "levels": [
+          4382.67,
+          4797.0904
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T13:00:00Z",
+        "close": 4605.23,
+        "same": true,
+        "levels": [
+          4382.96,
+          4799.676
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T14:00:00Z",
+        "close": 4600.27,
+        "same": true,
+        "levels": [
+          4383.25,
+          4802.2616
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T15:00:00Z",
+        "close": 4593.47,
+        "same": true,
+        "levels": [
+          4383.54,
+          4804.8472
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T16:00:00Z",
+        "close": 4601.72,
+        "same": true,
+        "levels": [
+          4383.83,
+          4807.4328
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T17:00:00Z",
+        "close": 4606.01,
+        "same": true,
+        "levels": [
+          4384.12,
+          4810.0184
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T18:00:00Z",
+        "close": 4576.7,
+        "same": true,
+        "levels": [
+          4384.41,
+          4812.604
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T19:00:00Z",
+        "close": 4524.57,
+        "same": true,
+        "levels": [
+          4384.7,
+          4815.1896
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T20:00:00Z",
+        "close": 4479.54,
+        "same": true,
+        "levels": [
+          4384.99,
+          4817.7752
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T21:00:00Z",
+        "close": 4469.44,
+        "same": true,
+        "levels": [
+          4385.28,
+          4820.3608
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T22:00:00Z",
+        "close": 4456.89,
+        "same": true,
+        "levels": [
+          4385.57,
+          4822.9464
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T23:00:00Z",
+        "close": 4458.43,
+        "same": true,
+        "levels": [
+          4385.86,
+          4825.532
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-29T00:00:00Z",
+        "close": 4454.45,
+        "same": true,
+        "levels": [
+          4386.15,
+          4828.1176
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T02:00:00Z",
+        "close": 4461.45,
+        "same": true,
+        "levels": [
+          4386.44,
+          4830.7032
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-31T03:00:00Z",
+        "close": 4458.53,
+        "same": true,
+        "levels": [
+          4386.73,
+          4833.2888
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T04:00:00Z",
+        "close": 4456.35,
+        "same": true,
+        "levels": [
+          4387.02,
+          4835.8744
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T05:00:00Z",
+        "close": 4440.21,
+        "same": true,
+        "levels": [
+          4387.31,
+          4838.46
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T06:00:00Z",
+        "close": 4422.97,
+        "same": true,
+        "levels": [
+          4387.6,
+          4841.0456
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T07:00:00Z",
+        "close": 4422.59,
+        "same": true,
+        "levels": [
+          4387.89,
+          4843.6312
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T08:00:00Z",
+        "close": 4424.62,
+        "same": true,
+        "levels": [
+          4388.18,
+          4846.2168
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T09:00:00Z",
+        "close": 4443.04,
+        "same": true,
+        "levels": [
+          4388.47,
+          4848.8024
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T10:00:00Z",
+        "close": 4439.4,
+        "same": true,
+        "levels": [
+          4388.76,
+          4851.388
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T11:00:00Z",
+        "close": 4443.4,
+        "same": true,
+        "levels": [
+          4389.05,
+          4853.9736
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T12:00:00Z",
+        "close": 4435.66,
+        "same": true,
+        "levels": [
+          4389.34,
+          4856.5592
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T13:00:00Z",
+        "close": 4445.4,
+        "same": true,
+        "levels": [
+          4389.63,
+          4859.1448
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T14:00:00Z",
+        "close": 4453.94,
+        "same": true,
+        "levels": [
+          4389.92,
+          4861.7304
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T15:00:00Z",
+        "close": 4455.34,
+        "same": true,
+        "levels": [
+          4390.21,
+          4864.316
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T16:00:00Z",
+        "close": 4435.9,
+        "same": true,
+        "levels": [
+          4390.5,
+          4866.9016
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T17:00:00Z",
+        "close": 4418.64,
+        "same": true,
+        "levels": [
+          4390.79,
+          4869.4872
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T18:00:00Z",
+        "close": 4431.73,
+        "same": true,
+        "levels": [
+          4391.08,
+          4872.0728
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T19:00:00Z",
+        "close": 4426.36,
+        "same": true,
+        "levels": [
+          4391.37,
+          4874.6584
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T20:00:00Z",
+        "close": 4433.27,
+        "same": true,
+        "levels": [
+          4391.66,
+          4877.244
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T21:00:00Z",
+        "close": 4436.59,
+        "same": true,
+        "levels": [
+          4391.95,
+          4879.8296
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T22:00:00Z",
+        "close": 4430.89,
+        "same": true,
+        "levels": [
+          4392.24,
+          4882.4152
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T23:00:00Z",
+        "close": 4453.35,
+        "same": true,
+        "levels": [
+          4392.53,
+          4885.0008
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T00:00:00Z",
+        "close": 4449.07,
+        "same": true,
+        "levels": [
+          4392.82,
+          4887.5864
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T02:00:00Z",
+        "close": 4447.03,
+        "same": true,
+        "levels": [
+          4393.11,
+          4890.172
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-09-01T03:00:00Z",
+        "close": 4452.27,
+        "same": true,
+        "levels": [
+          4393.4,
+          4892.7576
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T04:00:00Z",
+        "close": 4453.8,
+        "same": true,
+        "levels": [
+          4393.69,
+          4895.3432
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T05:00:00Z",
+        "close": 4444.51,
+        "same": true,
+        "levels": [
+          4393.98,
+          4897.9288
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T06:00:00Z",
+        "close": 4443.12,
+        "same": true,
+        "levels": [
+          4394.27,
+          4900.5144
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T07:00:00Z",
+        "close": 4436.77,
+        "same": true,
+        "levels": [
+          4394.56,
+          4903.1
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T08:00:00Z",
+        "close": 4426.76,
+        "same": true,
+        "levels": [
+          4394.85,
+          4905.6856
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T09:00:00Z",
+        "close": 4440.14,
+        "same": true,
+        "levels": [
+          4395.14,
+          4908.2712
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T10:00:00Z",
+        "close": 4429.68,
+        "same": true,
+        "levels": [
+          4395.43,
+          4910.8568
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T11:00:00Z",
+        "close": 4420.32,
+        "same": true,
+        "levels": [
+          4395.72,
+          4913.4424
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T12:00:00Z",
+        "close": 4370.85,
+        "same": true,
+        "levels": [
+          4396.01,
+          4916.028
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T13:00:00Z",
+        "close": 4364.79,
+        "same": true,
+        "levels": [
+          4396.3,
+          4918.6136
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T14:00:00Z",
+        "close": 4378.23,
+        "same": true,
+        "levels": [
+          4396.59,
+          4921.1992
+        ],
+        "gap_at_open": false
+      }
+    ]
+  },
+  {
+    "id": "native_scope:aac67ec5eb6d012d7a83d8a4",
+    "window_start": "2026-08-13T00:00:00Z",
+    "dual_close": "2026-09-01T13:00:00Z",
+    "rows": [
+      {
+        "close_time": "2026-08-26T19:00:00Z",
+        "close": 4596.18,
+        "same": true,
+        "levels": [
+          4351.333230769231,
+          4590.110217391304
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T20:00:00Z",
+        "close": 4591.6,
+        "same": true,
+        "levels": [
+          4351.54,
+          4592.167971014493
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T21:00:00Z",
+        "close": 4597.8,
+        "same": true,
+        "levels": [
+          4351.746769230769,
+          4594.225724637681
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T22:00:00Z",
+        "close": 4593.88,
+        "same": true,
+        "levels": [
+          4351.953538461538,
+          4596.28347826087
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-26T23:00:00Z",
+        "close": 4594.31,
+        "same": true,
+        "levels": [
+          4352.1603076923075,
+          4598.341231884058
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T00:00:00Z",
+        "close": 4594.65,
+        "same": true,
+        "levels": [
+          4352.367076923077,
+          4600.398985507246
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T02:00:00Z",
+        "close": 4609.47,
+        "same": true,
+        "levels": [
+          4352.573846153846,
+          4602.4567391304345
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-27T03:00:00Z",
+        "close": 4623.66,
+        "same": true,
+        "levels": [
+          4352.780615384615,
+          4604.514492753623
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T04:00:00Z",
+        "close": 4605.26,
+        "same": true,
+        "levels": [
+          4352.987384615385,
+          4606.572246376812
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T05:00:00Z",
+        "close": 4640.08,
+        "same": true,
+        "levels": [
+          4353.194153846154,
+          4608.63
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T06:00:00Z",
+        "close": 4629.74,
+        "same": true,
+        "levels": [
+          4353.400923076923,
+          4610.687753623189
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T07:00:00Z",
+        "close": 4625.56,
+        "same": true,
+        "levels": [
+          4353.607692307693,
+          4612.745507246377
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T08:00:00Z",
+        "close": 4618.82,
+        "same": true,
+        "levels": [
+          4353.814461538462,
+          4614.803260869565
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T09:00:00Z",
+        "close": 4607.09,
+        "same": true,
+        "levels": [
+          4354.021230769231,
+          4616.861014492753
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T10:00:00Z",
+        "close": 4600.24,
+        "same": true,
+        "levels": [
+          4354.228,
+          4618.918768115942
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T11:00:00Z",
+        "close": 4600.3,
+        "same": true,
+        "levels": [
+          4354.434769230769,
+          4620.9765217391305
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T12:00:00Z",
+        "close": 4599.1,
+        "same": true,
+        "levels": [
+          4354.641538461538,
+          4623.034275362319
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T13:00:00Z",
+        "close": 4580.43,
+        "same": true,
+        "levels": [
+          4354.848307692308,
+          4625.092028985508
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T14:00:00Z",
+        "close": 4590.08,
+        "same": true,
+        "levels": [
+          4355.055076923077,
+          4627.149782608695
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T15:00:00Z",
+        "close": 4598.31,
+        "same": true,
+        "levels": [
+          4355.261846153846,
+          4629.207536231884
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T16:00:00Z",
+        "close": 4585.97,
+        "same": true,
+        "levels": [
+          4355.468615384615,
+          4631.265289855072
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T17:00:00Z",
+        "close": 4572.46,
+        "same": true,
+        "levels": [
+          4355.675384615384,
+          4633.323043478261
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T18:00:00Z",
+        "close": 4591.36,
+        "same": true,
+        "levels": [
+          4355.882153846153,
+          4635.380797101449
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T19:00:00Z",
+        "close": 4610.48,
+        "same": true,
+        "levels": [
+          4356.0889230769235,
+          4637.438550724638
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T20:00:00Z",
+        "close": 4614.94,
+        "same": true,
+        "levels": [
+          4356.295692307693,
+          4639.4963043478265
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T21:00:00Z",
+        "close": 4606.55,
+        "same": true,
+        "levels": [
+          4356.502461538462,
+          4641.554057971014
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T22:00:00Z",
+        "close": 4610.33,
+        "same": true,
+        "levels": [
+          4356.709230769231,
+          4643.611811594203
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-27T23:00:00Z",
+        "close": 4609.41,
+        "same": true,
+        "levels": [
+          4356.916,
+          4645.669565217391
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T00:00:00Z",
+        "close": 4601.75,
+        "same": true,
+        "levels": [
+          4357.122769230769,
+          4647.72731884058
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T02:00:00Z",
+        "close": 4610.71,
+        "same": true,
+        "levels": [
+          4357.3295384615385,
+          4649.785072463768
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-28T03:00:00Z",
+        "close": 4594.53,
+        "same": true,
+        "levels": [
+          4357.536307692308,
+          4651.842826086957
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T04:00:00Z",
+        "close": 4588.81,
+        "same": true,
+        "levels": [
+          4357.743076923077,
+          4653.9005797101445
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T05:00:00Z",
+        "close": 4575.96,
+        "same": true,
+        "levels": [
+          4357.949846153846,
+          4655.958333333333
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T06:00:00Z",
+        "close": 4586.46,
+        "same": true,
+        "levels": [
+          4358.156615384615,
+          4658.016086956522
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T07:00:00Z",
+        "close": 4580.05,
+        "same": true,
+        "levels": [
+          4358.363384615384,
+          4660.07384057971
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T08:00:00Z",
+        "close": 4584.36,
+        "same": true,
+        "levels": [
+          4358.5701538461535,
+          4662.131594202899
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T09:00:00Z",
+        "close": 4573.43,
+        "same": true,
+        "levels": [
+          4358.776923076923,
+          4664.189347826087
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T10:00:00Z",
+        "close": 4612.61,
+        "same": true,
+        "levels": [
+          4358.983692307692,
+          4666.247101449276
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T11:00:00Z",
+        "close": 4611.8,
+        "same": true,
+        "levels": [
+          4359.190461538462,
+          4668.304855072463
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T12:00:00Z",
+        "close": 4603.01,
+        "same": true,
+        "levels": [
+          4359.397230769231,
+          4670.362608695652
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T13:00:00Z",
+        "close": 4605.23,
+        "same": true,
+        "levels": [
+          4359.604,
+          4672.4203623188405
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T14:00:00Z",
+        "close": 4600.27,
+        "same": true,
+        "levels": [
+          4359.810769230769,
+          4674.478115942029
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T15:00:00Z",
+        "close": 4593.47,
+        "same": true,
+        "levels": [
+          4360.017538461539,
+          4676.535869565218
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T16:00:00Z",
+        "close": 4601.72,
+        "same": true,
+        "levels": [
+          4360.224307692308,
+          4678.593623188406
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T17:00:00Z",
+        "close": 4606.01,
+        "same": true,
+        "levels": [
+          4360.431076923077,
+          4680.651376811594
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T18:00:00Z",
+        "close": 4576.7,
+        "same": true,
+        "levels": [
+          4360.637846153846,
+          4682.709130434782
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T19:00:00Z",
+        "close": 4524.57,
+        "same": true,
+        "levels": [
+          4360.844615384615,
+          4684.766884057971
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T20:00:00Z",
+        "close": 4479.54,
+        "same": true,
+        "levels": [
+          4361.051384615384,
+          4686.824637681159
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T21:00:00Z",
+        "close": 4469.44,
+        "same": true,
+        "levels": [
+          4361.258153846154,
+          4688.882391304348
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T22:00:00Z",
+        "close": 4456.89,
+        "same": true,
+        "levels": [
+          4361.464923076923,
+          4690.9401449275365
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-28T23:00:00Z",
+        "close": 4458.43,
+        "same": true,
+        "levels": [
+          4361.671692307692,
+          4692.997898550725
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-29T00:00:00Z",
+        "close": 4454.45,
+        "same": true,
+        "levels": [
+          4361.878461538461,
+          4695.055652173913
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T02:00:00Z",
+        "close": 4461.45,
+        "same": true,
+        "levels": [
+          4362.085230769231,
+          4697.113405797101
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-08-31T03:00:00Z",
+        "close": 4458.53,
+        "same": true,
+        "levels": [
+          4362.292,
+          4699.17115942029
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T04:00:00Z",
+        "close": 4456.35,
+        "same": true,
+        "levels": [
+          4362.4987692307695,
+          4701.228913043478
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T05:00:00Z",
+        "close": 4440.21,
+        "same": true,
+        "levels": [
+          4362.705538461539,
+          4703.286666666667
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T06:00:00Z",
+        "close": 4422.97,
+        "same": true,
+        "levels": [
+          4362.912307692308,
+          4705.344420289855
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T07:00:00Z",
+        "close": 4422.59,
+        "same": true,
+        "levels": [
+          4363.119076923077,
+          4707.402173913043
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T08:00:00Z",
+        "close": 4424.62,
+        "same": true,
+        "levels": [
+          4363.325846153846,
+          4709.459927536232
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T09:00:00Z",
+        "close": 4443.04,
+        "same": true,
+        "levels": [
+          4363.532615384615,
+          4711.51768115942
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T10:00:00Z",
+        "close": 4439.4,
+        "same": true,
+        "levels": [
+          4363.739384615385,
+          4713.575434782609
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T11:00:00Z",
+        "close": 4443.4,
+        "same": true,
+        "levels": [
+          4363.946153846154,
+          4715.633188405797
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T12:00:00Z",
+        "close": 4435.66,
+        "same": true,
+        "levels": [
+          4364.152923076923,
+          4717.690942028986
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T13:00:00Z",
+        "close": 4445.4,
+        "same": true,
+        "levels": [
+          4364.359692307692,
+          4719.748695652174
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T14:00:00Z",
+        "close": 4453.94,
+        "same": true,
+        "levels": [
+          4364.566461538461,
+          4721.806449275362
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T15:00:00Z",
+        "close": 4455.34,
+        "same": true,
+        "levels": [
+          4364.77323076923,
+          4723.8642028985505
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T16:00:00Z",
+        "close": 4435.9,
+        "same": true,
+        "levels": [
+          4364.98,
+          4725.921956521739
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T17:00:00Z",
+        "close": 4418.64,
+        "same": true,
+        "levels": [
+          4365.18676923077,
+          4727.979710144928
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T18:00:00Z",
+        "close": 4431.73,
+        "same": true,
+        "levels": [
+          4365.393538461539,
+          4730.037463768116
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T19:00:00Z",
+        "close": 4426.36,
+        "same": true,
+        "levels": [
+          4365.600307692308,
+          4732.095217391305
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T20:00:00Z",
+        "close": 4433.27,
+        "same": true,
+        "levels": [
+          4365.807076923077,
+          4734.152971014492
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T21:00:00Z",
+        "close": 4436.59,
+        "same": true,
+        "levels": [
+          4366.013846153846,
+          4736.210724637681
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T22:00:00Z",
+        "close": 4430.89,
+        "same": true,
+        "levels": [
+          4366.2206153846155,
+          4738.268478260869
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-08-31T23:00:00Z",
+        "close": 4453.35,
+        "same": true,
+        "levels": [
+          4366.427384615385,
+          4740.326231884058
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T00:00:00Z",
+        "close": 4449.07,
+        "same": true,
+        "levels": [
+          4366.634153846154,
+          4742.3839855072465
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T02:00:00Z",
+        "close": 4447.03,
+        "same": true,
+        "levels": [
+          4366.840923076923,
+          4744.441739130435
+        ],
+        "gap_at_open": true
+      },
+      {
+        "close_time": "2026-09-01T03:00:00Z",
+        "close": 4452.27,
+        "same": true,
+        "levels": [
+          4367.047692307692,
+          4746.499492753624
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T04:00:00Z",
+        "close": 4453.8,
+        "same": true,
+        "levels": [
+          4367.254461538461,
+          4748.557246376811
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T05:00:00Z",
+        "close": 4444.51,
+        "same": true,
+        "levels": [
+          4367.4612307692305,
+          4750.615
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T06:00:00Z",
+        "close": 4443.12,
+        "same": true,
+        "levels": [
+          4367.668,
+          4752.672753623188
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T07:00:00Z",
+        "close": 4436.77,
+        "same": true,
+        "levels": [
+          4367.874769230769,
+          4754.730507246377
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T08:00:00Z",
+        "close": 4426.76,
+        "same": true,
+        "levels": [
+          4368.081538461539,
+          4756.788260869565
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T09:00:00Z",
+        "close": 4440.14,
+        "same": true,
+        "levels": [
+          4368.288307692308,
+          4758.846014492754
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T10:00:00Z",
+        "close": 4429.68,
+        "same": true,
+        "levels": [
+          4368.495076923077,
+          4760.903768115942
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T11:00:00Z",
+        "close": 4420.32,
+        "same": true,
+        "levels": [
+          4368.701846153846,
+          4762.96152173913
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T12:00:00Z",
+        "close": 4370.85,
+        "same": true,
+        "levels": [
+          4368.908615384616,
+          4765.019275362319
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T13:00:00Z",
+        "close": 4364.79,
+        "same": true,
+        "levels": [
+          4369.115384615385,
+          4767.077028985507
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T14:00:00Z",
+        "close": 4378.23,
+        "same": true,
+        "levels": [
+          4369.322153846154,
+          4769.134782608696
+        ],
+        "gap_at_open": false
+      },
+      {
+        "close_time": "2026-09-01T15:00:00Z",
+        "close": 4374.55,
+        "same": true,
+        "levels": [
+          4369.528923076923,
+          4771.192536231884
+        ],
+        "gap_at_open": false
+      }
+    ]
+  }
+]

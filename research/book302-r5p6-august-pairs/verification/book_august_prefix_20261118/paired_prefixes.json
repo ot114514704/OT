@@ -1,0 +1,1096 @@
+{
+  "archive_sha256": "dab7cc2dfefff70f2523bffb3f28f6745a2709b533bf0b9e8aa5116d68f12ee1",
+  "history_sha256": "a804d848479dd1266ba1bceaf5fb9f5e7f1e8acccb7d62e3818ace83b3c5388d",
+  "windows": [
+    {
+      "start": "2026-08-17T00:00:00Z",
+      "cases": [
+        {
+          "clock": "2026-08-28T05:00:00Z",
+          "continuous_open": true,
+          "active": 11,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T06:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T07:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T08:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T09:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T10:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": [
+            {
+              "id": "native_scope:7ae3104d815aff57280908d1",
+              "direction": "down",
+              "owner": [
+                [
+                  "2026-08-26T01:00:00Z",
+                  4673.7
+                ],
+                [
+                  "2026-08-27T16:00:00Z",
+                  4565.34
+                ]
+              ],
+              "identity": [
+                [
+                  "2026-08-26T01:00:00Z",
+                  4673.7
+                ],
+                [
+                  "2026-08-27T16:00:00Z",
+                  4565.34
+                ],
+                "down",
+                "2026-08-27T17:00:00Z",
+                "2026-08-27T17:00:00Z",
+                [
+                  "2026-08-26T05:00:00Z",
+                  4670.69
+                ],
+                [
+                  "2026-08-27T05:00:00Z",
+                  4643.0
+                ],
+                [
+                  "2026-08-26T18:00:00Z",
+                  4583.01
+                ],
+                [
+                  "2026-08-27T16:00:00Z",
+                  4565.34
+                ],
+                [
+                  "2026-08-27T05:00:00Z",
+                  4643.0
+                ]
+              ],
+              "signature_known": "2026-08-27T17:00:00Z",
+              "break_times": [
+                "2026-08-28T10:00:00Z",
+                null
+              ],
+              "stage": "outer_only_warning",
+              "source_at_first": true,
+              "source_alive": true,
+              "terminal_unchanged": true,
+              "bars_between": null,
+              "consecutive": true,
+              "previous": [
+                4611.698260869565,
+                4621.122857142857
+              ],
+              "current": [
+                4610.494347826087,
+                4620.2814285714285
+              ],
+              "close": 4612.61,
+              "relation": {
+                "outer_outside": true,
+                "turning_outside": false
+              },
+              "A": "unknown",
+              "order": null,
+              "warmup_equal": true
+            }
+          ]
+        },
+        {
+          "clock": "2026-08-28T11:00:00Z",
+          "continuous_open": true,
+          "active": 11,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T12:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T13:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T14:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T15:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T16:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T17:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T18:00:00Z",
+          "continuous_open": true,
+          "active": 11,
+          "qualified": 8,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "outer_only_warning": 1,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T19:00:00Z",
+          "continuous_open": true,
+          "active": 8,
+          "qualified": 3,
+          "stages": {
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 2
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T20:00:00Z",
+          "continuous_open": true,
+          "active": 8,
+          "qualified": 3,
+          "stages": {
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 2
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T21:00:00Z",
+          "continuous_open": true,
+          "active": 8,
+          "qualified": 3,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "turning_only_warning": 1,
+            "old_trend_ended_direction_unresolved": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T02:00:00Z",
+          "continuous_open": false,
+          "active": 11,
+          "qualified": 4,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T03:00:00Z",
+          "continuous_open": true,
+          "active": 11,
+          "qualified": 4,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T04:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 4,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T05:00:00Z",
+          "continuous_open": true,
+          "active": 11,
+          "qualified": 4,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T06:00:00Z",
+          "continuous_open": true,
+          "active": 11,
+          "qualified": 4,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T07:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 4,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T08:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 4,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T09:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 4,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T10:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 4,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T11:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 4,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T12:00:00Z",
+          "continuous_open": true,
+          "active": 12,
+          "qualified": 5,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": [
+            {
+              "id": "native_scope:af772af71a3af39bed6ff336",
+              "direction": "up",
+              "owner": [
+                [
+                  "2026-08-19T08:00:00Z",
+                  4335.11
+                ],
+                [
+                  "2026-08-25T03:00:00Z",
+                  4696.75
+                ]
+              ],
+              "identity": [
+                [
+                  "2026-08-19T08:00:00Z",
+                  4335.11
+                ],
+                [
+                  "2026-08-25T03:00:00Z",
+                  4696.75
+                ],
+                "up",
+                "2026-08-25T04:00:00Z",
+                "2026-08-25T04:00:00Z",
+                [
+                  "2026-08-19T08:00:00Z",
+                  4335.11
+                ],
+                [
+                  "2026-08-19T09:00:00Z",
+                  4335.4
+                ],
+                [
+                  "2026-08-20T01:00:00Z",
+                  4527.51
+                ],
+                [
+                  "2026-08-24T05:00:00Z",
+                  4656.79
+                ],
+                [
+                  "2026-08-20T15:00:00Z",
+                  4450.62
+                ]
+              ],
+              "signature_known": "2026-08-25T04:00:00Z",
+              "break_times": [
+                "2026-09-01T12:00:00Z",
+                "2026-08-25T17:00:00Z"
+              ],
+              "stage": "old_trend_ended_direction_unresolved",
+              "source_at_first": true,
+              "source_alive": true,
+              "terminal_unchanged": true,
+              "bars_between": 110,
+              "consecutive": false,
+              "previous": [
+                4395.72,
+                4913.4424
+              ],
+              "current": [
+                4396.01,
+                4916.028
+              ],
+              "close": 4370.85,
+              "relation": {
+                "outer_outside": true,
+                "turning_outside": true
+              },
+              "A": "unverified",
+              "order": "turning_then_outer",
+              "warmup_equal": true
+            }
+          ]
+        },
+        {
+          "clock": "2026-09-01T13:00:00Z",
+          "continuous_open": true,
+          "active": 11,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 5,
+            "old_trend_ended_direction_unresolved": 2
+          },
+          "events": []
+        }
+      ]
+    },
+    {
+      "start": "2026-08-13T00:00:00Z",
+      "cases": [
+        {
+          "clock": "2026-08-28T05:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T06:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T07:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T08:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T09:00:00Z",
+          "continuous_open": true,
+          "active": 15,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T10:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": [
+            {
+              "id": "native_scope:7ae3104d815aff57280908d1",
+              "direction": "down",
+              "owner": [
+                [
+                  "2026-08-26T01:00:00Z",
+                  4673.7
+                ],
+                [
+                  "2026-08-27T16:00:00Z",
+                  4565.34
+                ]
+              ],
+              "identity": [
+                [
+                  "2026-08-26T01:00:00Z",
+                  4673.7
+                ],
+                [
+                  "2026-08-27T16:00:00Z",
+                  4565.34
+                ],
+                "down",
+                "2026-08-27T17:00:00Z",
+                "2026-08-27T17:00:00Z",
+                [
+                  "2026-08-26T05:00:00Z",
+                  4670.69
+                ],
+                [
+                  "2026-08-27T05:00:00Z",
+                  4643.0
+                ],
+                [
+                  "2026-08-26T18:00:00Z",
+                  4583.01
+                ],
+                [
+                  "2026-08-27T16:00:00Z",
+                  4565.34
+                ],
+                [
+                  "2026-08-27T05:00:00Z",
+                  4643.0
+                ]
+              ],
+              "signature_known": "2026-08-27T17:00:00Z",
+              "break_times": [
+                "2026-08-28T10:00:00Z",
+                null
+              ],
+              "stage": "outer_only_warning",
+              "source_at_first": true,
+              "source_alive": true,
+              "terminal_unchanged": true,
+              "bars_between": null,
+              "consecutive": true,
+              "previous": [
+                4611.698260869565,
+                4621.122857142857
+              ],
+              "current": [
+                4610.494347826087,
+                4620.2814285714285
+              ],
+              "close": 4612.61,
+              "relation": {
+                "outer_outside": true,
+                "turning_outside": false
+              },
+              "A": "unknown",
+              "order": null
+            }
+          ]
+        },
+        {
+          "clock": "2026-08-28T11:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T12:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T13:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T14:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T15:00:00Z",
+          "continuous_open": true,
+          "active": 15,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T16:00:00Z",
+          "continuous_open": true,
+          "active": 15,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T17:00:00Z",
+          "continuous_open": true,
+          "active": 15,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "outer_only_warning": 1,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T18:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 10,
+          "stages": {
+            "no_boundary_break_observed": 3,
+            "outer_only_warning": 1,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T19:00:00Z",
+          "continuous_open": true,
+          "active": 10,
+          "qualified": 5,
+          "stages": {
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 2
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T20:00:00Z",
+          "continuous_open": true,
+          "active": 10,
+          "qualified": 5,
+          "stages": {
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 2
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-08-28T21:00:00Z",
+          "continuous_open": true,
+          "active": 10,
+          "qualified": 5,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "turning_only_warning": 3,
+            "old_trend_ended_direction_unresolved": 1
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T02:00:00Z",
+          "continuous_open": false,
+          "active": 13,
+          "qualified": 6,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T03:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 6,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T04:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 6,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T05:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 6,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T06:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 6,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T07:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 6,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T08:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 6,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T09:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 6,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T10:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 6,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T11:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 6,
+          "stages": {
+            "no_boundary_break_observed": 1,
+            "old_trend_ended_direction_unresolved": 2,
+            "turning_only_warning": 3
+          },
+          "events": []
+        },
+        {
+          "clock": "2026-09-01T12:00:00Z",
+          "continuous_open": true,
+          "active": 14,
+          "qualified": 7,
+          "stages": {
+            "no_boundary_break_observed": 2,
+            "old_trend_ended_direction_unresolved": 3,
+            "turning_only_warning": 2
+          },
+          "events": [
+            {
+              "id": "native_scope:af772af71a3af39bed6ff336",
+              "direction": "up",
+              "owner": [
+                [
+                  "2026-08-19T08:00:00Z",
+                  4335.11
+                ],
+                [
+                  "2026-08-25T03:00:00Z",
+                  4696.75
+                ]
+              ],
+              "identity": [
+                [
+                  "2026-08-19T08:00:00Z",
+                  4335.11
+                ],
+                [
+                  "2026-08-25T03:00:00Z",
+                  4696.75
+                ],
+                "up",
+                "2026-08-25T04:00:00Z",
+                "2026-08-25T04:00:00Z",
+                [
+                  "2026-08-19T08:00:00Z",
+                  4335.11
+                ],
+                [
+                  "2026-08-19T09:00:00Z",
+                  4335.4
+                ],
+                [
+                  "2026-08-20T01:00:00Z",
+                  4527.51
+                ],
+                [
+                  "2026-08-24T05:00:00Z",
+                  4656.79
+                ],
+                [
+                  "2026-08-20T15:00:00Z",
+                  4450.62
+                ]
+              ],
+              "signature_known": "2026-08-25T04:00:00Z",
+              "break_times": [
+                "2026-09-01T12:00:00Z",
+                "2026-08-25T17:00:00Z"
+              ],
+              "stage": "old_trend_ended_direction_unresolved",
+              "source_at_first": true,
+              "source_alive": true,
+              "terminal_unchanged": true,
+              "bars_between": 110,
+              "consecutive": false,
+              "previous": [
+                4395.72,
+                4913.4424
+              ],
+              "current": [
+                4396.01,
+                4916.028
+              ],
+              "close": 4370.85,
+              "relation": {
+                "outer_outside": true,
+                "turning_outside": true
+              },
+              "A": "unverified",
+              "order": "turning_then_outer"
+            }
+          ]
+        },
+        {
+          "clock": "2026-09-01T13:00:00Z",
+          "continuous_open": true,
+          "active": 13,
+          "qualified": 9,
+          "stages": {
+            "no_boundary_break_observed": 5,
+            "old_trend_ended_direction_unresolved": 3,
+            "turning_only_warning": 1
+          },
+          "events": [
+            {
+              "id": "native_scope:aac67ec5eb6d012d7a83d8a4",
+              "direction": "up",
+              "owner": [
+                [
+                  "2026-08-14T08:00:00Z",
+                  4311.22
+                ],
+                [
+                  "2026-08-25T03:00:00Z",
+                  4696.75
+                ]
+              ],
+              "identity": [
+                [
+                  "2026-08-14T08:00:00Z",
+                  4311.22
+                ],
+                [
+                  "2026-08-25T03:00:00Z",
+                  4696.75
+                ],
+                "up",
+                "2026-08-25T04:00:00Z",
+                "2026-08-25T04:00:00Z",
+                [
+                  "2026-08-14T08:00:00Z",
+                  4311.22
+                ],
+                [
+                  "2026-08-19T04:00:00Z",
+                  4324.66
+                ],
+                [
+                  "2026-08-14T16:00:00Z",
+                  4397.04
+                ],
+                [
+                  "2026-08-24T16:00:00Z",
+                  4681.01
+                ],
+                [
+                  "2026-08-19T04:00:00Z",
+                  4324.66
+                ]
+              ],
+              "signature_known": "2026-08-25T04:00:00Z",
+              "break_times": [
+                "2026-09-01T13:00:00Z",
+                "2026-08-26T20:00:00Z"
+              ],
+              "stage": "old_trend_ended_direction_unresolved",
+              "source_at_first": true,
+              "source_alive": true,
+              "terminal_unchanged": true,
+              "bars_between": 85,
+              "consecutive": false,
+              "previous": [
+                4368.908615384616,
+                4765.019275362319
+              ],
+              "current": [
+                4369.115384615385,
+                4767.077028985507
+              ],
+              "close": 4364.79,
+              "relation": {
+                "outer_outside": true,
+                "turning_outside": true
+              },
+              "A": "unverified",
+              "order": "turning_then_outer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

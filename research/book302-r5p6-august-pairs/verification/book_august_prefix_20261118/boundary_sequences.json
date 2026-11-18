@@ -1,0 +1,135 @@
+[
+  {
+    "id": "native_scope:ef41edee6463b5875dedcb92",
+    "direction": "down",
+    "price": 4171.33,
+    "first": "2026-09-29T03:00:00Z",
+    "dual": "2026-09-29T09:00:00Z",
+    "known": "2026-09-28T18:00:00Z",
+    "end": "2026-09-29T11:00:00Z",
+    "prefix_tests": 17,
+    "author_A_verified": false,
+    "sequence": {
+      "crossings": [],
+      "gaps": [
+        {
+          "previous": 1790640000,
+          "current": 1790647200,
+          "outside": false
+        }
+      ],
+      "dual": {
+        "clock": 1790672400,
+        "close": 4139.05,
+        "outside": false,
+        "at_level": false
+      }
+    }
+  },
+  {
+    "id": "native_scope:6e349b1b5c11cbe1026b2585",
+    "direction": "up",
+    "price": 4084.71,
+    "first": "2026-11-10T12:00:00Z",
+    "dual": "2026-11-10T13:00:00Z",
+    "known": "2026-11-09T23:00:00Z",
+    "end": "2026-11-10T15:00:00Z",
+    "prefix_tests": 16,
+    "author_A_verified": false,
+    "sequence": {
+      "crossings": [
+        {
+          "clock": 1794315600,
+          "previous_close": 4087.38,
+          "close": 4075.1,
+          "timing": "on_dual"
+        }
+      ],
+      "gaps": [
+        {
+          "previous": 1794268800,
+          "current": 1794276000,
+          "outside": false
+        }
+      ],
+      "dual": {
+        "clock": 1794315600,
+        "close": 4075.1,
+        "outside": true,
+        "at_level": false
+      }
+    }
+  },
+  {
+    "id": "native_scope:af772af71a3af39bed6ff336",
+    "direction": "up",
+    "price": 4450.62,
+    "first": "2026-08-25T17:00:00Z",
+    "dual": "2026-09-01T12:00:00Z",
+    "known": "2026-08-25T04:00:00Z",
+    "end": "2026-09-01T14:00:00Z",
+    "prefix_tests": 126,
+    "author_A_verified": false,
+    "sequence": {
+      "crossings": [
+        {
+          "clock": 1788152400,
+          "previous_close": 4456.35,
+          "close": 4440.21,
+          "timing": "between_lines"
+        },
+        {
+          "clock": 1788192000,
+          "previous_close": 4455.34,
+          "close": 4435.9,
+          "timing": "between_lines"
+        },
+        {
+          "clock": 1788220800,
+          "previous_close": 4453.35,
+          "close": 4449.07,
+          "timing": "between_lines"
+        },
+        {
+          "clock": 1788238800,
+          "previous_close": 4453.8,
+          "close": 4444.51,
+          "timing": "between_lines"
+        }
+      ],
+      "gaps": [
+        {
+          "previous": 1787702400,
+          "current": 1787709600,
+          "outside": false
+        },
+        {
+          "previous": 1787788800,
+          "current": 1787796000,
+          "outside": false
+        },
+        {
+          "previous": 1787875200,
+          "current": 1787882400,
+          "outside": false
+        },
+        {
+          "previous": 1787961600,
+          "current": 1788141600,
+          "outside": false
+        },
+        {
+          "previous": 1788220800,
+          "current": 1788228000,
+          "outside": true
+        }
+      ],
+      "dual": {
+        "clock": 1788264000,
+        "close": 4370.85,
+        "outside": true,
+        "at_level": false
+      }
+    }
+  }
+]

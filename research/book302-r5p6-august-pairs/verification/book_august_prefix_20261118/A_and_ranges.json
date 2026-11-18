@@ -1,0 +1,1057 @@
+[
+  {
+    "clock": "2026-08-28T10:00:00Z",
+    "id": "native_scope:7ae3104d815aff57280908d1",
+    "previous": [
+      4611.698260869565,
+      4621.122857142857
+    ],
+    "current": [
+      4610.494347826087,
+      4620.2814285714285
+    ],
+    "close": 4612.61,
+    "breaks": [
+      "2026-08-28T10:00:00Z",
+      null
+    ],
+    "A": null,
+    "auxiliary": [
+      {
+        "trend": {
+          "primary": "native_boundary_shape_candidate_v1:r2:p6:s1787720400:2026-08-27T16:00:00+00:00",
+          "marked": {
+            "channel": true,
+            "box": true,
+            "triangle": false
+          },
+          "reasons": {
+            "triangle": null
+          },
+          "pa": []
+        }
+      },
+      {
+        "trend": {
+          "primary": "native_boundary_shape_candidate_v1:r2:p6:s1787720400:2026-08-27T16:00:00+00:00",
+          "marked": {
+            "channel": true,
+            "box": true,
+            "triangle": false
+          },
+          "reasons": {
+            "triangle": null
+          },
+          "pa": []
+        }
+      }
+    ],
+    "same_auxiliary": true
+  },
+  {
+    "clock": "2026-09-01T12:00:00Z",
+    "id": "native_scope:af772af71a3af39bed6ff336",
+    "previous": [
+      4395.72,
+      4913.4424
+    ],
+    "current": [
+      4396.01,
+      4916.028
+    ],
+    "close": 4370.85,
+    "breaks": [
+      "2026-09-01T12:00:00Z",
+      "2026-08-25T17:00:00Z"
+    ],
+    "A": {
+      "result": {
+        "status": "frozen_counterleg_extreme_candidate",
+        "price": 4450.62,
+        "extreme": "2026-08-20T15:00:00Z",
+        "known": "2026-08-25T04:00:00Z",
+        "owner": "native_scope:af772af71a3af39bed6ff336",
+        "wave_swing_known": "2026-08-20T17:00:00Z",
+        "author_A_verified": false,
+        "before_dual": [
+          {
+            "close_time": "2026-08-25T17:00:00Z",
+            "close": 4616.73,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-25T18:00:00Z",
+            "close": 4635.59,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-25T19:00:00Z",
+            "close": 4652.68,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-25T20:00:00Z",
+            "close": 4643.57,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-25T21:00:00Z",
+            "close": 4648.43,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-25T22:00:00Z",
+            "close": 4654.61,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-25T23:00:00Z",
+            "close": 4666.97,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T00:00:00Z",
+            "close": 4658.71,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T02:00:00Z",
+            "close": 4672.68,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T03:00:00Z",
+            "close": 4654.92,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T04:00:00Z",
+            "close": 4637.56,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T05:00:00Z",
+            "close": 4657.04,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T06:00:00Z",
+            "close": 4658.45,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T07:00:00Z",
+            "close": 4642.75,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T08:00:00Z",
+            "close": 4640.69,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T09:00:00Z",
+            "close": 4639.82,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T10:00:00Z",
+            "close": 4634.36,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T11:00:00Z",
+            "close": 4629.06,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T12:00:00Z",
+            "close": 4628.37,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T13:00:00Z",
+            "close": 4623.27,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T14:00:00Z",
+            "close": 4620.34,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T15:00:00Z",
+            "close": 4624.62,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T16:00:00Z",
+            "close": 4614.45,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T17:00:00Z",
+            "close": 4631.59,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T18:00:00Z",
+            "close": 4603.1,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T19:00:00Z",
+            "close": 4596.18,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T20:00:00Z",
+            "close": 4591.6,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T21:00:00Z",
+            "close": 4597.8,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T22:00:00Z",
+            "close": 4593.88,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-26T23:00:00Z",
+            "close": 4594.31,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T00:00:00Z",
+            "close": 4594.65,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T02:00:00Z",
+            "close": 4609.47,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T03:00:00Z",
+            "close": 4623.66,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T04:00:00Z",
+            "close": 4605.26,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T05:00:00Z",
+            "close": 4640.08,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T06:00:00Z",
+            "close": 4629.74,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T07:00:00Z",
+            "close": 4625.56,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T08:00:00Z",
+            "close": 4618.82,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T09:00:00Z",
+            "close": 4607.09,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T10:00:00Z",
+            "close": 4600.24,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T11:00:00Z",
+            "close": 4600.3,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T12:00:00Z",
+            "close": 4599.1,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T13:00:00Z",
+            "close": 4580.43,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T14:00:00Z",
+            "close": 4590.08,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T15:00:00Z",
+            "close": 4598.31,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T16:00:00Z",
+            "close": 4585.97,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T17:00:00Z",
+            "close": 4572.46,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T18:00:00Z",
+            "close": 4591.36,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T19:00:00Z",
+            "close": 4610.48,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T20:00:00Z",
+            "close": 4614.94,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T21:00:00Z",
+            "close": 4606.55,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T22:00:00Z",
+            "close": 4610.33,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-27T23:00:00Z",
+            "close": 4609.41,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T00:00:00Z",
+            "close": 4601.75,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T02:00:00Z",
+            "close": 4610.71,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T03:00:00Z",
+            "close": 4594.53,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T04:00:00Z",
+            "close": 4588.81,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T05:00:00Z",
+            "close": 4575.96,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T06:00:00Z",
+            "close": 4586.46,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T07:00:00Z",
+            "close": 4580.05,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T08:00:00Z",
+            "close": 4584.36,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T09:00:00Z",
+            "close": 4573.43,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T10:00:00Z",
+            "close": 4612.61,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T11:00:00Z",
+            "close": 4611.8,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T12:00:00Z",
+            "close": 4603.01,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T13:00:00Z",
+            "close": 4605.23,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T14:00:00Z",
+            "close": 4600.27,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T15:00:00Z",
+            "close": 4593.47,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T16:00:00Z",
+            "close": 4601.72,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T17:00:00Z",
+            "close": 4606.01,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T18:00:00Z",
+            "close": 4576.7,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T19:00:00Z",
+            "close": 4524.57,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T20:00:00Z",
+            "close": 4479.54,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T21:00:00Z",
+            "close": 4469.44,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T22:00:00Z",
+            "close": 4456.89,
+            "wick_beyond": true,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-28T23:00:00Z",
+            "close": 4458.43,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-29T00:00:00Z",
+            "close": 4454.45,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-31T02:00:00Z",
+            "close": 4461.45,
+            "wick_beyond": true,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-31T03:00:00Z",
+            "close": 4458.53,
+            "wick_beyond": true,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-31T04:00:00Z",
+            "close": 4456.35,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-31T05:00:00Z",
+            "close": 4440.21,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T06:00:00Z",
+            "close": 4422.97,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T07:00:00Z",
+            "close": 4422.59,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T08:00:00Z",
+            "close": 4424.62,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T09:00:00Z",
+            "close": 4443.04,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T10:00:00Z",
+            "close": 4439.4,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T11:00:00Z",
+            "close": 4443.4,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T12:00:00Z",
+            "close": 4435.66,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T13:00:00Z",
+            "close": 4445.4,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T14:00:00Z",
+            "close": 4453.94,
+            "wick_beyond": true,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-31T15:00:00Z",
+            "close": 4455.34,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-08-31T16:00:00Z",
+            "close": 4435.9,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T17:00:00Z",
+            "close": 4418.64,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T18:00:00Z",
+            "close": 4431.73,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T19:00:00Z",
+            "close": 4426.36,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T20:00:00Z",
+            "close": 4433.27,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T21:00:00Z",
+            "close": 4436.59,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T22:00:00Z",
+            "close": 4430.89,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-08-31T23:00:00Z",
+            "close": 4453.35,
+            "wick_beyond": true,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-09-01T00:00:00Z",
+            "close": 4449.07,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-09-01T02:00:00Z",
+            "close": 4447.03,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-09-01T03:00:00Z",
+            "close": 4452.27,
+            "wick_beyond": true,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-09-01T04:00:00Z",
+            "close": 4453.8,
+            "wick_beyond": true,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-09-01T05:00:00Z",
+            "close": 4444.51,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-09-01T06:00:00Z",
+            "close": 4443.12,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-09-01T07:00:00Z",
+            "close": 4436.77,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-09-01T08:00:00Z",
+            "close": 4426.76,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-09-01T09:00:00Z",
+            "close": 4440.14,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-09-01T10:00:00Z",
+            "close": 4429.68,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-09-01T11:00:00Z",
+            "close": 4420.32,
+            "wick_beyond": true,
+            "close_beyond": true
+          }
+        ],
+        "after_dual": [
+          {
+            "close_time": "2026-09-01T12:00:00Z",
+            "close": 4370.85,
+            "wick_beyond": true,
+            "close_beyond": true
+          }
+        ],
+        "source_timestamp": "2026-08-25T04:00:00Z",
+        "physical_prefix_checks": [
+          {
+            "close_time": "2026-08-25T04:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T05:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T06:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T07:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T08:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T09:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T10:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T11:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T12:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T13:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T14:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T15:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-08-25T16:00:00Z",
+            "reproduced": true
+          }
+        ]
+      },
+      "children": [
+        {
+          "id": "native_scope:ff381e09e8c3a00ec13550ce",
+          "relation": "internal_return_stage",
+          "start": "2026-08-19T19:00:00Z",
+          "start_price": 4499.42,
+          "extreme": "2026-08-19T21:00:00Z",
+          "price": 4472.14,
+          "membership_known": "2026-08-25T04:00:00Z",
+          "resumed_close_time": "2026-08-19T23:00:00Z",
+          "retirement_state": "completed_excursion_before_origin_breach",
+          "wave_swing_known": "2026-08-19T23:00:00Z",
+          "source_before_break": true
+        },
+        {
+          "id": "native_scope:615e8985f0777f332158a451",
+          "relation": "internal_return_stage",
+          "start": "2026-08-20T01:00:00Z",
+          "start_price": 4527.51,
+          "extreme": "2026-08-20T15:00:00Z",
+          "price": 4450.62,
+          "membership_known": "2026-08-25T04:00:00Z",
+          "resumed_close_time": "2026-08-20T23:00:00Z",
+          "retirement_state": "completed_excursion_before_origin_breach",
+          "wave_swing_known": "2026-08-20T17:00:00Z",
+          "source_before_break": true
+        }
+      ],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-08-25T05:00:00Z",
+        "a_price": 4618.18,
+        "b_utc": "2026-08-25T09:00:00Z",
+        "b_price": 4653.47,
+        "c_utc": "2026-08-25T11:00:00Z",
+        "c_price": 4620.16,
+        "known_at_utc": "2026-08-25T16:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-08-25T10:00:00Z",
+          "b": "2026-08-25T12:00:00Z",
+          "c": "2026-08-25T13:00:00Z"
+        }
+      },
+      "freeze": "2026-08-25T16:00:00Z",
+      "book_A": "unverified",
+      "warmup": [
+        {
+          "extra": 48,
+          "children_equal": true
+        },
+        {
+          "extra": 96,
+          "children_equal": true
+        }
+      ]
+    },
+    "auxiliary": [
+      {
+        "trend": {
+          "primary": null,
+          "marked": {
+            "channel": false,
+            "box": false,
+            "triangle": false
+          },
+          "reasons": {
+            "channel": null,
+            "box": null,
+            "triangle": null
+          },
+          "pa": [
+            {
+              "category": 4,
+              "known": 1787558400,
+              "start": 1787284800,
+              "end": 1787547600,
+              "observed_state": 1,
+              "binding_basis": "time_overlap_only_no_original_owner_id_exported"
+            },
+            {
+              "category": 1,
+              "known": 1787580000,
+              "start": 1787238000,
+              "end": 1787562000,
+              "observed_state": 1,
+              "binding_basis": "time_overlap_only_no_original_owner_id_exported"
+            }
+          ]
+        }
+      },
+      {
+        "trend": {
+          "primary": null,
+          "marked": {
+            "channel": false,
+            "box": false,
+            "triangle": false
+          },
+          "reasons": {
+            "channel": null,
+            "box": null,
+            "triangle": null
+          },
+          "pa": [
+            {
+              "category": 4,
+              "known": 1787558400,
+              "start": 1787284800,
+              "end": 1787547600,
+              "observed_state": 1,
+              "binding_basis": "time_overlap_only_no_original_owner_id_exported"
+            },
+            {
+              "category": 1,
+              "known": 1787580000,
+              "start": 1787238000,
+              "end": 1787562000,
+              "observed_state": 1,
+              "binding_basis": "time_overlap_only_no_original_owner_id_exported"
+            }
+          ]
+        }
+      }
+    ],
+    "same_auxiliary": true
+  },
+  {
+    "clock": "2026-09-01T13:00:00Z",
+    "id": "native_scope:aac67ec5eb6d012d7a83d8a4",
+    "previous": [
+      4368.908615384616,
+      4765.019275362319
+    ],
+    "current": [
+      4369.115384615385,
+      4767.077028985507
+    ],
+    "close": 4364.79,
+    "breaks": [
+      "2026-09-01T13:00:00Z",
+      "2026-08-26T20:00:00Z"
+    ],
+    "A": {
+      "result": {
+        "status": "no_direct_counterleg_identified"
+      },
+      "children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "zigzag_outer_candidate",
+        "a_utc": "2026-08-25T11:00:00Z",
+        "a_price": 4620.16,
+        "b_utc": "2026-08-25T14:00:00Z",
+        "b_price": 4647.33,
+        "c_utc": "2026-08-25T16:00:00Z",
+        "c_price": 4605.26,
+        "known_at_utc": "2026-08-26T19:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-08-25T13:00:00Z",
+          "b": "2026-08-25T17:00:00Z",
+          "c": "2026-08-25T18:00:00Z"
+        }
+      },
+      "freeze": "2026-08-26T19:00:00Z",
+      "book_A": "unverified",
+      "warmup": [
+        {
+          "extra": 48,
+          "children_equal": true
+        },
+        {
+          "extra": 96,
+          "children_equal": true
+        }
+      ]
+    },
+    "auxiliary": [
+      {
+        "trend": {
+          "primary": null,
+          "marked": {
+            "channel": false,
+            "box": false,
+            "triangle": false
+          },
+          "reasons": {
+            "channel": null,
+            "box": null,
+            "triangle": null
+          },
+          "pa": [
+            {
+              "category": 4,
+              "known": 1787558400,
+              "start": 1787284800,
+              "end": 1787547600,
+              "observed_state": 1,
+              "binding_basis": "time_overlap_only_no_original_owner_id_exported"
+            },
+            {
+              "category": 1,
+              "known": 1787580000,
+              "start": 1787238000,
+              "end": 1787562000,
+              "observed_state": 1,
+              "binding_basis": "time_overlap_only_no_original_owner_id_exported"
+            }
+          ]
+        }
+      },
+      {
+        "trend": {
+          "primary": null,
+          "marked": {
+            "channel": false,
+            "box": false,
+            "triangle": false
+          },
+          "reasons": {
+            "channel": null,
+            "box": null,
+            "triangle": null
+          },
+          "pa": [
+            {
+              "category": 4,
+              "known": 1787558400,
+              "start": 1787284800,
+              "end": 1787547600,
+              "observed_state": 1,
+              "binding_basis": "time_overlap_only_no_original_owner_id_exported"
+            },
+            {
+              "category": 1,
+              "known": 1787580000,
+              "start": 1787238000,
+              "end": 1787562000,
+              "observed_state": 1,
+              "binding_basis": "time_overlap_only_no_original_owner_id_exported"
+            }
+          ]
+        }
+      }
+    ],
+    "same_auxiliary": true
+  }
+]
