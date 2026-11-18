@@ -1,0 +1,57 @@
+{
+  "native": {
+    "rows": 136,
+    "updated": 29,
+    "clocks": 27,
+    "continuations": 79,
+    "status": {
+      "ok": 27
+    },
+    "current_note": "Book双线：本柱未见首次收破（6组事前线对）",
+    "token": "0430aa10b89061d1fdd7c8f6d0d121630b5d1a2ab2a617f29e8d99be9f8c22d2",
+    "revision": "9ed37b7cdd2effa77f485ccc6ade359cda4ca75f25bc2cef985244388b9761c2",
+    "worker": "a8f35e4a67ffcc22a11ce55c67130636e2572ff5c25fc5b7fb7540866f4d3c7a"
+  },
+  "history": {
+    "2026-08-28T10:00:00+00:00": {
+      "counts": {
+        "no_new_cross": 8,
+        "trend_only": 1
+      },
+      "detail": "Book双线：仅趋势线首次收破 1 组、其余 8 组无新收破（9组事前线对）"
+    },
+    "2026-09-01T12:00:00+00:00": {
+      "counts": {
+        "no_new_cross": 6,
+        "later_line": 1
+      },
+      "detail": "Book双线：先后收破，本柱补破 1 组、其余 6 组无新收破（7组事前线对），两次相隔110根已记录H1，分界点A待核"
+    },
+    "2026-10-02T19:00:00+00:00": {
+      "counts": {
+        "same_bar": 3,
+        "turn_only": 1,
+        "no_new_cross": 3
+      },
+      "detail": "Book双线：同柱双破 3 组、仅拐点线首次收破 1 组、其余 3 组无新收破（7组事前线对），分界点A待核"
+    },
+    "2026-10-29T09:00:00+00:00": {
+      "counts": {
+        "no_new_cross": 2,
+        "turn_only": 1,
+        "same_bar": 1
+      },
+      "detail": "Book双线：同柱双破 1 组、仅拐点线首次收破 1 组、其余 2 组无新收破（4组事前线对），分界点A待核"
+    },
+    "2026-11-10T19:00:00+00:00": {
+      "counts": {
+        "later_line": 3,
+        "no_new_cross": 5,
+        "turn_only": 2,
+        "same_bar": 1
+      },
+      "detail": "Book双线：同柱双破 1 组、先后收破，本柱补破 3 组、仅拐点线首次收破 2 组、其余 5 组无新收破（11组事前线对），两次相隔3、7根已记录H1，分界点A待核"
+    }
+  },
+  "restore_verified": 153
+}

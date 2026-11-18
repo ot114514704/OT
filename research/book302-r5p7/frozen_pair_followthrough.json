@@ -1,0 +1,221 @@
+{
+  "method": "Frozen pair extrapolated on observed H1 bar index; diagnostic after the event, no automatic A or reversal confirmation.",
+  "reports": [
+    {
+      "owner": "native_scope:44899ecf354108ba8cc9d417",
+      "direction": "down",
+      "clock": "2026-10-01T06",
+      "records": [
+        {
+          "clock": "2026-10-01T06:00:00+00:00",
+          "close": 4160.96,
+          "trend": 4159.55,
+          "turning": 4158.873333333333,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-10-01T07:00:00+00:00",
+          "close": 4175.41,
+          "trend": 4154.96,
+          "turning": 4157.496666666667,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-10-01T08:00:00+00:00",
+          "close": 4179.88,
+          "trend": 4150.37,
+          "turning": 4156.12,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-10-01T09:00:00+00:00",
+          "close": 4188.18,
+          "trend": 4145.78,
+          "turning": 4154.743333333333,
+          "outside_both": true
+        }
+      ],
+      "three_more_outside": true
+    },
+    {
+      "owner": "native_scope:0c9e74fb4ef3da214f6c5b05",
+      "direction": "up",
+      "clock": "2026-10-02T19",
+      "records": [
+        {
+          "clock": "2026-10-02T19:00:00+00:00",
+          "close": 4127.32,
+          "trend": 4136.222769230769,
+          "turning": 4135.850434782608,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-10-02T20:00:00+00:00",
+          "close": 4138.85,
+          "trend": 4136.401538461539,
+          "turning": 4136.002608695652,
+          "outside_both": false
+        },
+        {
+          "clock": "2026-10-02T21:00:00+00:00",
+          "close": 4137.35,
+          "trend": 4136.5803076923075,
+          "turning": 4136.154782608695,
+          "outside_both": false
+        },
+        {
+          "clock": "2026-10-02T22:00:00+00:00",
+          "close": 4146.37,
+          "trend": 4136.759076923077,
+          "turning": 4136.306956521739,
+          "outside_both": false
+        }
+      ],
+      "three_more_outside": false
+    },
+    {
+      "owner": "native_scope:0d17962a30d1bf49c805e5eb",
+      "direction": "up",
+      "clock": "2026-10-02T19",
+      "records": [
+        {
+          "clock": "2026-10-02T19:00:00+00:00",
+          "close": 4127.32,
+          "trend": 4138.006301369863,
+          "turning": 4135.850434782608,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-10-02T20:00:00+00:00",
+          "close": 4138.85,
+          "trend": 4138.3124657534245,
+          "turning": 4136.002608695652,
+          "outside_both": false
+        },
+        {
+          "clock": "2026-10-02T21:00:00+00:00",
+          "close": 4137.35,
+          "trend": 4138.618630136986,
+          "turning": 4136.154782608695,
+          "outside_both": false
+        },
+        {
+          "clock": "2026-10-02T22:00:00+00:00",
+          "close": 4146.37,
+          "trend": 4138.924794520548,
+          "turning": 4136.306956521739,
+          "outside_both": false
+        }
+      ],
+      "three_more_outside": false
+    },
+    {
+      "owner": "native_scope:6a57b8e550c42fe333760a8b",
+      "direction": "up",
+      "clock": "2026-10-02T19",
+      "records": [
+        {
+          "clock": "2026-10-02T19:00:00+00:00",
+          "close": 4127.32,
+          "trend": 4137.857101449275,
+          "turning": 4135.850434782608,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-10-02T20:00:00+00:00",
+          "close": 4138.85,
+          "trend": 4138.152608695652,
+          "turning": 4136.002608695652,
+          "outside_both": false
+        },
+        {
+          "clock": "2026-10-02T21:00:00+00:00",
+          "close": 4137.35,
+          "trend": 4138.448115942029,
+          "turning": 4136.154782608695,
+          "outside_both": false
+        },
+        {
+          "clock": "2026-10-02T22:00:00+00:00",
+          "close": 4146.37,
+          "trend": 4138.743623188406,
+          "turning": 4136.306956521739,
+          "outside_both": false
+        }
+      ],
+      "three_more_outside": false
+    },
+    {
+      "owner": "native_scope:ba14f438579c4dc6a106f1dd",
+      "direction": "up",
+      "clock": "2026-10-29T09",
+      "records": [
+        {
+          "clock": "2026-10-29T09:00:00+00:00",
+          "close": 4024.75,
+          "trend": 4035.7290909090907,
+          "turning": 4030.96,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-10-29T10:00:00+00:00",
+          "close": 4034.68,
+          "trend": 4036.81,
+          "turning": 4031.564,
+          "outside_both": false
+        },
+        {
+          "clock": "2026-10-29T11:00:00+00:00",
+          "close": 4023.08,
+          "trend": 4037.890909090909,
+          "turning": 4032.168,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-10-29T12:00:00+00:00",
+          "close": 4024.29,
+          "trend": 4038.971818181818,
+          "turning": 4032.772,
+          "outside_both": true
+        }
+      ],
+      "three_more_outside": false
+    },
+    {
+      "owner": "native_scope:4a4f59f83c162f9304b900a8",
+      "direction": "up",
+      "clock": "2026-11-10T19",
+      "records": [
+        {
+          "clock": "2026-11-10T19:00:00+00:00",
+          "close": 4022.26,
+          "trend": 4039.46,
+          "turning": 4028.048888888889,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-11-10T20:00:00+00:00",
+          "close": 4018.46,
+          "trend": 4040.64,
+          "turning": 4028.0753968253966,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-11-10T21:00:00+00:00",
+          "close": 4027.34,
+          "trend": 4041.82,
+          "turning": 4028.1019047619047,
+          "outside_both": true
+        },
+        {
+          "clock": "2026-11-10T22:00:00+00:00",
+          "close": 4029.55,
+          "trend": 4043.0,
+          "turning": 4028.128412698413,
+          "outside_both": false
+        }
+      ],
+      "three_more_outside": false
+    }
+  ]
+}
