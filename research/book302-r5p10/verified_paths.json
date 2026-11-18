@@ -1,0 +1,607 @@
+[
+  {
+    "clock": "2026-03-18T14:00:00Z",
+    "warmups": [
+      256,
+      512,
+      768
+    ],
+    "exact_agreement": true,
+    "paths": [
+      {
+        "origin": [
+          1773626400.0,
+          4967.41
+        ],
+        "terminal": [
+          1773734400.0,
+          5044.63
+        ],
+        "trend": [
+          [
+            "2026-03-16T02:00:00Z",
+            4967.41
+          ],
+          [
+            "2026-03-16T13:00:00Z",
+            4970.23
+          ]
+        ],
+        "turning": [
+          [
+            "2026-03-16T09:00:00Z",
+            5035.79
+          ],
+          [
+            "2026-03-17T08:00:00Z",
+            5044.63
+          ],
+          [
+            "2026-03-16T13:00:00Z",
+            4970.23
+          ]
+        ],
+        "path": "renewed_dual_close",
+        "proof": {
+          "first_close": "2026-03-18T12:00:00Z",
+          "bars": 3,
+          "source_alive": false,
+          "same_terminal": false,
+          "reentry_close": "2026-03-18T13:00:00Z",
+          "opening_outside": 0,
+          "opening_touched": 0
+        },
+        "observations": [
+          {
+            "clock": "2026-03-18T14:00:00Z",
+            "close": 4967.86,
+            "trend": 4982.022727272727,
+            "turning": 4988.713636363636,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-03-18T15:00:00Z",
+            "close": 4930.24,
+            "trend": 4982.279090909091,
+            "turning": 4989.115454545455,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-03-18T16:00:00Z",
+            "close": 4881.56,
+            "trend": 4982.535454545455,
+            "turning": 4989.517272727273,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-03-18T17:00:00Z",
+            "close": 4878.1,
+            "trend": 4982.791818181819,
+            "turning": 4989.919090909091,
+            "outside_both": true,
+            "turning_relation": "outside"
+          }
+        ],
+        "first_reentry": null,
+        "common_ranges": {
+          "native_session_triangle_candidate_v1:edge:32:2026-03-18T05:00:00+00:00": "triangle",
+          "native_session_triangle_candidate_v1:edge:28:2026-03-18T00:00:00+00:00": "triangle",
+          "native_session_triangle_candidate_v1:edge:24:2026-03-17T20:00:00+00:00": "triangle",
+          "native_session_triangle_candidate_v1:36:2026-03-18T07:00:00+00:00": "triangle",
+          "price_structure_candidate_v5:24:auto:2026-03-18T05:00:00+00:00": "channel",
+          "native_boundary_shape_candidate_v1:r8:p8:s1773028800:2026-03-17T17:00:00+00:00": "wedge",
+          "dense_horizontal_pause_v1:wick:2026-03-17T20:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body8:2026-03-16T09:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:tight:2026-03-16T09:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:2026-03-16T19:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body16:2026-03-16T17:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body12:2026-03-16T14:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body10:2026-03-16T11:00:00+00:00": "box",
+          "price_structure_candidate_v5:48:horizontal:2026-03-17T23:00:00+00:00": "box",
+          "price_structure_candidate_v5:24:horizontal:2026-03-16T22:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:weekend24:2026-03-16T19:00:00+00:00": "box"
+        }
+      }
+    ],
+    "requests": [
+      {
+        "clock": "2026-03-18T13:00:00Z",
+        "matches": 0,
+        "follow": "后续状态待计算"
+      },
+      {
+        "clock": "2026-03-18T14:00:00Z",
+        "matches": 1,
+        "follow": "Book双破跟踪：前柱收回，本柱重收双线外（开收跨双线），原波段待复核，双破后待下一收盘 1组；A点另核。后续状态待计算"
+      },
+      {
+        "clock": "2026-03-18T15:00:00Z",
+        "matches": 1,
+        "follow": "Book双破跟踪：前柱收回，本柱重收双线外（开收跨双线），原波段待复核，后续连续1根仍收在双线外 1组；A点另核。后续状态待计算"
+      },
+      {
+        "clock": "2026-03-18T16:00:00Z",
+        "matches": 1,
+        "follow": "Book双破跟踪：前柱收回，本柱重收双线外（开收跨双线），原波段待复核，后续连续2根仍收在双线外 1组；A点另核。后续状态待计算"
+      }
+    ]
+  },
+  {
+    "clock": "2026-04-02T09:00:00Z",
+    "warmups": [
+      256,
+      512,
+      768
+    ],
+    "exact_agreement": true,
+    "paths": [
+      {
+        "origin": [
+          1774839600.0,
+          4419.45
+        ],
+        "terminal": [
+          1775095200.0,
+          4800.5
+        ],
+        "trend": [
+          [
+            "2026-03-30T03:00:00Z",
+            4419.45
+          ],
+          [
+            "2026-03-31T03:00:00Z",
+            4482.55
+          ]
+        ],
+        "turning": [
+          [
+            "2026-03-30T14:00:00Z",
+            4580.68
+          ],
+          [
+            "2026-04-01T18:00:00Z",
+            4788.25
+          ],
+          [
+            "2026-03-31T03:00:00Z",
+            4482.55
+          ]
+        ],
+        "path": "consecutive_break",
+        "proof": {
+          "first_close": "2026-04-02T07:00:00Z",
+          "bars": 3,
+          "source_alive": true,
+          "same_terminal": true
+        },
+        "observations": [
+          {
+            "clock": "2026-04-02T09:00:00Z",
+            "close": 4594.46,
+            "trend": 4622.467391304348,
+            "turning": 4694.2714,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-04-02T10:00:00Z",
+            "close": 4599.05,
+            "trend": 4625.210869565218,
+            "turning": 4698.4228,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-04-02T11:00:00Z",
+            "close": 4642.74,
+            "trend": 4627.954347826087,
+            "turning": 4702.5742,
+            "outside_both": false,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-04-02T12:00:00Z",
+            "close": 4620.94,
+            "trend": 4630.697826086956,
+            "turning": 4706.7256,
+            "outside_both": true,
+            "turning_relation": "outside"
+          }
+        ],
+        "first_reentry": null,
+        "common_ranges": {}
+      },
+      {
+        "origin": [
+          1774566000.0,
+          4351.3
+        ],
+        "terminal": [
+          1775095200.0,
+          4800.5
+        ],
+        "trend": [
+          [
+            "2026-03-30T03:00:00Z",
+            4419.45
+          ],
+          [
+            "2026-03-31T03:00:00Z",
+            4482.55
+          ]
+        ],
+        "turning": [
+          [
+            "2026-03-30T14:00:00Z",
+            4580.68
+          ],
+          [
+            "2026-04-01T18:00:00Z",
+            4788.25
+          ],
+          [
+            "2026-03-31T03:00:00Z",
+            4482.55
+          ]
+        ],
+        "path": "consecutive_break",
+        "proof": {
+          "first_close": "2026-04-02T07:00:00Z",
+          "bars": 3,
+          "source_alive": true,
+          "same_terminal": true
+        },
+        "observations": [
+          {
+            "clock": "2026-04-02T09:00:00Z",
+            "close": 4594.46,
+            "trend": 4622.467391304348,
+            "turning": 4694.2714,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-04-02T10:00:00Z",
+            "close": 4599.05,
+            "trend": 4625.210869565218,
+            "turning": 4698.4228,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-04-02T11:00:00Z",
+            "close": 4642.74,
+            "trend": 4627.954347826087,
+            "turning": 4702.5742,
+            "outside_both": false,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-04-02T12:00:00Z",
+            "close": 4620.94,
+            "trend": 4630.697826086956,
+            "turning": 4706.7256,
+            "outside_both": true,
+            "turning_relation": "outside"
+          }
+        ],
+        "first_reentry": null,
+        "common_ranges": {}
+      },
+      {
+        "origin": [
+          1774580400.0,
+          4375.62
+        ],
+        "terminal": [
+          1775095200.0,
+          4800.5
+        ],
+        "trend": [
+          [
+            "2026-03-30T03:00:00Z",
+            4419.45
+          ],
+          [
+            "2026-03-31T03:00:00Z",
+            4482.55
+          ]
+        ],
+        "turning": [
+          [
+            "2026-03-30T14:00:00Z",
+            4580.68
+          ],
+          [
+            "2026-04-01T18:00:00Z",
+            4788.25
+          ],
+          [
+            "2026-03-31T03:00:00Z",
+            4482.55
+          ]
+        ],
+        "path": "consecutive_break",
+        "proof": {
+          "first_close": "2026-04-02T07:00:00Z",
+          "bars": 3,
+          "source_alive": true,
+          "same_terminal": true
+        },
+        "observations": [
+          {
+            "clock": "2026-04-02T09:00:00Z",
+            "close": 4594.46,
+            "trend": 4622.467391304348,
+            "turning": 4694.2714,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-04-02T10:00:00Z",
+            "close": 4599.05,
+            "trend": 4625.210869565218,
+            "turning": 4698.4228,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-04-02T11:00:00Z",
+            "close": 4642.74,
+            "trend": 4627.954347826087,
+            "turning": 4702.5742,
+            "outside_both": false,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-04-02T12:00:00Z",
+            "close": 4620.94,
+            "trend": 4630.697826086956,
+            "turning": 4706.7256,
+            "outside_both": true,
+            "turning_relation": "outside"
+          }
+        ],
+        "first_reentry": null,
+        "common_ranges": {}
+      }
+    ],
+    "requests": [
+      {
+        "clock": "2026-04-02T08:00:00Z",
+        "matches": 0,
+        "follow": "Book双破跟踪：后续连续3根仍收在双线外 2组；A点另核。后续状态待计算"
+      },
+      {
+        "clock": "2026-04-02T09:00:00Z",
+        "matches": 3,
+        "follow": "Book双破跟踪：3根先后收破，双破后待下一收盘 3组；A点另核。后续状态待计算"
+      },
+      {
+        "clock": "2026-04-02T10:00:00Z",
+        "matches": 3,
+        "follow": "Book双破跟踪：3根先后收破，后续连续1根仍收在双线外 3组；A点另核。后续状态待计算"
+      },
+      {
+        "clock": "2026-04-02T11:00:00Z",
+        "matches": 3,
+        "follow": "Book双破跟踪：3根先后收破，双线外收盘未持续，尚无拐点线收回 3组；A点另核。后续状态待计算"
+      }
+    ]
+  },
+  {
+    "clock": "2026-11-06T21:00:00Z",
+    "warmups": [
+      256,
+      512,
+      768
+    ],
+    "exact_agreement": true,
+    "paths": [
+      {
+        "origin": [
+          1793930400.0,
+          4107.01
+        ],
+        "terminal": [
+          1793977200.0,
+          4026.75
+        ],
+        "trend": [
+          [
+            "2026-11-06T03:00:00Z",
+            4097.47
+          ],
+          [
+            "2026-11-06T11:00:00Z",
+            4081.19
+          ]
+        ],
+        "turning": [
+          [
+            "2026-11-06T07:00:00Z",
+            4035.68
+          ],
+          [
+            "2026-11-06T15:00:00Z",
+            4026.75
+          ],
+          [
+            "2026-11-06T11:00:00Z",
+            4081.19
+          ]
+        ],
+        "path": "renewed_dual_close",
+        "proof": {
+          "first_close": "2026-11-06T19:00:00Z",
+          "bars": 3,
+          "source_alive": true,
+          "same_terminal": true,
+          "reentry_close": "2026-11-06T20:00:00Z",
+          "opening_outside": 0,
+          "opening_touched": 0
+        },
+        "observations": [
+          {
+            "clock": "2026-11-06T21:00:00Z",
+            "close": 4077.47,
+            "trend": 4062.875,
+            "turning": 4071.14375,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-11-06T22:00:00Z",
+            "close": 4063.6,
+            "trend": 4060.84,
+            "turning": 4070.0275,
+            "outside_both": false,
+            "turning_relation": "inside"
+          },
+          {
+            "clock": "2026-11-06T23:00:00Z",
+            "close": 4065.84,
+            "trend": 4058.805,
+            "turning": 4068.91125,
+            "outside_both": false,
+            "turning_relation": "inside"
+          },
+          {
+            "clock": "2026-11-07T00:00:00Z",
+            "close": 4070.81,
+            "trend": 4056.77,
+            "turning": 4067.795,
+            "outside_both": true,
+            "turning_relation": "outside"
+          }
+        ],
+        "first_reentry": "2026-11-06T22:00:00Z",
+        "common_ranges": {
+          "price_structure_candidate_v5:24:auto:2026-11-06T20:00:00+00:00": "channel",
+          "dense_horizontal_pause_v1:density5:2026-11-06T09:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body8:2026-11-06T20:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body16:2026-11-06T20:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body10:2026-11-06T18:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body12:2026-11-06T18:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:tight:2026-11-06T16:00:00+00:00": "box",
+          "price_structure_candidate_v5:48:horizontal:2026-11-06T13:00:00+00:00": "box"
+        }
+      },
+      {
+        "origin": [
+          1793894400.0,
+          4136.01
+        ],
+        "terminal": [
+          1793977200.0,
+          4026.75
+        ],
+        "trend": [
+          [
+            "2026-11-05T16:00:00Z",
+            4136.01
+          ],
+          [
+            "2026-11-05T19:00:00Z",
+            4127.51
+          ]
+        ],
+        "turning": [
+          [
+            "2026-11-06T07:00:00Z",
+            4035.68
+          ],
+          [
+            "2026-11-06T15:00:00Z",
+            4026.75
+          ],
+          [
+            "2026-11-06T11:00:00Z",
+            4081.19
+          ]
+        ],
+        "path": "renewed_dual_close",
+        "proof": {
+          "first_close": "2026-11-06T19:00:00Z",
+          "bars": 3,
+          "source_alive": true,
+          "same_terminal": true,
+          "reentry_close": "2026-11-06T20:00:00Z",
+          "opening_outside": 1,
+          "opening_touched": 0
+        },
+        "observations": [
+          {
+            "clock": "2026-11-06T21:00:00Z",
+            "close": 4077.47,
+            "trend": 4059.51,
+            "turning": 4071.14375,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-11-06T22:00:00Z",
+            "close": 4063.6,
+            "trend": 4056.6766666666667,
+            "turning": 4070.0275,
+            "outside_both": false,
+            "turning_relation": "inside"
+          },
+          {
+            "clock": "2026-11-06T23:00:00Z",
+            "close": 4065.84,
+            "trend": 4053.8433333333332,
+            "turning": 4068.91125,
+            "outside_both": false,
+            "turning_relation": "inside"
+          },
+          {
+            "clock": "2026-11-07T00:00:00Z",
+            "close": 4070.81,
+            "trend": 4051.01,
+            "turning": 4067.795,
+            "outside_both": true,
+            "turning_relation": "outside"
+          }
+        ],
+        "first_reentry": "2026-11-06T22:00:00Z",
+        "common_ranges": {
+          "price_structure_candidate_v5:24:auto:2026-11-06T20:00:00+00:00": "channel",
+          "dense_horizontal_pause_v1:density5:2026-11-06T09:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body8:2026-11-06T20:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body16:2026-11-06T20:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body10:2026-11-06T18:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:body12:2026-11-06T18:00:00+00:00": "box",
+          "dense_horizontal_pause_v1:tight:2026-11-06T16:00:00+00:00": "box",
+          "price_structure_candidate_v5:48:horizontal:2026-11-06T13:00:00+00:00": "box"
+        }
+      }
+    ],
+    "requests": [
+      {
+        "clock": "2026-11-06T20:00:00Z",
+        "matches": 0,
+        "follow": "后续状态待计算"
+      },
+      {
+        "clock": "2026-11-06T21:00:00Z",
+        "matches": 2,
+        "follow": "Book双破跟踪：前柱收回，本柱重收双线外（开收跨双线），双破后待下一收盘 1组、前柱收回，本柱重收双线外（开盘已越一线），双破后待下一收盘 1组；A点另核。后续状态待计算"
+      },
+      {
+        "clock": "2026-11-06T22:00:00Z",
+        "matches": 2,
+        "follow": "Book双破跟踪：前柱收回，本柱重收双线外（开收跨双线），已收回拐点线，现居线内 1组、前柱收回，本柱重收双线外（开盘已越一线），已收回拐点线，现居线内 1组；A点另核。后续状态待计算"
+      },
+      {
+        "clock": "2026-11-06T23:00:00Z",
+        "matches": 2,
+        "follow": "Book双破跟踪：前柱收回，本柱重收双线外（开收跨双线），已收回拐点线，现居线内 1组、前柱收回，本柱重收双线外（开盘已越一线），已收回拐点线，现居线内 1组；A点另核。后续状态待计算"
+      }
+    ]
+  }
+]

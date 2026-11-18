@@ -1,0 +1,843 @@
+{
+  "periods": [
+    {
+      "begin": "2026-03-16",
+      "end_exclusive": "2026-04-11",
+      "counts": {
+        "bars": 436,
+        "gap": 19,
+        "ok": 417,
+        "later_line": 4
+      },
+      "cases": [
+        {
+          "owner": "native_scope:e09976d2c1759043574127d7",
+          "direction": "up",
+          "origin": [
+            1773626400.0,
+            4967.41
+          ],
+          "terminal": [
+            1773734400.0,
+            5044.63
+          ],
+          "trend": [
+            [
+              "2026-03-16T02:00:00Z",
+              4967.41
+            ],
+            [
+              "2026-03-16T13:00:00Z",
+              4970.23
+            ]
+          ],
+          "turning": [
+            [
+              "2026-03-16T09:00:00Z",
+              5035.79
+            ],
+            [
+              "2026-03-17T08:00:00Z",
+              5044.63
+            ],
+            [
+              "2026-03-16T13:00:00Z",
+              4970.23
+            ]
+          ],
+          "known": "2026-03-17T09:00:00Z",
+          "first_rail": "turning",
+          "event": "2026-03-18T14:00:00Z",
+          "active": false,
+          "terminal_unchanged": false,
+          "accepted": false,
+          "values": [
+            {
+              "clock": "2026-03-18T12:00:00Z",
+              "close": 4987.61,
+              "open": 4994.97,
+              "high": 4996.85,
+              "low": 4977.4,
+              "continuous": true,
+              "source_event": "turn_only",
+              "trend": 4981.51,
+              "trend_outside": false,
+              "turning": 4987.91,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-03-18T13:00:00Z",
+              "close": 4992.2,
+              "open": 4987.61,
+              "high": 4995.72,
+              "low": 4984.86,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4981.766363636364,
+              "trend_outside": false,
+              "turning": 4988.311818181818,
+              "turning_outside": false
+            },
+            {
+              "clock": "2026-03-18T14:00:00Z",
+              "close": 4967.86,
+              "open": 4992.2,
+              "high": 4992.22,
+              "low": 4958.91,
+              "continuous": true,
+              "source_event": "later_line",
+              "trend": 4982.022727272727,
+              "trend_outside": true,
+              "turning": 4988.713636363636,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-03-18T15:00:00Z",
+              "close": 4930.24,
+              "open": 4967.86,
+              "high": 4974.06,
+              "low": 4925.06,
+              "continuous": true,
+              "source_event": null,
+              "trend": 4982.279090909091,
+              "trend_outside": true,
+              "turning": 4989.115454545455,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-03-18T16:00:00Z",
+              "close": 4881.56,
+              "open": 4930.24,
+              "high": 4932.54,
+              "low": 4870.73,
+              "continuous": true,
+              "source_event": null,
+              "trend": 4982.535454545455,
+              "trend_outside": true,
+              "turning": 4989.517272727273,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-03-18T17:00:00Z",
+              "close": 4878.1,
+              "open": 4881.56,
+              "high": 4885.58,
+              "low": 4834.15,
+              "continuous": true,
+              "source_event": null,
+              "trend": 4982.791818181819,
+              "trend_outside": true,
+              "turning": 4989.919090909091,
+              "turning_outside": true
+            }
+          ],
+          "A": {
+            "256": {
+              "status": "candidate",
+              "price": 4970.23,
+              "extreme": "2026-03-16T13:00:00Z",
+              "resumed": "2026-03-17T08:00:00Z",
+              "freeze": "2026-03-18T11:00:00Z",
+              "dual_close_outside": true
+            },
+            "512": {
+              "status": "candidate",
+              "price": 4970.23,
+              "extreme": "2026-03-16T13:00:00Z",
+              "resumed": "2026-03-17T08:00:00Z",
+              "freeze": "2026-03-18T11:00:00Z",
+              "dual_close_outside": true
+            },
+            "768": {
+              "status": "candidate",
+              "price": 4970.23,
+              "extreme": "2026-03-16T13:00:00Z",
+              "resumed": "2026-03-17T08:00:00Z",
+              "freeze": "2026-03-18T11:00:00Z",
+              "dual_close_outside": true
+            }
+          }
+        },
+        {
+          "owner": "native_scope:69bdf5f64d87de1f92a9d829",
+          "direction": "up",
+          "origin": [
+            1774839600.0,
+            4419.45
+          ],
+          "terminal": [
+            1775095200.0,
+            4800.5
+          ],
+          "trend": [
+            [
+              "2026-03-30T03:00:00Z",
+              4419.45
+            ],
+            [
+              "2026-03-31T03:00:00Z",
+              4482.55
+            ]
+          ],
+          "turning": [
+            [
+              "2026-03-30T14:00:00Z",
+              4580.68
+            ],
+            [
+              "2026-04-01T18:00:00Z",
+              4788.25
+            ],
+            [
+              "2026-03-31T03:00:00Z",
+              4482.55
+            ]
+          ],
+          "known": "2026-04-02T03:00:00Z",
+          "first_rail": "turning",
+          "event": "2026-04-02T09:00:00Z",
+          "active": true,
+          "terminal_unchanged": true,
+          "accepted": true,
+          "values": [
+            {
+              "clock": "2026-04-02T07:00:00Z",
+              "close": 4676.46,
+              "open": 4687.12,
+              "high": 4699.49,
+              "low": 4676.0,
+              "continuous": true,
+              "source_event": "turn_only",
+              "trend": 4616.980434782608,
+              "trend_outside": false,
+              "turning": 4685.9686,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T08:00:00Z",
+              "close": 4672.64,
+              "open": 4676.46,
+              "high": 4681.71,
+              "low": 4657.12,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4619.723913043478,
+              "trend_outside": false,
+              "turning": 4690.12,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T09:00:00Z",
+              "close": 4594.46,
+              "open": 4672.64,
+              "high": 4680.66,
+              "low": 4585.7,
+              "continuous": true,
+              "source_event": "later_line",
+              "trend": 4622.467391304348,
+              "trend_outside": true,
+              "turning": 4694.2714,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T10:00:00Z",
+              "close": 4599.05,
+              "open": 4594.46,
+              "high": 4608.81,
+              "low": 4553.8,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4625.210869565218,
+              "trend_outside": true,
+              "turning": 4698.4228,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T11:00:00Z",
+              "close": 4642.74,
+              "open": 4598.79,
+              "high": 4651.38,
+              "low": 4597.17,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4627.954347826087,
+              "trend_outside": false,
+              "turning": 4702.5742,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T12:00:00Z",
+              "close": 4620.94,
+              "open": 4642.76,
+              "high": 4648.85,
+              "low": 4617.08,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4630.697826086956,
+              "trend_outside": true,
+              "turning": 4706.7256,
+              "turning_outside": true
+            }
+          ],
+          "A": {
+            "256": {
+              "status": "no_owned_counterleg"
+            },
+            "512": {
+              "status": "no_owned_counterleg"
+            },
+            "768": {
+              "status": "no_owned_counterleg"
+            }
+          }
+        },
+        {
+          "owner": "native_scope:6fd228d2d97ffc2b3def0a2a",
+          "direction": "up",
+          "origin": [
+            1774566000.0,
+            4351.3
+          ],
+          "terminal": [
+            1775095200.0,
+            4800.5
+          ],
+          "trend": [
+            [
+              "2026-03-30T03:00:00Z",
+              4419.45
+            ],
+            [
+              "2026-03-31T03:00:00Z",
+              4482.55
+            ]
+          ],
+          "turning": [
+            [
+              "2026-03-30T14:00:00Z",
+              4580.68
+            ],
+            [
+              "2026-04-01T18:00:00Z",
+              4788.25
+            ],
+            [
+              "2026-03-31T03:00:00Z",
+              4482.55
+            ]
+          ],
+          "known": "2026-04-02T03:00:00Z",
+          "first_rail": "turning",
+          "event": "2026-04-02T09:00:00Z",
+          "active": true,
+          "terminal_unchanged": true,
+          "accepted": true,
+          "values": [
+            {
+              "clock": "2026-04-02T07:00:00Z",
+              "close": 4676.46,
+              "open": 4687.12,
+              "high": 4699.49,
+              "low": 4676.0,
+              "continuous": true,
+              "source_event": "turn_only",
+              "trend": 4616.980434782608,
+              "trend_outside": false,
+              "turning": 4685.9686,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T08:00:00Z",
+              "close": 4672.64,
+              "open": 4676.46,
+              "high": 4681.71,
+              "low": 4657.12,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4619.723913043478,
+              "trend_outside": false,
+              "turning": 4690.12,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T09:00:00Z",
+              "close": 4594.46,
+              "open": 4672.64,
+              "high": 4680.66,
+              "low": 4585.7,
+              "continuous": true,
+              "source_event": "later_line",
+              "trend": 4622.467391304348,
+              "trend_outside": true,
+              "turning": 4694.2714,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T10:00:00Z",
+              "close": 4599.05,
+              "open": 4594.46,
+              "high": 4608.81,
+              "low": 4553.8,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4625.210869565218,
+              "trend_outside": true,
+              "turning": 4698.4228,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T11:00:00Z",
+              "close": 4642.74,
+              "open": 4598.79,
+              "high": 4651.38,
+              "low": 4597.17,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4627.954347826087,
+              "trend_outside": false,
+              "turning": 4702.5742,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T12:00:00Z",
+              "close": 4620.94,
+              "open": 4642.76,
+              "high": 4648.85,
+              "low": 4617.08,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4630.697826086956,
+              "trend_outside": true,
+              "turning": 4706.7256,
+              "turning_outside": true
+            }
+          ],
+          "A": {
+            "256": {
+              "status": "no_owned_counterleg"
+            },
+            "512": {
+              "status": "no_owned_counterleg"
+            },
+            "768": {
+              "status": "no_owned_counterleg"
+            }
+          }
+        },
+        {
+          "owner": "native_scope:7c37d096d37b256cb22fbaec",
+          "direction": "up",
+          "origin": [
+            1774580400.0,
+            4375.62
+          ],
+          "terminal": [
+            1775095200.0,
+            4800.5
+          ],
+          "trend": [
+            [
+              "2026-03-30T03:00:00Z",
+              4419.45
+            ],
+            [
+              "2026-03-31T03:00:00Z",
+              4482.55
+            ]
+          ],
+          "turning": [
+            [
+              "2026-03-30T14:00:00Z",
+              4580.68
+            ],
+            [
+              "2026-04-01T18:00:00Z",
+              4788.25
+            ],
+            [
+              "2026-03-31T03:00:00Z",
+              4482.55
+            ]
+          ],
+          "known": "2026-04-02T03:00:00Z",
+          "first_rail": "turning",
+          "event": "2026-04-02T09:00:00Z",
+          "active": true,
+          "terminal_unchanged": true,
+          "accepted": true,
+          "values": [
+            {
+              "clock": "2026-04-02T07:00:00Z",
+              "close": 4676.46,
+              "open": 4687.12,
+              "high": 4699.49,
+              "low": 4676.0,
+              "continuous": true,
+              "source_event": "turn_only",
+              "trend": 4616.980434782608,
+              "trend_outside": false,
+              "turning": 4685.9686,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T08:00:00Z",
+              "close": 4672.64,
+              "open": 4676.46,
+              "high": 4681.71,
+              "low": 4657.12,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4619.723913043478,
+              "trend_outside": false,
+              "turning": 4690.12,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T09:00:00Z",
+              "close": 4594.46,
+              "open": 4672.64,
+              "high": 4680.66,
+              "low": 4585.7,
+              "continuous": true,
+              "source_event": "later_line",
+              "trend": 4622.467391304348,
+              "trend_outside": true,
+              "turning": 4694.2714,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T10:00:00Z",
+              "close": 4599.05,
+              "open": 4594.46,
+              "high": 4608.81,
+              "low": 4553.8,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4625.210869565218,
+              "trend_outside": true,
+              "turning": 4698.4228,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T11:00:00Z",
+              "close": 4642.74,
+              "open": 4598.79,
+              "high": 4651.38,
+              "low": 4597.17,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4627.954347826087,
+              "trend_outside": false,
+              "turning": 4702.5742,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-04-02T12:00:00Z",
+              "close": 4620.94,
+              "open": 4642.76,
+              "high": 4648.85,
+              "low": 4617.08,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4630.697826086956,
+              "trend_outside": true,
+              "turning": 4706.7256,
+              "turning_outside": true
+            }
+          ],
+          "A": {
+            "256": {
+              "status": "no_owned_counterleg"
+            },
+            "512": {
+              "status": "no_owned_counterleg"
+            },
+            "768": {
+              "status": "no_owned_counterleg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "begin": "2026-11-02",
+      "end_exclusive": "2026-11-14",
+      "counts": {
+        "bars": 229,
+        "gap": 10,
+        "ok": 219,
+        "later_line": 2
+      },
+      "cases": [
+        {
+          "owner": "native_scope:17af166eec96bc6b52d97d5b",
+          "direction": "down",
+          "origin": [
+            1793930400.0,
+            4107.01
+          ],
+          "terminal": [
+            1793977200.0,
+            4026.75
+          ],
+          "trend": [
+            [
+              "2026-11-06T03:00:00Z",
+              4097.47
+            ],
+            [
+              "2026-11-06T11:00:00Z",
+              4081.19
+            ]
+          ],
+          "turning": [
+            [
+              "2026-11-06T07:00:00Z",
+              4035.68
+            ],
+            [
+              "2026-11-06T15:00:00Z",
+              4026.75
+            ],
+            [
+              "2026-11-06T11:00:00Z",
+              4081.19
+            ]
+          ],
+          "known": "2026-11-06T16:00:00Z",
+          "first_rail": "trend",
+          "event": "2026-11-06T21:00:00Z",
+          "active": true,
+          "terminal_unchanged": true,
+          "accepted": false,
+          "values": [
+            {
+              "clock": "2026-11-06T19:00:00Z",
+              "close": 4067.0,
+              "open": 4054.57,
+              "high": 4068.51,
+              "low": 4054.22,
+              "continuous": true,
+              "source_event": "trend_only",
+              "trend": 4066.945,
+              "trend_outside": true,
+              "turning": 4073.37625,
+              "turning_outside": false
+            },
+            {
+              "clock": "2026-11-06T20:00:00Z",
+              "close": 4060.08,
+              "open": 4067.01,
+              "high": 4067.42,
+              "low": 4053.9,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4064.91,
+              "trend_outside": false,
+              "turning": 4072.26,
+              "turning_outside": false
+            },
+            {
+              "clock": "2026-11-06T21:00:00Z",
+              "close": 4077.47,
+              "open": 4060.06,
+              "high": 4077.64,
+              "low": 4058.34,
+              "continuous": true,
+              "source_event": "later_line",
+              "trend": 4062.875,
+              "trend_outside": true,
+              "turning": 4071.14375,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-11-06T22:00:00Z",
+              "close": 4063.6,
+              "open": 4077.47,
+              "high": 4078.65,
+              "low": 4060.87,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4060.84,
+              "trend_outside": true,
+              "turning": 4070.0275,
+              "turning_outside": false
+            },
+            {
+              "clock": "2026-11-06T23:00:00Z",
+              "close": 4065.84,
+              "open": 4063.6,
+              "high": 4069.21,
+              "low": 4060.46,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4058.805,
+              "trend_outside": true,
+              "turning": 4068.91125,
+              "turning_outside": false
+            },
+            {
+              "clock": "2026-11-07T00:00:00Z",
+              "close": 4070.81,
+              "open": 4065.87,
+              "high": 4071.15,
+              "low": 4062.91,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4056.77,
+              "trend_outside": true,
+              "turning": 4067.795,
+              "turning_outside": true
+            }
+          ],
+          "A": {
+            "256": {
+              "status": "no_owned_counterleg"
+            },
+            "512": {
+              "status": "no_owned_counterleg"
+            },
+            "768": {
+              "status": "no_owned_counterleg"
+            }
+          }
+        },
+        {
+          "owner": "native_scope:f564c87dfa141dfc4ffa694c",
+          "direction": "down",
+          "origin": [
+            1793894400.0,
+            4136.01
+          ],
+          "terminal": [
+            1793977200.0,
+            4026.75
+          ],
+          "trend": [
+            [
+              "2026-11-05T16:00:00Z",
+              4136.01
+            ],
+            [
+              "2026-11-05T19:00:00Z",
+              4127.51
+            ]
+          ],
+          "turning": [
+            [
+              "2026-11-06T07:00:00Z",
+              4035.68
+            ],
+            [
+              "2026-11-06T15:00:00Z",
+              4026.75
+            ],
+            [
+              "2026-11-06T11:00:00Z",
+              4081.19
+            ]
+          ],
+          "known": "2026-11-06T16:00:00Z",
+          "first_rail": "trend",
+          "event": "2026-11-06T21:00:00Z",
+          "active": true,
+          "terminal_unchanged": true,
+          "accepted": false,
+          "values": [
+            {
+              "clock": "2026-11-06T19:00:00Z",
+              "close": 4067.0,
+              "open": 4054.57,
+              "high": 4068.51,
+              "low": 4054.22,
+              "continuous": true,
+              "source_event": "trend_only",
+              "trend": 4065.1766666666667,
+              "trend_outside": true,
+              "turning": 4073.37625,
+              "turning_outside": false
+            },
+            {
+              "clock": "2026-11-06T20:00:00Z",
+              "close": 4060.08,
+              "open": 4067.01,
+              "high": 4067.42,
+              "low": 4053.9,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4062.3433333333332,
+              "trend_outside": false,
+              "turning": 4072.26,
+              "turning_outside": false
+            },
+            {
+              "clock": "2026-11-06T21:00:00Z",
+              "close": 4077.47,
+              "open": 4060.06,
+              "high": 4077.64,
+              "low": 4058.34,
+              "continuous": true,
+              "source_event": "later_line",
+              "trend": 4059.51,
+              "trend_outside": true,
+              "turning": 4071.14375,
+              "turning_outside": true
+            },
+            {
+              "clock": "2026-11-06T22:00:00Z",
+              "close": 4063.6,
+              "open": 4077.47,
+              "high": 4078.65,
+              "low": 4060.87,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4056.6766666666667,
+              "trend_outside": true,
+              "turning": 4070.0275,
+              "turning_outside": false
+            },
+            {
+              "clock": "2026-11-06T23:00:00Z",
+              "close": 4065.84,
+              "open": 4063.6,
+              "high": 4069.21,
+              "low": 4060.46,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4053.8433333333332,
+              "trend_outside": true,
+              "turning": 4068.91125,
+              "turning_outside": false
+            },
+            {
+              "clock": "2026-11-07T00:00:00Z",
+              "close": 4070.81,
+              "open": 4065.87,
+              "high": 4071.15,
+              "low": 4062.91,
+              "continuous": true,
+              "source_event": "no_new_cross",
+              "trend": 4051.01,
+              "trend_outside": true,
+              "turning": 4067.795,
+              "turning_outside": true
+            }
+          ],
+          "A": {
+            "256": {
+              "status": "no_owned_counterleg"
+            },
+            "512": {
+              "status": "no_owned_counterleg"
+            },
+            "768": {
+              "status": "no_owned_counterleg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "history_sha256": "a804d848479dd1266ba1bceaf5fb9f5e7f1e8acccb7d62e3818ace83b3c5388d",
+  "worker_component": "5c34747f7ad5805ea211121f696897c972acbe443282f19c76a0a1e338ec3028"
+}
