@@ -1,0 +1,1383 @@
+{
+  "archive_sha256": "dab7cc2dfefff70f2523bffb3f28f6745a2709b533bf0b9e8aa5116d68f12ee1",
+  "history_sha256": "a804d848479dd1266ba1bceaf5fb9f5e7f1e8acccb7d62e3818ace83b3c5388d",
+  "windows": [
+    {
+      "start": "2026-09-20T00:00:00Z",
+      "end_exclusive": "2026-10-03T00:00:00Z",
+      "bars": 230,
+      "accepted": 8,
+      "omitted": {
+        "construction_clock_unavailable_or_invalid": 35,
+        "outer_scope_unqualified": 21
+      },
+      "records": [
+        {
+          "id": "native_scope:034a889ff025b09c3ad01f1d",
+          "direction": "up",
+          "scope_known": "2026-10-02T16:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-02T19:00:00Z",
+            "2026-10-02T19:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 0,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-10-06T06:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 2
+          },
+          "prior_extreme": 4226.22,
+          "quick_turning_reclaim": "2026-10-02T20:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-03T00:00:00Z",
+          "observation_end_reason": "window_end",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "returned_or_touched",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-10-02T19:00:00Z",
+          "second_close": "2026-10-02T19:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true,
+          "chart": [
+            {
+              "close_time": "2026-10-02T17:00:00Z",
+              "outer": 4137.39397260274,
+              "turning": 4135.546086956521,
+              "open": 4217.88,
+              "high": 4225.41,
+              "low": 4178.35,
+              "close": 4191.19
+            },
+            {
+              "close_time": "2026-10-02T18:00:00Z",
+              "outer": 4137.700136986301,
+              "turning": 4135.698260869565,
+              "open": 4191.23,
+              "high": 4196.74,
+              "low": 4155.4,
+              "close": 4158.96
+            },
+            {
+              "close_time": "2026-10-02T19:00:00Z",
+              "outer": 4138.006301369863,
+              "turning": 4135.850434782608,
+              "open": 4159.05,
+              "high": 4160.19,
+              "low": 4125.25,
+              "close": 4127.32
+            },
+            {
+              "close_time": "2026-10-02T20:00:00Z",
+              "outer": 4138.3124657534245,
+              "turning": 4136.002608695652,
+              "open": 4127.32,
+              "high": 4141.12,
+              "low": 4125.96,
+              "close": 4138.85
+            },
+            {
+              "close_time": "2026-10-02T21:00:00Z",
+              "outer": 4138.618630136986,
+              "turning": 4136.154782608695,
+              "open": 4138.85,
+              "high": 4143.3,
+              "low": 4130.08,
+              "close": 4137.35
+            },
+            {
+              "close_time": "2026-10-02T22:00:00Z",
+              "outer": 4138.924794520548,
+              "turning": 4136.306956521739,
+              "open": 4137.36,
+              "high": 4146.6,
+              "low": 4135.18,
+              "close": 4146.37
+            },
+            {
+              "close_time": "2026-10-02T23:00:00Z",
+              "outer": 4139.23095890411,
+              "turning": 4136.459130434782,
+              "open": 4146.37,
+              "high": 4149.85,
+              "low": 4140.46,
+              "close": 4147.7
+            }
+          ]
+        },
+        {
+          "id": "native_scope:1c0cf1cca3bb9bc1d4e3b3d7",
+          "direction": "up",
+          "scope_known": "2026-10-02T16:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-02T19:00:00Z",
+            "2026-10-02T19:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 0,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-10-06T06:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 2
+          },
+          "prior_extreme": 4226.22,
+          "quick_turning_reclaim": "2026-10-02T20:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-03T00:00:00Z",
+          "observation_end_reason": "window_end",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "returned_or_touched",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-10-02T19:00:00Z",
+          "second_close": "2026-10-02T19:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true,
+          "chart": [
+            {
+              "close_time": "2026-10-02T17:00:00Z",
+              "outer": 4135.865230769231,
+              "turning": 4135.546086956521,
+              "open": 4217.88,
+              "high": 4225.41,
+              "low": 4178.35,
+              "close": 4191.19
+            },
+            {
+              "close_time": "2026-10-02T18:00:00Z",
+              "outer": 4136.044,
+              "turning": 4135.698260869565,
+              "open": 4191.23,
+              "high": 4196.74,
+              "low": 4155.4,
+              "close": 4158.96
+            },
+            {
+              "close_time": "2026-10-02T19:00:00Z",
+              "outer": 4136.222769230769,
+              "turning": 4135.850434782608,
+              "open": 4159.05,
+              "high": 4160.19,
+              "low": 4125.25,
+              "close": 4127.32
+            },
+            {
+              "close_time": "2026-10-02T20:00:00Z",
+              "outer": 4136.401538461539,
+              "turning": 4136.002608695652,
+              "open": 4127.32,
+              "high": 4141.12,
+              "low": 4125.96,
+              "close": 4138.85
+            },
+            {
+              "close_time": "2026-10-02T21:00:00Z",
+              "outer": 4136.5803076923075,
+              "turning": 4136.154782608695,
+              "open": 4138.85,
+              "high": 4143.3,
+              "low": 4130.08,
+              "close": 4137.35
+            },
+            {
+              "close_time": "2026-10-02T22:00:00Z",
+              "outer": 4136.759076923077,
+              "turning": 4136.306956521739,
+              "open": 4137.36,
+              "high": 4146.6,
+              "low": 4135.18,
+              "close": 4146.37
+            },
+            {
+              "close_time": "2026-10-02T23:00:00Z",
+              "outer": 4136.937846153846,
+              "turning": 4136.459130434782,
+              "open": 4146.37,
+              "high": 4149.85,
+              "low": 4140.46,
+              "close": 4147.7
+            }
+          ]
+        },
+        {
+          "id": "native_scope:7abb2bb93c279f46f6f68db2",
+          "direction": "up",
+          "scope_known": "2026-10-02T16:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-02T19:00:00Z",
+            "2026-10-02T19:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 0,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-10-06T06:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 2
+          },
+          "prior_extreme": 4226.22,
+          "quick_turning_reclaim": "2026-10-02T20:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-03T00:00:00Z",
+          "observation_end_reason": "window_end",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "returned_or_touched",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-10-02T19:00:00Z",
+          "second_close": "2026-10-02T19:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true,
+          "chart": [
+            {
+              "close_time": "2026-10-02T17:00:00Z",
+              "outer": 4137.266086956522,
+              "turning": 4135.546086956521,
+              "open": 4217.88,
+              "high": 4225.41,
+              "low": 4178.35,
+              "close": 4191.19
+            },
+            {
+              "close_time": "2026-10-02T18:00:00Z",
+              "outer": 4137.561594202899,
+              "turning": 4135.698260869565,
+              "open": 4191.23,
+              "high": 4196.74,
+              "low": 4155.4,
+              "close": 4158.96
+            },
+            {
+              "close_time": "2026-10-02T19:00:00Z",
+              "outer": 4137.857101449275,
+              "turning": 4135.850434782608,
+              "open": 4159.05,
+              "high": 4160.19,
+              "low": 4125.25,
+              "close": 4127.32
+            },
+            {
+              "close_time": "2026-10-02T20:00:00Z",
+              "outer": 4138.152608695652,
+              "turning": 4136.002608695652,
+              "open": 4127.32,
+              "high": 4141.12,
+              "low": 4125.96,
+              "close": 4138.85
+            },
+            {
+              "close_time": "2026-10-02T21:00:00Z",
+              "outer": 4138.448115942029,
+              "turning": 4136.154782608695,
+              "open": 4138.85,
+              "high": 4143.3,
+              "low": 4130.08,
+              "close": 4137.35
+            },
+            {
+              "close_time": "2026-10-02T22:00:00Z",
+              "outer": 4138.743623188406,
+              "turning": 4136.306956521739,
+              "open": 4137.36,
+              "high": 4146.6,
+              "low": 4135.18,
+              "close": 4146.37
+            },
+            {
+              "close_time": "2026-10-02T23:00:00Z",
+              "outer": 4139.039130434782,
+              "turning": 4136.459130434782,
+              "open": 4146.37,
+              "high": 4149.85,
+              "low": 4140.46,
+              "close": 4147.7
+            }
+          ]
+        },
+        {
+          "id": "native_scope:84f9ca399541f5c9145a4932",
+          "direction": "up",
+          "scope_known": "2026-10-02T16:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "turning_only_warning",
+          "break_times": [
+            null,
+            "2026-10-02T19:00:00Z"
+          ]
+        },
+        {
+          "id": "native_scope:ad28f9527dd41ff030860095",
+          "direction": "down",
+          "scope_known": "2026-09-28T18:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-09-30T03:00:00Z",
+            "2026-09-29T03:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 23,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4110.88,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-09-30T07:00:00Z",
+          "observation_end_reason": "three_bar_window_elapsed",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": false,
+          "holds_two": "returned_or_touched",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-09-29T03:00:00Z",
+          "second_close": "2026-09-30T03:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:e0d4dd8d2c7c55845a20ebee",
+          "direction": "down",
+          "scope_known": "2026-09-28T18:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-02T16:00:00Z",
+            "2026-09-29T03:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 82,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4110.88,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-02T20:00:00Z",
+          "observation_end_reason": "three_bar_window_elapsed",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": false,
+          "holds_two": "held",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-09-29T03:00:00Z",
+          "second_close": "2026-10-02T16:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:ef41edee6463b5875dedcb92",
+          "direction": "down",
+          "scope_known": "2026-09-28T18:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-09-29T09:00:00Z",
+            "2026-09-29T03:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 6,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4110.88,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-09-29T13:00:00Z",
+          "observation_end_reason": "three_bar_window_elapsed",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "held",
+          "holds_three": "held",
+          "first_close": "2026-09-29T03:00:00Z",
+          "second_close": "2026-09-29T09:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:4070d12ee98fd5de938556ee",
+          "direction": "down",
+          "scope_known": "2026-10-02T05:00:00Z",
+          "retired_at": "2026-10-02T16:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-02T08:00:00Z",
+            "2026-10-02T11:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 3,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-10-02T16:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 0
+          },
+          "prior_extreme": 4133.72,
+          "quick_turning_reclaim": "2026-10-02T12:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-02T15:00:00Z",
+          "observation_end_reason": "source_retired",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "returned_or_touched",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-10-02T08:00:00Z",
+          "second_close": "2026-10-02T11:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        }
+      ]
+    },
+    {
+      "start": "2026-10-18T00:00:00Z",
+      "end_exclusive": "2026-10-31T00:00:00Z",
+      "bars": 230,
+      "accepted": 11,
+      "omitted": {
+        "construction_clock_unavailable_or_invalid": 25,
+        "outer_scope_unqualified": 30
+      },
+      "records": [
+        {
+          "id": "native_scope:75347f76cd8122daa5acdb69",
+          "direction": "down",
+          "scope_known": "2026-10-30T23:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "no_boundary_break_observed",
+          "break_times": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": "native_scope:8d3c82907bdff813ad117c1c",
+          "direction": "down",
+          "scope_known": "2026-10-30T23:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "no_boundary_break_observed",
+          "break_times": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": "native_scope:b245e9e0bc688e2222ae95dc",
+          "direction": "down",
+          "scope_known": "2026-10-30T23:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "no_boundary_break_observed",
+          "break_times": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": "native_scope:d48944a314d176abc51c89df",
+          "direction": "down",
+          "scope_known": "2026-10-30T23:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "no_boundary_break_observed",
+          "break_times": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": "native_scope:f92365e42182a44f627aecaa",
+          "direction": "down",
+          "scope_known": "2026-10-30T23:00:00Z",
+          "retired_at": null,
+          "stage_at_window_end": "no_boundary_break_observed",
+          "break_times": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": "native_scope:09dc4bb472f6737eda2d70f8",
+          "direction": "up",
+          "scope_known": "2026-10-29T00:00:00Z",
+          "retired_at": "2026-10-30T08:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-30T10:00:00Z",
+            "2026-10-29T04:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 29,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4082.95,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-30T10:00:00Z",
+          "observation_end_reason": "source_retired",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": false,
+          "holds_two": "source_retired",
+          "holds_three": "source_retired",
+          "first_close": "2026-10-29T04:00:00Z",
+          "second_close": "2026-10-30T10:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": false,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:0f68e01b771ee689fdd3ab34",
+          "direction": "down",
+          "scope_known": "2026-10-20T14:00:00Z",
+          "retired_at": "2026-10-20T18:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-21T15:00:00Z",
+            "2026-10-20T18:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 20,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4111.65,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-21T15:00:00Z",
+          "observation_end_reason": "source_retired",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": false,
+          "holds_two": "source_retired",
+          "holds_three": "source_retired",
+          "first_close": "2026-10-20T18:00:00Z",
+          "second_close": "2026-10-21T15:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": false,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:44d8572a442ba9ba1b4c55a5",
+          "direction": "up",
+          "scope_known": "2026-10-29T00:00:00Z",
+          "retired_at": "2026-10-30T11:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-29T21:00:00Z",
+            "2026-10-29T09:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 12,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4082.95,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-30T00:00:00Z",
+          "observation_end_reason": "session_or_data_gap",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "returned_or_touched",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-10-29T09:00:00Z",
+          "second_close": "2026-10-29T21:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:544ce85ecc70322be716fc6b",
+          "direction": "down",
+          "scope_known": "2026-10-27T12:00:00Z",
+          "retired_at": "2026-10-27T17:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-27T16:00:00Z",
+            "2026-10-27T16:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 0,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 3989.25,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-27T16:00:00Z",
+          "observation_end_reason": "source_retired",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "source_retired",
+          "holds_three": "source_retired",
+          "first_close": "2026-10-27T16:00:00Z",
+          "second_close": "2026-10-27T16:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true,
+          "chart": [
+            {
+              "close_time": "2026-10-27T13:00:00Z",
+              "outer": 4023.44,
+              "turning": 4017.6383333333333,
+              "open": 3994.79,
+              "high": 4003.29,
+              "low": 3993.5,
+              "close": 4002.62
+            },
+            {
+              "close_time": "2026-10-27T14:00:00Z",
+              "outer": 4023.002,
+              "turning": 4016.04,
+              "open": 4002.62,
+              "high": 4016.28,
+              "low": 3993.24,
+              "close": 4008.72
+            },
+            {
+              "close_time": "2026-10-27T15:00:00Z",
+              "outer": 4022.564,
+              "turning": 4014.4416666666666,
+              "open": 4008.58,
+              "high": 4014.19,
+              "low": 4007.48,
+              "close": 4012.51
+            },
+            {
+              "close_time": "2026-10-27T16:00:00Z",
+              "outer": 4022.126,
+              "turning": 4012.8433333333332,
+              "open": 4012.53,
+              "high": 4028.51,
+              "low": 4011.23,
+              "close": 4023.34
+            }
+          ]
+        },
+        {
+          "id": "native_scope:ad4660a1442ab64ae300a2aa",
+          "direction": "up",
+          "scope_known": "2026-10-29T00:00:00Z",
+          "retired_at": "2026-10-30T11:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-30T10:00:00Z",
+            "2026-10-29T04:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 29,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4082.95,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-30T10:00:00Z",
+          "observation_end_reason": "source_retired",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": false,
+          "holds_two": "source_retired",
+          "holds_three": "source_retired",
+          "first_close": "2026-10-29T04:00:00Z",
+          "second_close": "2026-10-30T10:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:cb7036bcceacf41e52f4ec3d",
+          "direction": "up",
+          "scope_known": "2026-10-29T00:00:00Z",
+          "retired_at": "2026-10-30T08:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-10-29T09:00:00Z",
+            "2026-10-29T09:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 0,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-10-30T08:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 1
+          },
+          "prior_extreme": 4082.95,
+          "quick_turning_reclaim": "2026-10-29T10:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-10-30T00:00:00Z",
+          "observation_end_reason": "session_or_data_gap",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "returned_or_touched",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-10-29T09:00:00Z",
+          "second_close": "2026-10-29T09:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true,
+          "chart": [
+            {
+              "close_time": "2026-10-29T06:00:00Z",
+              "outer": 4032.4863636363634,
+              "turning": 4029.148,
+              "open": 4062.46,
+              "high": 4064.65,
+              "low": 4039.55,
+              "close": 4047.53
+            },
+            {
+              "close_time": "2026-10-29T07:00:00Z",
+              "outer": 4033.5672727272727,
+              "turning": 4029.752,
+              "open": 4047.53,
+              "high": 4048.18,
+              "low": 4036.82,
+              "close": 4038.3
+            },
+            {
+              "close_time": "2026-10-29T08:00:00Z",
+              "outer": 4034.648181818182,
+              "turning": 4030.356,
+              "open": 4038.31,
+              "high": 4041.71,
+              "low": 4035.79,
+              "close": 4037.99
+            },
+            {
+              "close_time": "2026-10-29T09:00:00Z",
+              "outer": 4035.7290909090907,
+              "turning": 4030.96,
+              "open": 4037.99,
+              "high": 4046.33,
+              "low": 4022.14,
+              "close": 4024.75
+            },
+            {
+              "close_time": "2026-10-29T10:00:00Z",
+              "outer": 4036.81,
+              "turning": 4031.564,
+              "open": 4024.89,
+              "high": 4035.46,
+              "low": 4024.11,
+              "close": 4034.68
+            },
+            {
+              "close_time": "2026-10-29T11:00:00Z",
+              "outer": 4037.890909090909,
+              "turning": 4032.168,
+              "open": 4034.7,
+              "high": 4037.86,
+              "low": 4022.53,
+              "close": 4023.08
+            },
+            {
+              "close_time": "2026-10-29T12:00:00Z",
+              "outer": 4038.971818181818,
+              "turning": 4032.772,
+              "open": 4023.08,
+              "high": 4035.22,
+              "low": 4015.89,
+              "close": 4024.29
+            },
+            {
+              "close_time": "2026-10-29T13:00:00Z",
+              "outer": 4040.052727272727,
+              "turning": 4033.376,
+              "open": 4024.31,
+              "high": 4037.94,
+              "low": 4022.56,
+              "close": 4029.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": "2026-11-01T00:00:00Z",
+      "end_exclusive": "2026-11-14T00:00:00Z",
+      "bars": 229,
+      "accepted": 12,
+      "omitted": {
+        "construction_clock_unavailable_or_invalid": 25,
+        "outer_scope_unqualified": 16
+      },
+      "records": [
+        {
+          "id": "native_scope:05df8224d5bcf262b0367838",
+          "direction": "down",
+          "scope_known": "2026-11-06T16:00:00Z",
+          "retired_at": "2026-11-09T23:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-09T03:00:00Z",
+            "2026-11-06T21:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 5,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4026.75,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-09T07:00:00Z",
+          "observation_end_reason": "three_bar_window_elapsed",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": false,
+          "holds_two": "held",
+          "holds_three": "held",
+          "first_close": "2026-11-06T21:00:00Z",
+          "second_close": "2026-11-09T03:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:2280e9a93399f1ed48b20ebd",
+          "direction": "down",
+          "scope_known": "2026-11-06T16:00:00Z",
+          "retired_at": "2026-11-09T04:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-06T19:00:00Z",
+            "2026-11-06T21:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 2,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-11-09T04:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 1
+          },
+          "prior_extreme": 4026.75,
+          "quick_turning_reclaim": "2026-11-06T22:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-07T00:00:00Z",
+          "observation_end_reason": "session_or_data_gap",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "returned_or_touched",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-11-06T19:00:00Z",
+          "second_close": "2026-11-06T21:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:22bc849cd719b543cef505e5",
+          "direction": "up",
+          "scope_known": "2026-11-09T23:00:00Z",
+          "retired_at": "2026-11-12T16:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-10T16:00:00Z",
+            "2026-11-10T19:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 3,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-11-12T16:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 2
+          },
+          "prior_extreme": 4148.72,
+          "quick_turning_reclaim": "2026-11-10T22:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-11T00:00:00Z",
+          "observation_end_reason": "session_or_data_gap",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "held",
+          "holds_three": "held",
+          "first_close": "2026-11-10T16:00:00Z",
+          "second_close": "2026-11-10T19:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:3ce3b302172fb71c4461a4da",
+          "direction": "down",
+          "scope_known": "2026-11-06T16:00:00Z",
+          "retired_at": "2026-11-09T22:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-09T04:00:00Z",
+            "2026-11-06T21:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 6,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4026.75,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-09T08:00:00Z",
+          "observation_end_reason": "three_bar_window_elapsed",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": false,
+          "holds_two": "held",
+          "holds_three": "held",
+          "first_close": "2026-11-06T21:00:00Z",
+          "second_close": "2026-11-09T04:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:6e349b1b5c11cbe1026b2585",
+          "direction": "up",
+          "scope_known": "2026-11-09T23:00:00Z",
+          "retired_at": "2026-11-10T16:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-10T13:00:00Z",
+            "2026-11-10T12:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 1,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4148.72,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-10T15:00:00Z",
+          "observation_end_reason": "source_retired",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "held",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-11-10T12:00:00Z",
+          "second_close": "2026-11-10T13:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:734e3c8cd91d01c45d3c035c",
+          "direction": "down",
+          "scope_known": "2026-11-06T16:00:00Z",
+          "retired_at": "2026-11-09T22:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-06T19:00:00Z",
+            "2026-11-06T21:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 2,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-11-09T22:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 1
+          },
+          "prior_extreme": 4026.75,
+          "quick_turning_reclaim": "2026-11-06T22:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-07T00:00:00Z",
+          "observation_end_reason": "session_or_data_gap",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "returned_or_touched",
+          "holds_three": "returned_or_touched",
+          "first_close": "2026-11-06T19:00:00Z",
+          "second_close": "2026-11-06T21:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:896d29a03a8a3a0b78afcee3",
+          "direction": "up",
+          "scope_known": "2026-11-09T23:00:00Z",
+          "retired_at": "2026-11-12T16:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-10T19:00:00Z",
+            "2026-11-10T19:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 0,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-11-12T16:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 2
+          },
+          "prior_extreme": 4148.72,
+          "quick_turning_reclaim": "2026-11-10T22:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-11T00:00:00Z",
+          "observation_end_reason": "session_or_data_gap",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "held",
+          "holds_three": "held",
+          "first_close": "2026-11-10T19:00:00Z",
+          "second_close": "2026-11-10T19:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true,
+          "chart": [
+            {
+              "close_time": "2026-11-10T16:00:00Z",
+              "outer": 4035.92,
+              "turning": 4027.969365079365,
+              "open": 4079.05,
+              "high": 4079.78,
+              "low": 4039.9,
+              "close": 4052.17
+            },
+            {
+              "close_time": "2026-11-10T17:00:00Z",
+              "outer": 4037.1,
+              "turning": 4027.995873015873,
+              "open": 4052.0,
+              "high": 4061.42,
+              "low": 4032.9,
+              "close": 4039.13
+            },
+            {
+              "close_time": "2026-11-10T18:00:00Z",
+              "outer": 4038.28,
+              "turning": 4028.022380952381,
+              "open": 4039.17,
+              "high": 4054.13,
+              "low": 4034.01,
+              "close": 4042.25
+            },
+            {
+              "close_time": "2026-11-10T19:00:00Z",
+              "outer": 4039.46,
+              "turning": 4028.048888888889,
+              "open": 4042.34,
+              "high": 4045.8,
+              "low": 4013.74,
+              "close": 4022.26
+            },
+            {
+              "close_time": "2026-11-10T20:00:00Z",
+              "outer": 4040.64,
+              "turning": 4028.0753968253966,
+              "open": 4022.26,
+              "high": 4024.64,
+              "low": 4014.63,
+              "close": 4018.46
+            },
+            {
+              "close_time": "2026-11-10T21:00:00Z",
+              "outer": 4041.82,
+              "turning": 4028.1019047619047,
+              "open": 4018.46,
+              "high": 4033.43,
+              "low": 4014.8,
+              "close": 4027.34
+            },
+            {
+              "close_time": "2026-11-10T22:00:00Z",
+              "outer": 4043.0,
+              "turning": 4028.128412698413,
+              "open": 4027.34,
+              "high": 4032.43,
+              "low": 4024.31,
+              "close": 4029.55
+            },
+            {
+              "close_time": "2026-11-10T23:00:00Z",
+              "outer": 4044.18,
+              "turning": 4028.1549206349205,
+              "open": 4029.55,
+              "high": 4036.58,
+              "low": 4025.55,
+              "close": 4031.24
+            }
+          ]
+        },
+        {
+          "id": "native_scope:9854c27159daede6b7003583",
+          "direction": "up",
+          "scope_known": "2026-11-09T23:00:00Z",
+          "retired_at": "2026-11-12T16:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-10T12:00:00Z",
+            "2026-11-10T19:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 7,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-11-12T16:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 2
+          },
+          "prior_extreme": 4148.72,
+          "quick_turning_reclaim": "2026-11-10T22:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-11T00:00:00Z",
+          "observation_end_reason": "session_or_data_gap",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "held",
+          "holds_three": "held",
+          "first_close": "2026-11-10T12:00:00Z",
+          "second_close": "2026-11-10T19:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:bd06b95b1623509e626e8d50",
+          "direction": "up",
+          "scope_known": "2026-11-09T23:00:00Z",
+          "retired_at": "2026-11-10T19:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-10T05:00:00Z",
+            "2026-11-10T12:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 7,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4148.72,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-10T16:00:00Z",
+          "observation_end_reason": "three_bar_window_elapsed",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "held",
+          "holds_three": "held",
+          "first_close": "2026-11-10T05:00:00Z",
+          "second_close": "2026-11-10T12:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:bdf626a83118d51d3587a13e",
+          "direction": "up",
+          "scope_known": "2026-11-09T23:00:00Z",
+          "retired_at": "2026-11-12T16:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-12T16:00:00Z",
+            "2026-11-10T19:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 43,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 4148.72,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-12T16:00:00Z",
+          "observation_end_reason": "source_retired",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": false,
+          "holds_two": "source_retired",
+          "holds_three": "source_retired",
+          "first_close": "2026-11-10T19:00:00Z",
+          "second_close": "2026-11-12T16:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": false,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:c18d61f46ed8adeeefb058ff",
+          "direction": "down",
+          "scope_known": "2026-11-03T12:00:00Z",
+          "retired_at": "2026-11-03T16:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-04T08:00:00Z",
+            "2026-11-03T15:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 16,
+          "follow_after_reclaim_across_sessions": null,
+          "prior_extreme": 3895.5,
+          "quick_turning_reclaim": null,
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-04T08:00:00Z",
+          "observation_end_reason": "source_retired",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": false,
+          "holds_two": "source_retired",
+          "holds_three": "source_retired",
+          "first_close": "2026-11-03T15:00:00Z",
+          "second_close": "2026-11-04T08:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": false,
+          "A": "unverified",
+          "source_known_before_first": true
+        },
+        {
+          "id": "native_scope:f9ae21f5a4869fc766a8cd07",
+          "direction": "up",
+          "scope_known": "2026-11-09T23:00:00Z",
+          "retired_at": "2026-11-12T16:00:00Z",
+          "stage_at_window_end": "old_trend_ended_direction_unresolved",
+          "break_times": [
+            "2026-11-10T12:00:00Z",
+            "2026-11-10T19:00:00Z"
+          ],
+          "timing": "known_before_first_break",
+          "bars_between": 7,
+          "follow_after_reclaim_across_sessions": {
+            "end": "2026-11-12T16:00:00Z",
+            "reason": "source_retired",
+            "observed_time_gaps": 2
+          },
+          "prior_extreme": 4148.72,
+          "quick_turning_reclaim": "2026-11-10T22:00:00Z",
+          "new_directional_extreme": null,
+          "observation_end": "2026-11-11T00:00:00Z",
+          "observation_end_reason": "session_or_data_gap",
+          "source_reproduced_before_first": true,
+          "continuous_between_crosses": true,
+          "holds_two": "held",
+          "holds_three": "held",
+          "first_close": "2026-11-10T12:00:00Z",
+          "second_close": "2026-11-10T19:00:00Z",
+          "stage_at_second": "old_trend_ended_direction_unresolved",
+          "both_outside_at_second": true,
+          "relation_at_second": {
+            "outer_outside": true,
+            "turning_outside": true
+          },
+          "source_alive_at_second": true,
+          "A": "unverified",
+          "source_known_before_first": true
+        }
+      ]
+    }
+  ]
+}
