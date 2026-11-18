@@ -1,0 +1,6486 @@
+{
+  "source_sha256": "a804d848479dd1266ba1bceaf5fb9f5e7f1e8acccb7d62e3818ace83b3c5388d",
+  "native_bars": 6000,
+  "all_candidate_events": 1439,
+  "distinct_times": 522,
+  "nonoverlapping_events": 393,
+  "summary": {
+    "all": {
+      "buffered": {
+        "events": 280,
+        "usable": 228,
+        "excluded": 52,
+        "held_all_three": 162,
+        "returned_at_least_once": 66,
+        "third_close_beyond": 171
+      },
+      "geometric_only": {
+        "events": 113,
+        "usable": 81,
+        "excluded": 32,
+        "held_all_three": 41,
+        "returned_at_least_once": 40,
+        "third_close_beyond": 53
+      }
+    },
+    "before_sep02": {
+      "buffered": {
+        "events": 224,
+        "usable": 179,
+        "excluded": 45,
+        "held_all_three": 133,
+        "returned_at_least_once": 46,
+        "third_close_beyond": 138
+      },
+      "geometric_only": {
+        "events": 85,
+        "usable": 62,
+        "excluded": 23,
+        "held_all_three": 34,
+        "returned_at_least_once": 28,
+        "third_close_beyond": 44
+      }
+    },
+    "from_sep02": {
+      "buffered": {
+        "events": 56,
+        "usable": 49,
+        "excluded": 7,
+        "held_all_three": 29,
+        "returned_at_least_once": 20,
+        "third_close_beyond": 33
+      },
+      "geometric_only": {
+        "events": 28,
+        "usable": 19,
+        "excluded": 9,
+        "held_all_three": 7,
+        "returned_at_least_once": 12,
+        "third_close_beyond": 9
+      }
+    }
+  },
+  "separation": "2026-09-02",
+  "target": {
+    "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+    "known": "2026-09-01T02:00:00+00:00",
+    "i": 4767,
+    "clock": "2026-09-01T08:00:00+00:00",
+    "side": -1,
+    "edge": 4440.32,
+    "group": "geometric_only",
+    "outcome": {
+      "outside_count": 3,
+      "last_outside": true,
+      "future_closes": [
+        4440.14,
+        4429.68,
+        4420.32
+      ]
+    }
+  },
+  "events": [
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-11-11T22:00:00+00:00",
+      "known": "2025-11-11T22:00:00+00:00",
+      "i": 60,
+      "clock": "2025-11-12T18:00:00+00:00",
+      "side": 1,
+      "edge": 4127.0471428571445,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4196.56,
+          4199.5,
+          4206.92
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-11-14T07:00:00+00:00",
+      "known": "2025-11-14T07:00:00+00:00",
+      "i": 97,
+      "clock": "2025-11-14T09:00:00+00:00",
+      "side": -1,
+      "edge": 4197.326666666667,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4181.17,
+          4176.13,
+          4169.43
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-11-14T11:00:00+00:00",
+      "known": "2025-11-14T11:00:00+00:00",
+      "i": 103,
+      "clock": "2025-11-14T15:00:00+00:00",
+      "side": -1,
+      "edge": 4164.537499999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4055.8,
+          4082.79,
+          4093.56
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2025-11-15T00:00:00+00:00",
+      "known": "2025-11-15T00:00:00+00:00",
+      "i": 115,
+      "clock": "2025-11-17T04:00:00+00:00",
+      "side": -1,
+      "edge": 4104.416666666667,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4081.72,
+          4082.9,
+          4078.61
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2025-11-17T16:00:00+00:00",
+      "known": "2025-11-17T16:00:00+00:00",
+      "i": 133,
+      "clock": "2025-11-17T22:00:00+00:00",
+      "side": -1,
+      "edge": 4067.3,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2025-11-18T08:00:00+00:00",
+      "known": "2025-11-18T08:00:00+00:00",
+      "i": 146,
+      "clock": "2025-11-18T12:00:00+00:00",
+      "side": 1,
+      "edge": 4004.2157142857145,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4044.21,
+          4039.56,
+          4032.47
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2025-11-19T06:00:00+00:00",
+      "known": "2025-11-19T06:00:00+00:00",
+      "i": 166,
+      "clock": "2025-11-19T09:00:00+00:00",
+      "side": 1,
+      "edge": 4080.2263636363637,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4086.95,
+          4083.3,
+          4113.35
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-11-20T04:00:00+00:00",
+      "known": "2025-11-20T04:00:00+00:00",
+      "i": 196,
+      "clock": "2025-11-20T16:00:00+00:00",
+      "side": 1,
+      "edge": 4073.3512499999997,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4093.39,
+          4070.29,
+          4049.3
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-11-20T18:00:00+00:00",
+      "known": "2025-11-20T18:00:00+00:00",
+      "i": 200,
+      "clock": "2025-11-20T20:00:00+00:00",
+      "side": -1,
+      "edge": 4075.6700000000005,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4060.62,
+          4084.73,
+          4077.3
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-11-20T21:00:00+00:00",
+      "known": "2025-11-20T21:00:00+00:00",
+      "i": 213,
+      "clock": "2025-11-21T10:00:00+00:00",
+      "side": -1,
+      "edge": 4050.794444444445,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4041.08,
+          4050.6,
+          4037.28
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-11-21T18:00:00+00:00",
+      "known": "2025-11-21T18:00:00+00:00",
+      "i": 223,
+      "clock": "2025-11-21T20:00:00+00:00",
+      "side": 1,
+      "edge": 4083.3483333333334,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4082.85,
+          4087.65,
+          4067.34
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2025-11-24T11:00:00+00:00",
+      "known": "2025-11-24T11:00:00+00:00",
+      "i": 239,
+      "clock": "2025-11-24T13:00:00+00:00",
+      "side": 1,
+      "edge": 4060.0476923076926,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4069.99,
+          4080.42,
+          4077.74
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:32:2025-11-25T17:00:00+00:00",
+      "known": "2025-11-25T17:00:00+00:00",
+      "i": 273,
+      "clock": "2025-11-26T00:00:00+00:00",
+      "side": -1,
+      "edge": 4137.929310344828,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-11-25T17:00:00+00:00",
+      "known": "2025-11-25T17:00:00+00:00",
+      "i": 277,
+      "clock": "2025-11-26T05:00:00+00:00",
+      "side": 1,
+      "edge": 4145.214545454546,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4166.04,
+          4161.93,
+          4162.36
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-11-26T09:00:00+00:00",
+      "known": "2025-11-26T09:00:00+00:00",
+      "i": 291,
+      "clock": "2025-11-26T19:00:00+00:00",
+      "side": 1,
+      "edge": 4164.984999999997,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4167.27,
+          4164.76,
+          4163.44
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2025-11-27T05:00:00+00:00",
+      "known": "2025-11-27T05:00:00+00:00",
+      "i": 319,
+      "clock": "2025-11-28T03:00:00+00:00",
+      "side": 1,
+      "edge": 4157.952000000002,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-11-28T10:00:00+00:00",
+      "known": "2025-11-28T10:00:00+00:00",
+      "i": 334,
+      "clock": "2025-11-28T18:00:00+00:00",
+      "side": 1,
+      "edge": 4180.970000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4206.26,
+          4217.0,
+          4220.44
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2025-12-01T12:00:00+00:00",
+      "known": "2025-12-01T12:00:00+00:00",
+      "i": 351,
+      "clock": "2025-12-01T14:00:00+00:00",
+      "side": 1,
+      "edge": 4252.25,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4246.58,
+          4247.39,
+          4240.04
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2025-12-01T22:00:00+00:00",
+      "known": "2025-12-01T22:00:00+00:00",
+      "i": 362,
+      "clock": "2025-12-02T02:00:00+00:00",
+      "side": -1,
+      "edge": 4234.664642857143,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-02T10:00:00+00:00",
+      "known": "2025-12-02T10:00:00+00:00",
+      "i": 373,
+      "clock": "2025-12-02T13:00:00+00:00",
+      "side": -1,
+      "edge": 4209.511999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4205.51,
+          4208.84,
+          4212.47
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2025-12-03T09:00:00+00:00",
+      "known": "2025-12-03T09:00:00+00:00",
+      "i": 394,
+      "clock": "2025-12-03T11:00:00+00:00",
+      "side": -1,
+      "edge": 4212.508461538461,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4202.2,
+          4200.56,
+          4208.88
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2025-12-03T14:00:00+00:00",
+      "known": "2025-12-03T14:00:00+00:00",
+      "i": 405,
+      "clock": "2025-12-03T22:00:00+00:00",
+      "side": -1,
+      "edge": 4210.009999999999,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2025-12-04T00:00:00+00:00",
+      "known": "2025-12-04T00:00:00+00:00",
+      "i": 409,
+      "clock": "2025-12-04T03:00:00+00:00",
+      "side": 1,
+      "edge": 4198.595,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2025-12-04T05:00:00+00:00",
+      "known": "2025-12-04T05:00:00+00:00",
+      "i": 415,
+      "clock": "2025-12-04T09:00:00+00:00",
+      "side": -1,
+      "edge": 4195.95625,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4193.82,
+          4185.03,
+          4199.91
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-04T15:00:00+00:00",
+      "known": "2025-12-04T15:00:00+00:00",
+      "i": 424,
+      "clock": "2025-12-04T18:00:00+00:00",
+      "side": 1,
+      "edge": 4199.606000000001,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4215.76,
+          4216.58,
+          4208.03
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2025-12-04T20:00:00+00:00",
+      "known": "2025-12-04T20:00:00+00:00",
+      "i": 431,
+      "clock": "2025-12-05T02:00:00+00:00",
+      "side": -1,
+      "edge": 4212.444999999999,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-05T04:00:00+00:00",
+      "known": "2025-12-05T04:00:00+00:00",
+      "i": 436,
+      "clock": "2025-12-05T07:00:00+00:00",
+      "side": 1,
+      "edge": 4205.408571428571,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4220.56,
+          4224.57,
+          4224.49
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-05T14:00:00+00:00",
+      "known": "2025-12-05T14:00:00+00:00",
+      "i": 445,
+      "clock": "2025-12-05T16:00:00+00:00",
+      "side": 1,
+      "edge": 4224.22,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4242.29,
+          4243.75,
+          4214.24
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-08T23:00:00+00:00",
+      "known": "2025-12-08T23:00:00+00:00",
+      "i": 481,
+      "clock": "2025-12-09T06:00:00+00:00",
+      "side": -1,
+      "edge": 4198.43,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4186.9,
+          4179.76,
+          4182.15
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2025-12-09T18:00:00+00:00",
+      "known": "2025-12-09T18:00:00+00:00",
+      "i": 498,
+      "clock": "2025-12-09T23:00:00+00:00",
+      "side": 1,
+      "edge": 4210.355,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2025-12-09T20:00:00+00:00",
+      "known": "2025-12-09T20:00:00+00:00",
+      "i": 502,
+      "clock": "2025-12-10T04:00:00+00:00",
+      "side": -1,
+      "edge": 4213.9475,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          4217.13,
+          4206.42,
+          4207.09
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2025-12-10T07:00:00+00:00",
+      "known": "2025-12-10T07:00:00+00:00",
+      "i": 508,
+      "clock": "2025-12-10T10:00:00+00:00",
+      "side": -1,
+      "edge": 4210.49,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4198.08,
+          4194.4,
+          4193.26
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-10T14:00:00+00:00",
+      "known": "2025-12-10T14:00:00+00:00",
+      "i": 518,
+      "clock": "2025-12-10T20:00:00+00:00",
+      "side": 1,
+      "edge": 4197.49,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          4194.42,
+          4216.49,
+          4229.77
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2025-12-11T14:00:00+00:00",
+      "known": "2025-12-11T14:00:00+00:00",
+      "i": 538,
+      "clock": "2025-12-11T17:00:00+00:00",
+      "side": 1,
+      "edge": 4216.281111111111,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4256.02,
+          4273.6,
+          4278.73
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-16T00:00:00+00:00",
+      "known": "2025-12-16T00:00:00+00:00",
+      "i": 593,
+      "clock": "2025-12-16T03:00:00+00:00",
+      "side": -1,
+      "edge": 4310.255,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:32:2025-12-16T05:00:00+00:00",
+      "known": "2025-12-16T05:00:00+00:00",
+      "i": 597,
+      "clock": "2025-12-16T07:00:00+00:00",
+      "side": -1,
+      "edge": 4292.469999999999,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4284.0,
+          4289.29,
+          4287.7
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2025-12-16T05:00:00+00:00",
+      "known": "2025-12-16T05:00:00+00:00",
+      "i": 603,
+      "clock": "2025-12-16T13:00:00+00:00",
+      "side": -1,
+      "edge": 4282.435263157895,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4278.52,
+          4294.52,
+          4313.1
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2025-12-16T20:00:00+00:00",
+      "known": "2025-12-16T20:00:00+00:00",
+      "i": 614,
+      "clock": "2025-12-17T00:00:00+00:00",
+      "side": -1,
+      "edge": 4308.740000000001,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2025-12-16T15:00:00+00:00",
+      "known": "2025-12-16T15:00:00+00:00",
+      "i": 621,
+      "clock": "2025-12-17T08:00:00+00:00",
+      "side": 1,
+      "edge": 4323.160000000005,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4328.72,
+          4317.93,
+          4319.23
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2025-12-17T13:00:00+00:00",
+      "known": "2025-12-17T13:00:00+00:00",
+      "i": 628,
+      "clock": "2025-12-17T15:00:00+00:00",
+      "side": 1,
+      "edge": 4308.925000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4342.19,
+          4338.3,
+          4330.32
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2025-12-17T12:00:00+00:00",
+      "known": "2025-12-17T12:00:00+00:00",
+      "i": 641,
+      "clock": "2025-12-18T05:00:00+00:00",
+      "side": -1,
+      "edge": 4337.982499999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4333.24,
+          4331.95,
+          4333.36
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2025-12-17T22:00:00+00:00",
+      "known": "2025-12-17T22:00:00+00:00",
+      "i": 649,
+      "clock": "2025-12-18T13:00:00+00:00",
+      "side": -1,
+      "edge": 4327.545294117646,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4325.62,
+          4320.83,
+          4336.63
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-17T22:00:00+00:00",
+      "known": "2025-12-17T22:00:00+00:00",
+      "i": 655,
+      "clock": "2025-12-18T19:00:00+00:00",
+      "side": 1,
+      "edge": 4330.060000000002,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4333.38,
+          4331.81,
+          4325.02
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2025-12-19T08:00:00+00:00",
+      "known": "2025-12-19T08:00:00+00:00",
+      "i": 676,
+      "clock": "2025-12-19T17:00:00+00:00",
+      "side": 1,
+      "edge": 4326.725,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4347.91,
+          4349.88,
+          4353.48
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2025-12-19T22:00:00+00:00",
+      "known": "2025-12-19T22:00:00+00:00",
+      "i": 685,
+      "clock": "2025-12-22T03:00:00+00:00",
+      "side": 1,
+      "edge": 4352.972,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2025-12-23T19:00:00+00:00",
+      "known": "2025-12-23T19:00:00+00:00",
+      "i": 731,
+      "clock": "2025-12-24T03:00:00+00:00",
+      "side": 1,
+      "edge": 4496.952727272726,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2025-12-24T08:00:00+00:00",
+      "known": "2025-12-24T08:00:00+00:00",
+      "i": 738,
+      "clock": "2025-12-24T10:00:00+00:00",
+      "side": 1,
+      "edge": 4476.999999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4482.47,
+          4494.75,
+          4489.47
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2025-12-24T14:00:00+00:00",
+      "known": "2025-12-24T14:00:00+00:00",
+      "i": 749,
+      "clock": "2025-12-24T21:00:00+00:00",
+      "side": 1,
+      "edge": 4476.81111111111,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-26T06:00:00+00:00",
+      "known": "2025-12-26T06:00:00+00:00",
+      "i": 757,
+      "clock": "2025-12-26T09:00:00+00:00",
+      "side": -1,
+      "edge": 4517.501428571429,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          4511.04,
+          4518.71,
+          4512.78
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2025-12-26T11:00:00+00:00",
+      "known": "2025-12-26T11:00:00+00:00",
+      "i": 761,
+      "clock": "2025-12-26T13:00:00+00:00",
+      "side": -1,
+      "edge": 4522.067500000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4509.79,
+          4508.98,
+          4525.14
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2025-12-26T15:00:00+00:00",
+      "known": "2025-12-26T15:00:00+00:00",
+      "i": 765,
+      "clock": "2025-12-26T17:00:00+00:00",
+      "side": 1,
+      "edge": 4520.1177777777775,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4546.49,
+          4536.48,
+          4519.38
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-26T23:00:00+00:00",
+      "known": "2025-12-26T23:00:00+00:00",
+      "i": 773,
+      "clock": "2025-12-29T02:00:00+00:00",
+      "side": 1,
+      "edge": 4521.35,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2025-12-30T17:00:00+00:00",
+      "known": "2025-12-30T17:00:00+00:00",
+      "i": 816,
+      "clock": "2025-12-30T22:00:00+00:00",
+      "side": -1,
+      "edge": 4370.109999999999,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2025-12-31T02:00:00+00:00",
+      "known": "2025-12-31T02:00:00+00:00",
+      "i": 825,
+      "clock": "2025-12-31T08:00:00+00:00",
+      "side": -1,
+      "edge": 4341.500000000003,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4328.07,
+          4331.11,
+          4307.47
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-31T14:00:00+00:00",
+      "known": "2025-12-31T14:00:00+00:00",
+      "i": 834,
+      "clock": "2025-12-31T17:00:00+00:00",
+      "side": 1,
+      "edge": 4337.178181818183,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4337.4,
+          4323.01,
+          4321.91
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-31T18:00:00+00:00",
+      "known": "2025-12-31T18:00:00+00:00",
+      "i": 838,
+      "clock": "2025-12-31T21:00:00+00:00",
+      "side": -1,
+      "edge": 4332.329999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4311.37,
+          4313.3,
+          4319.01
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2025-12-31T23:00:00+00:00",
+      "known": "2025-12-31T23:00:00+00:00",
+      "i": 843,
+      "clock": "2026-01-02T03:00:00+00:00",
+      "side": 1,
+      "edge": 4339.642307692307,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-01-07T06:00:00+00:00",
+      "known": "2026-01-07T06:00:00+00:00",
+      "i": 918,
+      "clock": "2026-01-07T09:00:00+00:00",
+      "side": -1,
+      "edge": 4464.295333333333,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          4461.1,
+          4468.32,
+          4463.42
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-01-07T13:00:00+00:00",
+      "known": "2026-01-07T13:00:00+00:00",
+      "i": 929,
+      "clock": "2026-01-07T20:00:00+00:00",
+      "side": 1,
+      "edge": 4449.3099999999995,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4452.11,
+          4457.01,
+          4451.99
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-01-08T06:00:00+00:00",
+      "known": "2026-01-08T06:00:00+00:00",
+      "i": 940,
+      "clock": "2026-01-08T08:00:00+00:00",
+      "side": -1,
+      "edge": 4436.253000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4433.24,
+          4431.06,
+          4431.65
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-01-08T12:00:00+00:00",
+      "known": "2026-01-08T12:00:00+00:00",
+      "i": 951,
+      "clock": "2026-01-08T19:00:00+00:00",
+      "side": 1,
+      "edge": 4444.943636363637,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4463.56,
+          4449.61,
+          4452.22
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-01-09T15:00:00+00:00",
+      "known": "2026-01-09T15:00:00+00:00",
+      "i": 972,
+      "clock": "2026-01-09T17:00:00+00:00",
+      "side": 1,
+      "edge": 4476.365,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4512.35,
+          4506.49,
+          4484.59
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-01-13T03:00:00+00:00",
+      "known": "2026-01-13T03:00:00+00:00",
+      "i": 1008,
+      "clock": "2026-01-13T07:00:00+00:00",
+      "side": 1,
+      "edge": 4588.899999999998,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4592.18,
+          4581.82,
+          4580.72
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-01-13T09:00:00+00:00",
+      "known": "2026-01-13T09:00:00+00:00",
+      "i": 1016,
+      "clock": "2026-01-13T15:00:00+00:00",
+      "side": 1,
+      "edge": 4585.562499999999,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4611.58,
+          4629.94,
+          4619.23
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-01-14T21:00:00+00:00",
+      "known": "2026-01-14T21:00:00+00:00",
+      "i": 1052,
+      "clock": "2026-01-15T05:00:00+00:00",
+      "side": -1,
+      "edge": 4608.502727272727,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4592.34,
+          4592.23,
+          4595.27
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-01-15T11:00:00+00:00",
+      "known": "2026-01-15T11:00:00+00:00",
+      "i": 1060,
+      "clock": "2026-01-15T13:00:00+00:00",
+      "side": 1,
+      "edge": 4605.6109090909085,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4619.16,
+          4614.06,
+          4588.24
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-01-15T14:00:00+00:00",
+      "known": "2026-01-15T14:00:00+00:00",
+      "i": 1064,
+      "clock": "2026-01-15T17:00:00+00:00",
+      "side": -1,
+      "edge": 4617.763999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4615.58,
+          4605.72,
+          4616.64
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-01-15T18:00:00+00:00",
+      "known": "2026-01-15T18:00:00+00:00",
+      "i": 1068,
+      "clock": "2026-01-15T21:00:00+00:00",
+      "side": 1,
+      "edge": 4613.826666666667,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          4615.89,
+          4605.8,
+          4615.99
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-01-15T23:00:00+00:00",
+      "known": "2026-01-15T23:00:00+00:00",
+      "i": 1087,
+      "clock": "2026-01-16T17:00:00+00:00",
+      "side": 1,
+      "edge": 4600.689999999997,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4571.13,
+          4591.37,
+          4581.4
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-01-15T22:00:00+00:00",
+      "known": "2026-01-15T22:00:00+00:00",
+      "i": 1091,
+      "clock": "2026-01-16T21:00:00+00:00",
+      "side": -1,
+      "edge": 4584.8099999999995,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4590.67,
+          4581.92,
+          4595.62
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-01-20T05:00:00+00:00",
+      "known": "2026-01-20T05:00:00+00:00",
+      "i": 1121,
+      "clock": "2026-01-20T07:00:00+00:00",
+      "side": 1,
+      "edge": 4679.590555555556,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4714.51,
+          4712.46,
+          4716.21
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-01-21T23:00:00+00:00",
+      "known": "2026-01-21T23:00:00+00:00",
+      "i": 1179,
+      "clock": "2026-01-22T19:00:00+00:00",
+      "side": 1,
+      "edge": 4856.847500000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4904.55,
+          4916.02,
+          4911.84
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-01-23T09:00:00+00:00",
+      "known": "2026-01-23T09:00:00+00:00",
+      "i": 1206,
+      "clock": "2026-01-23T23:00:00+00:00",
+      "side": 1,
+      "edge": 4967.284999999998,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-01-27T03:00:00+00:00",
+      "known": "2026-01-27T03:00:00+00:00",
+      "i": 1252,
+      "clock": "2026-01-27T23:00:00+00:00",
+      "side": 1,
+      "edge": 5088.019,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-01-30T17:00:00+00:00",
+      "known": "2026-01-30T17:00:00+00:00",
+      "i": 1318,
+      "clock": "2026-01-30T20:00:00+00:00",
+      "side": -1,
+      "edge": 5042.259999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4880.73,
+          4932.94,
+          4847.15
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-02-02T20:00:00+00:00",
+      "known": "2026-02-02T20:00:00+00:00",
+      "i": 1345,
+      "clock": "2026-02-03T00:00:00+00:00",
+      "side": -1,
+      "edge": 4693.91,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-02-03T05:00:00+00:00",
+      "known": "2026-02-03T05:00:00+00:00",
+      "i": 1353,
+      "clock": "2026-02-03T09:00:00+00:00",
+      "side": 1,
+      "edge": 4817.018181818182,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4917.31,
+          4912.57,
+          4916.13
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-02-03T14:00:00+00:00",
+      "known": "2026-02-03T14:00:00+00:00",
+      "i": 1360,
+      "clock": "2026-02-03T16:00:00+00:00",
+      "side": 1,
+      "edge": 4901.550000000001,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4917.14,
+          4935.35,
+          4955.56
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-02-03T18:00:00+00:00",
+      "known": "2026-02-03T18:00:00+00:00",
+      "i": 1371,
+      "clock": "2026-02-04T04:00:00+00:00",
+      "side": 1,
+      "edge": 4955.588,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5040.34,
+          5070.14,
+          5080.6
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-02-04T12:00:00+00:00",
+      "known": "2026-02-04T12:00:00+00:00",
+      "i": 1383,
+      "clock": "2026-02-04T16:00:00+00:00",
+      "side": -1,
+      "edge": 5065.214166666668,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4985.66,
+          4920.47,
+          4904.54
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-02-05T00:00:00+00:00",
+      "known": "2026-02-05T00:00:00+00:00",
+      "i": 1395,
+      "clock": "2026-02-05T05:00:00+00:00",
+      "side": -1,
+      "edge": 5018.46,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4880.68,
+          4863.8,
+          4896.13
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-02-05T09:00:00+00:00",
+      "known": "2026-02-05T09:00:00+00:00",
+      "i": 1403,
+      "clock": "2026-02-05T13:00:00+00:00",
+      "side": -1,
+      "edge": 4920.810000000002,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4868.42,
+          4853.89,
+          4835.54
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-02-05T17:00:00+00:00",
+      "known": "2026-02-05T17:00:00+00:00",
+      "i": 1414,
+      "clock": "2026-02-06T00:00:00+00:00",
+      "side": -1,
+      "edge": 4812.836000000001,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-02-09T13:00:00+00:00",
+      "known": "2026-02-09T13:00:00+00:00",
+      "i": 1454,
+      "clock": "2026-02-09T18:00:00+00:00",
+      "side": 1,
+      "edge": 5031.340000000002,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5073.49,
+          5046.34,
+          5062.81
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-02-10T06:00:00+00:00",
+      "known": "2026-02-10T06:00:00+00:00",
+      "i": 1470,
+      "clock": "2026-02-10T11:00:00+00:00",
+      "side": 1,
+      "edge": 5019.848000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5046.94,
+          5047.04,
+          5056.11
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-02-10T13:00:00+00:00",
+      "known": "2026-02-10T13:00:00+00:00",
+      "i": 1485,
+      "clock": "2026-02-11T03:00:00+00:00",
+      "side": 1,
+      "edge": 5036.414999999999,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-02-11T07:00:00+00:00",
+      "known": "2026-02-11T07:00:00+00:00",
+      "i": 1492,
+      "clock": "2026-02-11T10:00:00+00:00",
+      "side": 1,
+      "edge": 5055.053333333333,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          5053.86,
+          5062.87,
+          5093.13
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-02-10T19:00:00+00:00",
+      "known": "2026-02-10T19:00:00+00:00",
+      "i": 1496,
+      "clock": "2026-02-11T14:00:00+00:00",
+      "side": 1,
+      "edge": 5076.851428571429,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          5083.63,
+          5065.74,
+          5059.54
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-02-11T21:00:00+00:00",
+      "known": "2026-02-11T21:00:00+00:00",
+      "i": 1506,
+      "clock": "2026-02-12T00:00:00+00:00",
+      "side": 1,
+      "edge": 5082.488,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-02-12T09:00:00+00:00",
+      "known": "2026-02-12T09:00:00+00:00",
+      "i": 1519,
+      "clock": "2026-02-12T14:00:00+00:00",
+      "side": -1,
+      "edge": 5067.085,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          5052.69,
+          5075.39,
+          5044.41
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-02-12T09:00:00+00:00",
+      "known": "2026-02-12T09:00:00+00:00",
+      "i": 1525,
+      "clock": "2026-02-12T20:00:00+00:00",
+      "side": -1,
+      "edge": 5040.339999999998,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4935.63,
+          4945.65,
+          4915.01
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-02-16T08:00:00+00:00",
+      "known": "2026-02-16T08:00:00+00:00",
+      "i": 1562,
+      "clock": "2026-02-16T11:00:00+00:00",
+      "side": 1,
+      "edge": 4995.720000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5013.63,
+          5006.08,
+          5004.42
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-02-16T14:00:00+00:00",
+      "known": "2026-02-16T14:00:00+00:00",
+      "i": 1573,
+      "clock": "2026-02-16T22:00:00+00:00",
+      "side": 1,
+      "edge": 4990.903636363636,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:48:2026-02-17T06:00:00+00:00",
+      "known": "2026-02-17T06:00:00+00:00",
+      "i": 1581,
+      "clock": "2026-02-17T09:00:00+00:00",
+      "side": -1,
+      "edge": 4924.125555555556,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4917.22,
+          4920.8,
+          4925.99
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-02-17T21:00:00+00:00",
+      "known": "2026-02-17T21:00:00+00:00",
+      "i": 1601,
+      "clock": "2026-02-18T06:00:00+00:00",
+      "side": 1,
+      "edge": 4883.843076923078,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4934.09,
+          4933.43,
+          4930.68
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-02-17T21:00:00+00:00",
+      "known": "2026-02-17T21:00:00+00:00",
+      "i": 1611,
+      "clock": "2026-02-18T16:00:00+00:00",
+      "side": 1,
+      "edge": 4940.444999999998,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4991.94,
+          4998.05,
+          5000.46
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-02-18T22:00:00+00:00",
+      "known": "2026-02-18T22:00:00+00:00",
+      "i": 1625,
+      "clock": "2026-02-19T07:00:00+00:00",
+      "side": 1,
+      "edge": 4968.044999999998,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4997.09,
+          5018.51,
+          5010.32
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-02-19T19:00:00+00:00",
+      "known": "2026-02-19T19:00:00+00:00",
+      "i": 1648,
+      "clock": "2026-02-20T07:00:00+00:00",
+      "side": -1,
+      "edge": 5001.221842105263,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          5011.93,
+          5020.79,
+          5006.5
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-02-19T19:00:00+00:00",
+      "known": "2026-02-19T19:00:00+00:00",
+      "i": 1653,
+      "clock": "2026-02-20T12:00:00+00:00",
+      "side": 1,
+      "edge": 5022.937142857143,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          5034.76,
+          5017.38,
+          5025.26
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-02-24T14:00:00+00:00",
+      "known": "2026-02-24T14:00:00+00:00",
+      "i": 1703,
+      "clock": "2026-02-24T16:00:00+00:00",
+      "side": -1,
+      "edge": 5162.280000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5128.54,
+          5150.43,
+          5141.96
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-02-25T03:00:00+00:00",
+      "known": "2026-02-25T03:00:00+00:00",
+      "i": 1715,
+      "clock": "2026-02-25T05:00:00+00:00",
+      "side": 1,
+      "edge": 5154.951904761904,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5182.06,
+          5182.78,
+          5201.81
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-02-25T12:00:00+00:00",
+      "known": "2026-02-25T12:00:00+00:00",
+      "i": 1726,
+      "clock": "2026-02-25T16:00:00+00:00",
+      "side": 1,
+      "edge": 5175.463333333335,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5191.34,
+          5194.9,
+          5212.33
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-02-26T00:00:00+00:00",
+      "known": "2026-02-26T00:00:00+00:00",
+      "i": 1738,
+      "clock": "2026-02-26T05:00:00+00:00",
+      "side": 1,
+      "edge": 5180.58,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5192.77,
+          5192.78,
+          5198.5
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-02-26T10:00:00+00:00",
+      "known": "2026-02-26T10:00:00+00:00",
+      "i": 1747,
+      "clock": "2026-02-26T14:00:00+00:00",
+      "side": -1,
+      "edge": 5191.430000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5183.87,
+          5166.06,
+          5164.75
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-02-26T16:00:00+00:00",
+      "known": "2026-02-26T16:00:00+00:00",
+      "i": 1761,
+      "clock": "2026-02-27T05:00:00+00:00",
+      "side": 1,
+      "edge": 5183.33,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          5184.09,
+          5181.8,
+          5197.98
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-02-27T05:00:00+00:00",
+      "known": "2026-02-27T05:00:00+00:00",
+      "i": 1766,
+      "clock": "2026-02-27T10:00:00+00:00",
+      "side": -1,
+      "edge": 5191.133333333333,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5178.87,
+          5176.14,
+          5177.7
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-02-27T12:00:00+00:00",
+      "known": "2026-02-27T12:00:00+00:00",
+      "i": 1773,
+      "clock": "2026-02-27T17:00:00+00:00",
+      "side": 1,
+      "edge": 5199.9662499999995,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5239.46,
+          5229.19,
+          5234.78
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-03T06:00:00+00:00",
+      "known": "2026-03-03T06:00:00+00:00",
+      "i": 1811,
+      "clock": "2026-03-03T09:00:00+00:00",
+      "side": -1,
+      "edge": 5365.068888888888,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5327.75,
+          5295.78,
+          5275.11
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-03-02T20:00:00+00:00",
+      "known": "2026-03-02T20:00:00+00:00",
+      "i": 1815,
+      "clock": "2026-03-03T13:00:00+00:00",
+      "side": -1,
+      "edge": 5291.056818181817,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5144.64,
+          5224.63,
+          5156.81
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-04T02:00:00+00:00",
+      "known": "2026-03-04T02:00:00+00:00",
+      "i": 1833,
+      "clock": "2026-03-04T08:00:00+00:00",
+      "side": -1,
+      "edge": 5185.463333333333,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5160.52,
+          5168.21,
+          5167.57
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-03-04T14:00:00+00:00",
+      "known": "2026-03-04T14:00:00+00:00",
+      "i": 1841,
+      "clock": "2026-03-04T16:00:00+00:00",
+      "side": -1,
+      "edge": 5183.12,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5147.24,
+          5151.33,
+          5149.87
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-03-04T19:00:00+00:00",
+      "known": "2026-03-04T19:00:00+00:00",
+      "i": 1846,
+      "clock": "2026-03-04T21:00:00+00:00",
+      "side": -1,
+      "edge": 5148.980434782608,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5137.89,
+          5134.73,
+          5141.32
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-03-04T23:00:00+00:00",
+      "known": "2026-03-04T23:00:00+00:00",
+      "i": 1851,
+      "clock": "2026-03-05T03:00:00+00:00",
+      "side": 1,
+      "edge": 5146.112580645161,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:32:2026-03-05T00:00:00+00:00",
+      "known": "2026-03-05T00:00:00+00:00",
+      "i": 1865,
+      "clock": "2026-03-05T17:00:00+00:00",
+      "side": -1,
+      "edge": 5143.281666666666,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5102.55,
+          5077.76,
+          5063.18
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-03-06T05:00:00+00:00",
+      "known": "2026-03-06T05:00:00+00:00",
+      "i": 1886,
+      "clock": "2026-03-06T15:00:00+00:00",
+      "side": -1,
+      "edge": 5095.388333333334,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          5085.15,
+          5130.23,
+          5141.72
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-03-06T22:00:00+00:00",
+      "known": "2026-03-06T22:00:00+00:00",
+      "i": 1899,
+      "clock": "2026-03-09T05:00:00+00:00",
+      "side": -1,
+      "edge": 5075.386666666667,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          5094.53,
+          5091.5,
+          5090.26
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-03-09T10:00:00+00:00",
+      "known": "2026-03-09T10:00:00+00:00",
+      "i": 1906,
+      "clock": "2026-03-09T12:00:00+00:00",
+      "side": -1,
+      "edge": 5130.7525,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5105.29,
+          5087.26,
+          5088.05
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-09T16:00:00+00:00",
+      "known": "2026-03-09T16:00:00+00:00",
+      "i": 1912,
+      "clock": "2026-03-09T18:00:00+00:00",
+      "side": -1,
+      "edge": 5099.225,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": true,
+        "future_closes": [
+          5099.63,
+          5104.72,
+          5096.07
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-09T19:00:00+00:00",
+      "known": "2026-03-09T19:00:00+00:00",
+      "i": 1917,
+      "clock": "2026-03-09T23:00:00+00:00",
+      "side": 1,
+      "edge": 5100.801052631579,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-03-10T04:00:00+00:00",
+      "known": "2026-03-10T04:00:00+00:00",
+      "i": 1923,
+      "clock": "2026-03-10T06:00:00+00:00",
+      "side": 1,
+      "edge": 5150.827499999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5157.62,
+          5163.92,
+          5178.01
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-03-10T16:00:00+00:00",
+      "known": "2026-03-10T16:00:00+00:00",
+      "i": 1935,
+      "clock": "2026-03-10T18:00:00+00:00",
+      "side": 1,
+      "edge": 5188.73,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5228.66,
+          5227.71,
+          5227.7
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-11T06:00:00+00:00",
+      "known": "2026-03-11T06:00:00+00:00",
+      "i": 1966,
+      "clock": "2026-03-12T03:00:00+00:00",
+      "side": -1,
+      "edge": 5172.584285714285,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-03-12T07:00:00+00:00",
+      "known": "2026-03-12T07:00:00+00:00",
+      "i": 1972,
+      "clock": "2026-03-12T09:00:00+00:00",
+      "side": -1,
+      "edge": 5157.6975,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          5166.2,
+          5182.39,
+          5178.15
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-12T16:00:00+00:00",
+      "known": "2026-03-12T16:00:00+00:00",
+      "i": 1981,
+      "clock": "2026-03-12T18:00:00+00:00",
+      "side": -1,
+      "edge": 5158.336,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5132.39,
+          5123.49,
+          5105.37
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-13T17:00:00+00:00",
+      "known": "2026-03-13T17:00:00+00:00",
+      "i": 2005,
+      "clock": "2026-03-13T19:00:00+00:00",
+      "side": -1,
+      "edge": 5065.804545454545,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5045.94,
+          5046.3,
+          5046.58
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-03-16T19:00:00+00:00",
+      "known": "2026-03-16T19:00:00+00:00",
+      "i": 2038,
+      "clock": "2026-03-17T06:00:00+00:00",
+      "side": 1,
+      "edge": 5001.086400000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          5027.59,
+          5037.94,
+          5020.81
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-17T13:00:00+00:00",
+      "known": "2026-03-17T13:00:00+00:00",
+      "i": 2049,
+      "clock": "2026-03-17T17:00:00+00:00",
+      "side": 1,
+      "edge": 5004.603333333333,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          5007.61,
+          4997.93,
+          5001.92
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-17T19:00:00+00:00",
+      "known": "2026-03-17T19:00:00+00:00",
+      "i": 2058,
+      "clock": "2026-03-18T03:00:00+00:00",
+      "side": -1,
+      "edge": 5004.611176470588,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-03-17T10:00:00+00:00",
+      "known": "2026-03-17T10:00:00+00:00",
+      "i": 2070,
+      "clock": "2026-03-18T15:00:00+00:00",
+      "side": -1,
+      "edge": 4990.268823529411,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4881.56,
+          4878.1,
+          4869.56
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-03-20T11:00:00+00:00",
+      "known": "2026-03-20T11:00:00+00:00",
+      "i": 2115,
+      "clock": "2026-03-20T14:00:00+00:00",
+      "side": -1,
+      "edge": 4701.0824999999995,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4671.7,
+          4678.32,
+          4616.43
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-20T13:00:00+00:00",
+      "known": "2026-03-20T13:00:00+00:00",
+      "i": 2119,
+      "clock": "2026-03-20T18:00:00+00:00",
+      "side": -1,
+      "edge": 4649.759999999992,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4553.44,
+          4583.27,
+          4573.45
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-03-20T20:00:00+00:00",
+      "known": "2026-03-20T20:00:00+00:00",
+      "i": 2124,
+      "clock": "2026-03-20T23:00:00+00:00",
+      "side": -1,
+      "edge": 4546.843599999999,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-24T03:00:00+00:00",
+      "known": "2026-03-24T03:00:00+00:00",
+      "i": 2152,
+      "clock": "2026-03-24T05:00:00+00:00",
+      "side": -1,
+      "edge": 4416.694285714286,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4366.17,
+          4347.31,
+          4333.49
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-24T07:00:00+00:00",
+      "known": "2026-03-24T07:00:00+00:00",
+      "i": 2158,
+      "clock": "2026-03-24T11:00:00+00:00",
+      "side": 1,
+      "edge": 4383.360000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4412.07,
+          4426.38,
+          4438.8
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-03-24T07:00:00+00:00",
+      "known": "2026-03-24T07:00:00+00:00",
+      "i": 2163,
+      "clock": "2026-03-24T16:00:00+00:00",
+      "side": -1,
+      "edge": 4420.552222222223,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4381.57,
+          4415.82,
+          4411.6
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-03-24T16:00:00+00:00",
+      "known": "2026-03-24T16:00:00+00:00",
+      "i": 2169,
+      "clock": "2026-03-24T22:00:00+00:00",
+      "side": -1,
+      "edge": 4395.955000000001,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-25T14:00:00+00:00",
+      "known": "2026-03-25T14:00:00+00:00",
+      "i": 2189,
+      "clock": "2026-03-25T19:00:00+00:00",
+      "side": 1,
+      "edge": 4538.1557142857155,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4555.31,
+          4550.71,
+          4538.22
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-03-25T18:00:00+00:00",
+      "known": "2026-03-25T18:00:00+00:00",
+      "i": 2200,
+      "clock": "2026-03-26T07:00:00+00:00",
+      "side": -1,
+      "edge": 4540.220000000002,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4520.56,
+          4439.0,
+          4456.53
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-26T17:00:00+00:00",
+      "known": "2026-03-26T17:00:00+00:00",
+      "i": 2214,
+      "clock": "2026-03-26T21:00:00+00:00",
+      "side": -1,
+      "edge": 4417.18,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4394.56,
+          4363.91,
+          4378.39
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-27T05:00:00+00:00",
+      "known": "2026-03-27T05:00:00+00:00",
+      "i": 2223,
+      "clock": "2026-03-27T07:00:00+00:00",
+      "side": 1,
+      "edge": 4426.332,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4446.18,
+          4454.69,
+          4459.55
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-03-27T08:00:00+00:00",
+      "known": "2026-03-27T08:00:00+00:00",
+      "i": 2229,
+      "clock": "2026-03-27T13:00:00+00:00",
+      "side": -1,
+      "edge": 4448.579999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4414.83,
+          4420.09,
+          4437.94
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-27T16:00:00+00:00",
+      "known": "2026-03-27T16:00:00+00:00",
+      "i": 2235,
+      "clock": "2026-03-27T19:00:00+00:00",
+      "side": 1,
+      "edge": 4471.868571428572,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4516.2,
+          4486.69,
+          4516.8
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-03-30T19:00:00+00:00",
+      "known": "2026-03-30T19:00:00+00:00",
+      "i": 2261,
+      "clock": "2026-03-30T22:00:00+00:00",
+      "side": -1,
+      "edge": 4538.931428571429,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-03-30T18:00:00+00:00",
+      "known": "2026-03-30T18:00:00+00:00",
+      "i": 2268,
+      "clock": "2026-03-31T06:00:00+00:00",
+      "side": 1,
+      "edge": 4566.96,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": true,
+        "future_closes": [
+          4557.28,
+          4564.76,
+          4568.94
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-02T00:00:00+00:00",
+      "known": "2026-04-02T00:00:00+00:00",
+      "i": 2311,
+      "clock": "2026-04-02T03:00:00+00:00",
+      "side": 1,
+      "edge": 4756.0,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-04-02T19:00:00+00:00",
+      "known": "2026-04-02T19:00:00+00:00",
+      "i": 2332,
+      "clock": "2026-04-03T00:00:00+00:00",
+      "side": 1,
+      "edge": 4659.268,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-04-06T06:00:00+00:00",
+      "known": "2026-04-06T06:00:00+00:00",
+      "i": 2344,
+      "clock": "2026-04-06T13:00:00+00:00",
+      "side": 1,
+      "edge": 4692.945,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4689.76,
+          4678.05,
+          4675.88
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-04-06T15:00:00+00:00",
+      "known": "2026-04-06T15:00:00+00:00",
+      "i": 2348,
+      "clock": "2026-04-06T17:00:00+00:00",
+      "side": -1,
+      "edge": 4693.136666666667,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4682.79,
+          4668.18,
+          4660.51
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-06T20:00:00+00:00",
+      "known": "2026-04-06T20:00:00+00:00",
+      "i": 2353,
+      "clock": "2026-04-06T22:00:00+00:00",
+      "side": -1,
+      "edge": 4662.214,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-06T23:00:00+00:00",
+      "known": "2026-04-06T23:00:00+00:00",
+      "i": 2358,
+      "clock": "2026-04-07T04:00:00+00:00",
+      "side": -1,
+      "edge": 4661.686470588235,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4626.97,
+          4650.55,
+          4649.62
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-04-06T19:00:00+00:00",
+      "known": "2026-04-06T19:00:00+00:00",
+      "i": 2367,
+      "clock": "2026-04-07T13:00:00+00:00",
+      "side": 1,
+      "edge": 4665.815999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4652.04,
+          4659.63,
+          4651.57
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-07T14:00:00+00:00",
+      "known": "2026-04-07T14:00:00+00:00",
+      "i": 2378,
+      "clock": "2026-04-08T00:00:00+00:00",
+      "side": 1,
+      "edge": 4692.3261111111115,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-04-08T15:00:00+00:00",
+      "known": "2026-04-08T15:00:00+00:00",
+      "i": 2395,
+      "clock": "2026-04-08T18:00:00+00:00",
+      "side": -1,
+      "edge": 4805.529473684211,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4756.63,
+          4760.59,
+          4733.92
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-04-08T19:00:00+00:00",
+      "known": "2026-04-08T19:00:00+00:00",
+      "i": 2399,
+      "clock": "2026-04-08T22:00:00+00:00",
+      "side": -1,
+      "edge": 4754.111304347825,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-09T13:00:00+00:00",
+      "known": "2026-04-09T13:00:00+00:00",
+      "i": 2415,
+      "clock": "2026-04-09T15:00:00+00:00",
+      "side": 1,
+      "edge": 4732.445,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4746.02,
+          4764.25,
+          4768.67
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-04-09T18:00:00+00:00",
+      "known": "2026-04-09T18:00:00+00:00",
+      "i": 2420,
+      "clock": "2026-04-09T20:00:00+00:00",
+      "side": 1,
+      "edge": 4773.39125,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4797.85,
+          4772.26,
+          4768.83
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-04-10T03:00:00+00:00",
+      "known": "2026-04-10T03:00:00+00:00",
+      "i": 2431,
+      "clock": "2026-04-10T08:00:00+00:00",
+      "side": 1,
+      "edge": 4750.655,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4765.79,
+          4746.3,
+          4749.67
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:32:2026-04-10T08:00:00+00:00",
+      "known": "2026-04-10T08:00:00+00:00",
+      "i": 2437,
+      "clock": "2026-04-10T14:00:00+00:00",
+      "side": 1,
+      "edge": 4746.679999999999,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4768.23,
+          4771.76,
+          4774.96
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-04-10T21:00:00+00:00",
+      "known": "2026-04-10T21:00:00+00:00",
+      "i": 2448,
+      "clock": "2026-04-13T02:00:00+00:00",
+      "side": -1,
+      "edge": 4757.8575,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-14T00:00:00+00:00",
+      "known": "2026-04-14T00:00:00+00:00",
+      "i": 2472,
+      "clock": "2026-04-14T03:00:00+00:00",
+      "side": 1,
+      "edge": 4743.504999999999,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-04-15T19:00:00+00:00",
+      "known": "2026-04-15T19:00:00+00:00",
+      "i": 2514,
+      "clock": "2026-04-15T22:00:00+00:00",
+      "side": -1,
+      "edge": 4800.159545454545,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-15T20:00:00+00:00",
+      "known": "2026-04-15T20:00:00+00:00",
+      "i": 2519,
+      "clock": "2026-04-16T04:00:00+00:00",
+      "side": 1,
+      "edge": 4802.23,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4817.99,
+          4819.81,
+          4824.2
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-04-16T14:00:00+00:00",
+      "known": "2026-04-16T14:00:00+00:00",
+      "i": 2531,
+      "clock": "2026-04-16T16:00:00+00:00",
+      "side": 1,
+      "edge": 4812.125,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4794.95,
+          4788.71,
+          4807.0
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-04-16T05:00:00+00:00",
+      "known": "2026-04-16T05:00:00+00:00",
+      "i": 2537,
+      "clock": "2026-04-16T22:00:00+00:00",
+      "side": -1,
+      "edge": 4790.913636363638,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-16T22:00:00+00:00",
+      "known": "2026-04-16T22:00:00+00:00",
+      "i": 2542,
+      "clock": "2026-04-17T04:00:00+00:00",
+      "side": -1,
+      "edge": 4798.230000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4789.44,
+          4784.68,
+          4793.23
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-17T12:00:00+00:00",
+      "known": "2026-04-17T12:00:00+00:00",
+      "i": 2554,
+      "clock": "2026-04-17T16:00:00+00:00",
+      "side": 1,
+      "edge": 4797.911999999999,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4880.35,
+          4873.21,
+          4867.56
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:36:2026-04-21T16:00:00+00:00",
+      "known": "2026-04-21T16:00:00+00:00",
+      "i": 2603,
+      "clock": "2026-04-21T19:00:00+00:00",
+      "side": -1,
+      "edge": 4780.058,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4711.11,
+          4711.07,
+          4709.42
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-22T21:00:00+00:00",
+      "known": "2026-04-22T21:00:00+00:00",
+      "i": 2633,
+      "clock": "2026-04-23T03:00:00+00:00",
+      "side": -1,
+      "edge": 4740.64,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-23T08:00:00+00:00",
+      "known": "2026-04-23T08:00:00+00:00",
+      "i": 2643,
+      "clock": "2026-04-23T13:00:00+00:00",
+      "side": -1,
+      "edge": 4705.79,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4696.62,
+          4720.71,
+          4740.11
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-24T02:00:00+00:00",
+      "known": "2026-04-24T02:00:00+00:00",
+      "i": 2660,
+      "clock": "2026-04-24T07:00:00+00:00",
+      "side": -1,
+      "edge": 4687.906,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4674.45,
+          4686.46,
+          4671.96
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-24T11:00:00+00:00",
+      "known": "2026-04-24T11:00:00+00:00",
+      "i": 2672,
+      "clock": "2026-04-24T19:00:00+00:00",
+      "side": 1,
+      "edge": 4722.92333333333,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4726.78,
+          4723.46,
+          4722.83
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-04-24T19:00:00+00:00",
+      "known": "2026-04-24T19:00:00+00:00",
+      "i": 2679,
+      "clock": "2026-04-27T03:00:00+00:00",
+      "side": -1,
+      "edge": 4708.309999999999,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-04-27T04:00:00+00:00",
+      "known": "2026-04-27T04:00:00+00:00",
+      "i": 2705,
+      "clock": "2026-04-28T06:00:00+00:00",
+      "side": -1,
+      "edge": 4675.75,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4670.96,
+          4667.66,
+          4632.35
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-04-28T07:00:00+00:00",
+      "known": "2026-04-28T07:00:00+00:00",
+      "i": 2709,
+      "clock": "2026-04-28T10:00:00+00:00",
+      "side": -1,
+      "edge": 4666.344,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4633.1,
+          4629.67,
+          4604.84
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-04-29T04:00:00+00:00",
+      "known": "2026-04-29T04:00:00+00:00",
+      "i": 2728,
+      "clock": "2026-04-29T06:00:00+00:00",
+      "side": -1,
+      "edge": 4599.401250000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          4595.54,
+          4604.86,
+          4591.05
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-04-29T10:00:00+00:00",
+      "known": "2026-04-29T10:00:00+00:00",
+      "i": 2734,
+      "clock": "2026-04-29T12:00:00+00:00",
+      "side": -1,
+      "edge": 4577.315000000003,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4555.76,
+          4569.94,
+          4561.68
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-04-29T14:00:00+00:00",
+      "known": "2026-04-29T14:00:00+00:00",
+      "i": 2739,
+      "clock": "2026-04-29T17:00:00+00:00",
+      "side": -1,
+      "edge": 4551.0419999999995,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4539.25,
+          4547.62,
+          4545.53
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-04-29T23:00:00+00:00",
+      "known": "2026-04-29T23:00:00+00:00",
+      "i": 2749,
+      "clock": "2026-04-30T04:00:00+00:00",
+      "side": 1,
+      "edge": 4547.640714285714,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4579.15,
+          4564.98,
+          4555.94
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:36:2026-04-29T23:00:00+00:00",
+      "known": "2026-04-29T23:00:00+00:00",
+      "i": 2756,
+      "clock": "2026-04-30T11:00:00+00:00",
+      "side": 1,
+      "edge": 4570.20857142857,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4616.34,
+          4625.0,
+          4639.76
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-05-01T06:00:00+00:00",
+      "known": "2026-05-01T06:00:00+00:00",
+      "i": 2777,
+      "clock": "2026-05-01T09:00:00+00:00",
+      "side": -1,
+      "edge": 4628.7480000000005,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4594.68,
+          4578.21,
+          4568.95
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-05-01T09:00:00+00:00",
+      "known": "2026-05-01T09:00:00+00:00",
+      "i": 2781,
+      "clock": "2026-05-01T13:00:00+00:00",
+      "side": -1,
+      "edge": 4578.660000000004,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4566.75,
+          4578.76,
+          4591.26
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-05-01T09:00:00+00:00",
+      "known": "2026-05-01T09:00:00+00:00",
+      "i": 2787,
+      "clock": "2026-05-01T19:00:00+00:00",
+      "side": 1,
+      "edge": 4625.1025,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4638.8,
+          4629.46,
+          4624.4
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-05-01T21:00:00+00:00",
+      "known": "2026-05-01T21:00:00+00:00",
+      "i": 2797,
+      "clock": "2026-05-04T06:00:00+00:00",
+      "side": 1,
+      "edge": 4603.454999999998,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4615.1,
+          4606.03,
+          4599.15
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-05-04T09:00:00+00:00",
+      "known": "2026-05-04T09:00:00+00:00",
+      "i": 2802,
+      "clock": "2026-05-04T11:00:00+00:00",
+      "side": -1,
+      "edge": 4600.863125,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4577.11,
+          4575.53,
+          4562.66
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-05-05T20:00:00+00:00",
+      "known": "2026-05-05T20:00:00+00:00",
+      "i": 2838,
+      "clock": "2026-05-06T00:00:00+00:00",
+      "side": -1,
+      "edge": 4559.425,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-05-07T06:00:00+00:00",
+      "known": "2026-05-07T06:00:00+00:00",
+      "i": 2871,
+      "clock": "2026-05-07T11:00:00+00:00",
+      "side": 1,
+      "edge": 4720.774285714286,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4731.04,
+          4729.08,
+          4735.73
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-05-08T02:00:00+00:00",
+      "known": "2026-05-08T02:00:00+00:00",
+      "i": 2887,
+      "clock": "2026-05-08T04:00:00+00:00",
+      "side": 1,
+      "edge": 4691.73,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4722.89,
+          4713.5,
+          4719.59
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-05-08T07:00:00+00:00",
+      "known": "2026-05-08T07:00:00+00:00",
+      "i": 2893,
+      "clock": "2026-05-08T10:00:00+00:00",
+      "side": 1,
+      "edge": 4719.942,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4707.89,
+          4715.79,
+          4711.88
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-05-08T11:00:00+00:00",
+      "known": "2026-05-08T11:00:00+00:00",
+      "i": 2900,
+      "clock": "2026-05-08T17:00:00+00:00",
+      "side": 1,
+      "edge": 4719.695000000001,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4715.98,
+          4707.13,
+          4712.47
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-05-08T21:00:00+00:00",
+      "known": "2026-05-08T21:00:00+00:00",
+      "i": 2909,
+      "clock": "2026-05-11T03:00:00+00:00",
+      "side": -1,
+      "edge": 4712.012941176471,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-05-11T14:00:00+00:00",
+      "known": "2026-05-11T14:00:00+00:00",
+      "i": 2922,
+      "clock": "2026-05-11T16:00:00+00:00",
+      "side": 1,
+      "edge": 4656.928999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4736.1,
+          4725.64,
+          4732.18
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-05-11T20:00:00+00:00",
+      "known": "2026-05-11T20:00:00+00:00",
+      "i": 2932,
+      "clock": "2026-05-12T03:00:00+00:00",
+      "side": 1,
+      "edge": 4748.122727272727,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-05-12T13:00:00+00:00",
+      "known": "2026-05-12T13:00:00+00:00",
+      "i": 2944,
+      "clock": "2026-05-12T15:00:00+00:00",
+      "side": 1,
+      "edge": 4681.805,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4705.75,
+          4679.28,
+          4672.88
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-05-12T17:00:00+00:00",
+      "known": "2026-05-12T17:00:00+00:00",
+      "i": 2952,
+      "clock": "2026-05-12T23:00:00+00:00",
+      "side": 1,
+      "edge": 4675.449166666666,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-05-13T07:00:00+00:00",
+      "known": "2026-05-13T07:00:00+00:00",
+      "i": 2963,
+      "clock": "2026-05-13T11:00:00+00:00",
+      "side": -1,
+      "edge": 4712.275000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4700.65,
+          4700.92,
+          4694.2
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-05-13T14:00:00+00:00",
+      "known": "2026-05-13T14:00:00+00:00",
+      "i": 2969,
+      "clock": "2026-05-13T17:00:00+00:00",
+      "side": -1,
+      "edge": 4697.1947058823525,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4679.85,
+          4695.53,
+          4695.74
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-05-13T18:00:00+00:00",
+      "known": "2026-05-13T18:00:00+00:00",
+      "i": 2978,
+      "clock": "2026-05-14T03:00:00+00:00",
+      "side": 1,
+      "edge": 4691.146,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:36:2026-05-13T18:00:00+00:00",
+      "known": "2026-05-13T18:00:00+00:00",
+      "i": 2982,
+      "clock": "2026-05-14T07:00:00+00:00",
+      "side": -1,
+      "edge": 4688.851904761905,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4702.38,
+          4689.79,
+          4700.23
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-05-14T00:00:00+00:00",
+      "known": "2026-05-14T00:00:00+00:00",
+      "i": 2989,
+      "clock": "2026-05-14T14:00:00+00:00",
+      "side": 1,
+      "edge": 4691.788125,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4694.38,
+          4704.86,
+          4679.66
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-05-14T09:00:00+00:00",
+      "known": "2026-05-14T09:00:00+00:00",
+      "i": 2999,
+      "clock": "2026-05-15T00:00:00+00:00",
+      "side": -1,
+      "edge": 4668.1571428571415,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-05-18T18:00:00+00:00",
+      "known": "2026-05-18T18:00:00+00:00",
+      "i": 3041,
+      "clock": "2026-05-18T20:00:00+00:00",
+      "side": -1,
+      "edge": 4552.477272727273,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4547.0,
+          4535.81,
+          4558.4
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-05-20T03:00:00+00:00",
+      "known": "2026-05-20T03:00:00+00:00",
+      "i": 3073,
+      "clock": "2026-05-20T06:00:00+00:00",
+      "side": -1,
+      "edge": 4483.700000000001,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4463.85,
+          4462.27,
+          4472.87
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-05-20T11:00:00+00:00",
+      "known": "2026-05-20T11:00:00+00:00",
+      "i": 3080,
+      "clock": "2026-05-20T13:00:00+00:00",
+      "side": 1,
+      "edge": 4477.39,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4494.68,
+          4499.19,
+          4496.23
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-05-20T13:00:00+00:00",
+      "known": "2026-05-20T13:00:00+00:00",
+      "i": 3086,
+      "clock": "2026-05-20T19:00:00+00:00",
+      "side": 1,
+      "edge": 4501.111428571428,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4534.35,
+          4531.55,
+          4542.38
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-05-21T10:00:00+00:00",
+      "known": "2026-05-21T10:00:00+00:00",
+      "i": 3103,
+      "clock": "2026-05-21T13:00:00+00:00",
+      "side": 1,
+      "edge": 4510.330000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4511.62,
+          4514.11,
+          4504.15
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-05-21T15:00:00+00:00",
+      "known": "2026-05-21T15:00:00+00:00",
+      "i": 3111,
+      "clock": "2026-05-21T21:00:00+00:00",
+      "side": 1,
+      "edge": 4515.11,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4532.0,
+          4543.07,
+          4543.17
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-05-21T22:00:00+00:00",
+      "known": "2026-05-21T22:00:00+00:00",
+      "i": 3118,
+      "clock": "2026-05-22T05:00:00+00:00",
+      "side": -1,
+      "edge": 4532.419999999998,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4523.25,
+          4529.42,
+          4527.32
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-05-22T07:00:00+00:00",
+      "known": "2026-05-22T07:00:00+00:00",
+      "i": 3123,
+      "clock": "2026-05-22T10:00:00+00:00",
+      "side": -1,
+      "edge": 4528.47,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4521.95,
+          4521.9,
+          4532.25
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-05-22T10:00:00+00:00",
+      "known": "2026-05-22T10:00:00+00:00",
+      "i": 3129,
+      "clock": "2026-05-22T16:00:00+00:00",
+      "side": 1,
+      "edge": 4518.328181818181,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": true,
+        "future_closes": [
+          4513.95,
+          4500.6,
+          4520.1
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-05-22T15:00:00+00:00",
+      "known": "2026-05-22T15:00:00+00:00",
+      "i": 3136,
+      "clock": "2026-05-22T23:00:00+00:00",
+      "side": -1,
+      "edge": 4519.9105,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-05-28T16:00:00+00:00",
+      "known": "2026-05-28T16:00:00+00:00",
+      "i": 3222,
+      "clock": "2026-05-28T19:00:00+00:00",
+      "side": 1,
+      "edge": 4469.57,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4511.04,
+          4508.94,
+          4500.99
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-06-02T17:00:00+00:00",
+      "known": "2026-06-02T17:00:00+00:00",
+      "i": 3294,
+      "clock": "2026-06-02T22:00:00+00:00",
+      "side": -1,
+      "edge": 4489.096999999999,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-06-03T21:00:00+00:00",
+      "known": "2026-06-03T21:00:00+00:00",
+      "i": 3327,
+      "clock": "2026-06-04T09:00:00+00:00",
+      "side": 1,
+      "edge": 4468.38,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4467.83,
+          4461.71,
+          4463.38
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-06-04T13:00:00+00:00",
+      "known": "2026-06-04T13:00:00+00:00",
+      "i": 3334,
+      "clock": "2026-06-04T16:00:00+00:00",
+      "side": 1,
+      "edge": 4482.639999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4495.85,
+          4466.02,
+          4477.4
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-06-05T00:00:00+00:00",
+      "known": "2026-06-05T00:00:00+00:00",
+      "i": 3350,
+      "clock": "2026-06-05T09:00:00+00:00",
+      "side": 1,
+      "edge": 4435.525,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4452.89,
+          4460.91,
+          4462.73
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-06-05T10:00:00+00:00",
+      "known": "2026-06-05T10:00:00+00:00",
+      "i": 3358,
+      "clock": "2026-06-05T17:00:00+00:00",
+      "side": -1,
+      "edge": 4439.315,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4369.74,
+          4335.55,
+          4344.65
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-06-08T18:00:00+00:00",
+      "known": "2026-06-08T18:00:00+00:00",
+      "i": 3393,
+      "clock": "2026-06-09T06:00:00+00:00",
+      "side": 1,
+      "edge": 4329.106363636363,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4336.57,
+          4332.45,
+          4343.48
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:32:2026-06-09T06:00:00+00:00",
+      "known": "2026-06-09T06:00:00+00:00",
+      "i": 3398,
+      "clock": "2026-06-09T11:00:00+00:00",
+      "side": -1,
+      "edge": 4337.455384615385,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4326.53,
+          4332.21,
+          4339.2
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-06-09T09:00:00+00:00",
+      "known": "2026-06-09T09:00:00+00:00",
+      "i": 3402,
+      "clock": "2026-06-09T15:00:00+00:00",
+      "side": 1,
+      "edge": 4338.620000000001,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4341.45,
+          4328.91,
+          4300.57
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-06-08T22:00:00+00:00",
+      "known": "2026-06-08T22:00:00+00:00",
+      "i": 3406,
+      "clock": "2026-06-09T19:00:00+00:00",
+      "side": -1,
+      "edge": 4307.052500000003,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4252.08,
+          4263.13,
+          4270.02
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-06-11T14:00:00+00:00",
+      "known": "2026-06-11T14:00:00+00:00",
+      "i": 3449,
+      "clock": "2026-06-11T16:00:00+00:00",
+      "side": -1,
+      "edge": 4093.626,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4083.26,
+          4073.37,
+          4088.87
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-06-11T17:00:00+00:00",
+      "known": "2026-06-11T17:00:00+00:00",
+      "i": 3453,
+      "clock": "2026-06-11T20:00:00+00:00",
+      "side": 1,
+      "edge": 4079.9144444444446,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4151.91,
+          4161.83,
+          4208.85
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-06-12T14:00:00+00:00",
+      "known": "2026-06-12T14:00:00+00:00",
+      "i": 3478,
+      "clock": "2026-06-12T22:00:00+00:00",
+      "side": 1,
+      "edge": 4213.0254545454545,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-06-12T20:00:00+00:00",
+      "known": "2026-06-12T20:00:00+00:00",
+      "i": 3482,
+      "clock": "2026-06-15T03:00:00+00:00",
+      "side": 1,
+      "edge": 4231.1482352941175,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-06-16T06:00:00+00:00",
+      "known": "2026-06-16T06:00:00+00:00",
+      "i": 3510,
+      "clock": "2026-06-16T08:00:00+00:00",
+      "side": 1,
+      "edge": 4312.936,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4315.9,
+          4323.93,
+          4335.1
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-06-16T08:00:00+00:00",
+      "known": "2026-06-16T08:00:00+00:00",
+      "i": 3514,
+      "clock": "2026-06-16T12:00:00+00:00",
+      "side": 1,
+      "edge": 4318.049166666667,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4345.22,
+          4348.97,
+          4340.98
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-06-16T17:00:00+00:00",
+      "known": "2026-06-16T17:00:00+00:00",
+      "i": 3532,
+      "clock": "2026-06-17T07:00:00+00:00",
+      "side": -1,
+      "edge": 4333.324285714286,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4326.81,
+          4326.68,
+          4331.77
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-06-16T17:00:00+00:00",
+      "known": "2026-06-16T17:00:00+00:00",
+      "i": 3543,
+      "clock": "2026-06-17T18:00:00+00:00",
+      "side": 1,
+      "edge": 4337.72,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4363.53,
+          4359.49,
+          4379.63
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-06-19T16:00:00+00:00",
+      "known": "2026-06-19T16:00:00+00:00",
+      "i": 3590,
+      "clock": "2026-06-19T19:00:00+00:00",
+      "side": -1,
+      "edge": 4155.426666666666,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-06-19T19:00:00+00:00",
+      "known": "2026-06-19T19:00:00+00:00",
+      "i": 3595,
+      "clock": "2026-06-22T05:00:00+00:00",
+      "side": 1,
+      "edge": 4163.495555555556,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4188.51,
+          4171.49,
+          4181.86
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-06-19T20:00:00+00:00",
+      "known": "2026-06-19T20:00:00+00:00",
+      "i": 3610,
+      "clock": "2026-06-22T20:00:00+00:00",
+      "side": -1,
+      "edge": 4191.51,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4183.15,
+          4191.31,
+          4190.69
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-06-22T07:00:00+00:00",
+      "known": "2026-06-22T07:00:00+00:00",
+      "i": 3619,
+      "clock": "2026-06-23T06:00:00+00:00",
+      "side": -1,
+      "edge": 4166.190000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4144.11,
+          4118.11,
+          4121.21
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-06-23T18:00:00+00:00",
+      "known": "2026-06-23T18:00:00+00:00",
+      "i": 3636,
+      "clock": "2026-06-23T23:00:00+00:00",
+      "side": -1,
+      "edge": 4122.904,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-06-25T07:00:00+00:00",
+      "known": "2026-06-25T07:00:00+00:00",
+      "i": 3671,
+      "clock": "2026-06-25T12:00:00+00:00",
+      "side": 1,
+      "edge": 3974.2562499999995,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          3988.29,
+          3984.35,
+          3980.09
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-06-25T07:00:00+00:00",
+      "known": "2026-06-25T07:00:00+00:00",
+      "i": 3676,
+      "clock": "2026-06-25T17:00:00+00:00",
+      "side": 1,
+      "edge": 3990.800000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4012.03,
+          4041.14,
+          4028.75
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-06-25T18:00:00+00:00",
+      "known": "2026-06-25T18:00:00+00:00",
+      "i": 3681,
+      "clock": "2026-06-25T22:00:00+00:00",
+      "side": 1,
+      "edge": 4032.44,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:36:2026-06-25T22:00:00+00:00",
+      "known": "2026-06-25T22:00:00+00:00",
+      "i": 3693,
+      "clock": "2026-06-26T11:00:00+00:00",
+      "side": 1,
+      "edge": 4021.374545454545,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4030.94,
+          4047.22,
+          4054.74
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-06-25T07:00:00+00:00",
+      "known": "2026-06-25T07:00:00+00:00",
+      "i": 3733,
+      "clock": "2026-06-30T05:00:00+00:00",
+      "side": -1,
+      "edge": 4000.8357142857108,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          3963.04,
+          3969.88,
+          3985.57
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-06-30T17:00:00+00:00",
+      "known": "2026-06-30T17:00:00+00:00",
+      "i": 3749,
+      "clock": "2026-06-30T21:00:00+00:00",
+      "side": -1,
+      "edge": 4038.8154545454545,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4028.53,
+          4016.14,
+          4007.75
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-07-01T12:00:00+00:00",
+      "known": "2026-07-01T12:00:00+00:00",
+      "i": 3765,
+      "clock": "2026-07-01T14:00:00+00:00",
+      "side": 1,
+      "edge": 3975.9125000000004,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4030.47,
+          4022.82,
+          4089.72
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-07-01T16:00:00+00:00",
+      "known": "2026-07-01T16:00:00+00:00",
+      "i": 3769,
+      "clock": "2026-07-01T18:00:00+00:00",
+      "side": 1,
+      "edge": 4031.433,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4081.07,
+          4071.27,
+          4068.18
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-07-02T06:00:00+00:00",
+      "known": "2026-07-02T06:00:00+00:00",
+      "i": 3782,
+      "clock": "2026-07-02T08:00:00+00:00",
+      "side": 1,
+      "edge": 4054.5159999999996,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4066.12,
+          4073.32,
+          4064.54
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-07-02T12:00:00+00:00",
+      "known": "2026-07-02T12:00:00+00:00",
+      "i": 3791,
+      "clock": "2026-07-02T17:00:00+00:00",
+      "side": 1,
+      "edge": 4063.0666666666666,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4128.6,
+          4128.48,
+          4118.14
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-07-02T23:00:00+00:00",
+      "known": "2026-07-02T23:00:00+00:00",
+      "i": 3799,
+      "clock": "2026-07-03T02:00:00+00:00",
+      "side": 1,
+      "edge": 4116.84,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-07-03T16:00:00+00:00",
+      "known": "2026-07-03T16:00:00+00:00",
+      "i": 3819,
+      "clock": "2026-07-06T03:00:00+00:00",
+      "side": 1,
+      "edge": 4179.937,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-07-07T14:00:00+00:00",
+      "known": "2026-07-07T14:00:00+00:00",
+      "i": 3855,
+      "clock": "2026-07-07T16:00:00+00:00",
+      "side": 1,
+      "edge": 4147.325454545455,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4158.61,
+          4154.3,
+          4139.09
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-07-07T14:00:00+00:00",
+      "known": "2026-07-07T14:00:00+00:00",
+      "i": 3863,
+      "clock": "2026-07-08T00:00:00+00:00",
+      "side": -1,
+      "edge": 4128.602499999999,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-07-08T05:00:00+00:00",
+      "known": "2026-07-08T05:00:00+00:00",
+      "i": 3870,
+      "clock": "2026-07-08T08:00:00+00:00",
+      "side": 1,
+      "edge": 4105.282000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4127.83,
+          4123.64,
+          4121.31
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-07-08T09:00:00+00:00",
+      "known": "2026-07-08T09:00:00+00:00",
+      "i": 3875,
+      "clock": "2026-07-08T13:00:00+00:00",
+      "side": -1,
+      "edge": 4103.095999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4053.11,
+          4062.2,
+          4072.36
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-07-09T08:00:00+00:00",
+      "known": "2026-07-09T08:00:00+00:00",
+      "i": 3896,
+      "clock": "2026-07-09T11:00:00+00:00",
+      "side": 1,
+      "edge": 4101.558181818181,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4108.28,
+          4106.35,
+          4099.12
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-07-09T14:00:00+00:00",
+      "known": "2026-07-09T14:00:00+00:00",
+      "i": 3903,
+      "clock": "2026-07-09T18:00:00+00:00",
+      "side": 1,
+      "edge": 4114.051538461538,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4126.92,
+          4128.08,
+          4136.19
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-07-09T20:00:00+00:00",
+      "known": "2026-07-09T20:00:00+00:00",
+      "i": 3916,
+      "clock": "2026-07-10T08:00:00+00:00",
+      "side": -1,
+      "edge": 4125.147272727273,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4116.86,
+          4111.81,
+          4108.99
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-07-10T10:00:00+00:00",
+      "known": "2026-07-10T10:00:00+00:00",
+      "i": 3920,
+      "clock": "2026-07-10T12:00:00+00:00",
+      "side": -1,
+      "edge": 4114.661599999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4104.37,
+          4104.67,
+          4102.35
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-07-10T14:00:00+00:00",
+      "known": "2026-07-10T14:00:00+00:00",
+      "i": 3926,
+      "clock": "2026-07-10T18:00:00+00:00",
+      "side": -1,
+      "edge": 4101.3558620689655,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": true,
+        "future_closes": [
+          4113.01,
+          4104.49,
+          4100.68
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-07-10T16:00:00+00:00",
+      "known": "2026-07-10T16:00:00+00:00",
+      "i": 3930,
+      "clock": "2026-07-10T22:00:00+00:00",
+      "side": -1,
+      "edge": 4101.945000000002,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-07-10T14:00:00+00:00",
+      "known": "2026-07-10T14:00:00+00:00",
+      "i": 3934,
+      "clock": "2026-07-13T03:00:00+00:00",
+      "side": -1,
+      "edge": 4094.8081818181818,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-07-13T15:00:00+00:00",
+      "known": "2026-07-13T15:00:00+00:00",
+      "i": 3949,
+      "clock": "2026-07-13T18:00:00+00:00",
+      "side": -1,
+      "edge": 4049.6499999999996,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4015.99,
+          3993.35,
+          3993.22
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-07-14T13:00:00+00:00",
+      "known": "2026-07-14T13:00:00+00:00",
+      "i": 3970,
+      "clock": "2026-07-14T16:00:00+00:00",
+      "side": 1,
+      "edge": 4017.813,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4076.61,
+          4085.14,
+          4066.17
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-07-15T21:00:00+00:00",
+      "known": "2026-07-15T21:00:00+00:00",
+      "i": 4007,
+      "clock": "2026-07-16T07:00:00+00:00",
+      "side": -1,
+      "edge": 4038.5775000000003,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4033.24,
+          4027.36,
+          4030.62
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-07-14T22:00:00+00:00",
+      "known": "2026-07-14T22:00:00+00:00",
+      "i": 4017,
+      "clock": "2026-07-16T17:00:00+00:00",
+      "side": -1,
+      "edge": 3992.8500000000017,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": true,
+        "future_closes": [
+          3997.86,
+          4007.01,
+          3992.06
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-07-17T07:00:00+00:00",
+      "known": "2026-07-17T07:00:00+00:00",
+      "i": 4041,
+      "clock": "2026-07-17T18:00:00+00:00",
+      "side": 1,
+      "edge": 3987.6741176470587,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4019.28,
+          4014.99,
+          4010.08
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-07-20T20:00:00+00:00",
+      "known": "2026-07-20T20:00:00+00:00",
+      "i": 4071,
+      "clock": "2026-07-21T02:00:00+00:00",
+      "side": -1,
+      "edge": 4009.54125,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-07-21T17:00:00+00:00",
+      "known": "2026-07-21T17:00:00+00:00",
+      "i": 4088,
+      "clock": "2026-07-21T19:00:00+00:00",
+      "side": 1,
+      "edge": 4056.5650000000005,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4071.59,
+          4068.7,
+          4082.29
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-07-21T21:00:00+00:00",
+      "known": "2026-07-21T21:00:00+00:00",
+      "i": 4097,
+      "clock": "2026-07-22T05:00:00+00:00",
+      "side": 1,
+      "edge": 4082.55,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4130.58,
+          4130.92,
+          4127.04
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-07-22T12:00:00+00:00",
+      "known": "2026-07-22T12:00:00+00:00",
+      "i": 4110,
+      "clock": "2026-07-22T18:00:00+00:00",
+      "side": 1,
+      "edge": 4118.316666666667,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4159.45,
+          4146.89,
+          4142.39
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-07-23T03:00:00+00:00",
+      "known": "2026-07-23T03:00:00+00:00",
+      "i": 4122,
+      "clock": "2026-07-23T07:00:00+00:00",
+      "side": 1,
+      "edge": 4116.301666666666,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4121.25,
+          4124.1,
+          4118.62
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-07-23T09:00:00+00:00",
+      "known": "2026-07-23T09:00:00+00:00",
+      "i": 4126,
+      "clock": "2026-07-23T11:00:00+00:00",
+      "side": -1,
+      "edge": 4121.795714285715,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4093.48,
+          4089.93,
+          4093.22
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:36:2026-07-23T08:00:00+00:00",
+      "known": "2026-07-23T08:00:00+00:00",
+      "i": 4131,
+      "clock": "2026-07-23T16:00:00+00:00",
+      "side": -1,
+      "edge": 4090.970000000006,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4043.34,
+          4057.87,
+          4048.71
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-07-24T20:00:00+00:00",
+      "known": "2026-07-24T20:00:00+00:00",
+      "i": 4161,
+      "clock": "2026-07-24T23:00:00+00:00",
+      "side": -1,
+      "edge": 4061.825,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-07-28T23:00:00+00:00",
+      "known": "2026-07-28T23:00:00+00:00",
+      "i": 4210,
+      "clock": "2026-07-29T03:00:00+00:00",
+      "side": -1,
+      "edge": 4031.9999999999995,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-07-29T00:00:00+00:00",
+      "known": "2026-07-29T00:00:00+00:00",
+      "i": 4217,
+      "clock": "2026-07-29T10:00:00+00:00",
+      "side": 1,
+      "edge": 4031.0,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4043.82,
+          4037.6,
+          4032.71
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-07-29T12:00:00+00:00",
+      "known": "2026-07-29T12:00:00+00:00",
+      "i": 4221,
+      "clock": "2026-07-29T14:00:00+00:00",
+      "side": -1,
+      "edge": 4041.15,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4032.79,
+          4022.63,
+          4007.32
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-07-29T15:00:00+00:00",
+      "known": "2026-07-29T15:00:00+00:00",
+      "i": 4225,
+      "clock": "2026-07-29T18:00:00+00:00",
+      "side": -1,
+      "edge": 4019.5957142857137,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4009.81,
+          4027.34,
+          4044.07
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-07-31T08:00:00+00:00",
+      "known": "2026-07-31T08:00:00+00:00",
+      "i": 4263,
+      "clock": "2026-07-31T10:00:00+00:00",
+      "side": -1,
+      "edge": 4078.2514285714287,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4067.74,
+          4061.0,
+          4055.09
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-07-31T14:00:00+00:00",
+      "known": "2026-07-31T14:00:00+00:00",
+      "i": 4270,
+      "clock": "2026-07-31T17:00:00+00:00",
+      "side": -1,
+      "edge": 4053.521111111111,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4049.21,
+          4045.53,
+          4043.31
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-08-03T18:00:00+00:00",
+      "known": "2026-08-03T18:00:00+00:00",
+      "i": 4301,
+      "clock": "2026-08-04T02:00:00+00:00",
+      "side": 1,
+      "edge": 4051.8549999999996,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:32:2026-08-04T03:00:00+00:00",
+      "known": "2026-08-04T03:00:00+00:00",
+      "i": 4305,
+      "clock": "2026-08-04T06:00:00+00:00",
+      "side": 1,
+      "edge": 4052.217727272727,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4052.5,
+          4063.86,
+          4061.95
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-04T07:00:00+00:00",
+      "known": "2026-08-04T07:00:00+00:00",
+      "i": 4312,
+      "clock": "2026-08-04T13:00:00+00:00",
+      "side": -1,
+      "edge": 4059.752727272727,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4053.84,
+          4075.02,
+          4070.93
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-08-05T03:00:00+00:00",
+      "known": "2026-08-05T03:00:00+00:00",
+      "i": 4327,
+      "clock": "2026-08-05T05:00:00+00:00",
+      "side": 1,
+      "edge": 4070.375,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4129.33,
+          4128.39,
+          4135.62
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-06T18:00:00+00:00",
+      "known": "2026-08-06T18:00:00+00:00",
+      "i": 4374,
+      "clock": "2026-08-07T06:00:00+00:00",
+      "side": 1,
+      "edge": 4240.665714285714,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4266.14,
+          4264.98,
+          4278.72
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-08-07T07:00:00+00:00",
+      "known": "2026-08-07T07:00:00+00:00",
+      "i": 4378,
+      "clock": "2026-08-07T10:00:00+00:00",
+      "side": 1,
+      "edge": 4267.432727272728,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4290.04,
+          4306.15,
+          4316.07
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-08-07T20:00:00+00:00",
+      "known": "2026-08-07T20:00:00+00:00",
+      "i": 4392,
+      "clock": "2026-08-08T00:00:00+00:00",
+      "side": 1,
+      "edge": 4336.173333333332,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-08-10T14:00:00+00:00",
+      "known": "2026-08-10T14:00:00+00:00",
+      "i": 4408,
+      "clock": "2026-08-10T17:00:00+00:00",
+      "side": -1,
+      "edge": 4337.455,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4345.51,
+          4358.5,
+          4356.92
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-08-10T14:00:00+00:00",
+      "known": "2026-08-10T14:00:00+00:00",
+      "i": 4413,
+      "clock": "2026-08-10T22:00:00+00:00",
+      "side": 1,
+      "edge": 4356.091666666667,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-08-11T18:00:00+00:00",
+      "known": "2026-08-11T18:00:00+00:00",
+      "i": 4436,
+      "clock": "2026-08-11T22:00:00+00:00",
+      "side": -1,
+      "edge": 4382.71705882353,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-08-11T18:00:00+00:00",
+      "known": "2026-08-11T18:00:00+00:00",
+      "i": 4442,
+      "clock": "2026-08-12T05:00:00+00:00",
+      "side": 1,
+      "edge": 4373.2699999999995,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4411.27,
+          4402.3,
+          4401.11
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-08-12T08:00:00+00:00",
+      "known": "2026-08-12T08:00:00+00:00",
+      "i": 4451,
+      "clock": "2026-08-12T14:00:00+00:00",
+      "side": 1,
+      "edge": 4410.425416666667,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4412.78,
+          4437.33,
+          4427.65
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-13T00:00:00+00:00",
+      "known": "2026-08-13T00:00:00+00:00",
+      "i": 4464,
+      "clock": "2026-08-13T04:00:00+00:00",
+      "side": 1,
+      "edge": 4403.12,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4408.55,
+          4407.17,
+          4400.35
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-08-13T18:00:00+00:00",
+      "known": "2026-08-13T18:00:00+00:00",
+      "i": 4482,
+      "clock": "2026-08-13T22:00:00+00:00",
+      "side": -1,
+      "edge": 4364.6537499999995,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-14T10:00:00+00:00",
+      "known": "2026-08-14T10:00:00+00:00",
+      "i": 4495,
+      "clock": "2026-08-14T12:00:00+00:00",
+      "side": 1,
+      "edge": 4326.34,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4357.28,
+          4349.44,
+          4369.24
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-08-14T10:00:00+00:00",
+      "known": "2026-08-14T10:00:00+00:00",
+      "i": 4501,
+      "clock": "2026-08-14T18:00:00+00:00",
+      "side": 1,
+      "edge": 4375.656363636364,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4391.66,
+          4385.89,
+          4378.52
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:36:2026-08-14T18:00:00+00:00",
+      "known": "2026-08-14T18:00:00+00:00",
+      "i": 4511,
+      "clock": "2026-08-17T05:00:00+00:00",
+      "side": 1,
+      "edge": 4391.481764705883,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4393.17,
+          4397.02,
+          4390.86
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-08-17T16:00:00+00:00",
+      "known": "2026-08-17T16:00:00+00:00",
+      "i": 4524,
+      "clock": "2026-08-17T18:00:00+00:00",
+      "side": 1,
+      "edge": 4401.278888888889,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4427.63,
+          4424.25,
+          4413.74
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-18T02:00:00+00:00",
+      "known": "2026-08-18T02:00:00+00:00",
+      "i": 4533,
+      "clock": "2026-08-18T04:00:00+00:00",
+      "side": 1,
+      "edge": 4415.91,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4408.03,
+          4400.0,
+          4391.92
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-08-19T10:00:00+00:00",
+      "known": "2026-08-19T10:00:00+00:00",
+      "i": 4566,
+      "clock": "2026-08-19T14:00:00+00:00",
+      "side": 1,
+      "edge": 4357.443333333334,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4364.7,
+          4438.8,
+          4459.77
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:32:2026-08-21T02:00:00+00:00",
+      "known": "2026-08-21T02:00:00+00:00",
+      "i": 4604,
+      "clock": "2026-08-21T06:00:00+00:00",
+      "side": 1,
+      "edge": 4519.040000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4535.55,
+          4540.68,
+          4553.56
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-08-21T06:00:00+00:00",
+      "known": "2026-08-21T06:00:00+00:00",
+      "i": 4608,
+      "clock": "2026-08-21T10:00:00+00:00",
+      "side": 1,
+      "edge": 4545.373333333334,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4564.39,
+          4584.19,
+          4582.69
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-08-25T02:00:00+00:00",
+      "known": "2026-08-25T02:00:00+00:00",
+      "i": 4648,
+      "clock": "2026-08-25T04:00:00+00:00",
+      "side": 1,
+      "edge": 4674.11,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4658.13,
+          4629.56,
+          4633.76
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-25T11:00:00+00:00",
+      "known": "2026-08-25T11:00:00+00:00",
+      "i": 4658,
+      "clock": "2026-08-25T14:00:00+00:00",
+      "side": 1,
+      "edge": 4624.616666666667,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4642.4,
+          4640.85,
+          4616.73
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-25T16:00:00+00:00",
+      "known": "2026-08-25T16:00:00+00:00",
+      "i": 4663,
+      "clock": "2026-08-25T19:00:00+00:00",
+      "side": 1,
+      "edge": 4629.359090909091,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4643.57,
+          4648.43,
+          4654.61
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-08-26T06:00:00+00:00",
+      "known": "2026-08-26T06:00:00+00:00",
+      "i": 4678,
+      "clock": "2026-08-26T11:00:00+00:00",
+      "side": -1,
+      "edge": 4642.907272727272,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4628.37,
+          4623.27,
+          4620.34
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-26T15:00:00+00:00",
+      "known": "2026-08-26T15:00:00+00:00",
+      "i": 4686,
+      "clock": "2026-08-26T19:00:00+00:00",
+      "side": -1,
+      "edge": 4615.384999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4591.6,
+          4597.8,
+          4593.88
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-27T02:00:00+00:00",
+      "known": "2026-08-27T02:00:00+00:00",
+      "i": 4696,
+      "clock": "2026-08-27T06:00:00+00:00",
+      "side": 1,
+      "edge": 4599.524166666668,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4625.56,
+          4618.82,
+          4607.09
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-08-27T02:00:00+00:00",
+      "known": "2026-08-27T02:00:00+00:00",
+      "i": 4707,
+      "clock": "2026-08-27T17:00:00+00:00",
+      "side": -1,
+      "edge": 4587.965999999998,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4591.36,
+          4610.48,
+          4614.94
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-28T07:00:00+00:00",
+      "known": "2026-08-28T07:00:00+00:00",
+      "i": 4724,
+      "clock": "2026-08-28T11:00:00+00:00",
+      "side": 1,
+      "edge": 4594.096666666667,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4603.01,
+          4605.23,
+          4600.27
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-08-28T13:00:00+00:00",
+      "known": "2026-08-28T13:00:00+00:00",
+      "i": 4733,
+      "clock": "2026-08-28T20:00:00+00:00",
+      "side": -1,
+      "edge": 4576.364,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4469.44,
+          4456.89,
+          4458.43
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-08-31T20:00:00+00:00",
+      "known": "2026-08-31T20:00:00+00:00",
+      "i": 4760,
+      "clock": "2026-09-01T00:00:00+00:00",
+      "side": 1,
+      "edge": 4431.514999999999,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-08-31T20:00:00+00:00",
+      "known": "2026-08-31T20:00:00+00:00",
+      "i": 4767,
+      "clock": "2026-09-01T08:00:00+00:00",
+      "side": -1,
+      "edge": 4440.32,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4440.14,
+          4429.68,
+          4420.32
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-09-01T09:00:00+00:00",
+      "known": "2026-09-01T09:00:00+00:00",
+      "i": 4771,
+      "clock": "2026-09-01T12:00:00+00:00",
+      "side": -1,
+      "edge": 4421.719999999999,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4364.79,
+          4378.23,
+          4374.55
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-09-04T10:00:00+00:00",
+      "known": "2026-09-04T10:00:00+00:00",
+      "i": 4840,
+      "clock": "2026-09-04T12:00:00+00:00",
+      "side": 1,
+      "edge": 4470.16,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4465.58,
+          4472.84,
+          4467.02
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-09-04T14:00:00+00:00",
+      "known": "2026-09-04T14:00:00+00:00",
+      "i": 4845,
+      "clock": "2026-09-04T17:00:00+00:00",
+      "side": -1,
+      "edge": 4421.2149999999965,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4427.45,
+          4436.72,
+          4436.42
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-09-07T17:00:00+00:00",
+      "known": "2026-09-07T17:00:00+00:00",
+      "i": 4870,
+      "clock": "2026-09-07T19:00:00+00:00",
+      "side": 1,
+      "edge": 4412.951875000001,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4414.43,
+          4407.09,
+          4406.29
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-09-07T21:00:00+00:00",
+      "known": "2026-09-07T21:00:00+00:00",
+      "i": 4876,
+      "clock": "2026-09-08T04:00:00+00:00",
+      "side": 1,
+      "edge": 4410.697916666667,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4437.06,
+          4424.33,
+          4437.81
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-09-08T06:00:00+00:00",
+      "known": "2026-09-08T06:00:00+00:00",
+      "i": 4882,
+      "clock": "2026-09-08T10:00:00+00:00",
+      "side": -1,
+      "edge": 4431.438571428572,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4392.43,
+          4394.22,
+          4402.96
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-08T19:00:00+00:00",
+      "known": "2026-09-08T19:00:00+00:00",
+      "i": 4894,
+      "clock": "2026-09-08T22:00:00+00:00",
+      "side": -1,
+      "edge": 4396.630000000001,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-09T15:00:00+00:00",
+      "known": "2026-09-09T15:00:00+00:00",
+      "i": 4913,
+      "clock": "2026-09-09T18:00:00+00:00",
+      "side": 1,
+      "edge": 4412.685882352941,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": true,
+        "future_closes": [
+          4398.54,
+          4409.39,
+          4416.11
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-09-09T19:00:00+00:00",
+      "known": "2026-09-09T19:00:00+00:00",
+      "i": 4918,
+      "clock": "2026-09-09T23:00:00+00:00",
+      "side": -1,
+      "edge": 4408.7325,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-09-10T00:00:00+00:00",
+      "known": "2026-09-10T00:00:00+00:00",
+      "i": 4924,
+      "clock": "2026-09-10T06:00:00+00:00",
+      "side": 1,
+      "edge": 4396.783333333332,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4409.2,
+          4408.58,
+          4431.02
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-09-09T20:00:00+00:00",
+      "known": "2026-09-09T20:00:00+00:00",
+      "i": 4928,
+      "clock": "2026-09-10T10:00:00+00:00",
+      "side": 1,
+      "edge": 4419.299999999997,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4411.86,
+          4394.97,
+          4394.04
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-09-10T11:00:00+00:00",
+      "known": "2026-09-10T11:00:00+00:00",
+      "i": 4933,
+      "clock": "2026-09-10T15:00:00+00:00",
+      "side": -1,
+      "edge": 4382.806363636363,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4340.19,
+          4366.07,
+          4358.23
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-09-10T20:00:00+00:00",
+      "known": "2026-09-10T20:00:00+00:00",
+      "i": 4940,
+      "clock": "2026-09-10T22:00:00+00:00",
+      "side": -1,
+      "edge": 4381.3099999999995,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-09-11T21:00:00+00:00",
+      "known": "2026-09-11T21:00:00+00:00",
+      "i": 4964,
+      "clock": "2026-09-11T23:00:00+00:00",
+      "side": -1,
+      "edge": 4363.836923076923,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-15T02:00:00+00:00",
+      "known": "2026-09-15T02:00:00+00:00",
+      "i": 4991,
+      "clock": "2026-09-15T04:00:00+00:00",
+      "side": -1,
+      "edge": 4294.684285714286,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4304.54,
+          4314.24,
+          4303.59
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-15T07:00:00+00:00",
+      "known": "2026-09-15T07:00:00+00:00",
+      "i": 4997,
+      "clock": "2026-09-15T10:00:00+00:00",
+      "side": -1,
+      "edge": 4301.045999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4280.66,
+          4262.45,
+          4268.27
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-15T13:00:00+00:00",
+      "known": "2026-09-15T13:00:00+00:00",
+      "i": 5003,
+      "clock": "2026-09-15T16:00:00+00:00",
+      "side": 1,
+      "edge": 4273.86,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4294.78,
+          4277.14,
+          4289.4
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-09-15T13:00:00+00:00",
+      "known": "2026-09-15T13:00:00+00:00",
+      "i": 5007,
+      "clock": "2026-09-15T20:00:00+00:00",
+      "side": 1,
+      "edge": 4283.320000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4295.06,
+          4308.77,
+          4297.81
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-15T19:00:00+00:00",
+      "known": "2026-09-15T19:00:00+00:00",
+      "i": 5014,
+      "clock": "2026-09-16T04:00:00+00:00",
+      "side": -1,
+      "edge": 4292.91,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4282.63,
+          4321.65,
+          4327.16
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-09-16T12:00:00+00:00",
+      "known": "2026-09-16T12:00:00+00:00",
+      "i": 5024,
+      "clock": "2026-09-16T14:00:00+00:00",
+      "side": 1,
+      "edge": 4337.592500000001,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4341.67,
+          4347.64,
+          4338.65
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-18T05:00:00+00:00",
+      "known": "2026-09-18T05:00:00+00:00",
+      "i": 5066,
+      "clock": "2026-09-18T10:00:00+00:00",
+      "side": 1,
+      "edge": 4369.6950000000015,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4393.4,
+          4392.36,
+          4376.62
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-09-18T16:00:00+00:00",
+      "known": "2026-09-18T16:00:00+00:00",
+      "i": 5074,
+      "clock": "2026-09-18T18:00:00+00:00",
+      "side": -1,
+      "edge": 4353.4382352941175,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4356.69,
+          4382.89,
+          4393.11
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-09-18T22:00:00+00:00",
+      "known": "2026-09-18T22:00:00+00:00",
+      "i": 5088,
+      "clock": "2026-09-21T09:00:00+00:00",
+      "side": -1,
+      "edge": 4361.4400000000005,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4353.23,
+          4344.32,
+          4353.2
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-09-21T10:00:00+00:00",
+      "known": "2026-09-21T10:00:00+00:00",
+      "i": 5100,
+      "clock": "2026-09-21T21:00:00+00:00",
+      "side": -1,
+      "edge": 4345.8052941176475,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          4346.08,
+          4345.15,
+          4343.64
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-09-22T02:00:00+00:00",
+      "known": "2026-09-22T02:00:00+00:00",
+      "i": 5108,
+      "clock": "2026-09-22T06:00:00+00:00",
+      "side": -1,
+      "edge": 4353.093333333334,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4341.74,
+          4342.93,
+          4323.73
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-09-21T12:00:00+00:00",
+      "known": "2026-09-21T12:00:00+00:00",
+      "i": 5112,
+      "clock": "2026-09-22T10:00:00+00:00",
+      "side": -1,
+      "edge": 4342.870000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4301.2,
+          4330.12,
+          4336.7
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-09-22T16:00:00+00:00",
+      "known": "2026-09-22T16:00:00+00:00",
+      "i": 5122,
+      "clock": "2026-09-22T20:00:00+00:00",
+      "side": -1,
+      "edge": 4338.263333333333,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4350.84,
+          4353.45,
+          4363.98
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-09-22T20:00:00+00:00",
+      "known": "2026-09-22T20:00:00+00:00",
+      "i": 5131,
+      "clock": "2026-09-23T06:00:00+00:00",
+      "side": -1,
+      "edge": 4358.073333333333,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4342.63,
+          4344.21,
+          4334.6
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-23T08:00:00+00:00",
+      "known": "2026-09-23T08:00:00+00:00",
+      "i": 5135,
+      "clock": "2026-09-23T10:00:00+00:00",
+      "side": -1,
+      "edge": 4340.268333333333,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4319.63,
+          4318.18,
+          4314.22
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-09-23T14:00:00+00:00",
+      "known": "2026-09-23T14:00:00+00:00",
+      "i": 5141,
+      "clock": "2026-09-23T16:00:00+00:00",
+      "side": -1,
+      "edge": 4310.48,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4283.87,
+          4294.35,
+          4282.25
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-09-24T00:00:00+00:00",
+      "known": "2026-09-24T00:00:00+00:00",
+      "i": 5154,
+      "clock": "2026-09-24T06:00:00+00:00",
+      "side": -1,
+      "edge": 4300.269999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4285.13,
+          4289.5,
+          4279.28
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-09-24T07:00:00+00:00",
+      "known": "2026-09-24T07:00:00+00:00",
+      "i": 5161,
+      "clock": "2026-09-24T13:00:00+00:00",
+      "side": -1,
+      "edge": 4272.89875,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4258.29,
+          4265.93,
+          4281.16
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-09-24T20:00:00+00:00",
+      "known": "2026-09-24T20:00:00+00:00",
+      "i": 5172,
+      "clock": "2026-09-25T00:00:00+00:00",
+      "side": 1,
+      "edge": 4271.405000000001,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-24T20:00:00+00:00",
+      "known": "2026-09-24T20:00:00+00:00",
+      "i": 5176,
+      "clock": "2026-09-25T05:00:00+00:00",
+      "side": 1,
+      "edge": 4268.226666666667,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4283.81,
+          4270.01,
+          4263.13
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-09-25T07:00:00+00:00",
+      "known": "2026-09-25T07:00:00+00:00",
+      "i": 5180,
+      "clock": "2026-09-25T09:00:00+00:00",
+      "side": -1,
+      "edge": 4276.554999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4275.82,
+          4279.72,
+          4293.42
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-09-25T10:00:00+00:00",
+      "known": "2026-09-25T10:00:00+00:00",
+      "i": 5185,
+      "clock": "2026-09-25T14:00:00+00:00",
+      "side": 1,
+      "edge": 4292.78,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4303.03,
+          4298.2,
+          4275.54
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-25T21:00:00+00:00",
+      "known": "2026-09-25T21:00:00+00:00",
+      "i": 5194,
+      "clock": "2026-09-25T23:00:00+00:00",
+      "side": 1,
+      "edge": 4290.978000000001,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-29T08:00:00+00:00",
+      "known": "2026-09-29T08:00:00+00:00",
+      "i": 5227,
+      "clock": "2026-09-29T10:00:00+00:00",
+      "side": 1,
+      "edge": 4133.7357142857145,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4141.01,
+          4139.59,
+          4145.71
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:28:2026-09-29T12:00:00+00:00",
+      "known": "2026-09-29T12:00:00+00:00",
+      "i": 5231,
+      "clock": "2026-09-29T14:00:00+00:00",
+      "side": 1,
+      "edge": 4142.971538461538,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4153.57,
+          4151.19,
+          4157.81
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:32:2026-09-29T16:00:00+00:00",
+      "known": "2026-09-29T16:00:00+00:00",
+      "i": 5236,
+      "clock": "2026-09-29T19:00:00+00:00",
+      "side": 1,
+      "edge": 4156.182,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": true,
+        "future_closes": [
+          4145.69,
+          4144.07,
+          4170.83
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-09-29T16:00:00+00:00",
+      "known": "2026-09-29T16:00:00+00:00",
+      "i": 5240,
+      "clock": "2026-09-29T23:00:00+00:00",
+      "side": 1,
+      "edge": 4157.748181818181,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-09-30T07:00:00+00:00",
+      "known": "2026-09-30T07:00:00+00:00",
+      "i": 5251,
+      "clock": "2026-09-30T11:00:00+00:00",
+      "side": 1,
+      "edge": 4179.41,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4191.96,
+          4188.01,
+          4184.76
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-10-01T06:00:00+00:00",
+      "known": "2026-10-01T06:00:00+00:00",
+      "i": 5271,
+      "clock": "2026-10-01T08:00:00+00:00",
+      "side": 1,
+      "edge": 4151.2075,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4188.18,
+          4181.67,
+          4163.67
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-10-01T10:00:00+00:00",
+      "known": "2026-10-01T10:00:00+00:00",
+      "i": 5286,
+      "clock": "2026-10-01T23:00:00+00:00",
+      "side": 1,
+      "edge": 4170.17,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-02T00:00:00+00:00",
+      "known": "2026-10-02T00:00:00+00:00",
+      "i": 5291,
+      "clock": "2026-10-02T05:00:00+00:00",
+      "side": -1,
+      "edge": 4156.579999999999,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4165.8,
+          4177.67,
+          4184.93
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-10-02T06:00:00+00:00",
+      "known": "2026-10-02T06:00:00+00:00",
+      "i": 5295,
+      "clock": "2026-10-02T09:00:00+00:00",
+      "side": 1,
+      "edge": 4180.558823529411,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4181.14,
+          4187.41,
+          4184.36
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00",
+      "known": "2026-10-02T15:00:00+00:00",
+      "i": 5305,
+      "clock": "2026-10-02T19:00:00+00:00",
+      "side": -1,
+      "edge": 4183.902222222221,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4138.85,
+          4137.35,
+          4146.37
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-10-05T07:00:00+00:00",
+      "known": "2026-10-05T07:00:00+00:00",
+      "i": 5318,
+      "clock": "2026-10-05T09:00:00+00:00",
+      "side": -1,
+      "edge": 4141.738333333333,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4155.43,
+          4160.35,
+          4166.63
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-10-05T13:00:00+00:00",
+      "known": "2026-10-05T13:00:00+00:00",
+      "i": 5332,
+      "clock": "2026-10-05T23:00:00+00:00",
+      "side": 1,
+      "edge": 4138.114736842105,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-05T18:00:00+00:00",
+      "known": "2026-10-05T18:00:00+00:00",
+      "i": 5341,
+      "clock": "2026-10-06T09:00:00+00:00",
+      "side": -1,
+      "edge": 4123.420000000001,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4131.34,
+          4140.0,
+          4155.39
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-10-06T11:00:00+00:00",
+      "known": "2026-10-06T11:00:00+00:00",
+      "i": 5345,
+      "clock": "2026-10-06T13:00:00+00:00",
+      "side": 1,
+      "edge": 4143.120000000001,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4158.48,
+          4173.44,
+          4170.16
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-06T20:00:00+00:00",
+      "known": "2026-10-06T20:00:00+00:00",
+      "i": 5354,
+      "clock": "2026-10-06T22:00:00+00:00",
+      "side": 1,
+      "edge": 4161.570000000001,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-10-07T15:00:00+00:00",
+      "known": "2026-10-07T15:00:00+00:00",
+      "i": 5372,
+      "clock": "2026-10-07T17:00:00+00:00",
+      "side": -1,
+      "edge": 4108.6722222222215,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4104.37,
+          4105.62,
+          4109.46
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-10-08T13:00:00+00:00",
+      "known": "2026-10-08T13:00:00+00:00",
+      "i": 5393,
+      "clock": "2026-10-08T15:00:00+00:00",
+      "side": -1,
+      "edge": 4128.457058823529,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          4118.75,
+          4130.09,
+          4124.39
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-08T09:00:00+00:00",
+      "known": "2026-10-08T09:00:00+00:00",
+      "i": 5398,
+      "clock": "2026-10-08T20:00:00+00:00",
+      "side": -1,
+      "edge": 4126.62,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4132.89,
+          4126.87,
+          4133.2
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-08T21:00:00+00:00",
+      "known": "2026-10-08T21:00:00+00:00",
+      "i": 5405,
+      "clock": "2026-10-09T04:00:00+00:00",
+      "side": 1,
+      "edge": 4138.117499999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4175.2,
+          4178.05,
+          4177.65
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-10-09T13:00:00+00:00",
+      "known": "2026-10-09T13:00:00+00:00",
+      "i": 5421,
+      "clock": "2026-10-09T20:00:00+00:00",
+      "side": 1,
+      "edge": 4186.210000000002,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4195.39,
+          4198.68,
+          4195.32
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-10-09T23:00:00+00:00",
+      "known": "2026-10-09T23:00:00+00:00",
+      "i": 5426,
+      "clock": "2026-10-12T02:00:00+00:00",
+      "side": -1,
+      "edge": 4198.556315789473,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-15T09:00:00+00:00",
+      "known": "2026-10-15T09:00:00+00:00",
+      "i": 5509,
+      "clock": "2026-10-15T16:00:00+00:00",
+      "side": -1,
+      "edge": 4157.63,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          4154.75,
+          4157.82,
+          4149.86
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-10-15T17:00:00+00:00",
+      "known": "2026-10-15T17:00:00+00:00",
+      "i": 5516,
+      "clock": "2026-10-15T23:00:00+00:00",
+      "side": 1,
+      "edge": 4157.192758620689,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-10-16T02:00:00+00:00",
+      "known": "2026-10-16T02:00:00+00:00",
+      "i": 5520,
+      "clock": "2026-10-16T04:00:00+00:00",
+      "side": -1,
+      "edge": 4167.267499999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4153.05,
+          4176.07,
+          4183.24
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-10-19T05:00:00+00:00",
+      "known": "2026-10-19T05:00:00+00:00",
+      "i": 5548,
+      "clock": "2026-10-19T09:00:00+00:00",
+      "side": 1,
+      "edge": 4181.384444444444,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4183.85,
+          4172.98,
+          4170.7
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-19T05:00:00+00:00",
+      "known": "2026-10-19T05:00:00+00:00",
+      "i": 5557,
+      "clock": "2026-10-19T18:00:00+00:00",
+      "side": -1,
+      "edge": 4159.743999999999,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4141.73,
+          4141.09,
+          4145.45
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-10-20T17:00:00+00:00",
+      "known": "2026-10-20T17:00:00+00:00",
+      "i": 5581,
+      "clock": "2026-10-20T19:00:00+00:00",
+      "side": 1,
+      "edge": 4126.528125,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4121.26,
+          4124.08,
+          4123.62
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-20T17:00:00+00:00",
+      "known": "2026-10-20T17:00:00+00:00",
+      "i": 5589,
+      "clock": "2026-10-21T04:00:00+00:00",
+      "side": -1,
+      "edge": 4117.760000000003,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 1,
+        "last_outside": false,
+        "future_closes": [
+          4119.02,
+          4117.67,
+          4117.79
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-21T11:00:00+00:00",
+      "known": "2026-10-21T11:00:00+00:00",
+      "i": 5600,
+      "clock": "2026-10-21T15:00:00+00:00",
+      "side": 1,
+      "edge": 4118.507142857143,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4129.66,
+          4129.15,
+          4130.12
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-21T17:00:00+00:00",
+      "known": "2026-10-21T17:00:00+00:00",
+      "i": 5613,
+      "clock": "2026-10-22T05:00:00+00:00",
+      "side": -1,
+      "edge": 4120.282222222224,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4116.23,
+          4092.47,
+          4091.83
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-10-23T13:00:00+00:00",
+      "known": "2026-10-23T13:00:00+00:00",
+      "i": 5649,
+      "clock": "2026-10-23T18:00:00+00:00",
+      "side": -1,
+      "edge": 4032.39,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4003.4,
+          4000.74,
+          3999.99
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-10-23T22:00:00+00:00",
+      "known": "2026-10-23T22:00:00+00:00",
+      "i": 5655,
+      "clock": "2026-10-24T00:00:00+00:00",
+      "side": -1,
+      "edge": 4006.4,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-10-23T23:00:00+00:00",
+      "known": "2026-10-23T23:00:00+00:00",
+      "i": 5659,
+      "clock": "2026-10-26T05:00:00+00:00",
+      "side": -1,
+      "edge": 3993.0086666666666,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          3999.9,
+          4007.5,
+          4015.84
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:32:2026-10-26T12:00:00+00:00",
+      "known": "2026-10-26T12:00:00+00:00",
+      "i": 5669,
+      "clock": "2026-10-26T15:00:00+00:00",
+      "side": -1,
+      "edge": 4020.2133333333336,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          4015.8,
+          3993.12,
+          4023.35
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-10-26T19:00:00+00:00",
+      "known": "2026-10-26T19:00:00+00:00",
+      "i": 5688,
+      "clock": "2026-10-27T11:00:00+00:00",
+      "side": -1,
+      "edge": 4003.7966666666675,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": false,
+        "future_closes": [
+          3994.73,
+          4002.62,
+          4008.72
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-10-28T11:00:00+00:00",
+      "known": "2026-10-28T11:00:00+00:00",
+      "i": 5719,
+      "clock": "2026-10-28T19:00:00+00:00",
+      "side": -1,
+      "edge": 4044.764285714286,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4042.49,
+          4040.72,
+          4033.08
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:24:2026-10-28T17:00:00+00:00",
+      "known": "2026-10-28T17:00:00+00:00",
+      "i": 5724,
+      "clock": "2026-10-29T00:00:00+00:00",
+      "side": 1,
+      "edge": 4053.0033333333336,
+      "group": "buffered",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-10-29T06:00:00+00:00",
+      "known": "2026-10-29T06:00:00+00:00",
+      "i": 5742,
+      "clock": "2026-10-29T19:00:00+00:00",
+      "side": 1,
+      "edge": 4019.7250000000013,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4018.31,
+          4007.19,
+          4012.18
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-11-03T15:00:00+00:00",
+      "known": "2026-11-03T15:00:00+00:00",
+      "i": 5823,
+      "clock": "2026-11-04T08:00:00+00:00",
+      "side": 1,
+      "edge": 3941.38,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4027.24,
+          4022.53,
+          4034.12
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:edge:36:2026-11-05T21:00:00+00:00",
+      "known": "2026-11-05T21:00:00+00:00",
+      "i": 5863,
+      "clock": "2026-11-06T02:00:00+00:00",
+      "side": -1,
+      "edge": 4093.6934374999996,
+      "group": "geometric_only",
+      "outcome": null
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-11-09T08:00:00+00:00",
+      "known": "2026-11-09T08:00:00+00:00",
+      "i": 5905,
+      "clock": "2026-11-09T21:00:00+00:00",
+      "side": -1,
+      "edge": 4112.5233333333335,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 0,
+        "last_outside": false,
+        "future_closes": [
+          4136.32,
+          4141.59,
+          4141.06
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-11-10T03:00:00+00:00",
+      "known": "2026-11-10T03:00:00+00:00",
+      "i": 5913,
+      "clock": "2026-11-10T06:00:00+00:00",
+      "side": -1,
+      "edge": 4121.558571428571,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 2,
+        "last_outside": true,
+        "future_closes": [
+          4114.92,
+          4123.54,
+          4121.11
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-11-10T04:00:00+00:00",
+      "known": "2026-11-10T04:00:00+00:00",
+      "i": 5918,
+      "clock": "2026-11-10T11:00:00+00:00",
+      "side": -1,
+      "edge": 4119.139090909091,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4087.38,
+          4075.1,
+          4074.28
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:32:2026-11-10T03:00:00+00:00",
+      "known": "2026-11-10T03:00:00+00:00",
+      "i": 5924,
+      "clock": "2026-11-10T17:00:00+00:00",
+      "side": -1,
+      "edge": 4057.5120000000006,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4042.25,
+          4022.26,
+          4018.46
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:48:2026-11-11T05:00:00+00:00",
+      "known": "2026-11-11T05:00:00+00:00",
+      "i": 5946,
+      "clock": "2026-11-11T16:00:00+00:00",
+      "side": -1,
+      "edge": 4045.9650000000006,
+      "group": "geometric_only",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          4015.36,
+          4004.96,
+          4000.86
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:36:2026-11-12T06:00:00+00:00",
+      "known": "2026-11-12T06:00:00+00:00",
+      "i": 5961,
+      "clock": "2026-11-12T08:00:00+00:00",
+      "side": -1,
+      "edge": 3981.7999999999993,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          3965.84,
+          3964.89,
+          3928.73
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:24:2026-11-13T10:00:00+00:00",
+      "known": "2026-11-13T10:00:00+00:00",
+      "i": 5990,
+      "clock": "2026-11-13T14:00:00+00:00",
+      "side": -1,
+      "edge": 3901.263571428571,
+      "group": "buffered",
+      "outcome": {
+        "outside_count": 3,
+        "last_outside": true,
+        "future_closes": [
+          3889.06,
+          3881.09,
+          3894.23
+        ]
+      }
+    },
+    {
+      "id": "native_session_triangle_candidate_v1:28:2026-11-13T17:00:00+00:00",
+      "known": "2026-11-13T17:00:00+00:00",
+      "i": 5999,
+      "clock": "2026-11-13T23:00:00+00:00",
+      "side": -1,
+      "edge": 3879.3933333333334,
+      "group": "geometric_only",
+      "outcome": null
+    }
+  ]
+}
