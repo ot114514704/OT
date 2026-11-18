@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "worker_pid": 29256,
+  "worker_sha256": "7d1bd110950467078c5734c67bc89dec0ae35cc082a7160cf2d5af0e18aff5c2",
+  "request_token": "5c32577dce07b5f99ac3a8a98f2066aba13ec272925563ee015e0ce6e15b8661",
+  "records_unchanged": 111,
+  "full_H1_M15_chart_payloads_exact": true,
+  "full_model_interpretation_exact": true,
+  "fresh_native_render_after_restart": true,
+  "elapsed_seconds": 97.75,
+  "scope": "One finite post-restart request. Exact old/new results and chart payloads; not universal latency, future uptime or another UI inspection."
+}

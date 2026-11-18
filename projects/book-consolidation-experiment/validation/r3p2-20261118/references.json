@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "triangle_march",
+      "bars": 86,
+      "period_seconds": 3600,
+      "records": 27,
+      "all_fields_exact": true,
+      "result_sha256": "7e906f8011e091e1ec4c727c4694e651c7644d6c71931bf5ec0fad38a208b159",
+      "memo": {
+        "calls": 1,
+        "rebuilds": 1,
+        "last_reused": 0,
+        "retained_windows": 993,
+        "retained_bytes": 1049822,
+        "retained_bars": 86,
+        "window_limit": 40000,
+        "byte_limit": 67108864
+      }
+    },
+    {
+      "case": "triangle_march",
+      "bars": 173,
+      "period_seconds": 3600,
+      "records": 46,
+      "all_fields_exact": true,
+      "result_sha256": "e221cfcd8cf59a6d5805ad33000194db3df6ccb83c11d9fa2413e6c3f25d2701",
+      "memo": {
+        "calls": 2,
+        "rebuilds": 1,
+        "last_reused": 993,
+        "retained_windows": 2113,
+        "retained_bytes": 2273645,
+        "retained_bars": 173,
+        "window_limit": 40000,
+        "byte_limit": 67108864
+      }
+    },
+    {
+      "case": "triangle_april",
+      "bars": 86,
+      "period_seconds": 3600,
+      "records": 24,
+      "all_fields_exact": true,
+      "result_sha256": "0668eb98ba96c5414b987c7cee720189874d2b9ca11294c84068b84b601fe8cb",
+      "memo": {
+        "calls": 3,
+        "rebuilds": 2,
+        "last_reused": 0,
+        "retained_windows": 1067,
+        "retained_bytes": 1139275,
+        "retained_bars": 86,
+        "window_limit": 40000,
+        "byte_limit": 67108864
+      }
+    },
+    {
+      "case": "triangle_april",
+      "bars": 173,
+      "period_seconds": 3600,
+      "records": 57,
+      "all_fields_exact": true,
+      "result_sha256": "96b1e89c1557c30be10b688f77ebc09f73491062c3022861944135c2df7a7fec",
+      "memo": {
+        "calls": 4,
+        "rebuilds": 2,
+        "last_reused": 1067,
+        "retained_windows": 2193,
+        "retained_bytes": 2320874,
+        "retained_bars": 173,
+        "window_limit": 40000,
+        "byte_limit": 67108864
+      }
+    },
+    {
+      "case": "channel_triangle_august",
+      "bars": 133,
+      "period_seconds": 3600,
+      "records": 50,
+      "all_fields_exact": true,
+      "result_sha256": "c58dd70a6197698ed69443ff22628d3be065f43bb6fa2421dd02746aa0e73aba",
+      "memo": {
+        "calls": 5,
+        "rebuilds": 3,
+        "last_reused": 0,
+        "retained_windows": 1619,
+        "retained_bytes": 1677817,
+        "retained_bars": 133,
+        "window_limit": 40000,
+        "byte_limit": 67108864
+      }
+    },
+    {
+      "case": "channel_triangle_august",
+      "bars": 266,
+      "period_seconds": 3600,
+      "records": 81,
+      "all_fields_exact": true,
+      "result_sha256": "9186f7bc9387900db2cffcfcd9262953d21b39d2de73293d00a916db6e242846",
+      "memo": {
+        "calls": 6,
+        "rebuilds": 3,
+        "last_reused": 1619,
+        "retained_windows": 3413,
+        "retained_bytes": 3624322,
+        "retained_bars": 266,
+        "window_limit": 40000,
+        "byte_limit": 67108864
+      }
+    },
+    {
+      "case": "july_august_latest_two",
+      "bars": 535,
+      "period_seconds": 3600,
+      "records": 145,
+      "all_fields_exact": true,
+      "result_sha256": "23b1a922cfdbf396996007ffc09b4916c7d28ded7893bacb52834df5bc47fd92",
+      "memo": {
+        "calls": 7,
+        "rebuilds": 4,
+        "last_reused": 0,
+        "retained_windows": 7169,
+        "retained_bytes": 7525226,
+        "retained_bars": 535,
+        "window_limit": 40000,
+        "byte_limit": 67108864
+      }
+    },
+    {
+      "case": "july_august_latest_two",
+      "bars": 1070,
+      "period_seconds": 3600,
+      "records": 303,
+      "all_fields_exact": true,
+      "result_sha256": "bc9136b5784baadf679f2a2f1467c0acef89ee63c567b67d7cb0dedb2cd19b7f",
+      "memo": {
+        "calls": 8,
+        "rebuilds": 4,
+        "last_reused": 7169,
+        "retained_windows": 14469,
+        "retained_bytes": 15190419,
+        "retained_bars": 1070,
+        "window_limit": 40000,
+        "byte_limit": 67108864
+      }
+    },
+    {
+      "case": "native_M15",
+      "bars": 1500,
+      "period_seconds": 900,
+      "records": 371,
+      "all_fields_exact": true,
+      "result_sha256": "e5e84d1f2595183098d1478a3784a3b48a49d766ab3383cd6ddefde16226053b",
+      "memo": {
+        "calls": 9,
+        "rebuilds": 5,
+        "last_reused": 0,
+        "retained_windows": 20851,
+        "retained_bytes": 22378277,
+        "retained_bars": 1500,
+        "window_limit": 40000,
+        "byte_limit": 67108864
+      }
+    },
+    {
+      "case": "native_M15",
+      "bars": 3000,
+      "period_seconds": 900,
+      "records": 724,
+      "all_fields_exact": true,
+      "result_sha256": "b6ad54d5b10f20a73df1662c80aac693a4ef6c56ba7a6afd681ed3eaac5ef9f9",
+      "memo": {
+        "calls": 10,
+        "rebuilds": 5,
+        "last_reused": 20851,
+        "retained_windows": 40000,
+        "retained_bytes": 43468703,
+        "retained_bars": 3000,
+        "window_limit": 40000,
+        "byte_limit": 67108864
+      }
+    }
+  ],
+  "scope": "Six user references plus 3000 native M15 bars, half/full prefixes. Complete ordinary-pause outputs equal; does not claim new native UI acceptance or full-history accuracy."
+}

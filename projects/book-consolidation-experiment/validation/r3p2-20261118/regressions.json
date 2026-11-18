@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tests": 68,
+  "seconds": 69.126,
+  "exit_code": 0,
+  "command": "python -m unittest test_experiment test_continuation test_gap_recovery test_background_refresh test_outer_continuation verify_geometry_memo_r4.MemoIsolation test_native_dense_memo",
+  "scope": "Unified-exec session 18857 completed with Ran 68 tests and OK after dense-memo integration. Not a native UI or all-history accuracy claim."
+}

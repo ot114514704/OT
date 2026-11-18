@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "records": 111,
+  "all_fields_exact": true,
+  "unit_checks": 7,
+  "direct_calls": 20,
+  "memo": {
+    "calls": 20,
+    "rebuilds": 1,
+    "last_reused": 8836,
+    "retained_windows": 9044,
+    "retained_bytes": 9660926,
+    "retained_bars": 699,
+    "window_limit": 40000,
+    "byte_limit": 67108864
+  },
+  "seconds": {
+    "direct": 80.36951590000535,
+    "memo": 67.80171620001784
+  },
+  "reduction_fraction": 0.15637520718208886,
+  "candidate_sha256": "9077c2c4bea622647ae6df7d8189b86a224d954896201f07decfd55bc49cd0eb",
+  "live_deployed": false,
+  "scope": "One preserved H1 request with cold geometry cache in both paths; all lifecycle/result fields equal. Not trading backtest or end-to-end live latency."
+}

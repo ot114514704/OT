@@ -1,0 +1,55 @@
+{
+  "revision": "1.230-r3p2",
+  "source_sha256": {
+    "worker.py": "7d1bd110950467078c5734c67bc89dec0ae35cc082a7160cf2d5af0e18aff5c2",
+    "native_dense_memo.py": "7fe68d00376eb4b3f186734213fbf7794a878b97609a4fd14c97e3a098a3d36e",
+    "geometry_window_memo.py": "d7386406c6bd3557ea7eb124a2dac0ef5ba640652b7bf07f20823b6395661b9f"
+  },
+  "offline_comparison": {
+    "passed": true,
+    "records": 111,
+    "all_fields_exact": true,
+    "unit_checks": 7,
+    "direct_calls": 20,
+    "memo": {
+      "calls": 20,
+      "rebuilds": 1,
+      "last_reused": 8836,
+      "retained_windows": 9044,
+      "retained_bytes": 9660926,
+      "retained_bars": 699,
+      "window_limit": 40000,
+      "byte_limit": 67108864
+    },
+    "seconds": {
+      "direct": 80.36951590000535,
+      "memo": 67.80171620001784
+    },
+    "reduction_fraction": 0.15637520718208886,
+    "candidate_sha256": "9077c2c4bea622647ae6df7d8189b86a224d954896201f07decfd55bc49cd0eb",
+    "live_deployed": false,
+    "scope": "One preserved H1 request with cold geometry cache in both paths; all lifecycle/result fields equal. Not trading backtest or end-to-end live latency."
+  },
+  "native_deployment": {
+    "passed": true,
+    "worker_pid": 29256,
+    "worker_sha256": "7d1bd110950467078c5734c67bc89dec0ae35cc082a7160cf2d5af0e18aff5c2",
+    "request_token": "5c32577dce07b5f99ac3a8a98f2066aba13ec272925563ee015e0ce6e15b8661",
+    "records_unchanged": 111,
+    "full_H1_M15_chart_payloads_exact": true,
+    "full_model_interpretation_exact": true,
+    "fresh_native_render_after_restart": true,
+    "elapsed_seconds": 97.75,
+    "scope": "One finite post-restart request. Exact old/new results and chart payloads; not universal latency, future uptime or another UI inspection."
+  },
+  "regressions": 68,
+  "references": "six user areas and 3000 native M15 bars, half/full prefix equality",
+  "production_files_unchanged": 70,
+  "book_core_headers_unchanged": 41,
+  "layout_or_threshold_changes": false,
+  "uploaded_at_packaging": false,
+  "limits": [
+    "One paired core-timing sample, not universal or end-to-end latency.",
+    "All-history cutoff coverage and original broad goal remain unfinished."
+  ]
+}
