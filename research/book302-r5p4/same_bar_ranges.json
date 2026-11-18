@@ -1,0 +1,1229 @@
+{
+  "history_sha256": "a804d848479dd1266ba1bceaf5fb9f5e7f1e8acccb7d62e3818ace83b3c5388d",
+  "paired_source_sha256": "9934f4937645b3689b94518ad777d0dbf1b823cfb4716893183755946141a19e",
+  "point": 0.01,
+  "samples": [
+    {
+      "owner": "native_scope:034a889ff025b09c3ad01f1d",
+      "direction": "up",
+      "when": "2026-10-02T19:00:00Z",
+      "prices": {
+        "previous_close": 4158.96,
+        "current_close": 4127.32,
+        "outer": [
+          4137.700136986301,
+          4138.006301369863
+        ],
+        "turning": [
+          4135.698260869565,
+          4135.850434782608
+        ]
+      },
+      "prior_active_count": 13,
+      "prior_dense_count": 7,
+      "current_ids": 13,
+      "common": [
+        {
+          "id": "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "dense",
+          "previous": [
+            4133.72,
+            4193.06
+          ],
+          "current": [
+            4133.72,
+            4193.06
+          ],
+          "known": 1790928000,
+          "start": 1790838000,
+          "close_inside": false,
+          "event_status": "横盘候选·边缘外收待跟进"
+        },
+        {
+          "id": "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4133.72,
+            4226.22
+          ],
+          "current": [
+            4133.72,
+            4226.22
+          ],
+          "known": 1790956800,
+          "start": 1790776800,
+          "close_inside": false,
+          "event_status": "结构盘整候选"
+        },
+        {
+          "id": "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4110.88,
+            4231.57
+          ],
+          "current": [
+            4110.88,
+            4231.57
+          ],
+          "known": 1790928000,
+          "start": 1790568000,
+          "close_inside": true,
+          "event_status": "结构盘整候选"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ],
+        "turning": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        },
+        "turning": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        }
+      },
+      "warmup_bars": 256
+    },
+    {
+      "owner": "native_scope:1c0cf1cca3bb9bc1d4e3b3d7",
+      "direction": "up",
+      "when": "2026-10-02T19:00:00Z",
+      "prices": {
+        "previous_close": 4158.96,
+        "current_close": 4127.32,
+        "outer": [
+          4136.044,
+          4136.222769230769
+        ],
+        "turning": [
+          4135.698260869565,
+          4135.850434782608
+        ]
+      },
+      "prior_active_count": 13,
+      "prior_dense_count": 7,
+      "current_ids": 13,
+      "common": [
+        {
+          "id": "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "dense",
+          "previous": [
+            4133.72,
+            4193.06
+          ],
+          "current": [
+            4133.72,
+            4193.06
+          ],
+          "known": 1790928000,
+          "start": 1790838000,
+          "close_inside": false,
+          "event_status": "横盘候选·边缘外收待跟进"
+        },
+        {
+          "id": "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4133.72,
+            4226.22
+          ],
+          "current": [
+            4133.72,
+            4226.22
+          ],
+          "known": 1790956800,
+          "start": 1790776800,
+          "close_inside": false,
+          "event_status": "结构盘整候选"
+        },
+        {
+          "id": "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4110.88,
+            4231.57
+          ],
+          "current": [
+            4110.88,
+            4231.57
+          ],
+          "known": 1790928000,
+          "start": 1790568000,
+          "close_inside": true,
+          "event_status": "结构盘整候选"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ],
+        "turning": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        },
+        "turning": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        }
+      },
+      "warmup_bars": 256
+    },
+    {
+      "owner": "native_scope:7abb2bb93c279f46f6f68db2",
+      "direction": "up",
+      "when": "2026-10-02T19:00:00Z",
+      "prices": {
+        "previous_close": 4158.96,
+        "current_close": 4127.32,
+        "outer": [
+          4137.561594202899,
+          4137.857101449275
+        ],
+        "turning": [
+          4135.698260869565,
+          4135.850434782608
+        ]
+      },
+      "prior_active_count": 13,
+      "prior_dense_count": 7,
+      "current_ids": 13,
+      "common": [
+        {
+          "id": "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "dense",
+          "previous": [
+            4133.72,
+            4193.06
+          ],
+          "current": [
+            4133.72,
+            4193.06
+          ],
+          "known": 1790928000,
+          "start": 1790838000,
+          "close_inside": false,
+          "event_status": "横盘候选·边缘外收待跟进"
+        },
+        {
+          "id": "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4133.72,
+            4226.22
+          ],
+          "current": [
+            4133.72,
+            4226.22
+          ],
+          "known": 1790956800,
+          "start": 1790776800,
+          "close_inside": false,
+          "event_status": "结构盘整候选"
+        },
+        {
+          "id": "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4110.88,
+            4231.57
+          ],
+          "current": [
+            4110.88,
+            4231.57
+          ],
+          "known": 1790928000,
+          "start": 1790568000,
+          "close_inside": true,
+          "event_status": "结构盘整候选"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ],
+        "turning": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        },
+        "turning": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        }
+      },
+      "warmup_bars": 256
+    },
+    {
+      "owner": "native_scope:544ce85ecc70322be716fc6b",
+      "direction": "down",
+      "when": "2026-10-27T16:00:00Z",
+      "prices": {
+        "previous_close": 4012.51,
+        "current_close": 4023.34,
+        "outer": [
+          4022.564,
+          4022.126
+        ],
+        "turning": [
+          4014.4416666666666,
+          4012.8433333333332
+        ]
+      },
+      "prior_active_count": 11,
+      "prior_dense_count": 4,
+      "current_ids": 11,
+      "common": [
+        {
+          "id": "native_boundary_shape_candidate_v1:r4:p6:s1792731600:2026-10-27T02:00:00+00:00",
+          "shape": "channel",
+          "detector": "geometric",
+          "previous": [
+            3964.11957070707,
+            4025.5028535353536
+          ],
+          "current": [
+            3963.8544444444437,
+            4025.237727272727
+          ],
+          "known": 1793066400,
+          "start": 1792731600,
+          "close_inside": true,
+          "event_status": "交替边界盘整候选"
+        },
+        {
+          "id": "dense_horizontal_pause_v1:body16:2026-10-27T11:00:00+00:00",
+          "shape": "box",
+          "detector": "dense",
+          "previous": [
+            3997.19,
+            4030.01
+          ],
+          "current": [
+            3997.19,
+            4030.01
+          ],
+          "known": 1793098800,
+          "start": 1793037600,
+          "close_inside": true,
+          "event_status": "横盘候选·区间内往返"
+        },
+        {
+          "id": "dense_horizontal_pause_v1:2026-10-26T19:00:00+00:00",
+          "shape": "box",
+          "detector": "dense",
+          "previous": [
+            3978.18,
+            4026.58
+          ],
+          "current": [
+            3978.18,
+            4026.58
+          ],
+          "known": 1793041200,
+          "start": 1792983600,
+          "close_inside": true,
+          "event_status": "横盘候选·区间内往返"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "native_boundary_shape_candidate_v1:r4:p6:s1792731600:2026-10-27T02:00:00+00:00",
+          "dense_horizontal_pause_v1:body16:2026-10-27T11:00:00+00:00",
+          "dense_horizontal_pause_v1:2026-10-26T19:00:00+00:00"
+        ],
+        "turning": [
+          "long_converging_candidate_v1:10:2026-10-27T15:00:00+00:00",
+          "long_converging_candidate_v1:12:2026-10-27T15:00:00+00:00",
+          "native_boundary_shape_candidate_v1:r2:p8:s1792731600:2026-10-26T11:00:00+00:00",
+          "native_boundary_shape_candidate_v1:r4:p6:s1792731600:2026-10-27T02:00:00+00:00",
+          "long_converging_candidate_v1:16:2026-10-27T15:00:00+00:00",
+          "dense_horizontal_pause_v1:body8:2026-10-26T14:00:00+00:00",
+          "dense_horizontal_pause_v1:tight:2026-10-26T14:00:00+00:00",
+          "dense_horizontal_pause_v1:body16:2026-10-27T11:00:00+00:00",
+          "dense_horizontal_pause_v1:2026-10-26T19:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {
+          "dense_horizontal_pause_v1:body8:2026-10-26T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-26T14:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:compact:8:auto:2026-10-27T03:00:00+00:00": "前一收盘不在盘整内",
+          "price_structure_candidate_v5:compact:10:auto:2026-10-27T05:00:00+00:00": "前一收盘不在盘整内",
+          "long_converging_candidate_v1:16:2026-10-27T15:00:00+00:00": "Book 原线不在该盘整内",
+          "long_converging_candidate_v1:12:2026-10-27T15:00:00+00:00": "Book 原线不在该盘整内",
+          "long_converging_candidate_v1:10:2026-10-27T15:00:00+00:00": "Book 原线不在该盘整内",
+          "native_boundary_shape_candidate_v1:r2:p8:s1792731600:2026-10-26T11:00:00+00:00": "Book 原线不在该盘整内"
+        },
+        "turning": {
+          "price_structure_candidate_v5:compact:8:auto:2026-10-27T03:00:00+00:00": "前一收盘不在盘整内",
+          "price_structure_candidate_v5:compact:10:auto:2026-10-27T05:00:00+00:00": "前一收盘不在盘整内"
+        }
+      },
+      "warmup_bars": 256
+    },
+    {
+      "owner": "native_scope:cb7036bcceacf41e52f4ec3d",
+      "direction": "up",
+      "when": "2026-10-29T09:00:00Z",
+      "prices": {
+        "previous_close": 4037.99,
+        "current_close": 4024.75,
+        "outer": [
+          4034.648181818182,
+          4035.7290909090907
+        ],
+        "turning": [
+          4030.356,
+          4030.96
+        ]
+      },
+      "prior_active_count": 5,
+      "prior_dense_count": 0,
+      "current_ids": 5,
+      "common": [
+        {
+          "id": "native_session_triangle_candidate_v1:48:2026-10-29T06:00:00+00:00",
+          "shape": "triangle",
+          "detector": "geometric",
+          "previous": [
+            4022.5275,
+            4058.3625
+          ],
+          "current": [
+            4022.2616666666668,
+            4054.8500000000004
+          ],
+          "known": 1793253600,
+          "start": 1793073600,
+          "close_inside": true,
+          "event_status": "跨时段三角形态候选"
+        },
+        {
+          "id": "price_structure_candidate_v5:revisited:8:auto:2026-10-29T08:00:00+00:00",
+          "shape": "channel",
+          "detector": "structural",
+          "previous": [
+            4024.0989473684212,
+            4059.734210526316
+          ],
+          "current": [
+            4021.043684210527,
+            4056.6789473684216
+          ],
+          "known": 1793260800,
+          "start": 1793228400,
+          "close_inside": true,
+          "event_status": "结构盘整候选"
+        },
+        {
+          "id": "native_boundary_shape_candidate_v1:r8:p6:s1792771200:2026-10-29T07:00:00+00:00",
+          "shape": "channel",
+          "detector": "geometric",
+          "previous": [
+            4017.2759589041093,
+            4089.414633072407
+          ],
+          "current": [
+            4017.943243639921,
+            4090.081917808219
+          ],
+          "known": 1793257200,
+          "start": 1792771200,
+          "close_inside": true,
+          "event_status": "交替边界盘整候选"
+        },
+        {
+          "id": "price_structure_candidate_v5:96:horizontal:2026-10-28T21:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            3975.52,
+            4070.87
+          ],
+          "current": [
+            3975.52,
+            4070.87
+          ],
+          "known": 1793221200,
+          "start": 1792688400,
+          "close_inside": true,
+          "event_status": "结构盘整候选"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "native_session_triangle_candidate_v1:48:2026-10-29T06:00:00+00:00",
+          "price_structure_candidate_v5:revisited:8:auto:2026-10-29T08:00:00+00:00",
+          "native_boundary_shape_candidate_v1:r8:p6:s1792771200:2026-10-29T07:00:00+00:00",
+          "native_boundary_shape_candidate_v1:r4:p6:s1793098800:2026-10-29T05:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-28T21:00:00+00:00"
+        ],
+        "turning": [
+          "native_session_triangle_candidate_v1:48:2026-10-29T06:00:00+00:00",
+          "price_structure_candidate_v5:revisited:8:auto:2026-10-29T08:00:00+00:00",
+          "native_boundary_shape_candidate_v1:r8:p6:s1792771200:2026-10-29T07:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-28T21:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {},
+        "turning": {
+          "native_boundary_shape_candidate_v1:r4:p6:s1793098800:2026-10-29T05:00:00+00:00": "Book 原线不在该盘整内"
+        }
+      },
+      "warmup_bars": 256
+    },
+    {
+      "owner": "native_scope:896d29a03a8a3a0b78afcee3",
+      "direction": "up",
+      "when": "2026-11-10T19:00:00Z",
+      "prices": {
+        "previous_close": 4042.25,
+        "current_close": 4022.26,
+        "outer": [
+          4038.28,
+          4039.46
+        ],
+        "turning": [
+          4028.022380952381,
+          4028.048888888889
+        ]
+      },
+      "prior_active_count": 2,
+      "prior_dense_count": 0,
+      "current_ids": 2,
+      "common": [
+        {
+          "id": "price_structure_candidate_v5:96:horizontal:2026-11-10T15:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4026.75,
+            4148.72
+          ],
+          "current": [
+            4026.75,
+            4148.72
+          ],
+          "known": 1794322800,
+          "start": 1793790000,
+          "close_inside": false,
+          "event_status": "结构盘整候选"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "price_structure_candidate_v5:48:horizontal:2026-11-06T13:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-11-10T15:00:00+00:00"
+        ],
+        "turning": [
+          "price_structure_candidate_v5:96:horizontal:2026-11-10T15:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {},
+        "turning": {
+          "price_structure_candidate_v5:48:horizontal:2026-11-06T13:00:00+00:00": "Book 原线不在该盘整内"
+        }
+      },
+      "warmup_bars": 256
+    },
+    {
+      "owner": "native_scope:034a889ff025b09c3ad01f1d",
+      "direction": "up",
+      "when": "2026-10-02T19:00:00Z",
+      "prices": {
+        "previous_close": 4158.96,
+        "current_close": 4127.32,
+        "outer": [
+          4137.700136986301,
+          4138.006301369863
+        ],
+        "turning": [
+          4135.698260869565,
+          4135.850434782608
+        ]
+      },
+      "prior_active_count": 13,
+      "prior_dense_count": 7,
+      "current_ids": 13,
+      "common": [
+        {
+          "id": "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "dense",
+          "previous": [
+            4133.72,
+            4193.06
+          ],
+          "current": [
+            4133.72,
+            4193.06
+          ],
+          "known": 1790928000,
+          "start": 1790838000,
+          "close_inside": false,
+          "event_status": "横盘候选·边缘外收待跟进"
+        },
+        {
+          "id": "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4133.72,
+            4226.22
+          ],
+          "current": [
+            4133.72,
+            4226.22
+          ],
+          "known": 1790956800,
+          "start": 1790776800,
+          "close_inside": false,
+          "event_status": "结构盘整候选"
+        },
+        {
+          "id": "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4110.88,
+            4231.57
+          ],
+          "current": [
+            4110.88,
+            4231.57
+          ],
+          "known": 1790928000,
+          "start": 1790568000,
+          "close_inside": true,
+          "event_status": "结构盘整候选"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ],
+        "turning": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        },
+        "turning": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        }
+      },
+      "warmup_bars": 512
+    },
+    {
+      "owner": "native_scope:1c0cf1cca3bb9bc1d4e3b3d7",
+      "direction": "up",
+      "when": "2026-10-02T19:00:00Z",
+      "prices": {
+        "previous_close": 4158.96,
+        "current_close": 4127.32,
+        "outer": [
+          4136.044,
+          4136.222769230769
+        ],
+        "turning": [
+          4135.698260869565,
+          4135.850434782608
+        ]
+      },
+      "prior_active_count": 13,
+      "prior_dense_count": 7,
+      "current_ids": 13,
+      "common": [
+        {
+          "id": "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "dense",
+          "previous": [
+            4133.72,
+            4193.06
+          ],
+          "current": [
+            4133.72,
+            4193.06
+          ],
+          "known": 1790928000,
+          "start": 1790838000,
+          "close_inside": false,
+          "event_status": "横盘候选·边缘外收待跟进"
+        },
+        {
+          "id": "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4133.72,
+            4226.22
+          ],
+          "current": [
+            4133.72,
+            4226.22
+          ],
+          "known": 1790956800,
+          "start": 1790776800,
+          "close_inside": false,
+          "event_status": "结构盘整候选"
+        },
+        {
+          "id": "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4110.88,
+            4231.57
+          ],
+          "current": [
+            4110.88,
+            4231.57
+          ],
+          "known": 1790928000,
+          "start": 1790568000,
+          "close_inside": true,
+          "event_status": "结构盘整候选"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ],
+        "turning": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        },
+        "turning": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        }
+      },
+      "warmup_bars": 512
+    },
+    {
+      "owner": "native_scope:7abb2bb93c279f46f6f68db2",
+      "direction": "up",
+      "when": "2026-10-02T19:00:00Z",
+      "prices": {
+        "previous_close": 4158.96,
+        "current_close": 4127.32,
+        "outer": [
+          4137.561594202899,
+          4137.857101449275
+        ],
+        "turning": [
+          4135.698260869565,
+          4135.850434782608
+        ]
+      },
+      "prior_active_count": 13,
+      "prior_dense_count": 7,
+      "current_ids": 13,
+      "common": [
+        {
+          "id": "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "dense",
+          "previous": [
+            4133.72,
+            4193.06
+          ],
+          "current": [
+            4133.72,
+            4193.06
+          ],
+          "known": 1790928000,
+          "start": 1790838000,
+          "close_inside": false,
+          "event_status": "横盘候选·边缘外收待跟进"
+        },
+        {
+          "id": "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4133.72,
+            4226.22
+          ],
+          "current": [
+            4133.72,
+            4226.22
+          ],
+          "known": 1790956800,
+          "start": 1790776800,
+          "close_inside": false,
+          "event_status": "结构盘整候选"
+        },
+        {
+          "id": "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4110.88,
+            4231.57
+          ],
+          "current": [
+            4110.88,
+            4231.57
+          ],
+          "known": 1790928000,
+          "start": 1790568000,
+          "close_inside": true,
+          "event_status": "结构盘整候选"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ],
+        "turning": [
+          "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00",
+          "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        },
+        "turning": {
+          "dense_horizontal_pause_v1:body12:2026-10-01T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body8:2026-10-01T15:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body10:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:body16:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-01T17:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:bodyrevisited16:2026-10-02T02:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:24:horizontal:2026-10-01T18:00:00+00:00": "Book 原线不在该盘整内",
+          "native_session_triangle_candidate_v1:32:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:36:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内",
+          "native_session_triangle_candidate_v1:48:2026-10-02T15:00:00+00:00": "前一收盘不在盘整内"
+        }
+      },
+      "warmup_bars": 512
+    },
+    {
+      "owner": "native_scope:544ce85ecc70322be716fc6b",
+      "direction": "down",
+      "when": "2026-10-27T16:00:00Z",
+      "prices": {
+        "previous_close": 4012.51,
+        "current_close": 4023.34,
+        "outer": [
+          4022.564,
+          4022.126
+        ],
+        "turning": [
+          4014.4416666666666,
+          4012.8433333333332
+        ]
+      },
+      "prior_active_count": 11,
+      "prior_dense_count": 4,
+      "current_ids": 11,
+      "common": [
+        {
+          "id": "native_boundary_shape_candidate_v1:r4:p6:s1792731600:2026-10-27T02:00:00+00:00",
+          "shape": "channel",
+          "detector": "geometric",
+          "previous": [
+            3964.11957070707,
+            4025.5028535353536
+          ],
+          "current": [
+            3963.8544444444437,
+            4025.237727272727
+          ],
+          "known": 1793066400,
+          "start": 1792731600,
+          "close_inside": true,
+          "event_status": "交替边界盘整候选"
+        },
+        {
+          "id": "dense_horizontal_pause_v1:body16:2026-10-27T11:00:00+00:00",
+          "shape": "box",
+          "detector": "dense",
+          "previous": [
+            3997.19,
+            4030.01
+          ],
+          "current": [
+            3997.19,
+            4030.01
+          ],
+          "known": 1793098800,
+          "start": 1793037600,
+          "close_inside": true,
+          "event_status": "横盘候选·区间内往返"
+        },
+        {
+          "id": "dense_horizontal_pause_v1:2026-10-26T19:00:00+00:00",
+          "shape": "box",
+          "detector": "dense",
+          "previous": [
+            3978.18,
+            4026.58
+          ],
+          "current": [
+            3978.18,
+            4026.58
+          ],
+          "known": 1793041200,
+          "start": 1792983600,
+          "close_inside": true,
+          "event_status": "横盘候选·区间内往返"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "native_boundary_shape_candidate_v1:r4:p6:s1792731600:2026-10-27T02:00:00+00:00",
+          "dense_horizontal_pause_v1:body16:2026-10-27T11:00:00+00:00",
+          "dense_horizontal_pause_v1:2026-10-26T19:00:00+00:00"
+        ],
+        "turning": [
+          "long_converging_candidate_v1:10:2026-10-27T15:00:00+00:00",
+          "long_converging_candidate_v1:12:2026-10-27T15:00:00+00:00",
+          "native_boundary_shape_candidate_v1:r2:p8:s1792731600:2026-10-26T11:00:00+00:00",
+          "native_boundary_shape_candidate_v1:r4:p6:s1792731600:2026-10-27T02:00:00+00:00",
+          "long_converging_candidate_v1:16:2026-10-27T15:00:00+00:00",
+          "dense_horizontal_pause_v1:body8:2026-10-26T14:00:00+00:00",
+          "dense_horizontal_pause_v1:tight:2026-10-26T14:00:00+00:00",
+          "dense_horizontal_pause_v1:body16:2026-10-27T11:00:00+00:00",
+          "dense_horizontal_pause_v1:2026-10-26T19:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {
+          "dense_horizontal_pause_v1:body8:2026-10-26T14:00:00+00:00": "Book 原线不在该盘整内",
+          "dense_horizontal_pause_v1:tight:2026-10-26T14:00:00+00:00": "Book 原线不在该盘整内",
+          "price_structure_candidate_v5:compact:8:auto:2026-10-27T03:00:00+00:00": "前一收盘不在盘整内",
+          "price_structure_candidate_v5:compact:10:auto:2026-10-27T05:00:00+00:00": "前一收盘不在盘整内",
+          "long_converging_candidate_v1:16:2026-10-27T15:00:00+00:00": "Book 原线不在该盘整内",
+          "long_converging_candidate_v1:12:2026-10-27T15:00:00+00:00": "Book 原线不在该盘整内",
+          "long_converging_candidate_v1:10:2026-10-27T15:00:00+00:00": "Book 原线不在该盘整内",
+          "native_boundary_shape_candidate_v1:r2:p8:s1792731600:2026-10-26T11:00:00+00:00": "Book 原线不在该盘整内"
+        },
+        "turning": {
+          "price_structure_candidate_v5:compact:8:auto:2026-10-27T03:00:00+00:00": "前一收盘不在盘整内",
+          "price_structure_candidate_v5:compact:10:auto:2026-10-27T05:00:00+00:00": "前一收盘不在盘整内"
+        }
+      },
+      "warmup_bars": 512
+    },
+    {
+      "owner": "native_scope:cb7036bcceacf41e52f4ec3d",
+      "direction": "up",
+      "when": "2026-10-29T09:00:00Z",
+      "prices": {
+        "previous_close": 4037.99,
+        "current_close": 4024.75,
+        "outer": [
+          4034.648181818182,
+          4035.7290909090907
+        ],
+        "turning": [
+          4030.356,
+          4030.96
+        ]
+      },
+      "prior_active_count": 5,
+      "prior_dense_count": 0,
+      "current_ids": 5,
+      "common": [
+        {
+          "id": "native_session_triangle_candidate_v1:48:2026-10-29T06:00:00+00:00",
+          "shape": "triangle",
+          "detector": "geometric",
+          "previous": [
+            4022.5275,
+            4058.3625
+          ],
+          "current": [
+            4022.2616666666668,
+            4054.8500000000004
+          ],
+          "known": 1793253600,
+          "start": 1793073600,
+          "close_inside": true,
+          "event_status": "跨时段三角形态候选"
+        },
+        {
+          "id": "price_structure_candidate_v5:revisited:8:auto:2026-10-29T08:00:00+00:00",
+          "shape": "channel",
+          "detector": "structural",
+          "previous": [
+            4024.0989473684212,
+            4059.734210526316
+          ],
+          "current": [
+            4021.043684210527,
+            4056.6789473684216
+          ],
+          "known": 1793260800,
+          "start": 1793228400,
+          "close_inside": true,
+          "event_status": "结构盘整候选"
+        },
+        {
+          "id": "native_boundary_shape_candidate_v1:r8:p6:s1792771200:2026-10-29T07:00:00+00:00",
+          "shape": "channel",
+          "detector": "geometric",
+          "previous": [
+            4017.2759589041093,
+            4089.414633072407
+          ],
+          "current": [
+            4017.943243639921,
+            4090.081917808219
+          ],
+          "known": 1793257200,
+          "start": 1792771200,
+          "close_inside": true,
+          "event_status": "交替边界盘整候选"
+        },
+        {
+          "id": "price_structure_candidate_v5:96:horizontal:2026-10-28T21:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            3975.52,
+            4070.87
+          ],
+          "current": [
+            3975.52,
+            4070.87
+          ],
+          "known": 1793221200,
+          "start": 1792688400,
+          "close_inside": true,
+          "event_status": "结构盘整候选"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "native_session_triangle_candidate_v1:48:2026-10-29T06:00:00+00:00",
+          "price_structure_candidate_v5:revisited:8:auto:2026-10-29T08:00:00+00:00",
+          "native_boundary_shape_candidate_v1:r8:p6:s1792771200:2026-10-29T07:00:00+00:00",
+          "native_boundary_shape_candidate_v1:r4:p6:s1793098800:2026-10-29T05:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-28T21:00:00+00:00"
+        ],
+        "turning": [
+          "native_session_triangle_candidate_v1:48:2026-10-29T06:00:00+00:00",
+          "price_structure_candidate_v5:revisited:8:auto:2026-10-29T08:00:00+00:00",
+          "native_boundary_shape_candidate_v1:r8:p6:s1792771200:2026-10-29T07:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-10-28T21:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {},
+        "turning": {
+          "native_boundary_shape_candidate_v1:r4:p6:s1793098800:2026-10-29T05:00:00+00:00": "Book 原线不在该盘整内"
+        }
+      },
+      "warmup_bars": 512
+    },
+    {
+      "owner": "native_scope:896d29a03a8a3a0b78afcee3",
+      "direction": "up",
+      "when": "2026-11-10T19:00:00Z",
+      "prices": {
+        "previous_close": 4042.25,
+        "current_close": 4022.26,
+        "outer": [
+          4038.28,
+          4039.46
+        ],
+        "turning": [
+          4028.022380952381,
+          4028.048888888889
+        ]
+      },
+      "prior_active_count": 2,
+      "prior_dense_count": 0,
+      "current_ids": 2,
+      "common": [
+        {
+          "id": "price_structure_candidate_v5:96:horizontal:2026-11-10T15:00:00+00:00",
+          "shape": "box",
+          "detector": "structural",
+          "previous": [
+            4026.75,
+            4148.72
+          ],
+          "current": [
+            4026.75,
+            4148.72
+          ],
+          "known": 1794322800,
+          "start": 1793790000,
+          "close_inside": false,
+          "event_status": "结构盘整候选"
+        }
+      ],
+      "allowed_per_rail": {
+        "outer": [
+          "price_structure_candidate_v5:48:horizontal:2026-11-06T13:00:00+00:00",
+          "price_structure_candidate_v5:96:horizontal:2026-11-10T15:00:00+00:00"
+        ],
+        "turning": [
+          "price_structure_candidate_v5:96:horizontal:2026-11-10T15:00:00+00:00"
+        ]
+      },
+      "rejected_per_rail": {
+        "outer": {},
+        "turning": {
+          "price_structure_candidate_v5:48:horizontal:2026-11-06T13:00:00+00:00": "Book 原线不在该盘整内"
+        }
+      },
+      "warmup_bars": 512
+    }
+  ]
+}
