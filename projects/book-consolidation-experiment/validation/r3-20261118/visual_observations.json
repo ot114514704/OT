@@ -1,0 +1,24 @@
+{
+  "observed_at_local": "2026-11-18 10:10",
+  "method": "MT5 native UI observed through cua_repl, plus independently verified drawing receipts",
+  "chart": "102923304041429",
+  "period": "H1",
+  "viewport": "2026-10-22 through 2026-11-03",
+  "r3_reload_observed": true,
+  "blue_outer_continuation_labels_visible": true,
+  "continuation_off_hides_then_on_restores": true,
+  "shift_off_hides_shift_family_only": true,
+  "turning_off_hides_turning_family_only": true,
+  "channel_off_to_on_observed": true,
+  "triangle_off_to_on_observed": true,
+  "final_channel_triangle_continuation_shift_turning_on": true,
+  "ordinary_boxes_and_other_book_overlays_retained_visually": true,
+  "display_restoration": "After template reload: zoom out once, grid restored, bearish candle body restored from White to Black; H1 retained.",
+  "final_chart_only_image": "final/experiment_102923304041429_3600.png",
+  "limits": [
+    "One native historical viewport; not every reference date was revisited in r3.",
+    "Existing overlapping labels remain; this is not clutter or pixel-equivalence acceptance.",
+    "Full background-data retry transitions were not deliberately reproduced in the native UI.",
+    "This does not prove every Book cutoff is resolved or certify current-market classification."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "revision": "1.230-r3",
+  "chart": "102923304041429_3600",
+  "period": "H1",
+  "request_token": "5c32577dce07b5f99ac3a8a98f2066aba13ec272925563ee015e0ce6e15b8661",
+  "closed_cutoff": 1793707200,
+  "captured_utc": 1794967817,
+  "worker_sha256": "5b99db7e85d131bc3f34364f36273ef8b5680b2748776657736d832b649476b6",
+  "segments": 63,
+  "nonzero_segments": 61,
+  "outer_segments": 31,
+  "controls_verified": [
+    "continuation OFF/ON",
+    "Book shift OFF/ON",
+    "Book turning OFF/ON"
+  ],
+  "companion_loaded_reply_matches": true,
+  "production_files_unchanged": 70,
+  "book_core_headers_unchanged": 41,
+  "scope": "One preserved H1 viewport after native reload; historical-input native rendering, not current-market accuracy or all-history acceptance.",
+  "visual_observation_record": "visual_observations.json"
+}

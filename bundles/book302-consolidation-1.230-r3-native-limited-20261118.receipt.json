@@ -1,0 +1,20 @@
+{
+  "local": {
+    "path": "D:\\盘整研究资料\\备份\\Book302_盘整融合1.230-r3_原生有限验收_20261118.zip",
+    "sha256": "3258d73a7b2c55ee569b773fecc564bd58abeb137c74ddbd31dee568408779d3",
+    "bytes": 7846497,
+    "files_verified": 375,
+    "git_blob_sha": "8da548fccb053e1872dedeab07b6d99571751272"
+  },
+  "ot_bundle": {
+    "path": "D:\\盘整研究资料\\上传\\OT_20261118_fusion_r3\\book302-consolidation-1.230-r3-native-limited-20261118.zip",
+    "sha256": "5f950db2633b4edde6c0d093d7802d51b0e2a046e85cce6d7f00b67599b63b9c",
+    "bytes": 3121436,
+    "files_verified": 315,
+    "git_blob_sha": "15cf80c0ad99f8f25606ca72593f808284907a26"
+  },
+  "native_scope": "One preserved H1 viewport after native reload; historical-input native rendering, not current-market accuracy or all-history acceptance.",
+  "uploaded": false,
+  "stable_backup_unchanged": true,
+  "full_native_model_snapshots": "Local backup only; compact evidence and chart-only screenshot included in OT bundle."
+}
