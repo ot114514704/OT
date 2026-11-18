@@ -1,0 +1,21 @@
+{
+  "rows": 136,
+  "continuations": 79,
+  "native_pair_references": {
+    "no_direct_counterleg": 1,
+    "candidate": 1
+  },
+  "changed_text_rows": [
+    "b8a59842f9256b596537c5d6"
+  ],
+  "token": "0430aa10b89061d1fdd7c8f6d0d121630b5d1a2ab2a617f29e8d99be9f8c22d2",
+  "revision": "cdf8f82ef8880a48f1905d1448e2829a8ff6eec475c6ce94dfe607999d87e0b3",
+  "render_clock": "1794997469",
+  "worker": {
+    "pid": 35352,
+    "version": "Book302-consolidation-experiment-1.230",
+    "calculation": "viewport-history-1.17-backup-standard:preserved-layout-boundary-shapes-v24-20261116",
+    "started": 1794997378.5933008,
+    "script_sha256": "9c63d06ff8f824de04381d2a7c1fbbe8a1e4a111dddf5b81f743a3415b2f5b04"
+  }
+}

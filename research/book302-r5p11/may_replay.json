@@ -1,0 +1,493 @@
+{
+  "first": "2026-05-11T02:00:00Z",
+  "last": "2026-05-29T23:00:00Z",
+  "counts": {
+    "bars": 342,
+    "gap": 15,
+    "ok": 327,
+    "no_direct_counterleg": 15,
+    "incomplete_latest_counterleg": 1,
+    "candidate": 2
+  },
+  "dual_clocks": 15,
+  "cases": [
+    {
+      "clock": "2026-05-11T09:00:00Z",
+      "owner": "native_scope:118668535746cfc058110e4e",
+      "direction": "up",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-11T09:00:00Z",
+      "owner": "native_scope:3a57b4148cbcd9ffe88fb343",
+      "direction": "up",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-11T17:00:00Z",
+      "owner": "native_scope:d756b9462ab033b4caf9e927",
+      "direction": "down",
+      "event": "same_bar",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-12T05:00:00Z",
+      "owner": "native_scope:e91930fa53081ac2fe983601",
+      "direction": "up",
+      "event": "same_bar",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-12T19:00:00Z",
+      "owner": "native_scope:06b1a4eb16ce4c9171c75f71",
+      "direction": "up",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": false,
+      "same_terminal": false
+    },
+    {
+      "clock": "2026-05-14T23:00:00Z",
+      "owner": "native_scope:afa4e3a064f76aae33bad03d",
+      "direction": "up",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-15T00:00:00Z",
+      "owner": "native_scope:a9cb1ba24d458eebb12607a6",
+      "direction": "up",
+      "event": "later_line",
+      "reference": {
+        "status": "incomplete_latest_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "incomplete_counterleg"
+        },
+        "512": {
+          "status": "incomplete_counterleg"
+        },
+        "768": {
+          "status": "incomplete_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-15T04:00:00Z",
+      "owner": "native_scope:59a52b84b85b975a9b073453",
+      "direction": "up",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-19T15:00:00Z",
+      "owner": "native_scope:9aa11fb1d4b36febc923b2ff",
+      "direction": "up",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-21T21:00:00Z",
+      "owner": "native_scope:bc5504224129640637cccecc",
+      "direction": "down",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-26T04:00:00Z",
+      "owner": "native_scope:5d215650c374237825d1f653",
+      "direction": "up",
+      "event": "same_bar",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-26T15:00:00Z",
+      "owner": "native_scope:cae1623c2f4758bf44a6dcb8",
+      "direction": "up",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-26T21:00:00Z",
+      "owner": "native_scope:39361d89f2aee07664b9a0b2",
+      "direction": "up",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-26T21:00:00Z",
+      "owner": "native_scope:b4b2243be4995cd501290920",
+      "direction": "up",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-28T16:00:00Z",
+      "owner": "native_scope:9bfb44560a2d0024dc04adbb",
+      "direction": "down",
+      "event": "same_bar",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-28T16:00:00Z",
+      "owner": "native_scope:ab2e939aa124216e989149f5",
+      "direction": "down",
+      "event": "same_bar",
+      "reference": {
+        "status": "candidate",
+        "price": 4467.53,
+        "extreme": 1779930000.0,
+        "child": "native_scope:4310e0407dbd6bb4db3dbab8",
+        "owner": "native_scope:ab2e939aa124216e989149f5",
+        "membership_known": "2026-05-28T08:00:00Z",
+        "resumed": "2026-05-28T06:00:00Z",
+        "freeze": "2026-05-28T15:00:00Z",
+        "author_degree_verified": false,
+        "first_close": "2026-05-28T16:00:00Z",
+        "first_location": "inside",
+        "dual_location": "inside"
+      },
+      "warmups": {
+        "256": {
+          "status": "candidate",
+          "price": 4467.53,
+          "extreme": "2026-05-28T01:00:00Z",
+          "resumed": "2026-05-28T06:00:00Z",
+          "freeze": "2026-05-28T15:00:00Z",
+          "dual_close_outside": false
+        },
+        "512": {
+          "status": "candidate",
+          "price": 4467.53,
+          "extreme": "2026-05-28T01:00:00Z",
+          "resumed": "2026-05-28T06:00:00Z",
+          "freeze": "2026-05-28T15:00:00Z",
+          "dual_close_outside": false
+        },
+        "768": {
+          "status": "candidate",
+          "price": 4467.53,
+          "extreme": "2026-05-28T01:00:00Z",
+          "resumed": "2026-05-28T06:00:00Z",
+          "freeze": "2026-05-28T15:00:00Z",
+          "dual_close_outside": false
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true,
+      "level_reproduced": true,
+      "after": {
+        "price": 4467.53,
+        "freeze": "2026-05-28T15:00:00Z",
+        "points": [
+          {
+            "clock": "2026-05-28T16:00:00Z",
+            "close": 4432.18,
+            "location": "inside"
+          },
+          {
+            "clock": "2026-05-28T17:00:00Z",
+            "close": 4430.58,
+            "location": "inside"
+          },
+          {
+            "clock": "2026-05-28T18:00:00Z",
+            "close": 4469.48,
+            "location": "outside"
+          },
+          {
+            "clock": "2026-05-28T19:00:00Z",
+            "close": 4482.31,
+            "location": "outside"
+          }
+        ],
+        "stop": null
+      }
+    },
+    {
+      "clock": "2026-05-28T18:00:00Z",
+      "owner": "native_scope:6d73790030435677a32f8336",
+      "direction": "down",
+      "event": "later_line",
+      "reference": {
+        "status": "no_direct_counterleg"
+      },
+      "warmups": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true
+    },
+    {
+      "clock": "2026-05-29T13:00:00Z",
+      "owner": "native_scope:e0a52348b21d4219d7d8aa08",
+      "direction": "down",
+      "event": "later_line",
+      "reference": {
+        "status": "candidate",
+        "price": 4538.61,
+        "extreme": 1779843600.0,
+        "child": "native_scope:09ff6f12f93a79eba0e322c2",
+        "owner": "native_scope:e0a52348b21d4219d7d8aa08",
+        "membership_known": "2026-05-28T08:00:00Z",
+        "resumed": "2026-05-27T11:00:00Z",
+        "freeze": "2026-05-28T15:00:00Z",
+        "author_degree_verified": false,
+        "first_close": "2026-05-28T16:00:00Z",
+        "first_location": "inside",
+        "dual_location": "wick_back"
+      },
+      "warmups": {
+        "256": {
+          "status": "candidate",
+          "price": 4538.61,
+          "extreme": "2026-05-27T01:00:00Z",
+          "resumed": "2026-05-27T11:00:00Z",
+          "freeze": "2026-05-28T15:00:00Z",
+          "dual_close_outside": false
+        },
+        "512": {
+          "status": "candidate",
+          "price": 4538.61,
+          "extreme": "2026-05-27T01:00:00Z",
+          "resumed": "2026-05-27T11:00:00Z",
+          "freeze": "2026-05-28T15:00:00Z",
+          "dual_close_outside": false
+        },
+        "768": {
+          "status": "candidate",
+          "price": 4538.61,
+          "extreme": "2026-05-27T01:00:00Z",
+          "resumed": "2026-05-27T11:00:00Z",
+          "freeze": "2026-05-28T15:00:00Z",
+          "dual_close_outside": false
+        }
+      },
+      "source_alive": true,
+      "same_terminal": true,
+      "level_reproduced": true,
+      "after": null
+    }
+  ]
+}
