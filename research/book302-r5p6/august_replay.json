@@ -1,0 +1,897 @@
+{
+  "native_records": 22,
+  "native_events": [
+    {
+      "id": "b792a5e5fdbc0d0448b862b2",
+      "known": 1787616000,
+      "clock": 1787612400,
+      "state": "retrospective_close_cross",
+      "family": "GUIDED_TURNING",
+      "owner_a": 1787587200,
+      "owner_b": 1787605200,
+      "slope": -12.215000000000146,
+      "line": 4630.7699999999995
+    },
+    {
+      "id": "bd8de43d10868b4478bd6c2d",
+      "known": 1787616000,
+      "clock": 1787612400,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787587200,
+      "owner_b": 1787605200,
+      "slope": -8.095000000000255,
+      "line": 4647.249999999999
+    },
+    {
+      "id": "bf7b614d74d8519e0120bed3",
+      "known": 1787644800,
+      "clock": 1787641200,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787626800,
+      "owner_b": 1787634000,
+      "slope": -28.659999999999854,
+      "line": 4632.91
+    },
+    {
+      "id": "b8a0757e52fa05aeedc7620a",
+      "known": 1787666400,
+      "clock": 1787666400,
+      "state": "shift_closed_bar_cross_observed",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787648400,
+      "owner_b": 1787655600,
+      "slope": -8.445000000000164,
+      "line": 4628.58
+    },
+    {
+      "id": "bfcd44032c3c2c780b3915ce",
+      "known": 1787677200,
+      "clock": 1787677200,
+      "state": "shift_closed_bar_cross_observed",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787655600,
+      "owner_b": 1787666400,
+      "slope": 0.6199999999998909,
+      "line": 4623.259999999999
+    },
+    {
+      "id": "b5fffaf136bdb804cb0b8f46",
+      "known": 1787684400,
+      "clock": 1787680800,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787666400,
+      "owner_b": 1787673600,
+      "slope": -15.654999999999745,
+      "line": 4625.5650000000005
+    },
+    {
+      "id": "bfcd56bb1ed73b915a7369d7",
+      "known": 1787731200,
+      "clock": 1787702400,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787673600,
+      "owner_b": 1787680800,
+      "slope": 9.154999999999745,
+      "line": 4667.949999999999
+    },
+    {
+      "id": "bd47ecfa8cad053df796b648",
+      "known": 1787727600,
+      "clock": 1787724000,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787706000,
+      "owner_b": 1787716800,
+      "slope": -10.75,
+      "line": 4650.13
+    },
+    {
+      "id": "bb28164b7495f3299ed9e022",
+      "known": 1787778000,
+      "clock": 1787749200,
+      "state": "retrospective_close_cross",
+      "family": "GUIDED_TURNING",
+      "owner_a": 1787720400,
+      "owner_b": 1787734800,
+      "slope": -7.026666666666642,
+      "line": 4621.503333333333
+    },
+    {
+      "id": "ba34df8b9d2571d20b0acf16",
+      "known": 1787914800,
+      "clock": 1787832000,
+      "state": "retrospective_close_cross",
+      "family": "GUIDED_TURNING",
+      "owner_a": 1787806800,
+      "owner_b": 1787821200,
+      "slope": -8.454999999999927,
+      "line": 4596.375
+    },
+    {
+      "id": "b624fc3444e27c9c902587bc",
+      "known": 1787846400,
+      "clock": 1787842800,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787806800,
+      "owner_b": 1787835600,
+      "slope": -6.368000000000029,
+      "line": 4588.114
+    },
+    {
+      "id": "b85f58368c51c79fa490a138",
+      "known": 1787846400,
+      "clock": 1787842800,
+      "state": "retrospective_close_cross",
+      "family": "GUIDED_TURNING",
+      "owner_a": 1787806800,
+      "owner_b": 1787835600,
+      "slope": -6.299999999999879,
+      "line": 4588.250000000001
+    },
+    {
+      "id": "bd92fbb063535d7034bbb1df",
+      "known": 1787914800,
+      "clock": 1787853600,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787806800,
+      "owner_b": 1787846400,
+      "slope": -6.368000000000029,
+      "line": 4588.394
+    },
+    {
+      "id": "b7cdd30fce8e9fa3759e8cef",
+      "known": 1787882400,
+      "clock": 1787875200,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787846400,
+      "owner_b": 1787868000,
+      "slope": 8.940000000000055,
+      "line": 4613.22
+    },
+    {
+      "id": "bc5225b8280fde2c560ac4a7",
+      "known": 1787914800,
+      "clock": 1787911200,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787882400,
+      "owner_b": 1787904000,
+      "slope": -0.9325000000001182,
+      "line": 4604.9825
+    },
+    {
+      "id": "bba7270d2c0031da0af63b05",
+      "known": 1788364800,
+      "clock": 1787961600,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1787936400,
+      "owner_b": 1787950800,
+      "slope": -32.86999999999989,
+      "line": 4434.490000000001
+    },
+    {
+      "id": "b9d0d821194b229d2b1e0c29",
+      "known": 1788156000,
+      "clock": 1788156000,
+      "state": "shift_closed_bar_cross_observed",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1788138000,
+      "owner_b": 1788145200,
+      "slope": 3.0399999999999636,
+      "line": 4439.36
+    },
+    {
+      "id": "ba51b2c593fc95de0a755e16",
+      "known": 1788163200,
+      "clock": 1788159600,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1788145200,
+      "owner_b": 1788152400,
+      "slope": -27.870000000000346,
+      "line": 4413.5599999999995
+    },
+    {
+      "id": "bd2d3b18297d34b1bfbd5db8",
+      "known": 1788195600,
+      "clock": 1788177600,
+      "state": "retrospective_close_cross",
+      "family": "GUIDED_TURNING",
+      "owner_a": 1788152400,
+      "owner_b": 1788170400,
+      "slope": 7.566666666666909,
+      "line": 4441.970000000001
+    },
+    {
+      "id": "bcd35a3917445b5a582cc406",
+      "known": 1788195600,
+      "clock": 1788192000,
+      "state": "retrospective_close_cross",
+      "family": "GUIDED_TURNING",
+      "owner_a": 1788152400,
+      "owner_b": 1788184800,
+      "slope": 5.584285714285735,
+      "line": 4452.412857142857
+    },
+    {
+      "id": "be25750cc0c231607cba7dba",
+      "known": 1788195600,
+      "clock": 1788195600,
+      "state": "shift_closed_bar_cross_observed",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1788152400,
+      "owner_b": 1788184800,
+      "slope": 2.528888888888812,
+      "line": 4424.387777777777
+    },
+    {
+      "id": "b50d8a5203573c692b53f3e9",
+      "known": 1788202800,
+      "clock": 1788199200,
+      "state": "shift_retrospective_close_cross",
+      "family": "GUIDED_SHIFT",
+      "owner_a": 1788184800,
+      "owner_b": 1788192000,
+      "slope": -18.325000000000273,
+      "line": 4429.924999999999
+    }
+  ],
+  "causal": 0,
+  "checks": [
+    {
+      "clock": "2026-08-26T23:00:00+00:00",
+      "close": 4594.31,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": {
+            "id": "price_structure_candidate_v5:48:auto:2026-08-26T23:00:00+00:00",
+            "start": 1787605200,
+            "known": 1787785200,
+            "end": 1787785200,
+            "low": 4577.045679005645,
+            "high": 4655.8878799392105,
+            "status": "结构盘整候选",
+            "active": true
+          }
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": null,
+          "current": null
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-08-28T06:00:00+00:00",
+      "close": 4586.46,
+      "shapes": {
+        "channel": {
+          "previous": {
+            "id": "price_structure_candidate_v5:48:auto:2026-08-26T23:00:00+00:00",
+            "start": 1787605200,
+            "known": 1787785200,
+            "end": 1787893200,
+            "low": 4549.804265631785,
+            "high": 4628.64646656535,
+            "status": "结构盘整候选",
+            "active": true
+          },
+          "current": {
+            "id": "price_structure_candidate_v5:48:auto:2026-08-26T23:00:00+00:00",
+            "start": 1787605200,
+            "known": 1787785200,
+            "end": 1787896800,
+            "low": 4548.83135801129,
+            "high": 4627.673558944855,
+            "status": "结构盘整候选",
+            "active": true
+          }
+        },
+        "box": {
+          "previous": null,
+          "current": {
+            "id": "dense_horizontal_pause_v1:body16:2026-08-28T06:00:00+00:00",
+            "start": 1787835600,
+            "known": 1787896800,
+            "end": 1787896800,
+            "low": 4565.34,
+            "high": 4618.04,
+            "status": "横盘候选·区间内往返",
+            "active": true
+          }
+        },
+        "triangle": {
+          "previous": null,
+          "current": null
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-08-28T18:00:00+00:00",
+      "close": 4576.7,
+      "shapes": {
+        "channel": {
+          "previous": {
+            "id": "price_structure_candidate_v5:48:auto:2026-08-26T23:00:00+00:00",
+            "start": 1787605200,
+            "known": 1787785200,
+            "end": 1787936400,
+            "low": 4538.129374185844,
+            "high": 4616.97157511941,
+            "status": "结构盘整候选",
+            "active": true
+          },
+          "current": {
+            "id": "price_structure_candidate_v5:48:auto:2026-08-26T23:00:00+00:00",
+            "start": 1787605200,
+            "known": 1787785200,
+            "end": 1787940000,
+            "low": 4537.15646656535,
+            "high": 4615.998667498915,
+            "status": "结构盘整候选",
+            "active": true
+          }
+        },
+        "box": {
+          "previous": {
+            "id": "dense_horizontal_pause_v1:body16:2026-08-28T06:00:00+00:00",
+            "start": 1787835600,
+            "known": 1787896800,
+            "end": 1787936400,
+            "low": 4565.34,
+            "high": 4618.04,
+            "status": "横盘候选·区间内往返",
+            "active": true
+          },
+          "current": {
+            "id": "dense_horizontal_pause_v1:body16:2026-08-28T06:00:00+00:00",
+            "start": 1787835600,
+            "known": 1787896800,
+            "end": 1787940000,
+            "low": 4565.34,
+            "high": 4618.04,
+            "status": "横盘候选·区间内往返",
+            "active": true
+          }
+        },
+        "triangle": {
+          "previous": null,
+          "current": null
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-08-28T19:00:00+00:00",
+      "close": 4524.57,
+      "shapes": {
+        "channel": {
+          "previous": {
+            "id": "price_structure_candidate_v5:48:auto:2026-08-26T23:00:00+00:00",
+            "start": 1787605200,
+            "known": 1787785200,
+            "end": 1787940000,
+            "low": 4537.15646656535,
+            "high": 4615.998667498915,
+            "status": "结构盘整候选",
+            "active": true
+          },
+          "current": {
+            "id": "price_structure_candidate_v5:48:auto:2026-08-26T23:00:00+00:00",
+            "start": 1787605200,
+            "known": 1787785200,
+            "end": 1787943600,
+            "low": 4536.183558944855,
+            "high": 4615.02575987842,
+            "status": "结构盘整候选",
+            "active": true
+          }
+        },
+        "box": {
+          "previous": {
+            "id": "dense_horizontal_pause_v1:body16:2026-08-28T06:00:00+00:00",
+            "start": 1787835600,
+            "known": 1787896800,
+            "end": 1787940000,
+            "low": 4565.34,
+            "high": 4618.04,
+            "status": "横盘候选·区间内往返",
+            "active": true
+          },
+          "current": {
+            "id": "dense_horizontal_pause_v1:body16:2026-08-28T06:00:00+00:00",
+            "start": 1787835600,
+            "known": 1787896800,
+            "end": 1787943600,
+            "low": 4565.34,
+            "high": 4618.04,
+            "status": "横盘候选·边缘外收待跟进",
+            "active": true
+          }
+        },
+        "triangle": {
+          "previous": null,
+          "current": null
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-08-28T20:00:00+00:00",
+      "close": 4479.54,
+      "shapes": {
+        "channel": {
+          "previous": {
+            "id": "price_structure_candidate_v5:48:auto:2026-08-26T23:00:00+00:00",
+            "start": 1787605200,
+            "known": 1787785200,
+            "end": 1787943600,
+            "low": 4536.183558944855,
+            "high": 4615.02575987842,
+            "status": "结构盘整候选",
+            "active": true
+          },
+          "current": {
+            "id": "price_structure_candidate_v5:48:auto:2026-08-26T23:00:00+00:00",
+            "start": 1787605200,
+            "known": 1787785200,
+            "end": 1787947200,
+            "low": 4535.21065132436,
+            "high": 4614.052852257925,
+            "status": "向下离开结构观察区",
+            "active": false
+          }
+        },
+        "box": {
+          "previous": {
+            "id": "dense_horizontal_pause_v1:body16:2026-08-28T06:00:00+00:00",
+            "start": 1787835600,
+            "known": 1787896800,
+            "end": 1787943600,
+            "low": 4565.34,
+            "high": 4618.04,
+            "status": "横盘候选·边缘外收待跟进",
+            "active": true
+          },
+          "current": {
+            "id": "dense_horizontal_pause_v1:body16:2026-08-28T06:00:00+00:00",
+            "start": 1787835600,
+            "known": 1787896800,
+            "end": 1787947200,
+            "low": 4565.34,
+            "high": 4618.04,
+            "status": "向下离开横盘观察区·原方向中继延续已观察",
+            "active": false
+          }
+        },
+        "triangle": {
+          "previous": null,
+          "current": null
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T02:00:00+00:00",
+      "close": 4447.03,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": null,
+          "current": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788228000,
+            "low": 4429.82,
+            "high": 4454.70576923077,
+            "status": "跨时段三角形态候选",
+            "active": true
+          }
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T03:00:00+00:00",
+      "close": 4452.27,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788228000,
+            "low": 4429.82,
+            "high": 4454.70576923077,
+            "status": "跨时段三角形态候选",
+            "active": true
+          },
+          "current": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788231600,
+            "low": 4431.57,
+            "high": 4453.5215384615385,
+            "status": "跨时段三角形态候选",
+            "active": true
+          }
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T04:00:00+00:00",
+      "close": 4453.8,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788231600,
+            "low": 4431.57,
+            "high": 4453.5215384615385,
+            "status": "跨时段三角形态候选",
+            "active": true
+          },
+          "current": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788235200,
+            "low": 4433.32,
+            "high": 4452.337307692308,
+            "status": "跨时段三角形态候选",
+            "active": true
+          }
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T05:00:00+00:00",
+      "close": 4444.51,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788235200,
+            "low": 4433.32,
+            "high": 4452.337307692308,
+            "status": "跨时段三角形态候选",
+            "active": true
+          },
+          "current": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788238800,
+            "low": 4435.07,
+            "high": 4451.153076923078,
+            "status": "跨时段三角形态候选",
+            "active": true
+          }
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T06:00:00+00:00",
+      "close": 4443.12,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788238800,
+            "low": 4435.07,
+            "high": 4451.153076923078,
+            "status": "跨时段三角形态候选",
+            "active": true
+          },
+          "current": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788242400,
+            "low": 4436.82,
+            "high": 4449.968846153846,
+            "status": "跨时段三角形态候选",
+            "active": true
+          }
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T07:00:00+00:00",
+      "close": 4436.77,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788242400,
+            "low": 4436.82,
+            "high": 4449.968846153846,
+            "status": "跨时段三角形态候选",
+            "active": true
+          },
+          "current": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788246000,
+            "low": 4438.57,
+            "high": 4448.784615384616,
+            "status": "跨时段三角形态候选",
+            "active": true
+          }
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T08:00:00+00:00",
+      "close": 4426.76,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788246000,
+            "low": 4438.57,
+            "high": 4448.784615384616,
+            "status": "跨时段三角形态候选",
+            "active": true
+          },
+          "current": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788249600,
+            "low": 4440.32,
+            "high": 4447.600384615385,
+            "status": "跨时段三角形态候选",
+            "active": true
+          }
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T09:00:00+00:00",
+      "close": 4440.14,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788249600,
+            "low": 4440.32,
+            "high": 4447.600384615385,
+            "status": "跨时段三角形态候选",
+            "active": true
+          },
+          "current": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788253200,
+            "low": 4442.07,
+            "high": 4446.416153846154,
+            "status": "跨时段三角形态候选",
+            "active": true
+          }
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T10:00:00+00:00",
+      "close": 4429.68,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788253200,
+            "low": 4442.07,
+            "high": 4446.416153846154,
+            "status": "跨时段三角形态候选",
+            "active": true
+          },
+          "current": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788256800,
+            "low": 4443.82,
+            "high": 4445.2319230769235,
+            "status": "跨时段三角形态候选",
+            "active": true
+          }
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T11:00:00+00:00",
+      "close": 4420.32,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788256800,
+            "low": 4443.82,
+            "high": 4445.2319230769235,
+            "status": "跨时段三角形态候选",
+            "active": true
+          },
+          "current": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788260400,
+            "low": 4445.57,
+            "high": 4444.047692307693,
+            "status": "两边交会，三角观察终止",
+            "active": false
+          }
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T12:00:00+00:00",
+      "close": 4370.85,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": {
+            "id": "native_session_triangle_candidate_v1:edge:28:2026-09-01T02:00:00+00:00",
+            "start": 1787947200,
+            "known": 1788228000,
+            "end": 1788260400,
+            "low": 4445.57,
+            "high": 4444.047692307693,
+            "status": "两边交会，三角观察终止",
+            "active": false
+          },
+          "current": null
+        }
+      },
+      "events": []
+    },
+    {
+      "clock": "2026-09-01T13:00:00+00:00",
+      "close": 4364.79,
+      "shapes": {
+        "channel": {
+          "previous": null,
+          "current": null
+        },
+        "box": {
+          "previous": null,
+          "current": null
+        },
+        "triangle": {
+          "previous": null,
+          "current": null
+        }
+      },
+      "events": []
+    }
+  ]
+}
