@@ -1,0 +1,10 @@
+{
+  "token": "1e5fc3a9ae9e6d77202e8c6cf453529ef6104b98d9fff9506154bc7c13e74429",
+  "revision": "d2194b880bcb24f2a69e59685a70b1e95c8f19a4c3f05fcf4130d97aab65569c",
+  "stage": "full",
+  "rows": 136,
+  "annotated": 28,
+  "native_received_at": "1794980306",
+  "worker_sha256": "09b0fbd7633a537c0a2d1044fc2376c3e020c6d217782522e240b6c118429999",
+  "rule_sha256": "52c93cd65a19f0e1d3f4a5483404bdbdf19347c460ff2316917740d96af5e961"
+}

@@ -1,0 +1,51 @@
+{
+  "scope": "Saved M30 project evidence as supplied in the archive; separate from current XAUUSD H1 replay.",
+  "archive_files": [
+    {
+      "path": "forex-ai-source-main/03_work_queue/machine1_unified_mt5/semantic_publication_merge_20261022/chapter7_dual_break_branches_replay.json",
+      "sha256": "5cb9ce0b9c7b69147943f41c6b4e37e623b8c990dc9cf1a6a780bcb34bda8915"
+    },
+    {
+      "path": "forex-ai-source-main/03_work_queue/machine1_unified_mt5/chapter5_boundary_freeze_current_20261023_v1/acceptance.json",
+      "sha256": "ede49aceefa0e02f59293e2adf0a63cfb49970bb2aa445a7034323d014363b42"
+    },
+    {
+      "path": "forex-ai-source-main/03_work_queue/theory_support_20261026/native_frozen_lifecycle_contract.json",
+      "sha256": "33657eed438e6e5ad91b4608c821e773cf28028ec254f4c21349033f9f0de725"
+    }
+  ],
+  "chapter5": {
+    "timeframe": "M30",
+    "states": {
+      "frozen_before_first_boundary": 52
+    },
+    "A_sources": {
+      "radius2_engineering_proxy": 52
+    },
+    "author_confirmed": 0
+  },
+  "chapter7": {
+    "timeframe": "M30",
+    "branch_counts": {
+      "dual_break_required": 35,
+      "B_invalidated": 13,
+      "candidate_bound_to_prior_B_A": 4
+    },
+    "author_degree_verified": false
+  },
+  "sequential_dual_break_case": {
+    "turning_break_known_at_utc": "2026-04-13T07:00:00Z",
+    "outer_break_and_old_end_known_at_utc": "2026-04-14T09:30:00Z",
+    "outer_two_close_response_known_at_utc": "2026-04-14T10:00:00Z",
+    "A_verified": false,
+    "later_outer_reentry_prefixes": [
+      373,
+      374,
+      376,
+      377,
+      378,
+      379,
+      380
+    ]
+  }
+}

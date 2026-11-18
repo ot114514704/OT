@@ -1,0 +1,82 @@
+{
+  "cases": 195,
+  "counts": {
+    "2/held": 147,
+    "3/held": 115,
+    "3/missing_contiguous_bar": 40,
+    "2/returned_or_touched": 29,
+    "3/returned_or_touched": 40,
+    "2/missing_contiguous_bar": 19
+  },
+  "motions": {
+    "rail_overtook_price": 13,
+    "past_prior_level": 120,
+    "price_and_rail": 62
+  },
+  "third_close_by_motion": {
+    "rail_overtook_price": {
+      "held": 5,
+      "missing_contiguous_bar": 7,
+      "returned_or_touched": 1
+    },
+    "past_prior_level": {
+      "held": 75,
+      "missing_contiguous_bar": 20,
+      "returned_or_touched": 25
+    },
+    "price_and_rail": {
+      "held": 35,
+      "missing_contiguous_bar": 13,
+      "returned_or_touched": 14
+    }
+  },
+  "examples": {
+    "rail_overtook_price": {
+      "id": "b4b4c57b80a7cad78cd0a467",
+      "clock": 1790899200,
+      "previous_close": 4176.64,
+      "close": 4177.38,
+      "previous_line": 4174.24,
+      "line": 4180.549999999999
+    },
+    "past_prior_level": {
+      "id": "b4368020f5aad9a768dd37c7",
+      "clock": 1794261600,
+      "previous_close": 4104.44,
+      "close": 4136.32,
+      "previous_line": 4122.9000000000015,
+      "line": 4122.1950000000015
+    },
+    "price_and_rail": {
+      "id": "b246e33e2a6c537582d51a71",
+      "clock": 1794348000,
+      "previous_close": 4027.34,
+      "close": 4029.55,
+      "previous_line": 4037.7300000000005,
+      "line": 4029.3200000000006
+    }
+  },
+  "closed_prefix_checks": 585,
+  "mirror_checks": 585,
+  "contract_observations": [
+    {
+      "role": "GUIDED_SHIFT",
+      "event": "0",
+      "pair": "0",
+      "count": 227
+    },
+    {
+      "role": "GUIDED_SOURCE",
+      "event": "0",
+      "pair": "0",
+      "count": 227
+    },
+    {
+      "role": "GUIDED_TURNING",
+      "event": "0",
+      "pair": "0",
+      "count": 136
+    }
+  ],
+  "trading_signals": false
+}
