@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "full_output_exact": true,
+  "records": 111,
+  "memo": {
+    "hits": 83081,
+    "misses": 7668,
+    "bypasses": 0,
+    "retained_entries": 7668,
+    "retained_bytes": 32459734,
+    "max_entries": 20000,
+    "max_bytes": 67108864
+  },
+  "seconds": {
+    "direct": 95.62934540002607,
+    "memo": 75.26430969999637
+  },
+  "reduction_fraction": 0.212958016337359,
+  "unit_checks": 5,
+  "live_deployed": false,
+  "scope": "One existing H1 native request, complete output exact. Unprofiled process timings; not whole live model latency or universal speedup. The live worker and bundled research snapshot remain unchanged."
+}

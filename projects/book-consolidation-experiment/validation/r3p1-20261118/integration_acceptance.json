@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "results": 111,
+  "full_output_exact": true,
+  "seconds": 76.82139330002246,
+  "memo": {
+    "hits": 83081,
+    "misses": 7668,
+    "bypasses": 0,
+    "retained_entries": 7668,
+    "retained_bytes": 32459734,
+    "max_entries": 20000,
+    "max_bytes": 67108864
+  },
+  "production_files_unchanged": 70,
+  "book_headers_unchanged": 41,
+  "source_sha256": {
+    "worker.py": "11e7aa31f5d5ab65ad11fecd0a02208bfe3874ee4ee1516e8b6019931cf2cfdc",
+    "geometry_window_memo.py": "d7386406c6bd3557ea7eb124a2dac0ef5ba640652b7bf07f20823b6395661b9f",
+    "research_snapshot/ict_trader/long_geometry.py": "105ebf3d2d1ce01ad75a6feb3e337104d0353c8f28bec3049d8a995e0d6381c0",
+    "research_snapshot/ict_trader/native_triangles.py": "f47c54ddcce1742c323e2227c702df4409cc20774236fe3316d831d543c442dc"
+  },
+  "live_worker_restarted": false,
+  "scope": "Explicit callback integration; no process-global monkeypatch in the worker. All fields equal to the profiled pre-change native request. Timing is offline."
+}

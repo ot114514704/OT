@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "triangle_march",
+      "bars": 86,
+      "ranges": 26,
+      "all_fields_exact": true,
+      "result_sha256": "7fa0c2f75033fda5da4cd8c2e96bb0a97955132fcd6756baa70ac615f04c82bf"
+    },
+    {
+      "case": "triangle_march",
+      "bars": 173,
+      "ranges": 90,
+      "all_fields_exact": true,
+      "result_sha256": "73b7d93085fc20716c580ead14acd35a19c58c6eda3a081069168cb58eb3e023"
+    },
+    {
+      "case": "triangle_april",
+      "bars": 86,
+      "ranges": 32,
+      "all_fields_exact": true,
+      "result_sha256": "806fa6aea94cab719a90a5c2c956a2fe5da284873337fe9e4ef62fa5ea0a5d08"
+    },
+    {
+      "case": "triangle_april",
+      "bars": 173,
+      "ranges": 80,
+      "all_fields_exact": true,
+      "result_sha256": "a1adf5f7f85bc28525f19e7f6b16db550dabb45134edb91b0e34f4c0f361d7f3"
+    },
+    {
+      "case": "channel_triangle_august",
+      "bars": 133,
+      "ranges": 46,
+      "all_fields_exact": true,
+      "result_sha256": "b72a23d245f5d42476a5f4c2d72f579d7c0ddd5acb61cb5c8b9d9f13b022fe38"
+    },
+    {
+      "case": "channel_triangle_august",
+      "bars": 266,
+      "ranges": 112,
+      "all_fields_exact": true,
+      "result_sha256": "8e55fff7f8ddaeb1d930291c84b027b0570bb9894072913d271110d93a6ea4ed"
+    },
+    {
+      "case": "july_august_latest_two",
+      "bars": 535,
+      "ranges": 235,
+      "all_fields_exact": true,
+      "result_sha256": "717459b9e67a5ba2b9703331cc47f5687ed329abd0d8ac573cc813af2df6ada0"
+    },
+    {
+      "case": "july_august_latest_two",
+      "bars": 1070,
+      "ranges": 513,
+      "all_fields_exact": true,
+      "result_sha256": "58cf1c89ae6309d15875570afed7cd9a0f7e8dec59136315ecb10fb396d5c9ca"
+    }
+  ],
+  "memo": {
+    "hits": 10349,
+    "misses": 16743,
+    "bypasses": 0,
+    "retained_entries": 15786,
+    "retained_bytes": 67104200,
+    "max_entries": 20000,
+    "max_bytes": 67108864
+  },
+  "live_deployed": false,
+  "scope": "Four native input regions cover the six hand-marked references. Half/full prefixes have exact entire geometry outputs. No new native UI rendering or all-history accuracy claim."
+}
