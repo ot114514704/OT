@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "candidate_gap_handoff": true,
+  "cases": 42,
+  "closed_prefix_checks": 9883,
+  "future_suffix_checks": 863,
+  "classifications": {
+    "2": 37,
+    "1": 1,
+    "8": 4
+  },
+  "cases_with_outer_handoff": 28,
+  "max_chain": 3,
+  "elapsed_seconds": 460.5269996999996,
+  "source_sha256": {
+    "worker.py": "7d1bd110950467078c5734c67bc89dec0ae35cc082a7160cf2d5af0e18aff5c2",
+    "continuation.py": "015e2a4ac4d5a3da8063a395edc1a0a70e663c912757a688c09c38c8b2439ead",
+    "outer_continuation.py": "941574dea1898be5e2fab1b6c556fc70b76b126066b297867953440e1cf04e7b",
+    "outer_gap_candidate.py": "20caae1c933739dfb9e824a1e848089b082dc98e7d9d27dbe3f069c7744b2594",
+    "testdata/native_history_H1.tsv": "a804d848479dd1266ba1bceaf5fb9f5e7f1e8acccb7d62e3818ace83b3c5388d",
+    "all_example_candidates.json": "8da70e4a8d6e3cc79665e077b4df038f0437a68738678bb1ef336303dedd77da",
+    "audit_multidate_continuation.py": "6a1476e0c7d8c08e1167288ed00486ba7dd45e9ebb5945d05113920da6bb763d"
+  },
+  "limits": [
+    "Selected saved GUIDED_TURNING examples only; not all families or unbiased accuracy.",
+    "Up to240 subsequent observed bars, not the whole future.",
+    "Offline native data/causal logic audit, not fresh chart visual acceptance.",
+    "Does not certify missing regions without captured Book events."
+  ]
+}

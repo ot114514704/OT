@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "request_token": "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+  "expected_segments": 54,
+  "verified_nonzero_segments": 53,
+  "verified_outer_segments": 22,
+  "problems": [],
+  "visual_acceptance": false,
+  "scope": "Current file receipts only. Fresh matching r3 native render is required; this cannot replace visual/button acceptance."
+}

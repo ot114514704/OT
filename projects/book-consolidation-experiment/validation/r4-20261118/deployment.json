@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "worker_pid": 19848,
+  "worker_sha256": "c3b612b9e578dac74c30fb7871b1297e1c28d66991f99aa697f4c6f2a91555e9",
+  "candidate_sha256": "20caae1c933739dfb9e824a1e848089b082dc98e7d9d27dbe3f069c7744b2594",
+  "token": "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+  "records": 107,
+  "reviewed_candidate_exact": true,
+  "original_full_H1_M15_model_exact": true,
+  "fresh_native_render": true,
+  "elapsed_seconds": 97.26500000001397,
+  "companion_snapshot_current": true,
+  "complete_progress_current": true,
+  "companion_loaded_header_semantics_exact": true,
+  "companion_elapsed_reply_loaded": [
+    "0.047",
+    "0.141"
+  ],
+  "scope": "Current November H1 viewport; coordinate and visual checks are separate required evidence."
+}

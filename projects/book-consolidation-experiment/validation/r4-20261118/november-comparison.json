@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "token": "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+  "records": 107,
+  "changes": [
+    {
+      "id": "b3d2df90f8218321688ef3bb",
+      "prior_segments": 0,
+      "new_segments": 2
+    },
+    {
+      "id": "b0aad2b41ae9e9a0e97b6a6e",
+      "prior_segments": 0,
+      "new_segments": 2
+    }
+  ],
+  "original_classifications_inner_and_existing_outer_segments_exact": true,
+  "expected_results_sha256": "783adf929eb8b0c0f47e2c85a86dc70db7a7cc2818ce46d8038b9a3f1f05d607",
+  "candidate_sha256": "20caae1c933739dfb9e824a1e848089b082dc98e7d9d27dbe3f069c7744b2594",
+  "elapsed_seconds": 59.34209839999676,
+  "deployed": false,
+  "scope": "Actual November H1 viewport with native Book event; offline candidate comparison, not its native rendering yet."
+}
