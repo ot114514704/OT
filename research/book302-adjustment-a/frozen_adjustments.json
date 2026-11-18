@@ -1,0 +1,2561 @@
+{
+  "archive_sha256": "dab7cc2dfefff70f2523bffb3f28f6745a2709b533bf0b9e8aa5116d68f12ee1",
+  "history_sha256": "a804d848479dd1266ba1bceaf5fb9f5e7f1e8acccb7d62e3818ace83b3c5388d",
+  "cases": [
+    {
+      "id": "native_scope:034a889ff025b09c3ad01f1d",
+      "direction": "up",
+      "source": "2026-09-28T23:00:00Z",
+      "terminal": "2026-10-02T15:00:00Z",
+      "terminal_price": 4226.22,
+      "freeze": "2026-10-02T18:00:00Z",
+      "first_close": "2026-10-02T19:00:00Z",
+      "dual_close": "2026-10-02T19:00:00Z",
+      "bars_between": 0,
+      "price_at_dual_close": 4127.32,
+      "references": {
+        "abc_A": {
+          "time": "2026-10-01T11:00:00Z",
+          "price": 4149.05,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-10-01T18:00:00Z",
+          "price": 4150.07,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-10-02T13:00:00Z",
+          "price": 4165.98,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-10-02T18:00:00Z"
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-10-01T11:00:00Z",
+        "a_price": 4149.05,
+        "b_utc": "2026-10-01T15:00:00Z",
+        "b_price": 4187.83,
+        "c_utc": "2026-10-01T18:00:00Z",
+        "c_price": 4150.07,
+        "known_at_utc": "2026-10-02T18:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-10-01T14:00:00Z",
+          "b": "2026-10-01T17:00:00Z",
+          "c": "2026-10-01T20:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4165.98,
+        "boundary_a_utc": "2026-10-02T13:00:00Z",
+        "boundary_a_index": 219,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-10-02T16:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-10-02T18:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-09-28T23:00:00Z",
+              4111.37
+            ],
+            [
+              "2026-10-02T04:00:00Z",
+              4133.72
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:af2375c500723c11284b5847",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 224,
+        "break_utc": "2026-10-02T18:00:00Z",
+        "known_at_utc": "2026-10-02T19:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:1c0cf1cca3bb9bc1d4e3b3d7",
+      "direction": "up",
+      "source": "2026-09-29T08:00:00Z",
+      "terminal": "2026-10-02T15:00:00Z",
+      "terminal_price": 4226.22,
+      "freeze": "2026-10-02T18:00:00Z",
+      "first_close": "2026-10-02T19:00:00Z",
+      "dual_close": "2026-10-02T19:00:00Z",
+      "bars_between": 0,
+      "price_at_dual_close": 4127.32,
+      "references": {
+        "abc_A": {
+          "time": "2026-10-01T11:00:00Z",
+          "price": 4149.05,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-10-01T18:00:00Z",
+          "price": 4150.07,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-10-02T13:00:00Z",
+          "price": 4165.98,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-10-02T18:00:00Z"
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-10-01T11:00:00Z",
+        "a_price": 4149.05,
+        "b_utc": "2026-10-01T15:00:00Z",
+        "b_price": 4187.83,
+        "c_utc": "2026-10-01T18:00:00Z",
+        "c_price": 4150.07,
+        "known_at_utc": "2026-10-02T18:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-10-01T14:00:00Z",
+          "b": "2026-10-01T17:00:00Z",
+          "c": "2026-10-01T20:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4165.98,
+        "boundary_a_utc": "2026-10-02T13:00:00Z",
+        "boundary_a_index": 219,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-10-02T16:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-10-02T18:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-09-29T08:00:00Z",
+              4122.1
+            ],
+            [
+              "2026-10-02T04:00:00Z",
+              4133.72
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:781555d414169fef110fca15",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 224,
+        "break_utc": "2026-10-02T18:00:00Z",
+        "known_at_utc": "2026-10-02T19:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:7abb2bb93c279f46f6f68db2",
+      "direction": "up",
+      "source": "2026-09-29T04:00:00Z",
+      "terminal": "2026-10-02T15:00:00Z",
+      "terminal_price": 4226.22,
+      "freeze": "2026-10-02T18:00:00Z",
+      "first_close": "2026-10-02T19:00:00Z",
+      "dual_close": "2026-10-02T19:00:00Z",
+      "bars_between": 0,
+      "price_at_dual_close": 4127.32,
+      "references": {
+        "abc_A": {
+          "time": "2026-10-01T11:00:00Z",
+          "price": 4149.05,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-10-01T18:00:00Z",
+          "price": 4150.07,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-10-02T13:00:00Z",
+          "price": 4165.98,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-10-02T18:00:00Z"
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-10-01T11:00:00Z",
+        "a_price": 4149.05,
+        "b_utc": "2026-10-01T15:00:00Z",
+        "b_price": 4187.83,
+        "c_utc": "2026-10-01T18:00:00Z",
+        "c_price": 4150.07,
+        "known_at_utc": "2026-10-02T18:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-10-01T14:00:00Z",
+          "b": "2026-10-01T17:00:00Z",
+          "c": "2026-10-01T20:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4165.98,
+        "boundary_a_utc": "2026-10-02T13:00:00Z",
+        "boundary_a_index": 219,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-10-02T16:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-10-02T18:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-09-29T04:00:00Z",
+              4113.33
+            ],
+            [
+              "2026-10-02T04:00:00Z",
+              4133.72
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:ca2a9c8119c7abbb3ba21519",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 224,
+        "break_utc": "2026-10-02T18:00:00Z",
+        "known_at_utc": "2026-10-02T19:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:ad28f9527dd41ff030860095",
+      "direction": "down",
+      "source": "2026-09-25T14:00:00Z",
+      "terminal": "2026-09-28T17:00:00Z",
+      "terminal_price": 4110.88,
+      "freeze": "2026-09-29T02:00:00Z",
+      "first_close": "2026-09-29T03:00:00Z",
+      "dual_close": "2026-09-30T03:00:00Z",
+      "bars_between": 23,
+      "price_at_dual_close": 4184.98,
+      "references": {
+        "abc_A": {
+          "time": "2026-09-25T22:00:00Z",
+          "price": 4297.26,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-09-28T15:00:00Z",
+          "price": 4171.33,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-09-28T15:00:00Z",
+          "price": 4171.33,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "down",
+        "form": "abc_adjustment_candidate",
+        "a_utc": "2026-09-25T22:00:00Z",
+        "a_price": 4297.26,
+        "b_utc": "2026-09-28T12:00:00Z",
+        "b_price": 4140.59,
+        "c_utc": "2026-09-28T15:00:00Z",
+        "c_price": 4171.33,
+        "known_at_utc": "2026-09-29T02:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": null,
+          "b": "2026-09-28T16:00:00Z",
+          "c": "2026-09-28T17:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "down",
+        "boundary_a_price": 4171.33,
+        "boundary_a_utc": "2026-09-28T15:00:00Z",
+        "boundary_a_index": 129,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-09-28T18:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-09-29T02:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "down",
+          "anchors": [
+            [
+              "2026-09-25T14:00:00Z",
+              4315.73
+            ],
+            [
+              "2026-09-25T22:00:00Z",
+              4297.26
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:662523b4ce68677eb9ba943e",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 162,
+        "break_utc": "2026-09-30T02:00:00Z",
+        "known_at_utc": "2026-09-30T03:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:e0d4dd8d2c7c55845a20ebee",
+      "direction": "down",
+      "source": "2026-09-25T19:00:00Z",
+      "terminal": "2026-09-28T17:00:00Z",
+      "terminal_price": 4110.88,
+      "freeze": "2026-09-29T02:00:00Z",
+      "first_close": "2026-09-29T03:00:00Z",
+      "dual_close": "2026-10-02T16:00:00Z",
+      "bars_between": 82,
+      "price_at_dual_close": 4217.67,
+      "references": {
+        "abc_A": {
+          "time": "2026-09-25T22:00:00Z",
+          "price": 4297.26,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-09-28T15:00:00Z",
+          "price": 4171.33,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-09-28T15:00:00Z",
+          "price": 4171.33,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "down",
+        "form": "abc_adjustment_candidate",
+        "a_utc": "2026-09-25T22:00:00Z",
+        "a_price": 4297.26,
+        "b_utc": "2026-09-28T12:00:00Z",
+        "b_price": 4140.59,
+        "c_utc": "2026-09-28T15:00:00Z",
+        "c_price": 4171.33,
+        "known_at_utc": "2026-09-29T02:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": null,
+          "b": "2026-09-28T16:00:00Z",
+          "c": "2026-09-28T17:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "down",
+        "boundary_a_price": 4171.33,
+        "boundary_a_utc": "2026-09-28T15:00:00Z",
+        "boundary_a_index": 129,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-09-28T18:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-09-29T02:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "down",
+          "anchors": [
+            [
+              "2026-09-25T19:00:00Z",
+              4300.26
+            ],
+            [
+              "2026-09-25T22:00:00Z",
+              4297.26
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:272696718083bf50a95e2c89",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 221,
+        "break_utc": "2026-10-02T15:00:00Z",
+        "known_at_utc": "2026-10-02T16:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:ef41edee6463b5875dedcb92",
+      "direction": "down",
+      "source": "2026-09-25T22:00:00Z",
+      "terminal": "2026-09-28T17:00:00Z",
+      "terminal_price": 4110.88,
+      "freeze": "2026-09-29T02:00:00Z",
+      "first_close": "2026-09-29T03:00:00Z",
+      "dual_close": "2026-09-29T09:00:00Z",
+      "bars_between": 6,
+      "price_at_dual_close": 4139.05,
+      "references": {
+        "abc_A": {
+          "time": "2026-09-25T22:00:00Z",
+          "price": 4297.26,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-09-28T15:00:00Z",
+          "price": 4171.33,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-09-28T15:00:00Z",
+          "price": 4171.33,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "native_scope:aefeaae4ec8d15d19fc98951": {
+          "time": "2026-09-28T15:00:00Z",
+          "price": 4171.33,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [
+        {
+          "id": "native_scope:aefeaae4ec8d15d19fc98951",
+          "relation": "internal_return_stage",
+          "start": "2026-09-28T12:00:00Z",
+          "start_price": 4140.59,
+          "extreme": "2026-09-28T15:00:00Z",
+          "price": 4171.33,
+          "membership_known": "2026-09-28T18:00:00Z",
+          "resumed_close_time": "2026-09-28T18:00:00Z",
+          "retirement_state": "completed_excursion_before_origin_breach",
+          "wave_swing_known": "2026-09-28T17:00:00Z",
+          "source_before_break": true
+        }
+      ],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "down",
+        "form": "abc_adjustment_candidate",
+        "a_utc": "2026-09-25T22:00:00Z",
+        "a_price": 4297.26,
+        "b_utc": "2026-09-28T12:00:00Z",
+        "b_price": 4140.59,
+        "c_utc": "2026-09-28T15:00:00Z",
+        "c_price": 4171.33,
+        "known_at_utc": "2026-09-29T02:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": null,
+          "b": "2026-09-28T16:00:00Z",
+          "c": "2026-09-28T17:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "down",
+        "boundary_a_price": 4171.33,
+        "boundary_a_utc": "2026-09-28T15:00:00Z",
+        "boundary_a_index": 129,
+        "boundary_a_broken": false,
+        "boundary_a_known_at_utc": "2026-09-28T18:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-09-29T02:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "down",
+          "anchors": [
+            [
+              "2026-09-25T22:00:00Z",
+              4297.26
+            ],
+            [
+              "2026-09-25T23:00:00Z",
+              4292.11
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:8710f65afb993f8cd0455024",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 145,
+        "break_utc": "2026-09-29T08:00:00Z",
+        "known_at_utc": "2026-09-29T09:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "frozen_counterleg_extreme_candidate",
+        "price": 4171.33,
+        "extreme": "2026-09-28T15:00:00Z",
+        "known": "2026-09-28T18:00:00Z",
+        "owner": "native_scope:ef41edee6463b5875dedcb92",
+        "wave_swing_known": "2026-09-28T17:00:00Z",
+        "author_A_verified": false,
+        "before_dual": [
+          {
+            "close_time": "2026-09-29T03:00:00Z",
+            "close": 4127.34,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-09-29T04:00:00Z",
+            "close": 4117.82,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-09-29T05:00:00Z",
+            "close": 4135.19,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-09-29T06:00:00Z",
+            "close": 4137.77,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-09-29T07:00:00Z",
+            "close": 4133.9,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-09-29T08:00:00Z",
+            "close": 4126.73,
+            "wick_beyond": false,
+            "close_beyond": false
+          }
+        ],
+        "after_dual": [
+          {
+            "close_time": "2026-09-29T09:00:00Z",
+            "close": 4139.05,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-09-29T10:00:00Z",
+            "close": 4140.36,
+            "wick_beyond": false,
+            "close_beyond": false
+          },
+          {
+            "close_time": "2026-09-29T11:00:00Z",
+            "close": 4141.01,
+            "wick_beyond": false,
+            "close_beyond": false
+          }
+        ],
+        "source_timestamp": "2026-09-28T18:00:00Z",
+        "physical_prefix_checks": [
+          {
+            "close_time": "2026-09-28T18:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-09-28T19:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-09-28T20:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-09-28T21:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-09-28T22:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-09-28T23:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-09-29T00:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-09-29T02:00:00Z",
+            "reproduced": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "native_scope:4070d12ee98fd5de938556ee",
+      "direction": "down",
+      "source": "2026-09-30T15:00:00Z",
+      "terminal": "2026-10-02T04:00:00Z",
+      "terminal_price": 4133.72,
+      "freeze": "2026-10-02T07:00:00Z",
+      "first_close": "2026-10-02T08:00:00Z",
+      "dual_close": "2026-10-02T11:00:00Z",
+      "bars_between": 3,
+      "price_at_dual_close": 4187.41,
+      "references": {
+        "abc_A": {
+          "time": "2026-10-01T15:00:00Z",
+          "price": 4187.83,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-10-01T20:00:00Z",
+          "price": 4186.34,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-10-02T02:00:00Z",
+          "price": 4183.82,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "down",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-10-01T15:00:00Z",
+        "a_price": 4187.83,
+        "b_utc": "2026-10-01T18:00:00Z",
+        "b_price": 4150.07,
+        "c_utc": "2026-10-01T20:00:00Z",
+        "c_price": 4186.34,
+        "known_at_utc": "2026-10-02T07:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-10-01T17:00:00Z",
+          "b": "2026-10-01T20:00:00Z",
+          "c": null
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "down",
+        "boundary_a_price": 4183.82,
+        "boundary_a_utc": "2026-10-02T02:00:00Z",
+        "boundary_a_index": 208,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-10-02T05:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-10-02T07:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "down",
+          "anchors": [
+            [
+              "2026-09-30T15:00:00Z",
+              4219.22
+            ],
+            [
+              "2026-10-02T02:00:00Z",
+              4183.82
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:a9d1c50c20035bea662b0867",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 216,
+        "break_utc": "2026-10-02T07:00:00Z",
+        "known_at_utc": "2026-10-02T11:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:44d8572a442ba9ba1b4c55a5",
+      "direction": "up",
+      "source": "2026-10-23T17:00:00Z",
+      "terminal": "2026-10-28T23:00:00Z",
+      "terminal_price": 4082.95,
+      "freeze": "2026-10-29T08:00:00Z",
+      "first_close": "2026-10-29T09:00:00Z",
+      "dual_close": "2026-10-29T21:00:00Z",
+      "bars_between": 12,
+      "price_at_dual_close": 4007.19,
+      "references": {
+        "abc_A": {
+          "time": "2026-10-28T14:00:00Z",
+          "price": 4043.02,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-10-28T18:00:00Z"
+        },
+        "abc_C": {
+          "time": "2026-10-28T21:00:00Z",
+          "price": 4024.92,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-10-29T04:00:00Z",
+          "price": 4036.31,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "abc_adjustment_candidate",
+        "a_utc": "2026-10-28T14:00:00Z",
+        "a_price": 4043.02,
+        "b_utc": "2026-10-28T15:00:00Z",
+        "b_price": 4060.15,
+        "c_utc": "2026-10-28T21:00:00Z",
+        "c_price": 4024.92,
+        "known_at_utc": "2026-10-29T08:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-10-28T16:00:00Z",
+          "b": "2026-10-28T17:00:00Z",
+          "c": "2026-10-28T23:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4036.31,
+        "boundary_a_utc": "2026-10-29T04:00:00Z",
+        "boundary_a_index": 187,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-10-29T07:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-10-29T08:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-10-26T04:00:00Z",
+              3978.18
+            ],
+            [
+              "2026-10-27T11:00:00Z",
+              3989.25
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:57d4709087b649fabefc80c0",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 203,
+        "break_utc": "2026-10-29T20:00:00Z",
+        "known_at_utc": "2026-10-29T21:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:544ce85ecc70322be716fc6b",
+      "direction": "down",
+      "source": "2026-10-26T20:00:00Z",
+      "terminal": "2026-10-27T11:00:00Z",
+      "terminal_price": 3989.25,
+      "freeze": "2026-10-27T15:00:00Z",
+      "first_close": "2026-10-27T16:00:00Z",
+      "dual_close": "2026-10-27T16:00:00Z",
+      "bars_between": 0,
+      "price_at_dual_close": 4023.34,
+      "references": {
+        "abc_A": {
+          "time": "2026-10-27T03:00:00Z",
+          "price": 4019.97,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-10-27T07:00:00Z",
+          "price": 4025.63,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-10-27T07:00:00Z",
+          "price": 4025.63,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "down",
+        "form": "zigzag_outer_candidate",
+        "a_utc": "2026-10-27T03:00:00Z",
+        "a_price": 4019.97,
+        "b_utc": "2026-10-27T04:00:00Z",
+        "b_price": 4003.81,
+        "c_utc": "2026-10-27T07:00:00Z",
+        "c_price": 4025.63,
+        "known_at_utc": "2026-10-27T15:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": null,
+          "b": null,
+          "c": "2026-10-27T09:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "down",
+        "boundary_a_price": 4025.63,
+        "boundary_a_utc": "2026-10-27T07:00:00Z",
+        "boundary_a_index": 144,
+        "boundary_a_broken": false,
+        "boundary_a_known_at_utc": "2026-10-27T10:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-10-27T15:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "down",
+          "anchors": [
+            [
+              "2026-10-26T20:00:00Z",
+              4030.01
+            ],
+            [
+              "2026-10-27T07:00:00Z",
+              4025.63
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:5fe08f581df3d51f14ebd392",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 152,
+        "break_utc": "2026-10-27T15:00:00Z",
+        "known_at_utc": "2026-10-27T16:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:ad4660a1442ab64ae300a2aa",
+      "direction": "up",
+      "source": "2026-10-26T04:00:00Z",
+      "terminal": "2026-10-28T23:00:00Z",
+      "terminal_price": 4082.95,
+      "freeze": "2026-10-29T03:00:00Z",
+      "first_close": "2026-10-29T04:00:00Z",
+      "dual_close": "2026-10-30T10:00:00Z",
+      "bars_between": 29,
+      "price_at_dual_close": 3982.95,
+      "references": {
+        "abc_A": {
+          "time": "2026-10-28T14:00:00Z",
+          "price": 4043.02,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-10-28T18:00:00Z"
+        },
+        "abc_C": {
+          "time": "2026-10-28T21:00:00Z",
+          "price": 4024.92,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-10-28T21:00:00Z",
+          "price": 4024.92,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "abc_adjustment_candidate",
+        "a_utc": "2026-10-28T14:00:00Z",
+        "a_price": 4043.02,
+        "b_utc": "2026-10-28T15:00:00Z",
+        "b_price": 4060.15,
+        "c_utc": "2026-10-28T21:00:00Z",
+        "c_price": 4024.92,
+        "known_at_utc": "2026-10-29T03:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-10-28T16:00:00Z",
+          "b": "2026-10-28T17:00:00Z",
+          "c": "2026-10-28T23:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4024.92,
+        "boundary_a_utc": "2026-10-28T21:00:00Z",
+        "boundary_a_index": 181,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-10-29T00:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-10-29T03:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-10-26T16:00:00Z",
+              3988.78
+            ],
+            [
+              "2026-10-27T11:00:00Z",
+              3989.25
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:d5e9dac17187361e8044ec57",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 215,
+        "break_utc": "2026-10-30T09:00:00Z",
+        "known_at_utc": "2026-10-30T10:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:cb7036bcceacf41e52f4ec3d",
+      "direction": "up",
+      "source": "2026-10-27T11:00:00Z",
+      "terminal": "2026-10-28T23:00:00Z",
+      "terminal_price": 4082.95,
+      "freeze": "2026-10-29T08:00:00Z",
+      "first_close": "2026-10-29T09:00:00Z",
+      "dual_close": "2026-10-29T09:00:00Z",
+      "bars_between": 0,
+      "price_at_dual_close": 4024.75,
+      "references": {
+        "abc_A": {
+          "time": "2026-10-28T14:00:00Z",
+          "price": 4043.02,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-10-28T18:00:00Z"
+        },
+        "abc_C": {
+          "time": "2026-10-28T21:00:00Z",
+          "price": 4024.92,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-10-29T04:00:00Z",
+          "price": 4036.31,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "abc_adjustment_candidate",
+        "a_utc": "2026-10-28T14:00:00Z",
+        "a_price": 4043.02,
+        "b_utc": "2026-10-28T15:00:00Z",
+        "b_price": 4060.15,
+        "c_utc": "2026-10-28T21:00:00Z",
+        "c_price": 4024.92,
+        "known_at_utc": "2026-10-29T08:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-10-28T16:00:00Z",
+          "b": "2026-10-28T17:00:00Z",
+          "c": "2026-10-28T23:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4036.31,
+        "boundary_a_utc": "2026-10-29T04:00:00Z",
+        "boundary_a_index": 187,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-10-29T07:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-10-29T08:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-10-27T11:00:00Z",
+              3989.25
+            ],
+            [
+              "2026-10-28T21:00:00Z",
+              4024.92
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:28c2f34235e5ab566685b590",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 191,
+        "break_utc": "2026-10-29T08:00:00Z",
+        "known_at_utc": "2026-10-29T09:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:05df8224d5bcf262b0367838",
+      "direction": "down",
+      "source": "2026-11-05T05:00:00Z",
+      "terminal": "2026-11-06T15:00:00Z",
+      "terminal_price": 4026.75,
+      "freeze": "2026-11-06T20:00:00Z",
+      "first_close": "2026-11-06T21:00:00Z",
+      "dual_close": "2026-11-09T03:00:00Z",
+      "bars_between": 5,
+      "price_at_dual_close": 4105.1,
+      "references": {
+        "abc_A": {
+          "time": "2026-11-06T02:00:00Z",
+          "price": 4107.01,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-11-06T11:00:00Z",
+          "price": 4081.19,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-11-06T11:00:00Z",
+          "price": 4081.19,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "down",
+        "form": "abc_adjustment_candidate",
+        "a_utc": "2026-11-06T02:00:00Z",
+        "a_price": 4107.01,
+        "b_utc": "2026-11-06T07:00:00Z",
+        "b_price": 4035.68,
+        "c_utc": "2026-11-06T11:00:00Z",
+        "c_price": 4081.19,
+        "known_at_utc": "2026-11-06T20:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-11-06T05:00:00Z",
+          "b": "2026-11-06T11:00:00Z",
+          "c": "2026-11-06T16:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "down",
+        "boundary_a_price": 4081.19,
+        "boundary_a_utc": "2026-11-06T11:00:00Z",
+        "boundary_a_index": 102,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-11-06T14:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-11-06T20:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "down",
+          "anchors": [
+            [
+              "2026-11-05T05:00:00Z",
+              4147.05
+            ],
+            [
+              "2026-11-05T16:00:00Z",
+              4136.01
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:266c6506d54a539da012d71a",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 116,
+        "break_utc": "2026-11-09T02:00:00Z",
+        "known_at_utc": "2026-11-09T03:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:2280e9a93399f1ed48b20ebd",
+      "direction": "down",
+      "source": "2026-11-06T02:00:00Z",
+      "terminal": "2026-11-06T15:00:00Z",
+      "terminal_price": 4026.75,
+      "freeze": "2026-11-06T18:00:00Z",
+      "first_close": "2026-11-06T19:00:00Z",
+      "dual_close": "2026-11-06T21:00:00Z",
+      "bars_between": 2,
+      "price_at_dual_close": 4077.47,
+      "references": {
+        "abc_A": {
+          "time": "2026-11-06T02:00:00Z",
+          "price": 4107.01,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-11-06T11:00:00Z",
+          "price": 4081.19,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-11-06T11:00:00Z",
+          "price": 4081.19,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "down",
+        "form": "abc_adjustment_candidate",
+        "a_utc": "2026-11-06T02:00:00Z",
+        "a_price": 4107.01,
+        "b_utc": "2026-11-06T07:00:00Z",
+        "b_price": 4035.68,
+        "c_utc": "2026-11-06T11:00:00Z",
+        "c_price": 4081.19,
+        "known_at_utc": "2026-11-06T18:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-11-06T05:00:00Z",
+          "b": "2026-11-06T11:00:00Z",
+          "c": "2026-11-06T16:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "down",
+        "boundary_a_price": 4081.19,
+        "boundary_a_utc": "2026-11-06T11:00:00Z",
+        "boundary_a_index": 102,
+        "boundary_a_broken": false,
+        "boundary_a_known_at_utc": "2026-11-06T14:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-11-06T18:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "down",
+          "anchors": [
+            [
+              "2026-11-06T03:00:00Z",
+              4097.47
+            ],
+            [
+              "2026-11-06T11:00:00Z",
+              4081.19
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:cf6b268fadaafbfa5808f469",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 111,
+        "break_utc": "2026-11-06T18:00:00Z",
+        "known_at_utc": "2026-11-06T21:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:22bc849cd719b543cef505e5",
+      "direction": "up",
+      "source": "2026-11-04T02:00:00Z",
+      "terminal": "2026-11-09T22:00:00Z",
+      "terminal_price": 4148.72,
+      "freeze": "2026-11-10T15:00:00Z",
+      "first_close": "2026-11-10T16:00:00Z",
+      "dual_close": "2026-11-10T19:00:00Z",
+      "bars_between": 3,
+      "price_at_dual_close": 4022.26,
+      "references": {
+        "abc_A": {
+          "time": "2026-11-09T20:00:00Z",
+          "price": 4100.49,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-11-10T12:00:00Z"
+        },
+        "abc_C": {
+          "time": "2026-11-10T05:00:00Z",
+          "price": 4108.11,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-11-10T12:00:00Z"
+        },
+        "book_proxy": {
+          "time": "2026-11-10T05:00:00Z",
+          "price": 4108.11,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-11-10T12:00:00Z"
+        },
+        "native_scope:05df8224d5bcf262b0367838": {
+          "time": "2026-11-06T15:00:00Z",
+          "price": 4026.75,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [
+        {
+          "id": "native_scope:05df8224d5bcf262b0367838",
+          "relation": "internal_return_stage",
+          "start": "2026-11-05T05:00:00Z",
+          "start_price": 4147.05,
+          "extreme": "2026-11-06T15:00:00Z",
+          "price": 4026.75,
+          "membership_known": "2026-11-09T23:00:00Z",
+          "resumed_close_time": null,
+          "retirement_state": "completed_excursion_before_origin_breach",
+          "wave_swing_known": "2026-11-06T18:00:00Z",
+          "source_before_break": true
+        }
+      ],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-11-09T20:00:00Z",
+        "a_price": 4100.49,
+        "b_utc": "2026-11-09T22:00:00Z",
+        "b_price": 4148.72,
+        "c_utc": "2026-11-10T05:00:00Z",
+        "c_price": 4108.11,
+        "known_at_utc": "2026-11-10T15:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-11-09T22:00:00Z",
+          "b": null,
+          "c": "2026-11-10T08:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4108.11,
+        "boundary_a_utc": "2026-11-10T05:00:00Z",
+        "boundary_a_index": 142,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-11-10T08:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-11-10T15:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-11-04T08:00:00Z",
+              3996.23
+            ],
+            [
+              "2026-11-06T15:00:00Z",
+              4026.75
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:3faea2c2c4ed5d71afa1b6f5",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 155,
+        "break_utc": "2026-11-10T15:00:00Z",
+        "known_at_utc": "2026-11-10T19:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "completion_not_reproduced"
+      }
+    },
+    {
+      "id": "native_scope:3ce3b302172fb71c4461a4da",
+      "direction": "down",
+      "source": "2026-11-05T13:00:00Z",
+      "terminal": "2026-11-06T15:00:00Z",
+      "terminal_price": 4026.75,
+      "freeze": "2026-11-06T20:00:00Z",
+      "first_close": "2026-11-06T21:00:00Z",
+      "dual_close": "2026-11-09T04:00:00Z",
+      "bars_between": 6,
+      "price_at_dual_close": 4123.82,
+      "references": {
+        "abc_A": {
+          "time": "2026-11-06T02:00:00Z",
+          "price": 4107.01,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-11-06T11:00:00Z",
+          "price": 4081.19,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-11-06T11:00:00Z",
+          "price": 4081.19,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "down",
+        "form": "abc_adjustment_candidate",
+        "a_utc": "2026-11-06T02:00:00Z",
+        "a_price": 4107.01,
+        "b_utc": "2026-11-06T07:00:00Z",
+        "b_price": 4035.68,
+        "c_utc": "2026-11-06T11:00:00Z",
+        "c_price": 4081.19,
+        "known_at_utc": "2026-11-06T20:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-11-06T05:00:00Z",
+          "b": "2026-11-06T11:00:00Z",
+          "c": "2026-11-06T16:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "down",
+        "boundary_a_price": 4081.19,
+        "boundary_a_utc": "2026-11-06T11:00:00Z",
+        "boundary_a_index": 102,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-11-06T14:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-11-06T20:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "down",
+          "anchors": [
+            [
+              "2026-11-05T13:00:00Z",
+              4138.19
+            ],
+            [
+              "2026-11-05T16:00:00Z",
+              4136.01
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:2401d2c6bee9707cf53eb30d",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 117,
+        "break_utc": "2026-11-09T03:00:00Z",
+        "known_at_utc": "2026-11-09T04:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:6e349b1b5c11cbe1026b2585",
+      "direction": "up",
+      "source": "2026-11-09T01:00:00Z",
+      "terminal": "2026-11-09T22:00:00Z",
+      "terminal_price": 4148.72,
+      "freeze": "2026-11-10T11:00:00Z",
+      "first_close": "2026-11-10T12:00:00Z",
+      "dual_close": "2026-11-10T13:00:00Z",
+      "bars_between": 1,
+      "price_at_dual_close": 4075.1,
+      "references": {
+        "abc_A": {
+          "time": "2026-11-09T20:00:00Z",
+          "price": 4100.49,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-11-10T05:00:00Z",
+          "price": 4108.11,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-11-10T05:00:00Z",
+          "price": 4108.11,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "native_scope:8620e734fd867aa64f2b7236": {
+          "time": "2026-11-09T09:00:00Z",
+          "price": 4084.71,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [
+        {
+          "id": "native_scope:8620e734fd867aa64f2b7236",
+          "relation": "internal_return_stage",
+          "start": "2026-11-09T04:00:00Z",
+          "start_price": 4134.18,
+          "extreme": "2026-11-09T09:00:00Z",
+          "price": 4084.71,
+          "membership_known": "2026-11-09T23:00:00Z",
+          "resumed_close_time": "2026-11-09T22:00:00Z",
+          "retirement_state": "completed_excursion_before_origin_breach",
+          "wave_swing_known": "2026-11-09T14:00:00Z",
+          "source_before_break": true
+        }
+      ],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-11-09T20:00:00Z",
+        "a_price": 4100.49,
+        "b_utc": "2026-11-09T22:00:00Z",
+        "b_price": 4148.72,
+        "c_utc": "2026-11-10T05:00:00Z",
+        "c_price": 4108.11,
+        "known_at_utc": "2026-11-10T11:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-11-09T22:00:00Z",
+          "b": null,
+          "c": "2026-11-10T08:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4108.11,
+        "boundary_a_utc": "2026-11-10T05:00:00Z",
+        "boundary_a_index": 142,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-11-10T08:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-11-10T11:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-11-09T01:00:00Z",
+              4054.32
+            ],
+            [
+              "2026-11-09T02:00:00Z",
+              4054.96
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:3a0244e3b69e97ad10a48312",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 149,
+        "break_utc": "2026-11-10T12:00:00Z",
+        "known_at_utc": "2026-11-10T13:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "frozen_counterleg_extreme_candidate",
+        "price": 4084.71,
+        "extreme": "2026-11-09T09:00:00Z",
+        "known": "2026-11-09T23:00:00Z",
+        "owner": "native_scope:6e349b1b5c11cbe1026b2585",
+        "wave_swing_known": "2026-11-09T14:00:00Z",
+        "author_A_verified": false,
+        "before_dual": [
+          {
+            "close_time": "2026-11-10T12:00:00Z",
+            "close": 4087.38,
+            "wick_beyond": true,
+            "close_beyond": false
+          }
+        ],
+        "after_dual": [
+          {
+            "close_time": "2026-11-10T13:00:00Z",
+            "close": 4075.1,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-11-10T14:00:00Z",
+            "close": 4074.28,
+            "wick_beyond": true,
+            "close_beyond": true
+          },
+          {
+            "close_time": "2026-11-10T15:00:00Z",
+            "close": 4079.05,
+            "wick_beyond": true,
+            "close_beyond": true
+          }
+        ],
+        "source_timestamp": "2026-11-09T23:00:00Z",
+        "physical_prefix_checks": [
+          {
+            "close_time": "2026-11-09T23:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T00:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T02:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T03:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T04:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T05:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T06:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T07:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T08:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T09:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T10:00:00Z",
+            "reproduced": true
+          },
+          {
+            "close_time": "2026-11-10T11:00:00Z",
+            "reproduced": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "native_scope:734e3c8cd91d01c45d3c035c",
+      "direction": "down",
+      "source": "2026-11-05T16:00:00Z",
+      "terminal": "2026-11-06T15:00:00Z",
+      "terminal_price": 4026.75,
+      "freeze": "2026-11-06T18:00:00Z",
+      "first_close": "2026-11-06T19:00:00Z",
+      "dual_close": "2026-11-06T21:00:00Z",
+      "bars_between": 2,
+      "price_at_dual_close": 4077.47,
+      "references": {
+        "abc_A": {
+          "time": "2026-11-06T02:00:00Z",
+          "price": 4107.01,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-11-06T11:00:00Z",
+          "price": 4081.19,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-11-06T11:00:00Z",
+          "price": 4081.19,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "down",
+        "form": "abc_adjustment_candidate",
+        "a_utc": "2026-11-06T02:00:00Z",
+        "a_price": 4107.01,
+        "b_utc": "2026-11-06T07:00:00Z",
+        "b_price": 4035.68,
+        "c_utc": "2026-11-06T11:00:00Z",
+        "c_price": 4081.19,
+        "known_at_utc": "2026-11-06T18:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-11-06T05:00:00Z",
+          "b": "2026-11-06T11:00:00Z",
+          "c": "2026-11-06T16:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "down",
+        "boundary_a_price": 4081.19,
+        "boundary_a_utc": "2026-11-06T11:00:00Z",
+        "boundary_a_index": 102,
+        "boundary_a_broken": false,
+        "boundary_a_known_at_utc": "2026-11-06T14:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-11-06T18:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "down",
+          "anchors": [
+            [
+              "2026-11-05T16:00:00Z",
+              4136.01
+            ],
+            [
+              "2026-11-05T19:00:00Z",
+              4127.51
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:063f66dc1b98ca2637cff1a8",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 111,
+        "break_utc": "2026-11-06T18:00:00Z",
+        "known_at_utc": "2026-11-06T21:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:896d29a03a8a3a0b78afcee3",
+      "direction": "up",
+      "source": "2026-11-03T11:00:00Z",
+      "terminal": "2026-11-09T22:00:00Z",
+      "terminal_price": 4148.72,
+      "freeze": "2026-11-10T18:00:00Z",
+      "first_close": "2026-11-10T19:00:00Z",
+      "dual_close": "2026-11-10T19:00:00Z",
+      "bars_between": 0,
+      "price_at_dual_close": 4022.26,
+      "references": {
+        "abc_A": {
+          "time": "2026-11-09T20:00:00Z",
+          "price": 4100.49,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-11-10T12:00:00Z"
+        },
+        "abc_C": {
+          "time": "2026-11-10T05:00:00Z",
+          "price": 4108.11,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-11-10T12:00:00Z"
+        },
+        "book_proxy": {
+          "time": "2026-11-10T05:00:00Z",
+          "price": 4108.11,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": "2026-11-10T12:00:00Z"
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-11-09T20:00:00Z",
+        "a_price": 4100.49,
+        "b_utc": "2026-11-09T22:00:00Z",
+        "b_price": 4148.72,
+        "c_utc": "2026-11-10T05:00:00Z",
+        "c_price": 4108.11,
+        "known_at_utc": "2026-11-10T18:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-11-09T22:00:00Z",
+          "b": null,
+          "c": "2026-11-10T08:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4108.11,
+        "boundary_a_utc": "2026-11-10T05:00:00Z",
+        "boundary_a_index": 142,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-11-10T08:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-11-10T18:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-11-03T11:00:00Z",
+              3895.5
+            ],
+            [
+              "2026-11-03T14:00:00Z",
+              3899.04
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:596b31300fa90c137cae953e",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 155,
+        "break_utc": "2026-11-10T18:00:00Z",
+        "known_at_utc": "2026-11-10T19:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:9854c27159daede6b7003583",
+      "direction": "up",
+      "source": "2026-11-03T22:00:00Z",
+      "terminal": "2026-11-09T22:00:00Z",
+      "terminal_price": 4148.72,
+      "freeze": "2026-11-10T11:00:00Z",
+      "first_close": "2026-11-10T12:00:00Z",
+      "dual_close": "2026-11-10T19:00:00Z",
+      "bars_between": 7,
+      "price_at_dual_close": 4022.26,
+      "references": {
+        "abc_A": {
+          "time": "2026-11-09T20:00:00Z",
+          "price": 4100.49,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-11-10T05:00:00Z",
+          "price": 4108.11,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-11-10T05:00:00Z",
+          "price": 4108.11,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-11-09T20:00:00Z",
+        "a_price": 4100.49,
+        "b_utc": "2026-11-09T22:00:00Z",
+        "b_price": 4148.72,
+        "c_utc": "2026-11-10T05:00:00Z",
+        "c_price": 4108.11,
+        "known_at_utc": "2026-11-10T11:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-11-09T22:00:00Z",
+          "b": null,
+          "c": "2026-11-10T08:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4108.11,
+        "boundary_a_utc": "2026-11-10T05:00:00Z",
+        "boundary_a_index": 142,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-11-10T08:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-11-10T11:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-11-04T05:00:00Z",
+              3926.98
+            ],
+            [
+              "2026-11-06T15:00:00Z",
+              4026.75
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:f63b5ed57990fc70a830c157",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 155,
+        "break_utc": "2026-11-10T11:00:00Z",
+        "known_at_utc": "2026-11-10T19:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:bd06b95b1623509e626e8d50",
+      "direction": "up",
+      "source": "2026-11-06T15:00:00Z",
+      "terminal": "2026-11-09T22:00:00Z",
+      "terminal_price": 4148.72,
+      "freeze": "2026-11-10T04:00:00Z",
+      "first_close": "2026-11-10T05:00:00Z",
+      "dual_close": "2026-11-10T12:00:00Z",
+      "bars_between": 7,
+      "price_at_dual_close": 4087.38,
+      "references": {
+        "abc_A": {
+          "time": "2026-11-09T09:00:00Z",
+          "price": 4084.71,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-11-09T20:00:00Z",
+          "price": 4100.49,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-11-09T20:00:00Z",
+          "price": 4100.49,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-11-09T09:00:00Z",
+        "a_price": 4084.71,
+        "b_utc": "2026-11-09T18:00:00Z",
+        "b_price": 4130.87,
+        "c_utc": "2026-11-09T20:00:00Z",
+        "c_price": 4100.49,
+        "known_at_utc": "2026-11-10T04:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-11-09T14:00:00Z",
+          "b": "2026-11-09T20:00:00Z",
+          "c": "2026-11-09T22:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4100.49,
+        "boundary_a_utc": "2026-11-09T20:00:00Z",
+        "boundary_a_index": 134,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-11-09T23:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-11-10T04:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-11-06T15:00:00Z",
+              4026.75
+            ],
+            [
+              "2026-11-09T21:00:00Z",
+              4101.27
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:96defdc5790af5f17df41db3",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 148,
+        "break_utc": "2026-11-10T04:00:00Z",
+        "known_at_utc": "2026-11-10T12:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": true,
+          "reference_levels_equal": true,
+          "verdict_equal": true
+        }
+      ],
+      "adjustment_review": {
+        "status": "no_direct_counterleg_identified"
+      }
+    },
+    {
+      "id": "native_scope:f9ae21f5a4869fc766a8cd07",
+      "direction": "up",
+      "source": "2026-11-03T14:00:00Z",
+      "terminal": "2026-11-09T22:00:00Z",
+      "terminal_price": 4148.72,
+      "freeze": "2026-11-10T11:00:00Z",
+      "first_close": "2026-11-10T12:00:00Z",
+      "dual_close": "2026-11-10T19:00:00Z",
+      "bars_between": 7,
+      "price_at_dual_close": 4022.26,
+      "references": {
+        "abc_A": {
+          "time": "2026-11-09T20:00:00Z",
+          "price": 4100.49,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "abc_C": {
+          "time": "2026-11-10T05:00:00Z",
+          "price": 4108.11,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "book_proxy": {
+          "time": "2026-11-10T05:00:00Z",
+          "price": 4108.11,
+          "dual_close_beyond": true,
+          "before_first_close_beyond": null
+        },
+        "native_scope:80e4a7cb033c2e6cfee3a7b7": {
+          "time": "2026-11-03T22:00:00Z",
+          "price": 3917.55,
+          "dual_close_beyond": false,
+          "before_first_close_beyond": null
+        }
+      },
+      "scope_children": [
+        {
+          "id": "native_scope:80e4a7cb033c2e6cfee3a7b7",
+          "relation": "internal_return_stage",
+          "start": "2026-11-03T15:00:00Z",
+          "start_price": 3971.18,
+          "extreme": "2026-11-03T22:00:00Z",
+          "price": 3917.55,
+          "membership_known": "2026-11-09T23:00:00Z",
+          "resumed_close_time": "2026-11-04T08:00:00Z",
+          "retirement_state": "completed_excursion_before_origin_breach",
+          "wave_swing_known": null,
+          "source_before_break": true
+        }
+      ],
+      "abc": {
+        "status": "observed_candidate",
+        "direction": "up",
+        "form": "flat_outer_candidate",
+        "a_utc": "2026-11-09T20:00:00Z",
+        "a_price": 4100.49,
+        "b_utc": "2026-11-09T22:00:00Z",
+        "b_price": 4148.72,
+        "c_utc": "2026-11-10T05:00:00Z",
+        "c_price": 4108.11,
+        "known_at_utc": "2026-11-10T11:00:00Z",
+        "wave_degree": "unknown",
+        "subdivision_status": "unknown",
+        "all_points_in_owner": true,
+        "wave_swings_known": {
+          "a": "2026-11-09T22:00:00Z",
+          "b": null,
+          "c": "2026-11-10T08:00:00Z"
+        }
+      },
+      "book_verdict": "old_trend_ended_direction_unresolved",
+      "A": "unverified",
+      "archived_boundary": {
+        "timeframe": "H1",
+        "rule_id": "trend_trade_method_book_computable_v1:trend_change",
+        "trade_permission": false,
+        "status": "range_or_transition",
+        "both_boundaries_broken": true,
+        "prior_trend_ended": true,
+        "prior_direction": "up",
+        "boundary_a_price": 4108.11,
+        "boundary_a_utc": "2026-11-10T05:00:00Z",
+        "boundary_a_index": 142,
+        "boundary_a_broken": true,
+        "boundary_a_known_at_utc": "2026-11-10T08:00:00Z",
+        "boundary_a_freeze_cutoff_utc": "2026-11-10T11:00:00Z",
+        "boundary_ruler_identity": {
+          "timeframe": "H1",
+          "direction": "up",
+          "anchors": [
+            [
+              "2026-11-03T14:00:00Z",
+              3899.04
+            ],
+            [
+              "2026-11-06T15:00:00Z",
+              4026.75
+            ]
+          ]
+        },
+        "boundary_source_wave_id": "native_fit:c33a922f2aafaa938c0dc04a",
+        "boundary_a_source": "radius2_engineering_proxy",
+        "author_boundary_verified": false,
+        "confirmation_start_index": 155,
+        "break_utc": "2026-11-10T11:00:00Z",
+        "known_at_utc": "2026-11-10T19:00:00Z"
+      },
+      "warmup_checks": [
+        {
+          "extra_bars": 48,
+          "abc_equal": true,
+          "children_equal": false,
+          "reference_levels_equal": false,
+          "verdict_equal": true,
+          "alternative_children": []
+        },
+        {
+          "extra_bars": 96,
+          "abc_equal": true,
+          "children_equal": false,
+          "reference_levels_equal": false,
+          "verdict_equal": true,
+          "alternative_children": []
+        }
+      ],
+      "adjustment_review": {
+        "status": "ownership_changes_with_history"
+      }
+    }
+  ]
+}
