@@ -1,0 +1,18 @@
+{
+  "version": "1.230-r5p11",
+  "symbol": "XAUUSD",
+  "period": "H1",
+  "installed": {
+    "source/Book302_Consolidation_Experiment.ex5": "813c385bd128b5d536fc6417a2f9ecdf4eae2854a71afcc66353e2701792670e",
+    "native_scripts/Book302_Open_Experiment.ex5": "d7fe8ac69c8348a23ea1f3ea4a6df9af35f72a385b4182d8ff68d1189e553fb8",
+    "companions/IPDA_Consolidation_Adapted.ex5": "fc9bd491897e2978c2e112900d572d1fa567a12fee68b2aaec67da4cdadf119d",
+    "companions/original_overlay/Book_ThreePush_Adapted.ex5": "36c269e227232d2f3edc1717b7aa58bf79edf44dc37f123fc97b39b6f0ce5da3",
+    "companions/pa_shapes/Book_PA_Adapted.ex5": "5f3d3411eff248f3cb0c01746e9579659b24d1c260c7f05f108a2b26114e97a1"
+  },
+  "worker": "9c63d06ff8f824de04381d2a7c1fbbe8a1e4a111dddf5b81f743a3415b2f5b04",
+  "rows": 150,
+  "continuations": 84,
+  "full_seconds": 221.89000000001397,
+  "ot_blob": "dbd9b8c1b8fe9c78abd03e636d5ba0b45f67b401",
+  "ot_sha256": "818e86e2ead9ce5f326632bccd16b8e22c5cbe67d8749ecdb9ceb4fd15fffc89"
+}
