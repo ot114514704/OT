@@ -1,0 +1,332 @@
+{
+  "channel": {
+    "observed_from": "2026-09-24T13:00:00+00:00",
+    "first_observed_at": "2026-09-25T07:00:00+00:00",
+    "known_at": "2026-09-25T07:00:00+00:00",
+    "window": 17,
+    "shape": "converging",
+    "geometry": {
+      "upper": [
+        {
+          "time": "2026-09-24T13:00:00+00:00",
+          "price": 4281.23527972028,
+          "known_at": "2026-09-25T07:00:00+00:00"
+        },
+        {
+          "time": "2026-09-25T06:00:00+00:00",
+          "price": 4301.420454545455,
+          "known_at": "2026-09-25T07:00:00+00:00"
+        }
+      ],
+      "lower": [
+        {
+          "time": "2026-09-24T13:00:00+00:00",
+          "price": 4238.462132867134,
+          "known_at": "2026-09-25T07:00:00+00:00"
+        },
+        {
+          "time": "2026-09-25T06:00:00+00:00",
+          "price": 4258.6473076923085,
+          "known_at": "2026-09-25T07:00:00+00:00"
+        }
+      ],
+      "frame": [
+        {
+          "time": "2026-09-24T13:00:00+00:00",
+          "price": 4281.23527972028
+        },
+        {
+          "time": "2026-09-25T06:00:00+00:00",
+          "price": 4301.420454545455
+        },
+        {
+          "time": "2026-09-25T06:00:00+00:00",
+          "price": 4258.6473076923085
+        },
+        {
+          "time": "2026-09-24T13:00:00+00:00",
+          "price": 4238.462132867134
+        }
+      ],
+      "ready": true,
+      "validated": true,
+      "subtype": "channel",
+      "projected": false,
+      "axis": "observed_native_bar_index",
+      "known_at": "2026-09-25T07:00:00+00:00",
+      "basis": "frozen_pivot_supported_parallel_envelope",
+      "reason": "至少四次交替的已确认边界测试；平行通道为支撑这些测试的冻结包络，收敛边界来自实际锚点；均非实体平衡确认",
+      "pivot_radius": 2,
+      "gaps": [
+        {
+          "after": "2026-09-25T00:00:00+00:00",
+          "before": "2026-09-25T01:00:00+00:00"
+        }
+      ],
+      "validation": {
+        "overlap_bars": 17,
+        "wick_coverage": 1.0,
+        "close_coverage": 1.0,
+        "tolerance": 2.625
+      }
+    },
+    "observed_high": 4295.75,
+    "observed_low": 4244.21,
+    "frozen_atr": 17.5,
+    "checks": {
+      "four_alternating_boundary_tests": true,
+      "two_tests_each_side": true,
+      "structural_width": true,
+      "bounded_drift": true,
+      "wick_coverage": true,
+      "close_coverage": true,
+      "last_close_inside": true,
+      "no_dominant_body": true
+    },
+    "metrics": {
+      "boundary_radius": 2,
+      "boundary_count": 6,
+      "boundary_tests": [
+        {
+          "time": "2026-09-24T13:00:00+00:00",
+          "known_at": "2026-09-24T16:00:00+00:00",
+          "price": 4244.21,
+          "side": -1
+        },
+        {
+          "time": "2026-09-24T16:00:00+00:00",
+          "known_at": "2026-09-24T19:00:00+00:00",
+          "price": 4285.02,
+          "side": 1
+        },
+        {
+          "time": "2026-09-24T18:00:00+00:00",
+          "known_at": "2026-09-24T21:00:00+00:00",
+          "price": 4244.77,
+          "side": -1
+        },
+        {
+          "time": "2026-09-24T19:00:00+00:00",
+          "known_at": "2026-09-24T22:00:00+00:00",
+          "price": 4288.51,
+          "side": 1
+        }
+      ],
+      "wick_coverage": 1.0,
+      "close_coverage": 1.0,
+      "width_atr": 2.4441798201798
+    },
+    "confirmed": false,
+    "score_included": false,
+    "missing": [
+      "独立价格边界候选，未通过IPDA实体平衡确认",
+      "后续方向及三推反转未确认",
+      "缺口内价格路径与覆盖未知，未填造K线"
+    ],
+    "id": "native_boundary_shape_candidate_v1:r2:p6:s1790254800:2026-09-25T07:00:00+00:00",
+    "active": false,
+    "end_at": "2026-09-28T03:00:00+00:00",
+    "status": "向下离开边界观察区",
+    "side": -1,
+    "streak": 2,
+    "display_geometry": {
+      "upper": [
+        {
+          "time": "2026-09-24T13:00:00+00:00",
+          "price": 4281.23527972028,
+          "known_at": "2026-09-25T07:00:00+00:00"
+        },
+        {
+          "time": "2026-09-25T06:00:00+00:00",
+          "price": 4301.420454545455,
+          "known_at": "2026-09-25T07:00:00+00:00"
+        }
+      ],
+      "lower": [
+        {
+          "time": "2026-09-24T13:00:00+00:00",
+          "price": 4238.462132867134,
+          "known_at": "2026-09-25T07:00:00+00:00"
+        },
+        {
+          "time": "2026-09-25T06:00:00+00:00",
+          "price": 4258.6473076923085,
+          "known_at": "2026-09-25T07:00:00+00:00"
+        }
+      ],
+      "frame": [
+        {
+          "time": "2026-09-24T13:00:00+00:00",
+          "price": 4281.23527972028
+        },
+        {
+          "time": "2026-09-25T23:00:00+00:00",
+          "price": 4322.867202797203
+        },
+        {
+          "time": "2026-09-25T23:00:00+00:00",
+          "price": 4280.094055944057
+        },
+        {
+          "time": "2026-09-24T13:00:00+00:00",
+          "price": 4238.462132867134
+        }
+      ],
+      "ready": true,
+      "validated": true,
+      "subtype": "channel",
+      "projected": false,
+      "axis": "observed_native_bar_index",
+      "known_at": "2026-09-25T07:00:00+00:00",
+      "basis": "frozen_pivot_supported_parallel_envelope",
+      "reason": "至少四次交替的已确认边界测试；平行通道为支撑这些测试的冻结包络，收敛边界来自实际锚点；均非实体平衡确认",
+      "pivot_radius": 2,
+      "gaps": [
+        {
+          "after": "2026-09-25T00:00:00+00:00",
+          "before": "2026-09-25T01:00:00+00:00"
+        }
+      ],
+      "validation": {
+        "overlap_bars": 17,
+        "wick_coverage": 1.0,
+        "close_coverage": 1.0,
+        "tolerance": 2.625
+      },
+      "display_through": "2026-09-26T00:00:00+00:00"
+    }
+  },
+  "patterns": [
+    {
+      "native": {
+        "known": "1790776800",
+        "start": "1790614800",
+        "end": "1790766000",
+        "category": "2",
+        "state": "1",
+        "event": "1790791200",
+        "reason": "逆前置趋势回调；中继仍待收盘破线；原Book适配，三推衰减；前置ZigZag同向旁证",
+        "original_anchors": "1790614800@4110.88;1790701200@4175.12;1790712000@4142.24;1790733600@4187.73;1790755200@4165.67;1790766000@4202.33"
+      },
+      "points": [
+        [
+          5212,
+          4110.88
+        ],
+        [
+          5235,
+          4175.12
+        ],
+        [
+          5238,
+          4142.24
+        ],
+        [
+          5243,
+          4187.73
+        ],
+        [
+          5249,
+          4165.67
+        ],
+        [
+          5252,
+          4202.33
+        ]
+      ],
+      "upper": [
+        4138.306470588235,
+        4202.33
+      ],
+      "lower": [
+        4110.88,
+        4170.112432432433
+      ],
+      "widths": [
+        27.426470588235134,
+        32.21756756756713
+      ],
+      "width_change_pct": 17.46887906673338,
+      "amplitudes": [
+        64.24,
+        45.49,
+        36.66
+      ],
+      "strict_checks": {
+        "amplitudes_decrease": true,
+        "parallel_within_15pct": false,
+        "prior_30bar_move_at_least_3_mean_ranges": true,
+        "strict_wick_tolerance": false,
+        "strict_body_enclosure": false
+      },
+      "known": "09-30 14:00",
+      "cross": "09-30 18:00"
+    },
+    {
+      "native": {
+        "known": "1790791200",
+        "start": "1790712000",
+        "end": "1790780400",
+        "category": "4",
+        "state": "3",
+        "event": "1790787600",
+        "reason": "原Book三推几何轮廓；前置趋势/反转中继性质尚未核验；原Book适配，未满足逐推衰减；越轨早于形态可知，仅作历史结束记录，不倒签确认；前置ZigZag趋势未验证",
+        "original_anchors": "1790712000@4142.24;1790733600@4187.73;1790755200@4165.67;1790766000@4202.33;1790776800@4176.40;1790780400@4219.22"
+      },
+      "points": [
+        [
+          5238,
+          4142.24
+        ],
+        [
+          5243,
+          4187.73
+        ],
+        [
+          5249,
+          4165.67
+        ],
+        [
+          5252,
+          4202.33
+        ],
+        [
+          5255,
+          4176.4
+        ],
+        [
+          5256,
+          4219.22
+        ]
+      ],
+      "upper": [
+        4175.618461538461,
+        4219.22
+      ],
+      "lower": [
+        4142.24,
+        4178.4094117647055
+      ],
+      "widths": [
+        33.378461538461124,
+        40.810588235294745
+      ],
+      "width_change_pct": 22.266235033839934,
+      "amplitudes": [
+        45.49,
+        36.66,
+        42.82
+      ],
+      "strict_checks": {
+        "amplitudes_decrease": false,
+        "parallel_within_15pct": false,
+        "prior_30bar_move_at_least_3_mean_ranges": false,
+        "strict_wick_tolerance": false,
+        "strict_body_enclosure": true
+      },
+      "known": "09-30 18:00",
+      "cross": "09-30 17:00"
+    }
+  ],
+  "scope": "H1 native bar index for rails; same six wicks as native PA export. Strict checks are code parameters; no author double-break adjudication."
+}
