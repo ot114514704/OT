@@ -1,0 +1,174 @@
+{
+  "revision": "1.230-r5",
+  "native_protocol": "BEXP_RESULT 2, optional ninth-field UTF8 payload SHA256; legacy 8-field supported",
+  "change": "Reload changed full results under the same request token; retain verified results on invalid payload.",
+  "source_sha256": {
+    "worker.py": "8220252b865da0e29ca8c9449dd9dea771809fb504a0305c306030985c32f8ca",
+    "source/BookExperimentGuard.mqh": "6b6faf32655cbaa369cbb086b2ed75d9d5a8d65792538e5c90cdbe5ad07b1a70",
+    "source/BookExperimentReplyPolicy.mqh": "dcd42b72f168bc10fa2d51409a7cab3c2a6a7eee5b8ccc8c06e627ae8dc507cc",
+    "source/Book302_Consolidation_Experiment.ex5": "a123ac2ce895953d4774a7765330cf6b5734c6b8c3e67943ee28fa695fe2f5e2",
+    "native_scripts/Book302_ReplyPolicy_Regression.mq5": "4e55e6275a11dcfabbbd6fb69cb6f8b7f6ae4554b8d700e9068cc46c5ae1e2ca",
+    "native_scripts/Book302_ReplyPolicy_Regression.ex5": "27daed1520d8139a0194c1b381ddeb7ca0c2815e09118af7a7336ea7e101f7c0"
+  },
+  "evidence": {
+    "native_refresh_acceptance.json": {
+      "passed": true,
+      "token": "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+      "transitions": [
+        {
+          "name": "initial",
+          "seconds": 0.0,
+          "receipt": [
+            "BEX_REPLY_REVISION",
+            "1",
+            "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+            "full",
+            "8833f4e27b9e82c0c7d7ca2856d668638914ff892dd03892a5d2d41cf48ede47",
+            "1794972782"
+          ],
+          "segments": 54,
+          "outer": 22
+        },
+        {
+          "name": "baseline_full",
+          "seconds": 0.40599999998812564,
+          "receipt": [
+            "BEX_REPLY_REVISION",
+            "1",
+            "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+            "full",
+            "cf1f7beba682a8c99006e2a697980c47340b5f21b7f822c6e935eac031f5d11a",
+            "1794972964"
+          ],
+          "segments": 50,
+          "outer": 18
+        },
+        {
+          "name": "updated_full",
+          "seconds": 0.8129999999946449,
+          "receipt": [
+            "BEX_REPLY_REVISION",
+            "1",
+            "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+            "full",
+            "8833f4e27b9e82c0c7d7ca2856d668638914ff892dd03892a5d2d41cf48ede47",
+            "1794972965"
+          ],
+          "segments": 54,
+          "outer": 22
+        },
+        {
+          "name": "restored",
+          "seconds": 0.0,
+          "receipt": [
+            "BEX_REPLY_REVISION",
+            "1",
+            "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+            "full",
+            "8833f4e27b9e82c0c7d7ca2856d668638914ff892dd03892a5d2d41cf48ede47",
+            "1794972965"
+          ],
+          "segments": 54,
+          "outer": 22
+        }
+      ],
+      "same_token_full_to_full": true,
+      "elapsed_only_no_reload": true,
+      "invalid_digest_preserves_loaded_results": true,
+      "original_worker_reply_restored_exactly": true,
+      "book_and_companion_receipts_unchanged": {
+        "NativeBookAudit\\102923304041429_0.coverage.tsv": "7aa1e405842079b86e479f9c3613dd712c9c59d6825c94aa43e5d2006b391a04",
+        "NativeBookAudit\\102923304041429_0.native.tsv": "bcb59abf8045157a49f0745e43db7b7c8f12db809b09b84ec1d7239c97e98f4f",
+        "NativeBookAudit\\102923304041429_0.native.tsv.line_contracts.tsv": "18561a1f278f1dc16fd5dded74f13acf4249de6458ceffdb39e17f3bae89143f",
+        "NativeBookAudit\\102923304041429_0.native.tsv.turning_display.tsv": "0612c9dcee01189dc88cf97dede0b5c48e4fc4f2f52ab5fab6f5304e6f906a55",
+        "NativeBookAudit\\102923304041429_0.rates.tsv": "af16de228890a3821a472af37fe3f9725ece048e7791af5d7038289deb0b6f68",
+        "NativeBookAudit\\102923304041429_0.receipt.tsv": "1da8582da299edd5dc16a962e2445a91e97967e2edbfd226dbca7a3818d7ba57",
+        "NativeBookAudit\\102923304041429_1.coverage.tsv": "d60b829059646260279d809adba6f45d156e57908c026c97d52cbe42c5ea1260",
+        "NativeBookAudit\\102923304041429_1.native.tsv": "8138b5aa5ce497d1a8ce95c71eba4e8f0215845e79d62a3b15d6f29789b33a4a",
+        "NativeBookAudit\\102923304041429_1.native.tsv.line_contracts.tsv": "1e170f0df7e1573e394b584ac75cd45bb0f40c49a35f90e700ed5d4182b49386",
+        "NativeBookAudit\\102923304041429_1.native.tsv.turning_display.tsv": "4c58c56f870fb1b78094191b67d0620265910a45e6aae45414120798ff9ce784",
+        "NativeBookAudit\\102923304041429_1.rates.tsv": "f157ba2991fdb563dd962a20d37202baa47ef65bed3dd4bac309a3529ab8584d",
+        "NativeBookAudit\\102923304041429_1.receipt.tsv": "0b2eb01234d58d28656913d10a0776b34a9a7f27b196891e099d6cf28399623f",
+        "CompanionBookMarketZigzag_102923304041429.tsv": "f71690132100fedad6c31616e58552a2019bb0dec5e3ee88488623d691f15c6b",
+        "CompanionBookOriginalOverlay_102923304041429.tsv": "bc2a6c0ee367f569ced5dcbdb620520c71fff0670293e9a8885507c595520988",
+        "CompanionBookOriginalSwitches_102923304041429.tsv": "d84850c2c4b46a02c92024fbaf82c39bb85790736fb9e4c9c824b39214380e0e",
+        "CompanionBookThreePushPA_102923304041429.tsv": "d7aec81636864a1ff52b415077141abf4f9efe636559aff196b26a4cb2053443",
+        "CompanionBookThreePushReversal_102923304041429.tsv": "d04a62ab00f2cd72e3bd469035c0acae02f679c6b7943c750c13622900b806cb"
+      },
+      "native_policy": {
+        "version": "r5",
+        "passed": "11",
+        "failed": "0",
+        "utf8_digest": "da73246f2274f0e43a9052cbbb0774fc6e4df1e381e686dc83d110814d16aff5",
+        "time": "1794972885"
+      },
+      "native_policy_utf8_matches_python": true,
+      "scope": "Current approved November H1 viewport; two real preserved result sets. No pan, toggle, reload or period switch during update."
+    },
+    "deployment_acceptance.json": {
+      "passed": true,
+      "revision": "1.230-r5",
+      "worker_pid": 32124,
+      "worker_sha256": "8220252b865da0e29ca8c9449dd9dea771809fb504a0305c306030985c32f8ca",
+      "experiment_ex5_sha256": "a123ac2ce895953d4774a7765330cf6b5734c6b8c3e67943ee28fa695fe2f5e2",
+      "result_records": 107,
+      "results_exact_r4": true,
+      "original_full_H1_M15_model_exact": true,
+      "book_headers_unchanged": 41,
+      "production_files_unchanged": 70,
+      "BEXDraw_unchanged": true,
+      "unchanged_other_ex5": [
+        "companions/IPDA_Consolidation_Adapted.ex5",
+        "companions/original_overlay/Book_ThreePush_Adapted.ex5",
+        "companions/pa_shapes/Book_PA_Adapted.ex5",
+        "native_scripts/Book302_Open_Experiment.ex5"
+      ],
+      "fresh_native_coordinates": {
+        "passed": true,
+        "request_token": "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+        "expected_segments": 54,
+        "verified_nonzero_segments": 53,
+        "verified_outer_segments": 22,
+        "problems": [],
+        "visual_acceptance": false,
+        "scope": "Current file receipts only. Fresh matching r3 native render is required; this cannot replace visual/button acceptance."
+      },
+      "companion_snapshot_current": true,
+      "companion_loaded_semantics_exact": true,
+      "full_model_elapsed_seconds": 97.40600000001723,
+      "native_reply_revision": [
+        "BEX_REPLY_REVISION",
+        "1",
+        "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+        "full",
+        "8833f4e27b9e82c0c7d7ca2856d668638914ff892dd03892a5d2d41cf48ede47",
+        "1794972965"
+      ]
+    },
+    "deployed/native_readiness.json": {
+      "passed": true,
+      "request_token": "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+      "expected_segments": 54,
+      "verified_nonzero_segments": 53,
+      "verified_outer_segments": 22,
+      "problems": [],
+      "visual_acceptance": false,
+      "scope": "Current file receipts only. Fresh matching r3 native render is required; this cannot replace visual/button acceptance."
+    },
+    "deployed/visual_acceptance.json": {
+      "passed": true,
+      "revision": "1.230-r5",
+      "chart_id": "102923304041429",
+      "period": "H1",
+      "viewport": "2026-11-03 through 2026-11-13",
+      "observed": "Native MT5 chart after the bounded same-token update test. Continuations present, channel/triangle and original Book/ordinary consolidation retained; continuation ON; no period change or viewport navigation during the update test.",
+      "screenshot": "experiment_102923304041429_3600.png",
+      "limits": "Existing label/header overlap remains. Coordinate verification is separate; some projected line extents are clipped by chart price bounds. This is not a universal visual or historical accuracy claim."
+    }
+  },
+  "limits": [
+    "Native acceptance limited to current November H1 viewport.",
+    "Other dates/line families, historical data quality and full-model latency remain open."
+  ],
+  "uploaded_at_packaging": false
+}

@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "revision": "1.230-r5",
+  "worker_pid": 32124,
+  "worker_sha256": "8220252b865da0e29ca8c9449dd9dea771809fb504a0305c306030985c32f8ca",
+  "experiment_ex5_sha256": "a123ac2ce895953d4774a7765330cf6b5734c6b8c3e67943ee28fa695fe2f5e2",
+  "result_records": 107,
+  "results_exact_r4": true,
+  "original_full_H1_M15_model_exact": true,
+  "book_headers_unchanged": 41,
+  "production_files_unchanged": 70,
+  "BEXDraw_unchanged": true,
+  "unchanged_other_ex5": [
+    "companions/IPDA_Consolidation_Adapted.ex5",
+    "companions/original_overlay/Book_ThreePush_Adapted.ex5",
+    "companions/pa_shapes/Book_PA_Adapted.ex5",
+    "native_scripts/Book302_Open_Experiment.ex5"
+  ],
+  "fresh_native_coordinates": {
+    "passed": true,
+    "request_token": "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+    "expected_segments": 54,
+    "verified_nonzero_segments": 53,
+    "verified_outer_segments": 22,
+    "problems": [],
+    "visual_acceptance": false,
+    "scope": "Current file receipts only. Fresh matching r3 native render is required; this cannot replace visual/button acceptance."
+  },
+  "companion_snapshot_current": true,
+  "companion_loaded_semantics_exact": true,
+  "full_model_elapsed_seconds": 97.40600000001723,
+  "native_reply_revision": [
+    "BEX_REPLY_REVISION",
+    "1",
+    "6d2869c6c4a6becb1119edc9856ef838c29c85f05d61c83532d1c0c1d8b0e14d",
+    "full",
+    "8833f4e27b9e82c0c7d7ca2856d668638914ff892dd03892a5d2d41cf48ede47",
+    "1794972965"
+  ]
+}

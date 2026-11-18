@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "revision": "1.230-r5",
+  "chart_id": "102923304041429",
+  "period": "H1",
+  "viewport": "2026-11-03 through 2026-11-13",
+  "observed": "Native MT5 chart after the bounded same-token update test. Continuations present, channel/triangle and original Book/ordinary consolidation retained; continuation ON; no period change or viewport navigation during the update test.",
+  "screenshot": "experiment_102923304041429_3600.png",
+  "limits": "Existing label/header overlap remains. Coordinate verification is separate; some projected line extents are clipped by chart price bounds. This is not a universal visual or historical accuracy claim."
+}
