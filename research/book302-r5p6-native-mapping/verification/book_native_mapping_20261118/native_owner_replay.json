@@ -1,0 +1,2594 @@
+[
+  {
+    "id": "b00c7d1abceaff42fbf0d715",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-11-12T15:00:00Z",
+    "owner": [
+      "2025-11-12T07:00:00Z",
+      "2025-11-12T11:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b781451cc9c56b7f97b7d0e5",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-11-13T17:00:00Z",
+    "owner": [
+      "2025-11-13T03:00:00Z",
+      "2025-11-13T06:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b05a04df5f9c27ed316b45e4",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-11-14T22:00:00Z",
+    "owner": [
+      "2025-11-14T16:00:00Z",
+      "2025-11-14T18:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b7db477ac37a17c4d09167f5",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-11-18T23:00:00Z",
+    "owner": [
+      "2025-11-18T09:00:00Z",
+      "2025-11-18T16:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b08c12709aab56c9a86a8ea2",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-11-18T23:00:00Z",
+    "owner": [
+      "2025-11-18T09:00:00Z",
+      "2025-11-18T16:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2025-11-18T23:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "be45d101f33e8963765a81e5",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-11-20T14:00:00Z",
+    "owner": [
+      "2025-11-20T02:00:00Z",
+      "2025-11-20T10:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bbc4b7985c6f4127fdebe699",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-11-21T15:00:00Z",
+    "owner": [
+      "2025-11-21T01:00:00Z",
+      "2025-11-21T10:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b1034e46d7cb63b25f83e226",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-11-21T23:00:00Z",
+    "owner": [
+      "2025-11-21T13:00:00Z",
+      "2025-11-21T19:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "be4f426da3b63034246c251c",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-11-21T23:00:00Z",
+    "owner": [
+      "2025-11-21T13:00:00Z",
+      "2025-11-21T19:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "be783ca3b769f52c7f503a52",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-11-25T14:00:00Z",
+    "owner": [
+      "2025-11-25T04:00:00Z",
+      "2025-11-25T10:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b2e7c3bfad90defa8a4ec931",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-11-25T16:00:00Z",
+    "owner": [
+      "2025-11-25T04:00:00Z",
+      "2025-11-25T10:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2025-11-25T16:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b83e170d8283d88c11e2af33",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-11-25T23:00:00Z",
+    "owner": [
+      "2025-11-25T10:00:00Z",
+      "2025-11-25T15:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b0d5469319792d4d2ebc04a2",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-11-25T23:00:00Z",
+    "owner": [
+      "2025-11-25T16:00:00Z",
+      "2025-11-25T19:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b104e558af2e96f20d4091fa",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-11-26T14:00:00Z",
+    "owner": [
+      "2025-11-26T05:00:00Z",
+      "2025-11-26T08:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2025-11-26T14:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "ba546093c88f4158dbbdc2ee",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-11-28T15:00:00Z",
+    "owner": [
+      "2025-11-28T03:00:00Z",
+      "2025-11-28T10:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bce77590c98a783e37e85970",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-11-28T16:00:00Z",
+    "owner": [
+      "2025-11-28T03:00:00Z",
+      "2025-11-28T10:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b01e0e6e44de2bc3aea5dbd8",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-12-01T08:00:00Z",
+    "owner": [
+      "2025-12-01T01:00:00Z",
+      "2025-12-01T04:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2025-12-01T08:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b9a382fc28cbc21664dec44e",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-12-05T00:00:00Z",
+    "owner": [
+      "2025-12-04T07:00:00Z",
+      "2025-12-04T13:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2025-12-05T00:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b22688ce34654c73572d99c0",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-12-05T00:00:00Z",
+    "owner": [
+      "2025-12-04T15:00:00Z",
+      "2025-12-04T18:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b76e664f595821422bb5d6b3",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-12-05T00:00:00Z",
+    "owner": [
+      "2025-12-04T15:00:00Z",
+      "2025-12-04T18:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2025-12-05T00:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b63e8b336b3878978cbaf0dc",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-12-08T23:00:00Z",
+    "owner": [
+      "2025-12-08T08:00:00Z",
+      "2025-12-08T17:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b274a5bd3dd67c70fa0fd57f",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-12-10T16:00:00Z",
+    "owner": [
+      "2025-12-10T04:00:00Z",
+      "2025-12-10T12:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b82ecd3de9e3530b24735648",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-12-11T17:00:00Z",
+    "owner": [
+      "2025-12-11T03:00:00Z",
+      "2025-12-11T08:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "bcf9b16532897b986412ffb0",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-12-16T13:00:00Z",
+    "owner": [
+      "2025-12-16T03:00:00Z",
+      "2025-12-16T07:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b568d57116a8f0d6080415eb",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-12-16T23:00:00Z",
+    "owner": [
+      "2025-12-16T07:00:00Z",
+      "2025-12-16T17:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "ba06029957fdee5e871a9a35",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-12-17T21:00:00Z",
+    "owner": [
+      "2025-12-17T12:00:00Z",
+      "2025-12-17T17:00:00Z"
+    ],
+    "native_support_position": "after",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b9d8bbb07393e4e16fefc75c",
+    "family": "GUIDED_TURNING",
+    "clock": "2025-12-19T15:00:00Z",
+    "owner": [
+      "2025-12-19T03:00:00Z",
+      "2025-12-19T11:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2025-12-19T15:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b7b594313c2bdfdd6667b965",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-12-22T16:00:00Z",
+    "owner": [
+      "2025-12-22T09:00:00Z",
+      "2025-12-22T12:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "bd67e39598cf18b17193283f",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-12-30T00:00:00Z",
+    "owner": [
+      "2025-12-29T05:00:00Z",
+      "2025-12-29T17:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "no_broad_opposite_outer_extension"
+  },
+  {
+    "id": "b00fbc68e7ed07ed50e0d081",
+    "family": "GUIDED_SHIFT",
+    "clock": "2025-12-30T17:00:00Z",
+    "owner": [
+      "2025-12-30T01:00:00Z",
+      "2025-12-30T09:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b01d0a71e923efa6ff862f2a",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-06T00:00:00Z",
+    "owner": [
+      "2026-01-05T17:00:00Z",
+      "2026-01-05T19:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bfbbe6a0d7f915dca3dd8f33",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-07T14:00:00Z",
+    "owner": [
+      "2026-01-07T08:00:00Z",
+      "2026-01-07T10:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b9c56d629c11385aeac1fe2c",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-01-09T15:00:00Z",
+    "owner": [
+      "2026-01-09T03:00:00Z",
+      "2026-01-09T08:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-01-09T15:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b1b056398f9ed8309c5ab663",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-09T14:00:00Z",
+    "owner": [
+      "2026-01-09T08:00:00Z",
+      "2026-01-09T10:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b38391950060d4b7fb8f8e2c",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-09T23:00:00Z",
+    "owner": [
+      "2026-01-09T17:00:00Z",
+      "2026-01-09T19:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bec02939a20c6af243904a89",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-12T23:00:00Z",
+    "owner": [
+      "2026-01-12T14:00:00Z",
+      "2026-01-12T18:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bba48fa30bc468ba9ac58f8c",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-01-12T23:00:00Z",
+    "owner": [
+      "2026-01-12T14:00:00Z",
+      "2026-01-12T18:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-01-12T23:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b2e0c3df03eb7f5cc4d53baf",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-13T20:00:00Z",
+    "owner": [
+      "2026-01-13T08:00:00Z",
+      "2026-01-13T10:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "bfe67eecc96b360ffa7d82c5",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-19T20:00:00Z",
+    "owner": [
+      "2026-01-19T08:00:00Z",
+      "2026-01-19T13:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bd03b1ecade0577b7114e7bb",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-22T15:00:00Z",
+    "owner": [
+      "2026-01-22T03:00:00Z",
+      "2026-01-22T09:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b23f13db5042a45c37b7121e",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-01-22T14:00:00Z",
+    "owner": [
+      "2026-01-22T03:00:00Z",
+      "2026-01-22T09:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b9a0906ad0a91655ee5a793b",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-23T15:00:00Z",
+    "owner": [
+      "2026-01-23T03:00:00Z",
+      "2026-01-23T11:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b9032f24b32b8d89945dfa58",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-01-23T16:00:00Z",
+    "owner": [
+      "2026-01-23T03:00:00Z",
+      "2026-01-23T11:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bbf0ebb0ac74b9fff96a8063",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-23T23:00:00Z",
+    "owner": [
+      "2026-01-23T11:00:00Z",
+      "2026-01-23T18:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b2e9ee55990fec073f372ec5",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-26T20:00:00Z",
+    "owner": [
+      "2026-01-26T08:00:00Z",
+      "2026-01-26T15:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b3d4c7013c7c537aaced9c26",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-27T18:00:00Z",
+    "owner": [
+      "2026-01-27T09:00:00Z",
+      "2026-01-27T13:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bab5233e87181517ca6241bf",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-01-27T22:00:00Z",
+    "owner": [
+      "2026-01-27T09:00:00Z",
+      "2026-01-27T13:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-01-27T22:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b2ff950f88b971d1af802af9",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-28T22:00:00Z",
+    "owner": [
+      "2026-01-28T10:00:00Z",
+      "2026-01-28T17:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b0762aa3b5e5fd2f693e072f",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-01-30T19:00:00Z",
+    "owner": [
+      "2026-01-30T11:00:00Z",
+      "2026-01-30T14:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "bea7621d6cd686e0cbc1b98a",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-02T22:00:00Z",
+    "owner": [
+      "2026-02-02T14:00:00Z",
+      "2026-02-02T18:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b836f6c4e7e171952acde0c5",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-03T15:00:00Z",
+    "owner": [
+      "2026-02-03T04:00:00Z",
+      "2026-02-03T10:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b97c066339b417c1e996d419",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-03T19:00:00Z",
+    "owner": [
+      "2026-02-03T10:00:00Z",
+      "2026-02-03T13:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b7466ac88abd05fda4fefea7",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-04T22:00:00Z",
+    "owner": [
+      "2026-02-04T10:00:00Z",
+      "2026-02-04T18:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b67e80fa76f459476eb46e98",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-09T13:00:00Z",
+    "owner": [
+      "2026-02-09T04:00:00Z",
+      "2026-02-09T08:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b88cf1fcc0f60c5e47566f7b",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-10T11:00:00Z",
+    "owner": [
+      "2026-02-10T04:00:00Z",
+      "2026-02-10T07:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b5088dea2d71d3a4fb313bef",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-10T15:00:00Z",
+    "owner": [
+      "2026-02-10T07:00:00Z",
+      "2026-02-10T11:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b1c378a8ca114632a071112b",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-02-10T15:00:00Z",
+    "owner": [
+      "2026-02-10T07:00:00Z",
+      "2026-02-10T11:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-02-10T15:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b692020bbee39ee6860d77de",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-12T11:00:00Z",
+    "owner": [
+      "2026-02-12T01:00:00Z",
+      "2026-02-12T03:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b7b9c4de63a4a8d4801ae510",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-12T15:00:00Z",
+    "owner": [
+      "2026-02-12T03:00:00Z",
+      "2026-02-12T07:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bbdd98dff226e9c464dcec12",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-02-12T13:00:00Z",
+    "owner": [
+      "2026-02-12T03:00:00Z",
+      "2026-02-12T07:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-02-12T13:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bf2fc3a6ba8e665702303fe8",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-12T22:00:00Z",
+    "owner": [
+      "2026-02-12T15:00:00Z",
+      "2026-02-12T18:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b65179ba19b66f8b7dce29fb",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-16T17:00:00Z",
+    "owner": [
+      "2026-02-16T07:00:00Z",
+      "2026-02-16T12:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b1013dcb9200e64ea7cb7932",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-17T11:00:00Z",
+    "owner": [
+      "2026-02-17T01:00:00Z",
+      "2026-02-17T07:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "beaecc472b143baf6d41ac9b",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-02-17T12:00:00Z",
+    "owner": [
+      "2026-02-17T01:00:00Z",
+      "2026-02-17T07:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-02-17T12:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b3acc808f7479888e1e6aaab",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-25T13:00:00Z",
+    "owner": [
+      "2026-02-25T01:00:00Z",
+      "2026-02-25T07:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b325dfbbbe11299e33504df3",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-02-25T17:00:00Z",
+    "owner": [
+      "2026-02-25T07:00:00Z",
+      "2026-02-25T13:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-02-25T17:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b8959111e590a67af0d23e48",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-02-25T23:00:00Z",
+    "owner": [
+      "2026-02-25T13:00:00Z",
+      "2026-02-25T19:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b68e16c3fdc343d5cbcc1126",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-02-25T23:00:00Z",
+    "owner": [
+      "2026-02-25T13:00:00Z",
+      "2026-02-25T19:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-02-25T23:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b9eb4cbe6db2a0c367ae45e9",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-04T00:00:00Z",
+    "owner": [
+      "2026-03-03T10:00:00Z",
+      "2026-03-03T17:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bb3f5d550270f641680d090b",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-03-03T21:00:00Z",
+    "owner": [
+      "2026-03-03T10:00:00Z",
+      "2026-03-03T17:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-03-03T21:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bc1735ba4ec0f622ca4249b1",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-05T00:00:00Z",
+    "owner": [
+      "2026-03-04T14:00:00Z",
+      "2026-03-04T20:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b4ec64753bf0430377196b88",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-05T16:00:00Z",
+    "owner": [
+      "2026-03-05T08:00:00Z",
+      "2026-03-05T11:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b7c841e1426b871ad10e254c",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-03-05T15:00:00Z",
+    "owner": [
+      "2026-03-05T08:00:00Z",
+      "2026-03-05T11:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-03-05T15:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b8293462ef789839b9e8ab2c",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-10T10:00:00Z",
+    "owner": [
+      "2026-03-10T01:00:00Z",
+      "2026-03-10T05:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b8d60d506bf40b297cee8512",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-10T15:00:00Z",
+    "owner": [
+      "2026-03-10T07:00:00Z",
+      "2026-03-10T11:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "ba7d5587c7b7e30db2019c8b",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-10T22:00:00Z",
+    "owner": [
+      "2026-03-10T13:00:00Z",
+      "2026-03-10T18:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b622af6641c178b8d7b7d4a9",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-03-10T22:00:00Z",
+    "owner": [
+      "2026-03-10T13:00:00Z",
+      "2026-03-10T18:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b607c5e155a5caebe9e35da5",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-11T23:00:00Z",
+    "owner": [
+      "2026-03-11T04:00:00Z",
+      "2026-03-11T11:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bbc08f6c52b5ef38c47c8d68",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-03-11T22:00:00Z",
+    "owner": [
+      "2026-03-11T04:00:00Z",
+      "2026-03-11T11:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "be89d9e486832023c129683b",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-12T11:00:00Z",
+    "owner": [
+      "2026-03-12T01:00:00Z",
+      "2026-03-12T03:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "be8304e2e4e23eac7eaa4d2c",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-16T13:00:00Z",
+    "owner": [
+      "2026-03-16T02:00:00Z",
+      "2026-03-16T09:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b6b2e90bc405c8bb5a832832",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-18T20:00:00Z",
+    "owner": [
+      "2026-03-18T09:00:00Z",
+      "2026-03-18T16:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b12011ab0309a5868b8fb1ef",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-03-20T14:00:00Z",
+    "owner": [
+      "2026-03-20T02:00:00Z",
+      "2026-03-20T06:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-03-20T14:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b6a02eb3bfc9e7992cbd0538",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-23T14:00:00Z",
+    "owner": [
+      "2026-03-23T01:00:00Z",
+      "2026-03-23T10:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b5f689ae90f2ceba94ebf902",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-03-23T14:00:00Z",
+    "owner": [
+      "2026-03-23T01:00:00Z",
+      "2026-03-23T10:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-03-23T14:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b7c5fcc6fa4f02acbcd6a91d",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-25T00:00:00Z",
+    "owner": [
+      "2026-03-24T17:00:00Z",
+      "2026-03-24T20:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "bcba11425311677ee3eb099a",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-03-30T21:00:00Z",
+    "owner": [
+      "2026-03-30T03:00:00Z",
+      "2026-03-30T14:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "baf1aaffcec3f996184bd2e4",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-06T19:00:00Z",
+    "owner": [
+      "2026-04-06T03:00:00Z",
+      "2026-04-06T12:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b60c5006a0e8ef7d68f2a316",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-04-06T16:00:00Z",
+    "owner": [
+      "2026-04-06T03:00:00Z",
+      "2026-04-06T12:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-04-06T16:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b63d4ab7be5090a8fe2c4dab",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-08T12:00:00Z",
+    "owner": [
+      "2026-04-08T04:00:00Z",
+      "2026-04-08T08:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b29cf8c058c9b42c9c23bf3b",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-04-08T13:00:00Z",
+    "owner": [
+      "2026-04-08T04:00:00Z",
+      "2026-04-08T08:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-04-08T13:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b18d2da06920ee8d310eb956",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-09T13:00:00Z",
+    "owner": [
+      "2026-04-09T05:00:00Z",
+      "2026-04-09T09:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b679a65ef78cb73ccae89d78",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-13T12:00:00Z",
+    "owner": [
+      "2026-04-13T01:00:00Z",
+      "2026-04-13T04:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b4524c21d477c00bf462c709",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-14T17:00:00Z",
+    "owner": [
+      "2026-04-14T10:00:00Z",
+      "2026-04-14T13:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b5cdc41e74b66265ccbf1e05",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-15T17:00:00Z",
+    "owner": [
+      "2026-04-15T04:00:00Z",
+      "2026-04-15T12:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b1a5d5c8671ee2c3a047f5c1",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-04-15T17:00:00Z",
+    "owner": [
+      "2026-04-15T08:00:00Z",
+      "2026-04-15T12:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b68f2080219f81023cb09099",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-17T21:00:00Z",
+    "owner": [
+      "2026-04-17T10:00:00Z",
+      "2026-04-17T16:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b7ca217ae1a0534cb152796e",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-21T18:00:00Z",
+    "owner": [
+      "2026-04-21T10:00:00Z",
+      "2026-04-21T14:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "bdc5667e7f440237efa9e733",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-22T23:00:00Z",
+    "owner": [
+      "2026-04-22T10:00:00Z",
+      "2026-04-22T19:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b511258432d19a0950878a9d",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-24T22:00:00Z",
+    "owner": [
+      "2026-04-24T13:00:00Z",
+      "2026-04-24T17:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b5bf32643d8bf2bc95341388",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-28T19:00:00Z",
+    "owner": [
+      "2026-04-28T03:00:00Z",
+      "2026-04-28T15:00:00Z"
+    ],
+    "native_support_position": "after",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "clear_confirmed_adjustment_D_between_C_E_unknown"
+  },
+  {
+    "id": "b1b92cf1e802a0e880c9f222",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-04-28T19:00:00Z",
+    "owner": [
+      "2026-04-28T03:00:00Z",
+      "2026-04-28T15:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "clear_confirmed_adjustment_D_between_C_E_unknown"
+  },
+  {
+    "id": "b1efb91bf7c66d04b6f9245a",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-04-29T21:00:00Z",
+    "owner": [
+      "2026-04-29T08:00:00Z",
+      "2026-04-29T16:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-04-29T21:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b6b7eef4f6e7030b08a49389",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-05-01T00:00:00Z",
+    "owner": [
+      "2026-04-30T13:00:00Z",
+      "2026-04-30T19:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b696be2a4af5b2f321d2e62b",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-05-05T21:00:00Z",
+    "owner": [
+      "2026-05-05T07:00:00Z",
+      "2026-05-05T17:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b4c4e44c9402e50bfab5bb67",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-05-12T00:00:00Z",
+    "owner": [
+      "2026-05-11T08:00:00Z",
+      "2026-05-11T16:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b881ae3712d381716b27e19a",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-05-12T21:00:00Z",
+    "owner": [
+      "2026-05-12T03:00:00Z",
+      "2026-05-12T13:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b76d3ab9d9aa30d2e013f16c",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-05-13T14:00:00Z",
+    "owner": [
+      "2026-05-13T05:00:00Z",
+      "2026-05-13T09:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b3f294cb472d7dd194f733b3",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-05-15T18:00:00Z",
+    "owner": [
+      "2026-05-15T02:00:00Z",
+      "2026-05-15T12:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "baabb28d9e09fb22f12c66a6",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-05-20T15:00:00Z",
+    "owner": [
+      "2026-05-20T03:00:00Z",
+      "2026-05-20T06:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b1af9f07ee222da138050a10",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-05-21T19:00:00Z",
+    "owner": [
+      "2026-05-21T04:00:00Z",
+      "2026-05-21T10:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bbb6b1114e2f1cf73a5e5f27",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-05-25T13:00:00Z",
+    "owner": [
+      "2026-05-25T02:00:00Z",
+      "2026-05-25T09:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bcbfd93f1fd7b35d0feda56d",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-05-25T21:00:00Z",
+    "owner": [
+      "2026-05-25T09:00:00Z",
+      "2026-05-25T14:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-05-25T21:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b5f92c20304b485607757b0f",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-05-27T21:00:00Z",
+    "owner": [
+      "2026-05-27T01:00:00Z",
+      "2026-05-27T16:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "no_broad_opposite_outer_extension"
+  },
+  {
+    "id": "b572acf55250835772e3e53c",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-05-28T00:00:00Z",
+    "owner": [
+      "2026-05-27T01:00:00Z",
+      "2026-05-27T16:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "no_broad_opposite_outer_extension"
+  },
+  {
+    "id": "b698565c0d33c605761988d8",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-05-28T16:00:00Z",
+    "owner": [
+      "2026-05-28T01:00:00Z",
+      "2026-05-28T07:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-05-28T16:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b521e571a1ab8e46c3bff0dc",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-05-30T00:00:00Z",
+    "owner": [
+      "2026-05-29T02:00:00Z",
+      "2026-05-29T13:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "clear_confirmed_adjustment_D_between_C_E_unknown"
+  },
+  {
+    "id": "ba8a58c7dc62a3bd61353618",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-04-22T15:00:00Z",
+    "owner": [
+      "2026-04-22T08:00:00Z",
+      "2026-04-22T10:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "beb4d4ef8f6d85373c1330b0",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-06-03T18:00:00Z",
+    "owner": [
+      "2026-06-03T03:00:00Z",
+      "2026-06-03T12:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bdc10eed0bd26adaef419fbb",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-06-04T11:00:00Z",
+    "owner": [
+      "2026-06-04T01:00:00Z",
+      "2026-06-04T07:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b3b3253eec7c9be973cfce56",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-06-04T15:00:00Z",
+    "owner": [
+      "2026-06-04T07:00:00Z",
+      "2026-06-04T11:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b0d6725054072b4cddbef6fd",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-06-08T13:00:00Z",
+    "owner": [
+      "2026-06-08T03:00:00Z",
+      "2026-06-08T08:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b027287bf04dd3e765c79ea0",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-06-18T23:00:00Z",
+    "owner": [
+      "2026-06-18T05:00:00Z",
+      "2026-06-18T14:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "ba9ed23bd7533441d22ea766",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-06-22T22:00:00Z",
+    "owner": [
+      "2026-06-22T14:00:00Z",
+      "2026-06-22T18:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b8f7ad6bcc29668acdbcaea4",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-06-26T22:00:00Z",
+    "owner": [
+      "2026-06-26T05:00:00Z",
+      "2026-06-26T18:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "clear_confirmed_adjustment_D_between_C_E_unknown"
+  },
+  {
+    "id": "bc76bbab753e7cea782ae671",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-06-26T22:00:00Z",
+    "owner": [
+      "2026-06-26T05:00:00Z",
+      "2026-06-26T18:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-06-26T22:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "clear_confirmed_adjustment_D_between_C_E_unknown"
+  },
+  {
+    "id": "b369f9b7a2da5fdcde7479b0",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-06-29T12:00:00Z",
+    "owner": [
+      "2026-06-29T03:00:00Z",
+      "2026-06-29T06:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b8724e0aea6edcbdc2a064a6",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-06-30T16:00:00Z",
+    "owner": [
+      "2026-06-30T04:00:00Z",
+      "2026-06-30T11:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-06-30T16:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b881ea8511b73c0ae9a1a5da",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-06-30T16:00:00Z",
+    "owner": [
+      "2026-06-30T04:00:00Z",
+      "2026-06-30T11:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b1c0b1f8c363e1a25108aede",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-07-01T22:00:00Z",
+    "owner": [
+      "2026-07-01T10:00:00Z",
+      "2026-07-01T17:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bd29ecd6ec41ca69f6d3a1fd",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-03T00:00:00Z",
+    "owner": [
+      "2026-07-02T16:00:00Z",
+      "2026-07-02T19:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b7a42ffbf000dad355ab92c9",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-07-02T11:00:00Z",
+    "owner": [
+      "2026-07-02T03:00:00Z",
+      "2026-07-02T06:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-07-02T11:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bdf4dad5191f6fe33d04b8c7",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-07T19:00:00Z",
+    "owner": [
+      "2026-07-07T08:00:00Z",
+      "2026-07-07T11:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b19d68a78b0cb91ce443d7db",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-07-08T22:00:00Z",
+    "owner": [
+      "2026-07-08T08:00:00Z",
+      "2026-07-08T13:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bc64ce2e70d7ca0c23400e8e",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-10T10:00:00Z",
+    "owner": [
+      "2026-07-10T04:00:00Z",
+      "2026-07-10T06:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "bf3ae561a1e3c093ee4732b2",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-14T12:00:00Z",
+    "owner": [
+      "2026-07-14T03:00:00Z",
+      "2026-07-14T08:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b13281f7e9c94430cc2ca9b2",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-14T19:00:00Z",
+    "owner": [
+      "2026-07-14T12:00:00Z",
+      "2026-07-14T15:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b1a672b3c9eb51b4fc275701",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-07-15T20:00:00Z",
+    "owner": [
+      "2026-07-15T11:00:00Z",
+      "2026-07-15T16:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-07-15T20:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bbead56f022a5d011c4c42fe",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-15T16:00:00Z",
+    "owner": [
+      "2026-07-15T04:00:00Z",
+      "2026-07-15T11:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "bc2dface8fcb0231e58eaeea",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-07-16T15:00:00Z",
+    "owner": [
+      "2026-07-16T01:00:00Z",
+      "2026-07-16T09:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-07-16T15:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b2396f1f853dd50e8ff00ec7",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-17T17:00:00Z",
+    "owner": [
+      "2026-07-17T06:00:00Z",
+      "2026-07-17T08:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "bbb1d5001cf6323b0876b058",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-18T00:00:00Z",
+    "owner": [
+      "2026-07-17T16:00:00Z",
+      "2026-07-17T19:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b3e7d373a88290c7c513efda",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-22T10:00:00Z",
+    "owner": [
+      "2026-07-22T03:00:00Z",
+      "2026-07-22T06:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b678b95d96a23df0da123fa2",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-27T14:00:00Z",
+    "owner": [
+      "2026-07-27T03:00:00Z",
+      "2026-07-27T08:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b4a7aa5465f4308e7dd890c1",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-07-27T13:00:00Z",
+    "owner": [
+      "2026-07-27T03:00:00Z",
+      "2026-07-27T08:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-07-27T13:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bf9df8aa0f63ff98603cbd12",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-27T23:00:00Z",
+    "owner": [
+      "2026-07-27T10:00:00Z",
+      "2026-07-27T17:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "be44974290a51958573e1366",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-30T22:00:00Z",
+    "owner": [
+      "2026-07-30T08:00:00Z",
+      "2026-07-30T17:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b6412c303ba8f798180579cf",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-07-31T00:00:00Z",
+    "owner": [
+      "2026-07-30T08:00:00Z",
+      "2026-07-30T17:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bdace2dbe3fa7929eef040a7",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-07-30T12:00:00Z",
+    "owner": [
+      "2026-07-30T02:00:00Z",
+      "2026-07-30T08:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b57813258f2aff0d3898b909",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-07-30T14:00:00Z",
+    "owner": [
+      "2026-07-30T02:00:00Z",
+      "2026-07-30T08:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-07-30T14:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b6f87eb6468af9539a33a84c",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-08-03T09:00:00Z",
+    "owner": [
+      "2026-08-03T01:00:00Z",
+      "2026-08-03T04:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-08-03T09:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bc93827f844c38a8860e4cd6",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-08-03T13:00:00Z",
+    "owner": [
+      "2026-08-03T04:00:00Z",
+      "2026-08-03T09:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-08-03T13:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b00d3cf07ae7d766ca582ec2",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-08-03T22:00:00Z",
+    "owner": [
+      "2026-08-03T09:00:00Z",
+      "2026-08-03T16:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b85bdb626da560ae66a0b641",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-08-04T00:00:00Z",
+    "owner": [
+      "2026-08-03T09:00:00Z",
+      "2026-08-03T16:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-08-04T00:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b73d396350d85a2edb6a9ab8",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-08-10T08:00:00Z",
+    "owner": [
+      "2026-08-10T01:00:00Z",
+      "2026-08-10T04:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b8eef02e6f54ad667756304a",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-08-10T08:00:00Z",
+    "owner": [
+      "2026-08-10T01:00:00Z",
+      "2026-08-10T04:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-08-10T08:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bd4868adc19805163b7b6af4",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-08-10T14:00:00Z",
+    "owner": [
+      "2026-08-10T04:00:00Z",
+      "2026-08-10T10:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bba00a9a3a488a72f8320f64",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-08-10T15:00:00Z",
+    "owner": [
+      "2026-08-10T04:00:00Z",
+      "2026-08-10T10:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-08-10T15:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bacfe122cfdc940fa26779a4",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-08-12T18:00:00Z",
+    "owner": [
+      "2026-08-12T08:00:00Z",
+      "2026-08-12T12:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b8b3d8685610911ce10939ae",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-08-14T21:00:00Z",
+    "owner": [
+      "2026-08-14T05:00:00Z",
+      "2026-08-14T16:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "no_broad_opposite_outer_extension"
+  },
+  {
+    "id": "ba2aca3dae3ae92c8576ec26",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-08-14T21:00:00Z",
+    "owner": [
+      "2026-08-14T05:00:00Z",
+      "2026-08-14T16:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "no_broad_opposite_outer_extension"
+  },
+  {
+    "id": "b086802c762fecffdce8cf06",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-08-17T18:00:00Z",
+    "owner": [
+      "2026-08-17T04:00:00Z",
+      "2026-08-17T08:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b035270849221287a17c9ce0",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-08-20T14:00:00Z",
+    "owner": [
+      "2026-08-20T01:00:00Z",
+      "2026-08-20T08:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-08-20T14:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bb8004ad2cf73d10f21c99f6",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-08-20T18:00:00Z",
+    "owner": [
+      "2026-08-20T01:00:00Z",
+      "2026-08-20T08:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bec1aebe9108305b6aec7023",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-08-22T00:00:00Z",
+    "owner": [
+      "2026-08-21T15:00:00Z",
+      "2026-08-21T20:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b7b453d9408b999b673cfc29",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-08-24T11:00:00Z",
+    "owner": [
+      "2026-08-24T03:00:00Z",
+      "2026-08-24T05:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "baae01420c08a19582f1849f",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-09-02T22:00:00Z",
+    "owner": [
+      "2026-09-02T13:00:00Z",
+      "2026-09-02T17:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b1d9996e84ac1b59c696f941",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-09-09T22:00:00Z",
+    "owner": [
+      "2026-09-09T13:00:00Z",
+      "2026-09-09T16:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-09-09T22:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b50b3ed0303cc5b8f93b968a",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-09-14T23:00:00Z",
+    "owner": [
+      "2026-09-14T16:00:00Z",
+      "2026-09-14T19:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-09-14T23:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b744df24422feeafaa9c74af",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-09-22T19:00:00Z",
+    "owner": [
+      "2026-09-22T11:00:00Z",
+      "2026-09-22T15:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-09-22T19:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b4b4c57b80a7cad78cd0a467",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-02T00:00:00Z",
+    "owner": [
+      "2026-10-01T18:00:00Z",
+      "2026-10-01T20:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b1279909c5fd410f4c482a78",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-02T22:00:00Z",
+    "owner": [
+      "2026-10-02T15:00:00Z",
+      "2026-10-02T18:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "beb903acbeeccaaaa4824e7a",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-05T22:00:00Z",
+    "owner": [
+      "2026-10-05T11:00:00Z",
+      "2026-10-05T18:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b96e69bb15e35dba002f6b0d",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-07T00:00:00Z",
+    "owner": [
+      "2026-10-06T05:00:00Z",
+      "2026-10-06T15:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "be51cb4e16d7904497d4c09c",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-10-08T23:00:00Z",
+    "owner": [
+      "2026-10-08T05:00:00Z",
+      "2026-10-08T09:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-10-08T23:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bad9151ec7e19ce1762af5a6",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-09T20:00:00Z",
+    "owner": [
+      "2026-10-09T08:00:00Z",
+      "2026-10-09T15:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "befc1bf6e68df621092db24a",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-10-09T19:00:00Z",
+    "owner": [
+      "2026-10-09T08:00:00Z",
+      "2026-10-09T15:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-10-09T19:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b2fa7d5139bcd36117697dbb",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-15T23:00:00Z",
+    "owner": [
+      "2026-10-15T16:00:00Z",
+      "2026-10-15T19:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b8a59842f9256b596537c5d6",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-20T18:00:00Z",
+    "owner": [
+      "2026-10-20T07:00:00Z",
+      "2026-10-20T13:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "be8a2a49f721eef9570df4c2",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-21T22:00:00Z",
+    "owner": [
+      "2026-10-21T04:00:00Z",
+      "2026-10-21T15:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "no_broad_opposite_outer_extension"
+  },
+  {
+    "id": "b2994deaad318a5af9754353",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-10-21T22:00:00Z",
+    "owner": [
+      "2026-10-21T04:00:00Z",
+      "2026-10-21T15:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-10-21T22:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "no_broad_opposite_outer_extension"
+  },
+  {
+    "id": "b23df36497f2670f9aab3fe0",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-21T20:00:00Z",
+    "owner": [
+      "2026-10-21T09:00:00Z",
+      "2026-10-21T15:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b09d5f66d3a89eb9c29ffa45",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-21T21:00:00Z",
+    "owner": [
+      "2026-10-21T15:00:00Z",
+      "2026-10-21T17:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b50befae26da9baa7d73ce77",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-10-22T13:00:00Z",
+    "owner": [
+      "2026-10-22T01:00:00Z",
+      "2026-10-22T08:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-10-22T13:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "bf9328dc2fa13848922267fe",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-23T18:00:00Z",
+    "owner": [
+      "2026-10-23T05:00:00Z",
+      "2026-10-23T08:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "b4e48192d4d359124fa8b616",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-10-29T20:00:00Z",
+    "owner": [
+      "2026-10-29T11:00:00Z",
+      "2026-10-29T14:00:00Z"
+    ],
+    "native_support_position": "before",
+    "status": "no_chapter3",
+    "reason": "no_outer_anchor_before_terminal"
+  },
+  {
+    "id": "bf03d108abedffde0b9a49f7",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-11-02T11:00:00Z",
+    "owner": [
+      "2026-11-02T04:00:00Z",
+      "2026-11-02T07:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b0728831cb9e085974430ee9",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-11-02T14:00:00Z",
+    "owner": [
+      "2026-11-02T07:00:00Z",
+      "2026-11-02T10:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b5e98b6d6481e99fb430b0e1",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-11-02T22:00:00Z",
+    "owner": [
+      "2026-11-02T10:00:00Z",
+      "2026-11-02T18:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b3d2df90f8218321688ef3bb",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-11-06T16:00:00Z",
+    "owner": [
+      "2026-11-06T07:00:00Z",
+      "2026-11-06T11:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-11-06T16:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b0aad2b41ae9e9a0e97b6a6e",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-11-06T19:00:00Z",
+    "owner": [
+      "2026-11-06T11:00:00Z",
+      "2026-11-06T15:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-11-06T19:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b9f05a25fab61e41b2368d6c",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-11-09T13:00:00Z",
+    "owner": [
+      "2026-11-09T04:00:00Z",
+      "2026-11-09T09:00:00Z"
+    ],
+    "native_support_position": "between",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b4368020f5aad9a768dd37c7",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-11-09T22:00:00Z",
+    "owner": [
+      "2026-11-09T04:00:00Z",
+      "2026-11-09T09:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": true,
+    "first_close_cross_from_known": "2026-11-09T22:00:00Z",
+    "native_clock_reproduced": true,
+    "missing_chapter4_reason": "insufficient_established_wave"
+  },
+  {
+    "id": "b77e4b07a8224be14b800831",
+    "family": "GUIDED_SHIFT",
+    "clock": "2026-11-10T22:00:00Z",
+    "owner": [
+      "2026-11-10T07:00:00Z",
+      "2026-11-10T18:00:00Z"
+    ],
+    "native_support_position": "endpoint",
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "no_broad_opposite_outer_extension"
+  },
+  {
+    "id": "b246e33e2a6c537582d51a71",
+    "family": "GUIDED_TURNING",
+    "clock": "2026-11-10T22:00:00Z",
+    "owner": [
+      "2026-11-10T07:00:00Z",
+      "2026-11-10T18:00:00Z"
+    ],
+    "native_support_position": null,
+    "status": "chapter3_only",
+    "chapter3_match": false,
+    "missing_chapter4_reason": "no_broad_opposite_outer_extension"
+  }
+]

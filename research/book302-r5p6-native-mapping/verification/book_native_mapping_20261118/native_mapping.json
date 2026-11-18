@@ -1,0 +1,1520 @@
+{
+  "frames": [
+    "case_1_20261106_1800_100040516592443_0.native.tsv",
+    "case_2_20261027_0900_100040516592443_1.native.tsv",
+    "case_3_20261022_1200_100040516592443_0.native.tsv",
+    "case_4_20261009_2300_100040516592443_1.native.tsv",
+    "case_5_20260922_1800_100040516592443_0.native.tsv",
+    "102923304041429_0.native.tsv",
+    "102923304041429_1.native.tsv"
+  ],
+  "unique_scan_observations": 1362,
+  "native_object_revisions": 403,
+  "crosschecked_segments": 92,
+  "matches": [
+    {
+      "id": "native_scope:7ae3104d815aff57280908d1",
+      "time": "2026-08-28T10:00:00Z",
+      "sample": "August",
+      "owner_times": [
+        1787706000,
+        1787846400
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-08-26T05:00:00Z",
+          4670.69
+        ],
+        [
+          "2026-08-27T05:00:00Z",
+          4643.0
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-08-26T18:00:00Z",
+          4583.01
+        ],
+        [
+          "2026-08-27T16:00:00Z",
+          4565.34
+        ],
+        [
+          "2026-08-27T05:00:00Z",
+          4643.0
+        ]
+      ],
+      "chapter4_known": "2026-08-27T17:00:00Z",
+      "direction": "down",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 3,
+        "same_end_ids": 1,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:af772af71a3af39bed6ff336",
+      "time": "2026-09-01T12:00:00Z",
+      "sample": "August",
+      "owner_times": [
+        1787126400,
+        1787626800
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-08-19T08:00:00Z",
+          4335.11
+        ],
+        [
+          "2026-08-19T09:00:00Z",
+          4335.4
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-08-20T01:00:00Z",
+          4527.51
+        ],
+        [
+          "2026-08-24T05:00:00Z",
+          4656.79
+        ],
+        [
+          "2026-08-20T15:00:00Z",
+          4450.62
+        ]
+      ],
+      "chapter4_known": "2026-08-25T04:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 3,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:aac67ec5eb6d012d7a83d8a4",
+      "time": "2026-09-01T13:00:00Z",
+      "sample": "August",
+      "owner_times": [
+        1786694400,
+        1787626800
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-08-14T08:00:00Z",
+          4311.22
+        ],
+        [
+          "2026-08-19T04:00:00Z",
+          4324.66
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-08-14T16:00:00Z",
+          4397.04
+        ],
+        [
+          "2026-08-24T16:00:00Z",
+          4681.01
+        ],
+        [
+          "2026-08-19T04:00:00Z",
+          4324.66
+        ]
+      ],
+      "chapter4_known": "2026-08-25T04:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:034a889ff025b09c3ad01f1d",
+      "time": "2026-10-02T19:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1790636400,
+        1790953200
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-09-28T23:00:00Z",
+          4111.37
+        ],
+        [
+          "2026-10-02T04:00:00Z",
+          4133.72
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-09-30T15:00:00Z",
+          4219.22
+        ],
+        [
+          "2026-10-02T15:00:00Z",
+          4226.22
+        ],
+        [
+          "2026-10-02T04:00:00Z",
+          4133.72
+        ]
+      ],
+      "chapter4_known": "2026-10-02T16:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:1c0cf1cca3bb9bc1d4e3b3d7",
+      "time": "2026-10-02T19:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1790668800,
+        1790953200
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-09-29T08:00:00Z",
+          4122.1
+        ],
+        [
+          "2026-10-02T04:00:00Z",
+          4133.72
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-09-30T15:00:00Z",
+          4219.22
+        ],
+        [
+          "2026-10-02T15:00:00Z",
+          4226.22
+        ],
+        [
+          "2026-10-02T04:00:00Z",
+          4133.72
+        ]
+      ],
+      "chapter4_known": "2026-10-02T16:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:7abb2bb93c279f46f6f68db2",
+      "time": "2026-10-02T19:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1790654400,
+        1790953200
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-09-29T04:00:00Z",
+          4113.33
+        ],
+        [
+          "2026-10-02T04:00:00Z",
+          4133.72
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-09-30T15:00:00Z",
+          4219.22
+        ],
+        [
+          "2026-10-02T15:00:00Z",
+          4226.22
+        ],
+        [
+          "2026-10-02T04:00:00Z",
+          4133.72
+        ]
+      ],
+      "chapter4_known": "2026-10-02T16:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 2,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:ad28f9527dd41ff030860095",
+      "time": "2026-09-30T03:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1790344800,
+        1790614800
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-09-25T14:00:00Z",
+          4315.73
+        ],
+        [
+          "2026-09-25T22:00:00Z",
+          4297.26
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-09-28T11:00:00Z",
+          4142.68
+        ],
+        [
+          "2026-09-28T17:00:00Z",
+          4110.88
+        ],
+        [
+          "2026-09-28T15:00:00Z",
+          4171.33
+        ]
+      ],
+      "chapter4_known": "2026-09-28T18:00:00Z",
+      "direction": "down",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 1,
+        "same_end_ids": 1,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:e0d4dd8d2c7c55845a20ebee",
+      "time": "2026-10-02T16:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1790362800,
+        1790614800
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-09-25T19:00:00Z",
+          4300.26
+        ],
+        [
+          "2026-09-25T22:00:00Z",
+          4297.26
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-09-28T11:00:00Z",
+          4142.68
+        ],
+        [
+          "2026-09-28T17:00:00Z",
+          4110.88
+        ],
+        [
+          "2026-09-28T15:00:00Z",
+          4171.33
+        ]
+      ],
+      "chapter4_known": "2026-09-28T18:00:00Z",
+      "direction": "down",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 1,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:ef41edee6463b5875dedcb92",
+      "time": "2026-09-29T09:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1790373600,
+        1790614800
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-09-25T22:00:00Z",
+          4297.26
+        ],
+        [
+          "2026-09-25T23:00:00Z",
+          4292.11
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-09-28T11:00:00Z",
+          4142.68
+        ],
+        [
+          "2026-09-28T17:00:00Z",
+          4110.88
+        ],
+        [
+          "2026-09-28T15:00:00Z",
+          4171.33
+        ]
+      ],
+      "chapter4_known": "2026-09-28T18:00:00Z",
+      "direction": "down",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 1,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:4070d12ee98fd5de938556ee",
+      "time": "2026-10-02T11:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1790780400,
+        1790913600
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-09-30T15:00:00Z",
+          4219.22
+        ],
+        [
+          "2026-10-02T02:00:00Z",
+          4183.82
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-10-01T03:00:00Z",
+          4139.22
+        ],
+        [
+          "2026-10-02T04:00:00Z",
+          4133.72
+        ],
+        [
+          "2026-10-01T08:00:00Z",
+          4193.06
+        ]
+      ],
+      "chapter4_known": "2026-10-02T05:00:00Z",
+      "direction": "down",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 1,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:44d8572a442ba9ba1b4c55a5",
+      "time": "2026-10-29T21:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1792774800,
+        1793228400
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-10-26T04:00:00Z",
+          3978.18
+        ],
+        [
+          "2026-10-27T11:00:00Z",
+          3989.25
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-10-28T03:00:00Z",
+          4070.87
+        ],
+        [
+          "2026-10-28T23:00:00Z",
+          4082.95
+        ],
+        [
+          "2026-10-28T21:00:00Z",
+          4024.92
+        ]
+      ],
+      "chapter4_known": "2026-10-29T00:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:544ce85ecc70322be716fc6b",
+      "time": "2026-10-27T16:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793044800,
+        1793098800
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-10-26T20:00:00Z",
+          4030.01
+        ],
+        [
+          "2026-10-27T07:00:00Z",
+          4025.63
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-10-26T22:00:00Z",
+          4008.43
+        ],
+        [
+          "2026-10-27T11:00:00Z",
+          3989.25
+        ],
+        [
+          "2026-10-27T07:00:00Z",
+          4025.63
+        ]
+      ],
+      "chapter4_known": "2026-10-27T12:00:00Z",
+      "direction": "down",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 1,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 2,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:ad4660a1442ab64ae300a2aa",
+      "time": "2026-10-30T10:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1792987200,
+        1793228400
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-10-26T16:00:00Z",
+          3988.78
+        ],
+        [
+          "2026-10-27T11:00:00Z",
+          3989.25
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-10-26T17:00:00Z",
+          4026.58
+        ],
+        [
+          "2026-10-27T18:00:00Z",
+          4064.54
+        ],
+        [
+          "2026-10-27T11:00:00Z",
+          3989.25
+        ]
+      ],
+      "chapter4_known": "2026-10-29T00:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 4,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 6,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:cb7036bcceacf41e52f4ec3d",
+      "time": "2026-10-29T09:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793098800,
+        1793228400
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-10-27T11:00:00Z",
+          3989.25
+        ],
+        [
+          "2026-10-28T21:00:00Z",
+          4024.92
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-10-28T03:00:00Z",
+          4070.87
+        ],
+        [
+          "2026-10-28T23:00:00Z",
+          4082.95
+        ],
+        [
+          "2026-10-28T21:00:00Z",
+          4024.92
+        ]
+      ],
+      "chapter4_known": "2026-10-29T00:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 4,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 3,
+        "same_end_ids": 0,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:05df8224d5bcf262b0367838",
+      "time": "2026-11-09T03:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793854800,
+        1793977200
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-11-05T05:00:00Z",
+          4147.05
+        ],
+        [
+          "2026-11-05T16:00:00Z",
+          4136.01
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-11-06T07:00:00Z",
+          4035.68
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ],
+        [
+          "2026-11-06T11:00:00Z",
+          4081.19
+        ]
+      ],
+      "chapter4_known": "2026-11-06T16:00:00Z",
+      "direction": "down",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 3,
+        "same_end_ids": 4,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 5,
+        "same_end_ids": 6,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:2280e9a93399f1ed48b20ebd",
+      "time": "2026-11-06T21:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793930400,
+        1793977200
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-11-06T03:00:00Z",
+          4097.47
+        ],
+        [
+          "2026-11-06T11:00:00Z",
+          4081.19
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-11-06T07:00:00Z",
+          4035.68
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ],
+        [
+          "2026-11-06T11:00:00Z",
+          4081.19
+        ]
+      ],
+      "chapter4_known": "2026-11-06T16:00:00Z",
+      "direction": "down",
+      "scan": {
+        "owner_ids": [
+          "b09ee1222cf9d54cf8b2330c",
+          "b3682a6be593830b859c5763"
+        ],
+        "same_start_ids": 4,
+        "same_end_ids": 4,
+        "roles": {},
+        "candidates": [
+          {
+            "id": "b09ee1222cf9d54cf8b2330c",
+            "family": "GUIDED_SHIFT",
+            "role": null,
+            "source": "book_scan.tsv",
+            "native_contacts": [
+              [
+                "2026-11-06T07:00:00Z",
+                "4035.68"
+              ],
+              [
+                "2026-11-06T15:00:00Z",
+                "4026.75"
+              ]
+            ],
+            "translated_contact": [
+              "2026-11-06T02:00:00Z",
+              "4107.01"
+            ],
+            "event_close_open_clock": "2026-11-06T20:00:00Z",
+            "equation_at_event": 4086.9175,
+            "chapter3_at_event": 4062.875,
+            "chapter4_at_event": 4071.14375,
+            "native_display_end": "2026-11-06T23:00:00Z",
+            "native_end_price": 4083.568750000001,
+            "construction_known": "2026-11-09T04:00:00Z",
+            "display_known": "2026-11-09T04:00:00Z",
+            "native_event": null,
+            "drawn_through_event": true,
+            "known_before_event": false,
+            "same_native_segment": true
+          },
+          {
+            "id": "b3682a6be593830b859c5763",
+            "family": "GUIDED_TURNING",
+            "role": null,
+            "source": "book_scan.tsv",
+            "native_contacts": [
+              [
+                "2026-11-06T02:00:00Z",
+                "4107.01"
+              ],
+              [
+                "2026-11-06T14:00:00Z",
+                "4072.61"
+              ]
+            ],
+            "translated_contact": null,
+            "event_close_open_clock": "2026-11-06T20:00:00Z",
+            "equation_at_event": 4055.41,
+            "chapter3_at_event": 4062.875,
+            "chapter4_at_event": 4071.14375,
+            "native_display_end": "2026-11-06T18:00:00Z",
+            "native_end_price": 4061.1433333333334,
+            "construction_known": "2026-11-09T04:00:00Z",
+            "display_known": "2026-11-09T04:00:00Z",
+            "native_event": "2026-11-06T19:00:00Z",
+            "drawn_through_event": false,
+            "known_before_event": false,
+            "same_native_segment": false
+          }
+        ]
+      },
+      "native_frames": {
+        "owner_ids": [
+          "b09ee1222cf9d54cf8b2330c",
+          "b3682a6be593830b859c5763",
+          "b4ed0e6698d8e45d4554641b"
+        ],
+        "same_start_ids": 6,
+        "same_end_ids": 6,
+        "roles": {
+          "chapter4_extension_only": [
+            "b4ed0e6698d8e45d4554641b"
+          ]
+        },
+        "candidates": [
+          {
+            "id": "b4ed0e6698d8e45d4554641b",
+            "family": "GUIDED_SOURCE",
+            "role": "chapter4_extension_only",
+            "source": "case_1_20261106_1800_100040516592443_0.native.tsv",
+            "native_contacts": [
+              [
+                "2026-11-06T07:00:00Z",
+                "4035.680000000000"
+              ],
+              [
+                "2026-11-06T15:00:00Z",
+                "4026.750000000000"
+              ]
+            ],
+            "translated_contact": null,
+            "event_close_open_clock": "2026-11-06T20:00:00Z",
+            "equation_at_event": 4021.16875,
+            "chapter3_at_event": 4062.875,
+            "chapter4_at_event": 4071.14375,
+            "native_display_end": "2026-11-06T15:00:00Z",
+            "native_end_price": 4026.75,
+            "construction_known": "2026-11-09T04:00:00Z",
+            "display_known": "2026-11-09T04:00:00Z",
+            "native_event": null,
+            "drawn_through_event": false,
+            "known_before_event": false,
+            "same_native_segment": false
+          },
+          {
+            "id": "b09ee1222cf9d54cf8b2330c",
+            "family": "GUIDED_SHIFT",
+            "role": null,
+            "source": "case_1_20261106_1800_100040516592443_0.native.tsv",
+            "native_contacts": [
+              [
+                "2026-11-06T07:00:00Z",
+                "4035.680000000000"
+              ],
+              [
+                "2026-11-06T15:00:00Z",
+                "4026.750000000000"
+              ]
+            ],
+            "translated_contact": [
+              "2026-11-06T02:00:00Z",
+              "4107.010000000000"
+            ],
+            "event_close_open_clock": "2026-11-06T20:00:00Z",
+            "equation_at_event": 4086.9175,
+            "chapter3_at_event": 4062.875,
+            "chapter4_at_event": 4071.14375,
+            "native_display_end": "2026-11-06T23:00:00Z",
+            "native_end_price": 4083.568750000001,
+            "construction_known": "2026-11-09T04:00:00Z",
+            "display_known": "2026-11-09T04:00:00Z",
+            "native_event": null,
+            "drawn_through_event": true,
+            "known_before_event": false,
+            "same_native_segment": true
+          },
+          {
+            "id": "b3682a6be593830b859c5763",
+            "family": "GUIDED_TURNING",
+            "role": null,
+            "source": "case_1_20261106_1800_100040516592443_0.native.tsv",
+            "native_contacts": [
+              [
+                "2026-11-06T02:00:00Z",
+                "4107.010000000000"
+              ],
+              [
+                "2026-11-06T14:00:00Z",
+                "4072.610000000000"
+              ]
+            ],
+            "translated_contact": null,
+            "event_close_open_clock": "2026-11-06T20:00:00Z",
+            "equation_at_event": 4055.41,
+            "chapter3_at_event": 4062.875,
+            "chapter4_at_event": 4071.14375,
+            "native_display_end": "2026-11-06T14:00:00Z",
+            "native_end_price": 4072.61,
+            "construction_known": "2026-11-09T04:00:00Z",
+            "display_known": "2026-11-09T04:00:00Z",
+            "native_event": "2026-11-06T19:00:00Z",
+            "drawn_through_event": false,
+            "known_before_event": false,
+            "same_native_segment": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "native_scope:22bc849cd719b543cef505e5",
+      "time": "2026-11-10T19:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793757600,
+        1794261600
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-11-04T08:00:00Z",
+          3996.23
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-11-05T05:00:00Z",
+          4147.05
+        ],
+        [
+          "2026-11-09T22:00:00Z",
+          4148.72
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ]
+      ],
+      "chapter4_known": "2026-11-09T23:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 2,
+        "same_end_ids": 2,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 3,
+        "same_end_ids": 3,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:3ce3b302172fb71c4461a4da",
+      "time": "2026-11-09T04:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793883600,
+        1793977200
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-11-05T13:00:00Z",
+          4138.19
+        ],
+        [
+          "2026-11-05T16:00:00Z",
+          4136.01
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-11-06T07:00:00Z",
+          4035.68
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ],
+        [
+          "2026-11-06T11:00:00Z",
+          4081.19
+        ]
+      ],
+      "chapter4_known": "2026-11-06T16:00:00Z",
+      "direction": "down",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 2,
+        "same_end_ids": 4,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 3,
+        "same_end_ids": 6,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:6e349b1b5c11cbe1026b2585",
+      "time": "2026-11-10T13:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1794186000,
+        1794261600
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-11-09T01:00:00Z",
+          4054.32
+        ],
+        [
+          "2026-11-09T02:00:00Z",
+          4054.96
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-11-09T04:00:00Z",
+          4134.18
+        ],
+        [
+          "2026-11-09T22:00:00Z",
+          4148.72
+        ],
+        [
+          "2026-11-09T09:00:00Z",
+          4084.71
+        ]
+      ],
+      "chapter4_known": "2026-11-09T23:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [
+          "b57a83cb50abc5d66c1f7c6c",
+          "bfe4ccebd937f47801eaa8cd"
+        ],
+        "same_start_ids": 2,
+        "same_end_ids": 2,
+        "roles": {},
+        "candidates": [
+          {
+            "id": "b57a83cb50abc5d66c1f7c6c",
+            "family": "GUIDED_SHIFT",
+            "role": null,
+            "source": "book_scan.tsv",
+            "native_contacts": [
+              [
+                "2026-11-09T04:00:00Z",
+                "4134.18"
+              ],
+              [
+                "2026-11-09T22:00:00Z",
+                "4148.72"
+              ]
+            ],
+            "translated_contact": [
+              "2026-11-09T02:00:00Z",
+              "4054.96"
+            ],
+            "event_close_open_clock": "2026-11-10T12:00:00Z",
+            "equation_at_event": 4081.616666666667,
+            "chapter3_at_event": 4076.08,
+            "chapter4_at_event": 4105.712222222222,
+            "native_display_end": "2026-11-09T23:00:00Z",
+            "native_end_price": 4071.923333333333,
+            "construction_known": "2026-11-10T10:00:00Z",
+            "display_known": "2026-11-10T10:00:00Z",
+            "native_event": null,
+            "drawn_through_event": false,
+            "known_before_event": true,
+            "same_native_segment": true
+          },
+          {
+            "id": "bfe4ccebd937f47801eaa8cd",
+            "family": "GUIDED_TURNING",
+            "role": null,
+            "source": "book_scan.tsv",
+            "native_contacts": [
+              [
+                "2026-11-09T02:00:00Z",
+                "4054.96"
+              ],
+              [
+                "2026-11-09T21:00:00Z",
+                "4101.27"
+              ]
+            ],
+            "translated_contact": null,
+            "event_close_open_clock": "2026-11-10T12:00:00Z",
+            "equation_at_event": 4135.393157894737,
+            "chapter3_at_event": 4076.08,
+            "chapter4_at_event": 4105.712222222222,
+            "native_display_end": "2026-11-09T23:00:00Z",
+            "native_end_price": 4106.144736842106,
+            "construction_known": "2026-11-10T10:00:00Z",
+            "display_known": "2026-11-10T10:00:00Z",
+            "native_event": null,
+            "drawn_through_event": false,
+            "known_before_event": true,
+            "same_native_segment": false
+          }
+        ]
+      },
+      "native_frames": {
+        "owner_ids": [
+          "b40da3bb652697b0fdc4df1e",
+          "b57a83cb50abc5d66c1f7c6c",
+          "bfe4ccebd937f47801eaa8cd"
+        ],
+        "same_start_ids": 3,
+        "same_end_ids": 3,
+        "roles": {
+          "chapter4_extension_only": [
+            "b40da3bb652697b0fdc4df1e"
+          ]
+        },
+        "candidates": [
+          {
+            "id": "b40da3bb652697b0fdc4df1e",
+            "family": "GUIDED_SOURCE",
+            "role": "chapter4_extension_only",
+            "source": "case_1_20261106_1800_100040516592443_0.native.tsv",
+            "native_contacts": [
+              [
+                "2026-11-09T04:00:00Z",
+                "4134.180000000000"
+              ],
+              [
+                "2026-11-09T22:00:00Z",
+                "4148.720000000000"
+              ]
+            ],
+            "translated_contact": null,
+            "event_close_open_clock": "2026-11-10T12:00:00Z",
+            "equation_at_event": 4159.221111111111,
+            "chapter3_at_event": 4076.08,
+            "chapter4_at_event": 4105.712222222222,
+            "native_display_end": "2026-11-09T22:00:00Z",
+            "native_end_price": 4148.72,
+            "construction_known": "2026-11-10T10:00:00Z",
+            "display_known": "2026-11-10T10:00:00Z",
+            "native_event": null,
+            "drawn_through_event": false,
+            "known_before_event": true,
+            "same_native_segment": false
+          },
+          {
+            "id": "b57a83cb50abc5d66c1f7c6c",
+            "family": "GUIDED_SHIFT",
+            "role": null,
+            "source": "case_1_20261106_1800_100040516592443_0.native.tsv",
+            "native_contacts": [
+              [
+                "2026-11-09T04:00:00Z",
+                "4134.180000000000"
+              ],
+              [
+                "2026-11-09T22:00:00Z",
+                "4148.720000000000"
+              ]
+            ],
+            "translated_contact": [
+              "2026-11-09T02:00:00Z",
+              "4054.960000000000"
+            ],
+            "event_close_open_clock": "2026-11-10T12:00:00Z",
+            "equation_at_event": 4081.616666666667,
+            "chapter3_at_event": 4076.08,
+            "chapter4_at_event": 4105.712222222222,
+            "native_display_end": "2026-11-09T23:00:00Z",
+            "native_end_price": 4071.923333333333,
+            "construction_known": "2026-11-10T10:00:00Z",
+            "display_known": "2026-11-10T10:00:00Z",
+            "native_event": null,
+            "drawn_through_event": false,
+            "known_before_event": true,
+            "same_native_segment": true
+          },
+          {
+            "id": "bfe4ccebd937f47801eaa8cd",
+            "family": "GUIDED_TURNING",
+            "role": null,
+            "source": "case_1_20261106_1800_100040516592443_0.native.tsv",
+            "native_contacts": [
+              [
+                "2026-11-09T02:00:00Z",
+                "4054.960000000000"
+              ],
+              [
+                "2026-11-09T21:00:00Z",
+                "4101.270000000000"
+              ]
+            ],
+            "translated_contact": null,
+            "event_close_open_clock": "2026-11-10T12:00:00Z",
+            "equation_at_event": 4135.393157894737,
+            "chapter3_at_event": 4076.08,
+            "chapter4_at_event": 4105.712222222222,
+            "native_display_end": "2026-11-09T21:00:00Z",
+            "native_end_price": 4101.27,
+            "construction_known": "2026-11-10T10:00:00Z",
+            "display_known": "2026-11-10T10:00:00Z",
+            "native_event": null,
+            "drawn_through_event": false,
+            "known_before_event": true,
+            "same_native_segment": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "native_scope:734e3c8cd91d01c45d3c035c",
+      "time": "2026-11-06T21:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793894400,
+        1793977200
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-11-05T16:00:00Z",
+          4136.01
+        ],
+        [
+          "2026-11-05T19:00:00Z",
+          4127.51
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-11-06T07:00:00Z",
+          4035.68
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ],
+        [
+          "2026-11-06T11:00:00Z",
+          4081.19
+        ]
+      ],
+      "chapter4_known": "2026-11-06T16:00:00Z",
+      "direction": "down",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 4,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 6,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:896d29a03a8a3a0b78afcee3",
+      "time": "2026-11-10T19:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793703600,
+        1794261600
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-11-03T11:00:00Z",
+          3895.5
+        ],
+        [
+          "2026-11-03T14:00:00Z",
+          3899.04
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-11-05T05:00:00Z",
+          4147.05
+        ],
+        [
+          "2026-11-09T22:00:00Z",
+          4148.72
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ]
+      ],
+      "chapter4_known": "2026-11-09T23:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 2,
+        "same_end_ids": 2,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 3,
+        "same_end_ids": 3,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:9854c27159daede6b7003583",
+      "time": "2026-11-10T19:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793743200,
+        1794261600
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-11-04T05:00:00Z",
+          3926.98
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-11-05T05:00:00Z",
+          4147.05
+        ],
+        [
+          "2026-11-09T22:00:00Z",
+          4148.72
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ]
+      ],
+      "chapter4_known": "2026-11-09T23:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 2,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 3,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:bd06b95b1623509e626e8d50",
+      "time": "2026-11-10T12:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793977200,
+        1794261600
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ],
+        [
+          "2026-11-09T21:00:00Z",
+          4101.27
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-11-09T04:00:00Z",
+          4134.18
+        ],
+        [
+          "2026-11-09T22:00:00Z",
+          4148.72
+        ],
+        [
+          "2026-11-09T09:00:00Z",
+          4084.71
+        ]
+      ],
+      "chapter4_known": "2026-11-09T23:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 1,
+        "same_end_ids": 2,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 2,
+        "same_end_ids": 3,
+        "roles": {},
+        "candidates": []
+      }
+    },
+    {
+      "id": "native_scope:f9ae21f5a4869fc766a8cd07",
+      "time": "2026-11-10T19:00:00Z",
+      "sample": "prior_windows",
+      "owner_times": [
+        1793714400,
+        1794261600
+      ],
+      "chapter3_contacts": [
+        [
+          "2026-11-03T14:00:00Z",
+          3899.04
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ]
+      ],
+      "chapter4_contacts": [
+        [
+          "2026-11-05T05:00:00Z",
+          4147.05
+        ],
+        [
+          "2026-11-09T22:00:00Z",
+          4148.72
+        ],
+        [
+          "2026-11-06T15:00:00Z",
+          4026.75
+        ]
+      ],
+      "chapter4_known": "2026-11-09T23:00:00Z",
+      "direction": "up",
+      "scan": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 2,
+        "roles": {},
+        "candidates": []
+      },
+      "native_frames": {
+        "owner_ids": [],
+        "same_start_ids": 0,
+        "same_end_ids": 3,
+        "roles": {},
+        "candidates": []
+      }
+    }
+  ]
+}

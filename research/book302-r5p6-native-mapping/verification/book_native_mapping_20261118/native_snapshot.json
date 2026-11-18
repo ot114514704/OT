@@ -1,0 +1,616 @@
+{
+  "chart": "102923304041429",
+  "cutoff": "2026-11-18T08:00:00Z",
+  "input_hash": "f73d968e8aca5d1ffcd13b79e433d9d0ce33b3dfb9564dff6fa3005fb86767dc",
+  "snapshot_sha256": {
+    "102923304041429_0.receipt.tsv": "d667daf5a83c615e6946a16f5a5d7b59e5319df1c5cfcfd16359e5ddd7a9ddfd",
+    "102923304041429_0.native.tsv": "2115f2e383bc5e061641ea5d6ee33d3cbe0a792cdb9d269054b98d6ba23d1513",
+    "102923304041429_0.native.tsv.line_contracts.tsv": "9e4a8e2e7034bf1665f3b7dbf9ec0ffbc11a82ebfea9a8b7c452b5c4438d062e",
+    "102923304041429_0.rates.tsv": "09c963b3678ab2e1c67be8ff60368fb99619bfb4a70dad9897abb02901040b49"
+  },
+  "shifts": [
+    {
+      "id": "b7c2ec393f6000223c8a3b81",
+      "owner": [
+        "1793073600",
+        "1793084400"
+      ],
+      "a": "2026-10-27T04:00:00Z",
+      "b": "2026-10-27T07:00:00Z",
+      "q": "2026-10-27T06:00:00Z",
+      "support_price": 4005.71,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bc35a17a5d3340b07fe74132",
+      "owner": [
+        "1793084400",
+        "1793098800"
+      ],
+      "a": "2026-10-27T08:00:00Z",
+      "b": "2026-10-27T11:00:00Z",
+      "q": "2026-10-27T07:00:00Z",
+      "support_price": 4025.63,
+      "position": "before",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b4f7015a6b084bc10571cefb",
+      "owner": [
+        "1793098800",
+        "1793131200"
+      ],
+      "a": "2026-10-27T11:00:00Z",
+      "b": "2026-10-27T18:00:00Z",
+      "q": "2026-10-27T17:00:00Z",
+      "support_price": 4024.68,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b486746ee18c7d884edf8f56",
+      "owner": [
+        "1793156400",
+        "1793221200"
+      ],
+      "a": "2026-10-28T09:00:00Z",
+      "b": "2026-10-28T21:00:00Z",
+      "q": "2026-10-28T21:00:00Z",
+      "support_price": 4067.5,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b62b498aaab8fd09da20db2f",
+      "owner": [
+        "1793156400",
+        "1793178000"
+      ],
+      "a": "2026-10-28T04:00:00Z",
+      "b": "2026-10-28T08:00:00Z",
+      "q": "2026-10-28T03:00:00Z",
+      "support_price": 4070.87,
+      "position": "before",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b9fa465f71fa251c277a8cfc",
+      "owner": [
+        "1793178000",
+        "1793185200"
+      ],
+      "a": "2026-10-28T09:00:00Z",
+      "b": "2026-10-28T11:00:00Z",
+      "q": "2026-10-28T10:00:00Z",
+      "support_price": 4028.18,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b4e48192d4d359124fa8b616",
+      "owner": [
+        "1793271600",
+        "1793282400"
+      ],
+      "a": "2026-10-29T12:00:00Z",
+      "b": "2026-10-29T14:00:00Z",
+      "q": "2026-10-29T11:00:00Z",
+      "support_price": 4015.89,
+      "position": "before",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b598d80fd8e1e33719408701",
+      "owner": [
+        "1793282400",
+        "1793307600"
+      ],
+      "a": "2026-10-29T14:00:00Z",
+      "b": "2026-10-29T20:00:00Z",
+      "q": "2026-10-29T17:00:00Z",
+      "support_price": 4037.54,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b60f2ef889be27297dab5714",
+      "owner": [
+        "1793358000",
+        "1793397600"
+      ],
+      "a": "2026-10-30T11:00:00Z",
+      "b": "2026-10-30T17:00:00Z",
+      "q": "2026-10-30T22:00:00Z",
+      "support_price": 3885.48,
+      "position": "after",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bb23f4849e9c1237442c0f92",
+      "owner": [
+        "1793347200",
+        "1793397600"
+      ],
+      "a": "2026-10-30T10:00:00Z",
+      "b": "2026-10-30T17:00:00Z",
+      "q": "2026-10-30T14:00:00Z",
+      "support_price": 3982.55,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b354b7b56489032c75bc23fc",
+      "owner": [
+        "1793347200",
+        "1793354400"
+      ],
+      "a": "2026-10-30T08:00:00Z",
+      "b": "2026-10-30T10:00:00Z",
+      "q": "2026-10-30T08:00:00Z",
+      "support_price": 4011.59,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bf03d108abedffde0b9a49f7",
+      "owner": [
+        "1793592000",
+        "1793602800"
+      ],
+      "a": "2026-11-02T04:00:00Z",
+      "b": "2026-11-02T07:00:00Z",
+      "q": "2026-11-02T04:00:00Z",
+      "support_price": 3892.86,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b0728831cb9e085974430ee9",
+      "owner": [
+        "1793602800",
+        "1793613600"
+      ],
+      "a": "2026-11-02T07:00:00Z",
+      "b": "2026-11-02T10:00:00Z",
+      "q": "2026-11-02T08:00:00Z",
+      "support_price": 3916.7,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b5e98b6d6481e99fb430b0e1",
+      "owner": [
+        "1793613600",
+        "1793642400"
+      ],
+      "a": "2026-11-02T10:00:00Z",
+      "b": "2026-11-02T16:00:00Z",
+      "q": "2026-11-02T15:00:00Z",
+      "support_price": 3896.25,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b87d57b615ae6142041e6792",
+      "owner": [
+        "1793642400",
+        "1793656800"
+      ],
+      "a": "2026-11-02T18:00:00Z",
+      "b": "2026-11-02T21:00:00Z",
+      "q": "2026-11-02T20:00:00Z",
+      "support_price": 3965.73,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b169411da673d119e685961d",
+      "owner": [
+        "1793671200",
+        "1793703600"
+      ],
+      "a": "2026-11-03T02:00:00Z",
+      "b": "2026-11-03T05:00:00Z",
+      "q": "2026-11-03T11:00:00Z",
+      "support_price": 3910.55,
+      "position": "after",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bb729b27e6d8d46c6128d8ce",
+      "owner": [
+        "1793703600",
+        "1793718000"
+      ],
+      "a": "2026-11-03T11:00:00Z",
+      "b": "2026-11-03T15:00:00Z",
+      "q": "2026-11-03T14:00:00Z",
+      "support_price": 3899.04,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bd32a53600e150f6cefe7645",
+      "owner": [
+        "1793718000",
+        "1793743200"
+      ],
+      "a": "2026-11-03T15:00:00Z",
+      "b": "2026-11-03T17:00:00Z",
+      "q": "2026-11-03T15:00:00Z",
+      "support_price": 3971.18,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b26b03c45448123b55cb237e",
+      "owner": [
+        "1793757600",
+        "1793822400"
+      ],
+      "a": "2026-11-04T03:00:00Z",
+      "b": "2026-11-04T08:00:00Z",
+      "q": "2026-11-04T20:00:00Z",
+      "support_price": 4059.5,
+      "position": "after",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b62996334e5cb8ada2ce513a",
+      "owner": [
+        "1793854800",
+        "1793862000"
+      ],
+      "a": "2026-11-05T05:00:00Z",
+      "b": "2026-11-05T07:00:00Z",
+      "q": "2026-11-05T07:00:00Z",
+      "support_price": 4140.93,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bd32458dc04aa6557edb46c3",
+      "owner": [
+        "1793883600",
+        "1793898000"
+      ],
+      "a": "2026-11-05T13:00:00Z",
+      "b": "2026-11-05T17:00:00Z",
+      "q": "2026-11-05T16:00:00Z",
+      "support_price": 4136.01,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b3369b2975b02057e66c23e2",
+      "owner": [
+        "1793854800",
+        "1793898000"
+      ],
+      "a": "2026-11-05T07:00:00Z",
+      "b": "2026-11-05T17:00:00Z",
+      "q": "2026-11-05T16:00:00Z",
+      "support_price": 4136.01,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b208d8e0288aabe8c56b2235",
+      "owner": [
+        "1793930400",
+        "1793948400"
+      ],
+      "a": "2026-11-06T03:00:00Z",
+      "b": "2026-11-06T05:00:00Z",
+      "q": "2026-11-06T02:00:00Z",
+      "support_price": 4107.01,
+      "position": "before",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b51b2a02af3e4ed779d0b904",
+      "owner": [
+        "1793948400",
+        "1793962800"
+      ],
+      "a": "2026-11-06T07:00:00Z",
+      "b": "2026-11-06T10:00:00Z",
+      "q": "2026-11-06T09:00:00Z",
+      "support_price": 4041.84,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bfb7760182e5f1f924109e1a",
+      "owner": [
+        "1793962800",
+        "1793977200"
+      ],
+      "a": "2026-11-06T11:00:00Z",
+      "b": "2026-11-06T15:00:00Z",
+      "q": "2026-11-06T15:00:00Z",
+      "support_price": 4067.26,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b9ab53a901248a5b1abb81e8",
+      "owner": [
+        "1793977200",
+        "1793998800"
+      ],
+      "a": "2026-11-06T15:00:00Z",
+      "b": "2026-11-06T20:00:00Z",
+      "q": "2026-11-06T15:00:00Z",
+      "support_price": 4026.75,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b09ee1222cf9d54cf8b2330c",
+      "owner": [
+        "1793930400",
+        "1793977200"
+      ],
+      "a": "2026-11-06T07:00:00Z",
+      "b": "2026-11-06T15:00:00Z",
+      "q": "2026-11-06T02:00:00Z",
+      "support_price": 4107.01,
+      "position": "before",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b9f05a25fab61e41b2368d6c",
+      "owner": [
+        "1794196800",
+        "1794214800"
+      ],
+      "a": "2026-11-09T04:00:00Z",
+      "b": "2026-11-09T09:00:00Z",
+      "q": "2026-11-09T08:00:00Z",
+      "support_price": 4124.09,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bd36fc05b17b4381a439ce6c",
+      "owner": [
+        "1794214800",
+        "1794247200"
+      ],
+      "a": "2026-11-09T09:00:00Z",
+      "b": "2026-11-09T15:00:00Z",
+      "q": "2026-11-09T18:00:00Z",
+      "support_price": 4105.12,
+      "position": "after",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b57a83cb50abc5d66c1f7c6c",
+      "owner": [
+        "1794186000",
+        "1794261600"
+      ],
+      "a": "2026-11-09T04:00:00Z",
+      "b": "2026-11-09T22:00:00Z",
+      "q": "2026-11-09T02:00:00Z",
+      "support_price": 4054.96,
+      "position": "before",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bfec8aee6e56e42ee419ee98",
+      "owner": [
+        "1794286800",
+        "1794294000"
+      ],
+      "a": "2026-11-10T05:00:00Z",
+      "b": "2026-11-10T07:00:00Z",
+      "q": "2026-11-10T07:00:00Z",
+      "support_price": 4110.85,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b77e4b07a8224be14b800831",
+      "owner": [
+        "1794294000",
+        "1794333600"
+      ],
+      "a": "2026-11-10T07:00:00Z",
+      "b": "2026-11-10T15:00:00Z",
+      "q": "2026-11-10T15:00:00Z",
+      "support_price": 4079.78,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bea1e186e1d86324f37140de",
+      "owner": [
+        "1794452400",
+        "1794481200"
+      ],
+      "a": "2026-11-12T03:00:00Z",
+      "b": "2026-11-12T10:00:00Z",
+      "q": "2026-11-12T08:00:00Z",
+      "support_price": 3980.99,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bd2b06308fa89cc82cfbf407",
+      "owner": [
+        "1794488400",
+        "1794502800"
+      ],
+      "a": "2026-11-12T13:00:00Z",
+      "b": "2026-11-12T15:00:00Z",
+      "q": "2026-11-12T15:00:00Z",
+      "support_price": 3948.77,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b8ece46ef59f36c51caf94dd",
+      "owner": [
+        "1794502800",
+        "1794513600"
+      ],
+      "a": "2026-11-12T18:00:00Z",
+      "b": "2026-11-12T20:00:00Z",
+      "q": "2026-11-12T17:00:00Z",
+      "support_price": 3852.42,
+      "position": "before",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bec1ad081268175a3fd6a8e7",
+      "owner": [
+        "1794513600",
+        "1794524400"
+      ],
+      "a": "2026-11-12T20:00:00Z",
+      "b": "2026-11-12T23:00:00Z",
+      "q": "2026-11-12T22:00:00Z",
+      "support_price": 3886.94,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "bf4906bc80690ce230e22fca",
+      "owner": [
+        "1794452400",
+        "1794502800"
+      ],
+      "a": "2026-11-12T03:00:00Z",
+      "b": "2026-11-12T17:00:00Z",
+      "q": "2026-11-12T15:00:00Z",
+      "support_price": 3948.77,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "baee7fbab588b6d5b2d8ea81",
+      "owner": [
+        "1794546000",
+        "1794556800"
+      ],
+      "a": "2026-11-13T05:00:00Z",
+      "b": "2026-11-13T07:00:00Z",
+      "q": "2026-11-13T07:00:00Z",
+      "support_price": 3919.91,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b4acd168acf324fc5c93c186",
+      "owner": [
+        "1794582000",
+        "1794592800"
+      ],
+      "a": "2026-11-13T15:00:00Z",
+      "b": "2026-11-13T18:00:00Z",
+      "q": "2026-11-13T15:00:00Z",
+      "support_price": 3905.88,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b9cb3ae36a09c215d1930eda",
+      "owner": [
+        "1794790800",
+        "1794798000"
+      ],
+      "a": "2026-11-16T01:00:00Z",
+      "b": "2026-11-16T03:00:00Z",
+      "q": "2026-11-16T02:00:00Z",
+      "support_price": 3900.53,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "be18b65a52c1137c670d9196",
+      "owner": [
+        "1794844800",
+        "1794859200"
+      ],
+      "a": "2026-11-16T16:00:00Z",
+      "b": "2026-11-16T20:00:00Z",
+      "q": "2026-11-16T17:00:00Z",
+      "support_price": 3885.91,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b5b41f0a59e640eef199a2b7",
+      "owner": [
+        "1794898800",
+        "1794916800"
+      ],
+      "a": "2026-11-17T07:00:00Z",
+      "b": "2026-11-17T12:00:00Z",
+      "q": "2026-11-17T09:00:00Z",
+      "support_price": 3879.18,
+      "position": "between",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b12416daa1956c234301f052",
+      "owner": [
+        "1794920400",
+        "1794927600"
+      ],
+      "a": "2026-11-17T13:00:00Z",
+      "b": "2026-11-17T15:00:00Z",
+      "q": "2026-11-17T15:00:00Z",
+      "support_price": 3864.62,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b3bce27716c75a88f653d7ac",
+      "owner": [
+        "1794927600",
+        "1794934800"
+      ],
+      "a": "2026-11-17T15:00:00Z",
+      "b": "2026-11-17T17:00:00Z",
+      "q": "2026-11-17T17:00:00Z",
+      "support_price": 3855.07,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "be03cb1c4b11c590921a7549",
+      "owner": [
+        "1794934800",
+        "1794952800"
+      ],
+      "a": "2026-11-17T17:00:00Z",
+      "b": "2026-11-17T22:00:00Z",
+      "q": "2026-11-17T17:00:00Z",
+      "support_price": 3891.05,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    },
+    {
+      "id": "b0cccb993738a7bd57e78cf5",
+      "owner": [
+        "1794884400",
+        "1794898800"
+      ],
+      "a": "2026-11-17T03:00:00Z",
+      "b": "2026-11-17T05:00:00Z",
+      "q": "2026-11-17T03:00:00Z",
+      "support_price": 3843.53,
+      "position": "endpoint",
+      "book_adjustment_verified": false
+    }
+  ],
+  "captured_wall": 1794992016.1315022,
+  "live_h1": "2026-11-18T10:00:00+00:00",
+  "live_availability": "live",
+  "clock_difference_seconds": 7200,
+  "same_closed_clock": false
+}
