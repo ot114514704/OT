@@ -1,0 +1,15 @@
+{
+  "version": "1.230-r5p12",
+  "native_request": "36302aa2ffb729b165e2c470d5b06e95825778ae33beba2594c194d33efb05be",
+  "revision": "747aa73c07dfddfec59a8cfaf86173a5be33638803eeeb4545cb00b0bad619d8",
+  "stage": "full",
+  "viewport": "XAUUSD|16385|LIVE|462",
+  "enabled": 1,
+  "eligible_visible": 14,
+  "present_objects": 12,
+  "results": 150,
+  "continuations": 84,
+  "worker": "fa5de65abfab289c17fd875e8cc7b29b6702e9a70b3a9b20f66491d2babb7a16",
+  "ex5": "597234efd1d4d3447436e90b244da10f0b61c36a2ceec9970db3c0c8d297786e",
+  "image_sha256": "cbc10acb13c2da036ac851407d5de2dbcd322ec99b30ce7b54ef884be63933d2"
+}
