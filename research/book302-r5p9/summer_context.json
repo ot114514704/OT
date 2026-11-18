@@ -1,0 +1,625 @@
+{
+  "marked": [
+    {
+      "id": "native_boundary_shape_candidate_v1:r2:p6:s1785398400:2026-08-03T04:00:00+00:00",
+      "kind": "falling_wedge",
+      "start": "2026-07-30T08:00:00+00:00",
+      "known": "2026-08-03T04:00:00+00:00",
+      "end": "2026-08-04T06:00:00+00:00",
+      "geometry": {
+        "upper": [
+          {
+            "time": "2026-07-30T17:00:00+00:00",
+            "known_at": "2026-07-30T20:00:00+00:00",
+            "price": 4120.36,
+            "side": 1
+          },
+          {
+            "time": "2026-08-03T01:00:00+00:00",
+            "known_at": "2026-08-03T04:00:00+00:00",
+            "price": 4084.63,
+            "side": 1
+          }
+        ],
+        "lower": [
+          {
+            "time": "2026-07-30T08:00:00+00:00",
+            "known_at": "2026-07-30T11:00:00+00:00",
+            "price": 4028.48,
+            "side": -1
+          },
+          {
+            "time": "2026-07-31T17:00:00+00:00",
+            "known_at": "2026-07-31T20:00:00+00:00",
+            "price": 4020.98,
+            "side": -1
+          }
+        ],
+        "frame": [
+          {
+            "time": "2026-07-30T08:00:00+00:00",
+            "price": 4131.079
+          },
+          {
+            "time": "2026-08-03T03:00:00+00:00",
+            "price": 4082.248
+          },
+          {
+            "time": "2026-08-03T03:00:00+00:00",
+            "price": 4018.870625
+          },
+          {
+            "time": "2026-07-30T08:00:00+00:00",
+            "price": 4028.48
+          }
+        ],
+        "ready": true,
+        "validated": true,
+        "subtype": "falling_wedge",
+        "projected": false,
+        "axis": "observed_native_bar_index",
+        "known_at": "2026-08-03T04:00:00+00:00",
+        "basis": "frozen_alternating_boundary_pairs",
+        "reason": "至少四次交替的已确认边界测试；平行通道为支撑这些测试的冻结包络，收敛边界来自实际锚点；均非实体平衡确认",
+        "pivot_radius": 2,
+        "gaps": [
+          {
+            "after": "2026-07-31T00:00:00+00:00",
+            "before": "2026-07-31T01:00:00+00:00"
+          },
+          {
+            "after": "2026-08-01T00:00:00+00:00",
+            "before": "2026-08-03T01:00:00+00:00"
+          }
+        ],
+        "validation": {
+          "overlap_bars": 42,
+          "wick_coverage": 0.9761904761904762,
+          "close_coverage": 1.0,
+          "tolerance": 2.046749999999997
+        }
+      },
+      "states": [
+        {
+          "clock": "2026-08-03T03:00:00Z",
+          "status": null
+        },
+        {
+          "clock": "2026-08-03T04:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T05:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T06:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T07:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T08:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T09:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T10:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T11:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T12:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T13:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T14:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T15:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T16:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T17:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T18:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T19:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T20:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T21:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T22:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-03T23:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-04T00:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-04T02:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-04T03:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-04T04:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-04T05:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-04T06:00:00Z",
+          "status": "向上离开边界观察区"
+        }
+      ],
+      "within": []
+    },
+    {
+      "id": "native_boundary_shape_candidate_v1:r2:p4:s1785992400:2026-08-06T22:00:00+00:00",
+      "kind": "channel",
+      "start": "2026-08-06T05:00:00+00:00",
+      "known": "2026-08-06T22:00:00+00:00",
+      "end": "2026-08-07T08:00:00+00:00",
+      "geometry": {
+        "upper": [
+          {
+            "time": "2026-08-06T05:00:00+00:00",
+            "price": 4306.388246753248,
+            "known_at": "2026-08-06T22:00:00+00:00"
+          },
+          {
+            "time": "2026-08-06T21:00:00+00:00",
+            "price": 4266.956558441559,
+            "known_at": "2026-08-06T22:00:00+00:00"
+          }
+        ],
+        "lower": [
+          {
+            "time": "2026-08-06T05:00:00+00:00",
+            "price": 4254.733441558442,
+            "known_at": "2026-08-06T22:00:00+00:00"
+          },
+          {
+            "time": "2026-08-06T21:00:00+00:00",
+            "price": 4215.301753246753,
+            "known_at": "2026-08-06T22:00:00+00:00"
+          }
+        ],
+        "frame": [
+          {
+            "time": "2026-08-06T05:00:00+00:00",
+            "price": 4306.388246753248
+          },
+          {
+            "time": "2026-08-06T21:00:00+00:00",
+            "price": 4266.956558441559
+          },
+          {
+            "time": "2026-08-06T21:00:00+00:00",
+            "price": 4215.301753246753
+          },
+          {
+            "time": "2026-08-06T05:00:00+00:00",
+            "price": 4254.733441558442
+          }
+        ],
+        "ready": true,
+        "validated": true,
+        "subtype": "channel",
+        "projected": false,
+        "axis": "observed_native_bar_index",
+        "known_at": "2026-08-06T22:00:00+00:00",
+        "basis": "frozen_pivot_supported_parallel_envelope",
+        "reason": "至少四次交替的已确认边界测试；平行通道为支撑这些测试的冻结包络，收敛边界来自实际锚点；均非实体平衡确认",
+        "pivot_radius": 2,
+        "gaps": [],
+        "validation": {
+          "overlap_bars": 17,
+          "wick_coverage": 1.0,
+          "close_coverage": 1.0,
+          "tolerance": 2.875500000000011
+        }
+      },
+      "states": [
+        {
+          "clock": "2026-08-06T21:00:00Z",
+          "status": null
+        },
+        {
+          "clock": "2026-08-06T22:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-06T23:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-07T00:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-07T02:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-07T03:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-07T04:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-07T05:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-07T06:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-07T07:00:00Z",
+          "status": "交替边界盘整候选"
+        },
+        {
+          "clock": "2026-08-07T08:00:00Z",
+          "status": "向上离开边界观察区"
+        }
+      ],
+      "within": []
+    }
+  ],
+  "dual_events": [
+    {
+      "clock": "2026-07-28T13:00:00Z",
+      "owner": "native_scope:98a86bc0b6399ae11bf1a8a1",
+      "direction": "up",
+      "event": "later_line",
+      "first_close": "2026-07-23T00:00:00Z",
+      "span": 81,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {},
+      "time_matched_outlines": [
+        {
+          "start": "1784566800",
+          "end": "1784743200",
+          "known": "1784761200",
+          "category": "4"
+        }
+      ]
+    },
+    {
+      "clock": "2026-07-29T21:00:00Z",
+      "owner": "native_scope:14756af6e0ea8dea5d188490",
+      "direction": "down",
+      "event": "same_bar",
+      "first_close": "2026-07-29T21:00:00Z",
+      "span": null,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {
+        "native_boundary_shape_candidate_v1:r8:p4:s1784743200:2026-07-29T03:00:00+00:00": "wedge"
+      },
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-07-29T21:00:00Z",
+      "owner": "native_scope:3f4ee562b3e9255421ffe329",
+      "direction": "down",
+      "event": "same_bar",
+      "first_close": "2026-07-29T21:00:00Z",
+      "span": null,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {
+        "native_boundary_shape_candidate_v1:r8:p4:s1784743200:2026-07-29T03:00:00+00:00": "wedge"
+      },
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-07-29T21:00:00Z",
+      "owner": "native_scope:e60345b012a17c38d2004cf4",
+      "direction": "down",
+      "event": "same_bar",
+      "first_close": "2026-07-29T21:00:00Z",
+      "span": null,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {
+        "native_boundary_shape_candidate_v1:r8:p4:s1784743200:2026-07-29T03:00:00+00:00": "wedge"
+      },
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-07-29T22:00:00Z",
+      "owner": "native_scope:1874181f29200601cfa2822b",
+      "direction": "down",
+      "event": "same_bar",
+      "first_close": "2026-07-29T22:00:00Z",
+      "span": null,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {},
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-07-29T22:00:00Z",
+      "owner": "native_scope:214a1c3873d1d1e5e3137d09",
+      "direction": "down",
+      "event": "later_line",
+      "first_close": "2026-07-29T21:00:00Z",
+      "span": 1,
+      "candidate_A": {
+        "256": {
+          "status": "candidate",
+          "price": 4047.8,
+          "extreme": "2026-07-29T10:00:00Z",
+          "resumed": "2026-07-29T17:00:00Z",
+          "freeze": "2026-07-29T20:00:00Z",
+          "dual_close_outside": true
+        },
+        "512": {
+          "status": "candidate",
+          "price": 4047.8,
+          "extreme": "2026-07-29T10:00:00Z",
+          "resumed": "2026-07-29T17:00:00Z",
+          "freeze": "2026-07-29T20:00:00Z",
+          "dual_close_outside": true
+        },
+        "768": {
+          "status": "candidate",
+          "price": 4047.8,
+          "extreme": "2026-07-29T10:00:00Z",
+          "resumed": "2026-07-29T17:00:00Z",
+          "freeze": "2026-07-29T20:00:00Z",
+          "dual_close_outside": true
+        }
+      },
+      "common_ranges": {
+        "native_boundary_shape_candidate_v1:r8:p4:s1784743200:2026-07-29T03:00:00+00:00": "wedge"
+      },
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-07-29T22:00:00Z",
+      "owner": "native_scope:35300d985c60486d50f3d4e9",
+      "direction": "down",
+      "event": "same_bar",
+      "first_close": "2026-07-29T22:00:00Z",
+      "span": null,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {},
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-07-29T22:00:00Z",
+      "owner": "native_scope:9542e54627242d504ae0782e",
+      "direction": "down",
+      "event": "later_line",
+      "first_close": "2026-07-29T21:00:00Z",
+      "span": 1,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {
+        "native_boundary_shape_candidate_v1:r8:p4:s1784743200:2026-07-29T03:00:00+00:00": "wedge"
+      },
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-07-29T22:00:00Z",
+      "owner": "native_scope:9c930c82793b3b0a226a4fe0",
+      "direction": "down",
+      "event": "later_line",
+      "first_close": "2026-07-29T21:00:00Z",
+      "span": 1,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {},
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-07-31T17:00:00Z",
+      "owner": "native_scope:6e879cb5cb448dc11f5259ad",
+      "direction": "up",
+      "event": "later_line",
+      "first_close": "2026-07-31T09:00:00Z",
+      "span": 8,
+      "candidate_A": {
+        "256": {
+          "status": "incomplete_counterleg"
+        },
+        "512": {
+          "status": "incomplete_counterleg"
+        },
+        "768": {
+          "status": "incomplete_counterleg"
+        }
+      },
+      "common_ranges": {
+        "dense_horizontal_pause_v1:2026-07-30T19:00:00+00:00": "box"
+      },
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-08-04T17:00:00Z",
+      "owner": "native_scope:5e10f25cb318bed82450467b",
+      "direction": "down",
+      "event": "same_bar",
+      "first_close": "2026-08-04T17:00:00Z",
+      "span": null,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {
+        "native_boundary_shape_candidate_v1:r8:p8:s1785121200:2026-08-03T03:00:00+00:00": "channel"
+      },
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-08-04T17:00:00Z",
+      "owner": "native_scope:60ac7a7affad57c247da29a7",
+      "direction": "down",
+      "event": "same_bar",
+      "first_close": "2026-08-04T17:00:00Z",
+      "span": null,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {
+        "native_boundary_shape_candidate_v1:r8:p8:s1785121200:2026-08-03T03:00:00+00:00": "channel"
+      },
+      "time_matched_outlines": []
+    },
+    {
+      "clock": "2026-08-04T17:00:00Z",
+      "owner": "native_scope:c0cf1106dfe529e4d5579be7",
+      "direction": "down",
+      "event": "same_bar",
+      "first_close": "2026-08-04T17:00:00Z",
+      "span": null,
+      "candidate_A": {
+        "256": {
+          "status": "no_owned_counterleg"
+        },
+        "512": {
+          "status": "no_owned_counterleg"
+        },
+        "768": {
+          "status": "no_owned_counterleg"
+        }
+      },
+      "common_ranges": {
+        "native_boundary_shape_candidate_v1:r8:p8:s1785121200:2026-08-03T03:00:00+00:00": "channel"
+      },
+      "time_matched_outlines": []
+    }
+  ],
+  "pa_export_sha256": "b1303bb3481d15189b716a8445f35c21b45dc746664708f0b6996511e19ed7b3"
+}

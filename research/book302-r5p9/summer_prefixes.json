@@ -1,0 +1,6936 @@
+{
+  "summary": {
+    "start": "2026-07-27",
+    "end_exclusive": "2026-08-08",
+    "closed_bars": 229,
+    "history_sha256": "a804d848479dd1266ba1bceaf5fb9f5e7f1e8acccb7d62e3818ace83b3c5388d",
+    "source_sha256": "db482be02b964a02bfc25149be5d58c120d63922346bc7086fac1d6ca9cbe6ca",
+    "counts": {
+      "later_line": 5,
+      "trend_only": 4,
+      "same_bar": 8,
+      "turn_only": 4
+    },
+    "gap": 10,
+    "differing_closes": 0,
+    "same_bar_closes": 3
+  },
+  "rows": [
+    {
+      "clock": "2026-07-27T02:00:00Z",
+      "windows": {
+        "256": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T03:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T04:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T05:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T06:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T07:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T08:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T09:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T10:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T11:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T12:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T13:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T14:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T15:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T16:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T17:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T18:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T19:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T20:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T21:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T22:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-27T23:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T00:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T02:00:00Z",
+      "windows": {
+        "256": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T03:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T04:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T05:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T06:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T07:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T08:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T09:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T10:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T11:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T12:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T13:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1,
+            "later_line": 1
+          },
+          "events": [
+            {
+              "owner": "native_scope:98a86bc0b6399ae11bf1a8a1",
+              "origin": [
+                1784566800.0,
+                3998.28
+              ],
+              "terminal": [
+                1784743200.0,
+                4166.04
+              ],
+              "direction": "up",
+              "trend": [
+                [
+                  "2026-07-20T17:00:00Z",
+                  3998.28
+                ],
+                [
+                  "2026-07-21T01:00:00Z",
+                  3999.79
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-21T09:00:00Z",
+                  4084.21
+                ],
+                [
+                  "2026-07-22T06:00:00Z",
+                  4141.71
+                ],
+                [
+                  "2026-07-21T16:00:00Z",
+                  4044.55
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-22T19:00:00Z",
+              "event": "later_line",
+              "bars_between": 81,
+              "trend_break_bar": "2026-07-28T12:00:00Z",
+              "turning_break_bar": "2026-07-22T23:00:00Z"
+            }
+          ]
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4,
+            "later_line": 1
+          },
+          "events": [
+            {
+              "owner": "native_scope:98a86bc0b6399ae11bf1a8a1",
+              "origin": [
+                1784566800.0,
+                3998.28
+              ],
+              "terminal": [
+                1784743200.0,
+                4166.04
+              ],
+              "direction": "up",
+              "trend": [
+                [
+                  "2026-07-20T17:00:00Z",
+                  3998.28
+                ],
+                [
+                  "2026-07-21T01:00:00Z",
+                  3999.79
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-21T09:00:00Z",
+                  4084.21
+                ],
+                [
+                  "2026-07-22T06:00:00Z",
+                  4141.71
+                ],
+                [
+                  "2026-07-21T16:00:00Z",
+                  4044.55
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-22T19:00:00Z",
+              "event": "later_line",
+              "bars_between": 81,
+              "trend_break_bar": "2026-07-28T12:00:00Z",
+              "turning_break_bar": "2026-07-22T23:00:00Z"
+            }
+          ]
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T14:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T15:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T16:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T17:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T18:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T19:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T20:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T21:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T22:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-28T23:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T00:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T02:00:00Z",
+      "windows": {
+        "256": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T03:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T04:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T05:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T06:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 12
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T07:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 12
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T08:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 12
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T09:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8,
+            "trend_only": 1
+          },
+          "events": [
+            {
+              "owner": "native_scope:3f4ee562b3e9255421ffe329",
+              "origin": [
+                1785160800.0,
+                4104.21
+              ],
+              "terminal": [
+                1785297600.0,
+                4010.34
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ],
+                [
+                  "2026-07-27T22:00:00Z",
+                  4089.34
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T04:00:00Z",
+                  4010.34
+                ],
+                [
+                  "2026-07-28T18:00:00Z",
+                  4047.12
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T05:00:00Z",
+              "event": "trend_only",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T08:00:00Z",
+              "turning_break_bar": null
+            }
+          ]
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 11,
+            "trend_only": 1
+          },
+          "events": [
+            {
+              "owner": "native_scope:3f4ee562b3e9255421ffe329",
+              "origin": [
+                1785160800.0,
+                4104.21
+              ],
+              "terminal": [
+                1785297600.0,
+                4010.34
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ],
+                [
+                  "2026-07-27T22:00:00Z",
+                  4089.34
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T04:00:00Z",
+                  4010.34
+                ],
+                [
+                  "2026-07-28T18:00:00Z",
+                  4047.12
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T05:00:00Z",
+              "event": "trend_only",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T08:00:00Z",
+              "turning_break_bar": null
+            }
+          ]
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T10:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "trend_only": 2,
+            "no_new_cross": 7
+          },
+          "events": [
+            {
+              "owner": "native_scope:14756af6e0ea8dea5d188490",
+              "origin": [
+                1785178800.0,
+                4093.92
+              ],
+              "terminal": [
+                1785297600.0,
+                4010.34
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T19:00:00Z",
+                  4093.92
+                ],
+                [
+                  "2026-07-27T22:00:00Z",
+                  4089.34
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T04:00:00Z",
+                  4010.34
+                ],
+                [
+                  "2026-07-28T18:00:00Z",
+                  4047.12
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T05:00:00Z",
+              "event": "trend_only",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T09:00:00Z",
+              "turning_break_bar": null
+            },
+            {
+              "owner": "native_scope:214a1c3873d1d1e5e3137d09",
+              "origin": [
+                1785236400.0,
+                4055.18
+              ],
+              "terminal": [
+                1785297600.0,
+                4010.34
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-28T11:00:00Z",
+                  4055.18
+                ],
+                [
+                  "2026-07-28T19:00:00Z",
+                  4046.51
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T04:00:00Z",
+                  4010.34
+                ],
+                [
+                  "2026-07-28T18:00:00Z",
+                  4047.12
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T05:00:00Z",
+              "event": "trend_only",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T09:00:00Z",
+              "turning_break_bar": null
+            }
+          ]
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "trend_only": 2,
+            "no_new_cross": 10
+          },
+          "events": [
+            {
+              "owner": "native_scope:14756af6e0ea8dea5d188490",
+              "origin": [
+                1785178800.0,
+                4093.92
+              ],
+              "terminal": [
+                1785297600.0,
+                4010.34
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T19:00:00Z",
+                  4093.92
+                ],
+                [
+                  "2026-07-27T22:00:00Z",
+                  4089.34
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T04:00:00Z",
+                  4010.34
+                ],
+                [
+                  "2026-07-28T18:00:00Z",
+                  4047.12
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T05:00:00Z",
+              "event": "trend_only",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T09:00:00Z",
+              "turning_break_bar": null
+            },
+            {
+              "owner": "native_scope:214a1c3873d1d1e5e3137d09",
+              "origin": [
+                1785236400.0,
+                4055.18
+              ],
+              "terminal": [
+                1785297600.0,
+                4010.34
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-28T11:00:00Z",
+                  4055.18
+                ],
+                [
+                  "2026-07-28T19:00:00Z",
+                  4046.51
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T04:00:00Z",
+                  4010.34
+                ],
+                [
+                  "2026-07-28T18:00:00Z",
+                  4047.12
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T05:00:00Z",
+              "event": "trend_only",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T09:00:00Z",
+              "turning_break_bar": null
+            }
+          ]
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T11:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 12
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T12:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 12
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T13:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 12
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T14:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 12
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T15:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 12
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T16:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 12
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T17:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 12
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T18:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 10
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 13
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T19:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 11
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T20:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 11
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-29T21:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "same_bar": 3,
+            "no_new_cross": 2,
+            "turn_only": 3
+          },
+          "events": [
+            {
+              "owner": "native_scope:14756af6e0ea8dea5d188490",
+              "origin": [
+                1785178800.0,
+                4093.92
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T19:00:00Z",
+                  4093.92
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T20:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:214a1c3873d1d1e5e3137d09",
+              "origin": [
+                1785236400.0,
+                4055.18
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-28T11:00:00Z",
+                  4055.18
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "turn_only",
+              "bars_between": null,
+              "trend_break_bar": null,
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:3f4ee562b3e9255421ffe329",
+              "origin": [
+                1785160800.0,
+                4104.21
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T20:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:9542e54627242d504ae0782e",
+              "origin": [
+                1785121200.0,
+                4116.19
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ],
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "turn_only",
+              "bars_between": null,
+              "trend_break_bar": null,
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:9c930c82793b3b0a226a4fe0",
+              "origin": [
+                1785146400.0,
+                4106.06
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T10:00:00Z",
+                  4106.06
+                ],
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "turn_only",
+              "bars_between": null,
+              "trend_break_bar": null,
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:e60345b012a17c38d2004cf4",
+              "origin": [
+                1785189600.0,
+                4089.34
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T22:00:00Z",
+                  4089.34
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T20:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            }
+          ]
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "same_bar": 3,
+            "no_new_cross": 5,
+            "turn_only": 3
+          },
+          "events": [
+            {
+              "owner": "native_scope:14756af6e0ea8dea5d188490",
+              "origin": [
+                1785178800.0,
+                4093.92
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T19:00:00Z",
+                  4093.92
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T20:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:214a1c3873d1d1e5e3137d09",
+              "origin": [
+                1785236400.0,
+                4055.18
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-28T11:00:00Z",
+                  4055.18
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "turn_only",
+              "bars_between": null,
+              "trend_break_bar": null,
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:3f4ee562b3e9255421ffe329",
+              "origin": [
+                1785160800.0,
+                4104.21
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T20:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:9542e54627242d504ae0782e",
+              "origin": [
+                1785121200.0,
+                4116.19
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ],
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "turn_only",
+              "bars_between": null,
+              "trend_break_bar": null,
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:9c930c82793b3b0a226a4fe0",
+              "origin": [
+                1785146400.0,
+                4106.06
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T10:00:00Z",
+                  4106.06
+                ],
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "turn_only",
+              "bars_between": null,
+              "trend_break_bar": null,
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:e60345b012a17c38d2004cf4",
+              "origin": [
+                1785189600.0,
+                4089.34
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T22:00:00Z",
+                  4089.34
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T20:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            }
+          ]
+        }
+      },
+      "events_agree": true,
+      "following": [
+        {
+          "owner": "native_scope:14756af6e0ea8dea5d188490",
+          "direction": "down",
+          "event": "2026-07-29T21:00:00Z",
+          "former_extreme": 3996.02,
+          "observations": [
+            {
+              "clock": "2026-07-29T21:00:00Z",
+              "close": 4044.07,
+              "trend": 4035.3351351351353,
+              "turning": 4041.0782608695654,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-29T22:00:00Z",
+              "close": 4106.8,
+              "trend": 4034.088648648649,
+              "turning": 4040.406086956522,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-29T23:00:00Z",
+              "close": 4044.69,
+              "trend": 4032.8421621621624,
+              "turning": 4039.7339130434784,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-30T00:00:00Z",
+              "close": 4066.24,
+              "trend": 4031.5956756756755,
+              "turning": 4039.061739130435,
+              "outside_both": true,
+              "turning_relation": "outside"
+            }
+          ],
+          "gap_at": null,
+          "first_reentry": null,
+          "later_directional_extreme": null
+        },
+        {
+          "owner": "native_scope:3f4ee562b3e9255421ffe329",
+          "direction": "down",
+          "event": "2026-07-29T21:00:00Z",
+          "former_extreme": 3996.02,
+          "observations": [
+            {
+              "clock": "2026-07-29T21:00:00Z",
+              "close": 4044.07,
+              "trend": 4034.3690476190477,
+              "turning": 4041.0782608695654,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-29T22:00:00Z",
+              "close": 4106.8,
+              "trend": 4033.0259523809523,
+              "turning": 4040.406086956522,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-29T23:00:00Z",
+              "close": 4044.69,
+              "trend": 4031.6828571428573,
+              "turning": 4039.7339130434784,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-30T00:00:00Z",
+              "close": 4066.24,
+              "trend": 4030.339761904762,
+              "turning": 4039.061739130435,
+              "outside_both": true,
+              "turning_relation": "outside"
+            }
+          ],
+          "gap_at": null,
+          "first_reentry": null,
+          "later_directional_extreme": null
+        },
+        {
+          "owner": "native_scope:e60345b012a17c38d2004cf4",
+          "direction": "down",
+          "event": "2026-07-29T21:00:00Z",
+          "former_extreme": 3996.02,
+          "observations": [
+            {
+              "clock": "2026-07-29T21:00:00Z",
+              "close": 4044.07,
+              "trend": 4035.5823529411764,
+              "turning": 4041.0782608695654,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-29T22:00:00Z",
+              "close": 4106.8,
+              "trend": 4034.360588235294,
+              "turning": 4040.406086956522,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-29T23:00:00Z",
+              "close": 4044.69,
+              "trend": 4033.1388235294116,
+              "turning": 4039.7339130434784,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-30T00:00:00Z",
+              "close": 4066.24,
+              "trend": 4031.9170588235293,
+              "turning": 4039.061739130435,
+              "outside_both": true,
+              "turning_relation": "outside"
+            }
+          ],
+          "gap_at": null,
+          "first_reentry": null,
+          "later_directional_extreme": null
+        }
+      ]
+    },
+    {
+      "clock": "2026-07-29T22:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3,
+            "same_bar": 2,
+            "later_line": 3
+          },
+          "events": [
+            {
+              "owner": "native_scope:1874181f29200601cfa2822b",
+              "origin": [
+                1784743200.0,
+                4166.04
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-23T04:00:00Z",
+                  4141.12
+                ],
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-24T08:00:00Z",
+                  4022.03
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T21:00:00Z",
+              "turning_break_bar": "2026-07-29T21:00:00Z"
+            },
+            {
+              "owner": "native_scope:214a1c3873d1d1e5e3137d09",
+              "origin": [
+                1785236400.0,
+                4055.18
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-28T11:00:00Z",
+                  4055.18
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": false,
+              "same_terminal": false,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "later_line",
+              "bars_between": 1,
+              "trend_break_bar": "2026-07-29T21:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:35300d985c60486d50f3d4e9",
+              "origin": [
+                1784779200.0,
+                4141.12
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-23T04:00:00Z",
+                  4141.12
+                ],
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-24T08:00:00Z",
+                  4022.03
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T21:00:00Z",
+              "turning_break_bar": "2026-07-29T21:00:00Z"
+            },
+            {
+              "owner": "native_scope:9542e54627242d504ae0782e",
+              "origin": [
+                1785121200.0,
+                4116.19
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ],
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "later_line",
+              "bars_between": 1,
+              "trend_break_bar": "2026-07-29T21:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:9c930c82793b3b0a226a4fe0",
+              "origin": [
+                1785146400.0,
+                4106.06
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T10:00:00Z",
+                  4106.06
+                ],
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": false,
+              "same_terminal": false,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "later_line",
+              "bars_between": 1,
+              "trend_break_bar": "2026-07-29T21:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            }
+          ]
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6,
+            "same_bar": 2,
+            "later_line": 3
+          },
+          "events": [
+            {
+              "owner": "native_scope:1874181f29200601cfa2822b",
+              "origin": [
+                1784743200.0,
+                4166.04
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-23T04:00:00Z",
+                  4141.12
+                ],
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-24T08:00:00Z",
+                  4022.03
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T21:00:00Z",
+              "turning_break_bar": "2026-07-29T21:00:00Z"
+            },
+            {
+              "owner": "native_scope:214a1c3873d1d1e5e3137d09",
+              "origin": [
+                1785236400.0,
+                4055.18
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-28T11:00:00Z",
+                  4055.18
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": false,
+              "same_terminal": false,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "later_line",
+              "bars_between": 1,
+              "trend_break_bar": "2026-07-29T21:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:35300d985c60486d50f3d4e9",
+              "origin": [
+                1784779200.0,
+                4141.12
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-23T04:00:00Z",
+                  4141.12
+                ],
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-24T08:00:00Z",
+                  4022.03
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-29T21:00:00Z",
+              "turning_break_bar": "2026-07-29T21:00:00Z"
+            },
+            {
+              "owner": "native_scope:9542e54627242d504ae0782e",
+              "origin": [
+                1785121200.0,
+                4116.19
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T03:00:00Z",
+                  4116.19
+                ],
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "later_line",
+              "bars_between": 1,
+              "trend_break_bar": "2026-07-29T21:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            },
+            {
+              "owner": "native_scope:9c930c82793b3b0a226a4fe0",
+              "origin": [
+                1785146400.0,
+                4106.06
+              ],
+              "terminal": [
+                1785344400.0,
+                3996.02
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-27T10:00:00Z",
+                  4106.06
+                ],
+                [
+                  "2026-07-27T14:00:00Z",
+                  4104.21
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-28T17:00:00Z",
+                  4011.48
+                ],
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-29T10:00:00Z",
+                  4047.8
+                ]
+              ],
+              "source_alive": false,
+              "same_terminal": false,
+              "pair_known": "2026-07-29T18:00:00Z",
+              "event": "later_line",
+              "bars_between": 1,
+              "trend_break_bar": "2026-07-29T21:00:00Z",
+              "turning_break_bar": "2026-07-29T20:00:00Z"
+            }
+          ]
+        }
+      },
+      "events_agree": true,
+      "following": [
+        {
+          "owner": "native_scope:1874181f29200601cfa2822b",
+          "direction": "down",
+          "event": "2026-07-29T22:00:00Z",
+          "former_extreme": 3996.02,
+          "observations": [
+            {
+              "clock": "2026-07-29T22:00:00Z",
+              "close": 4106.8,
+              "trend": 4080.734,
+              "turning": 4094.8484615384614,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-29T23:00:00Z",
+              "close": 4044.69,
+              "trend": 4080.18,
+              "turning": 4094.515,
+              "outside_both": false,
+              "turning_relation": "inside"
+            },
+            {
+              "clock": "2026-07-30T00:00:00Z",
+              "close": 4066.24,
+              "trend": 4079.626,
+              "turning": 4094.1815384615384,
+              "outside_both": false,
+              "turning_relation": "inside"
+            }
+          ],
+          "gap_at": "2026-07-30T01:00:00Z",
+          "first_reentry": "2026-07-29T23:00:00Z",
+          "later_directional_extreme": null
+        },
+        {
+          "owner": "native_scope:35300d985c60486d50f3d4e9",
+          "direction": "down",
+          "event": "2026-07-29T22:00:00Z",
+          "former_extreme": 3996.02,
+          "observations": [
+            {
+              "clock": "2026-07-29T22:00:00Z",
+              "close": 4106.8,
+              "trend": 4080.734,
+              "turning": 4094.8484615384614,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-07-29T23:00:00Z",
+              "close": 4044.69,
+              "trend": 4080.18,
+              "turning": 4094.515,
+              "outside_both": false,
+              "turning_relation": "inside"
+            },
+            {
+              "clock": "2026-07-30T00:00:00Z",
+              "close": 4066.24,
+              "trend": 4079.626,
+              "turning": 4094.1815384615384,
+              "outside_both": false,
+              "turning_relation": "inside"
+            }
+          ],
+          "gap_at": "2026-07-30T01:00:00Z",
+          "first_reentry": "2026-07-29T23:00:00Z",
+          "later_directional_extreme": null
+        }
+      ]
+    },
+    {
+      "clock": "2026-07-29T23:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T00:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T02:00:00Z",
+      "windows": {
+        "256": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T03:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T04:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T05:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T06:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T07:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T08:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T09:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T10:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T11:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T12:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T13:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T14:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T15:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T16:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T17:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T18:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T19:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T20:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T21:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T22:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-30T23:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T00:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T02:00:00Z",
+      "windows": {
+        "256": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T03:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T04:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T05:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T06:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T07:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T08:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T09:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2,
+            "trend_only": 1
+          },
+          "events": [
+            {
+              "owner": "native_scope:6e879cb5cb448dc11f5259ad",
+              "origin": [
+                1785344400.0,
+                3996.02
+              ],
+              "terminal": [
+                1785430800.0,
+                4120.36
+              ],
+              "direction": "up",
+              "trend": [
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-30T09:00:00Z",
+                  4029.46
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-29T22:00:00Z",
+                  4116.6
+                ],
+                [
+                  "2026-07-30T17:00:00Z",
+                  4120.36
+                ],
+                [
+                  "2026-07-30T08:00:00Z",
+                  4028.48
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-30T18:00:00Z",
+              "event": "trend_only",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-31T08:00:00Z",
+              "turning_break_bar": null
+            }
+          ]
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4,
+            "trend_only": 1
+          },
+          "events": [
+            {
+              "owner": "native_scope:6e879cb5cb448dc11f5259ad",
+              "origin": [
+                1785344400.0,
+                3996.02
+              ],
+              "terminal": [
+                1785430800.0,
+                4120.36
+              ],
+              "direction": "up",
+              "trend": [
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-30T09:00:00Z",
+                  4029.46
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-29T22:00:00Z",
+                  4116.6
+                ],
+                [
+                  "2026-07-30T17:00:00Z",
+                  4120.36
+                ],
+                [
+                  "2026-07-30T08:00:00Z",
+                  4028.48
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-30T18:00:00Z",
+              "event": "trend_only",
+              "bars_between": null,
+              "trend_break_bar": "2026-07-31T08:00:00Z",
+              "turning_break_bar": null
+            }
+          ]
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T10:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T11:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T12:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T13:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T14:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T15:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T16:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T17:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3,
+            "later_line": 1
+          },
+          "events": [
+            {
+              "owner": "native_scope:6e879cb5cb448dc11f5259ad",
+              "origin": [
+                1785344400.0,
+                3996.02
+              ],
+              "terminal": [
+                1785430800.0,
+                4120.36
+              ],
+              "direction": "up",
+              "trend": [
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-30T09:00:00Z",
+                  4029.46
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-29T22:00:00Z",
+                  4116.6
+                ],
+                [
+                  "2026-07-30T17:00:00Z",
+                  4120.36
+                ],
+                [
+                  "2026-07-30T08:00:00Z",
+                  4028.48
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-30T18:00:00Z",
+              "event": "later_line",
+              "bars_between": 8,
+              "trend_break_bar": "2026-07-31T08:00:00Z",
+              "turning_break_bar": "2026-07-31T16:00:00Z"
+            }
+          ]
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5,
+            "later_line": 1
+          },
+          "events": [
+            {
+              "owner": "native_scope:6e879cb5cb448dc11f5259ad",
+              "origin": [
+                1785344400.0,
+                3996.02
+              ],
+              "terminal": [
+                1785430800.0,
+                4120.36
+              ],
+              "direction": "up",
+              "trend": [
+                [
+                  "2026-07-29T17:00:00Z",
+                  3996.02
+                ],
+                [
+                  "2026-07-30T09:00:00Z",
+                  4029.46
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-29T22:00:00Z",
+                  4116.6
+                ],
+                [
+                  "2026-07-30T17:00:00Z",
+                  4120.36
+                ],
+                [
+                  "2026-07-30T08:00:00Z",
+                  4028.48
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-07-30T18:00:00Z",
+              "event": "later_line",
+              "bars_between": 8,
+              "trend_break_bar": "2026-07-31T08:00:00Z",
+              "turning_break_bar": "2026-07-31T16:00:00Z"
+            }
+          ]
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T18:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T19:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T20:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T21:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T22:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-07-31T23:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-01T00:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T02:00:00Z",
+      "windows": {
+        "256": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T03:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T04:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T05:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T06:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T07:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T08:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T09:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T10:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T11:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T12:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T13:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T14:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T15:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T16:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T17:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T18:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T19:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T20:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T21:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T22:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-03T23:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T00:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T02:00:00Z",
+      "windows": {
+        "256": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T03:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T04:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T05:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T06:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T07:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T08:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T09:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T10:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T11:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T12:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T13:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T14:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T15:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T16:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T17:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3,
+            "same_bar": 3
+          },
+          "events": [
+            {
+              "owner": "native_scope:5e10f25cb318bed82450467b",
+              "origin": [
+                1785488400.0,
+                4087.55
+              ],
+              "terminal": [
+                1785772800.0,
+                4019.11
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-31T09:00:00Z",
+                  4087.55
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-31T17:00:00Z",
+                  4020.98
+                ],
+                [
+                  "2026-08-03T16:00:00Z",
+                  4019.11
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "source_alive": false,
+              "same_terminal": false,
+              "pair_known": "2026-08-03T17:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-08-04T16:00:00Z",
+              "turning_break_bar": "2026-08-04T16:00:00Z"
+            },
+            {
+              "owner": "native_scope:60ac7a7affad57c247da29a7",
+              "origin": [
+                1785452400.0,
+                4117.42
+              ],
+              "terminal": [
+                1785772800.0,
+                4019.11
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-31T09:00:00Z",
+                  4087.55
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-31T17:00:00Z",
+                  4020.98
+                ],
+                [
+                  "2026-08-03T16:00:00Z",
+                  4019.11
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-08-03T17:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-08-04T16:00:00Z",
+              "turning_break_bar": "2026-08-04T16:00:00Z"
+            },
+            {
+              "owner": "native_scope:c0cf1106dfe529e4d5579be7",
+              "origin": [
+                1785430800.0,
+                4120.36
+              ],
+              "terminal": [
+                1785772800.0,
+                4019.11
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-31T09:00:00Z",
+                  4087.55
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-31T17:00:00Z",
+                  4020.98
+                ],
+                [
+                  "2026-08-03T16:00:00Z",
+                  4019.11
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-08-03T17:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-08-04T16:00:00Z",
+              "turning_break_bar": "2026-08-04T16:00:00Z"
+            }
+          ]
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 5,
+            "same_bar": 3
+          },
+          "events": [
+            {
+              "owner": "native_scope:5e10f25cb318bed82450467b",
+              "origin": [
+                1785488400.0,
+                4087.55
+              ],
+              "terminal": [
+                1785772800.0,
+                4019.11
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-31T09:00:00Z",
+                  4087.55
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-31T17:00:00Z",
+                  4020.98
+                ],
+                [
+                  "2026-08-03T16:00:00Z",
+                  4019.11
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "source_alive": false,
+              "same_terminal": false,
+              "pair_known": "2026-08-03T17:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-08-04T16:00:00Z",
+              "turning_break_bar": "2026-08-04T16:00:00Z"
+            },
+            {
+              "owner": "native_scope:60ac7a7affad57c247da29a7",
+              "origin": [
+                1785452400.0,
+                4117.42
+              ],
+              "terminal": [
+                1785772800.0,
+                4019.11
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-31T09:00:00Z",
+                  4087.55
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-31T17:00:00Z",
+                  4020.98
+                ],
+                [
+                  "2026-08-03T16:00:00Z",
+                  4019.11
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-08-03T17:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-08-04T16:00:00Z",
+              "turning_break_bar": "2026-08-04T16:00:00Z"
+            },
+            {
+              "owner": "native_scope:c0cf1106dfe529e4d5579be7",
+              "origin": [
+                1785430800.0,
+                4120.36
+              ],
+              "terminal": [
+                1785772800.0,
+                4019.11
+              ],
+              "direction": "down",
+              "trend": [
+                [
+                  "2026-07-31T09:00:00Z",
+                  4087.55
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-07-31T17:00:00Z",
+                  4020.98
+                ],
+                [
+                  "2026-08-03T16:00:00Z",
+                  4019.11
+                ],
+                [
+                  "2026-08-03T01:00:00Z",
+                  4084.63
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": true,
+              "pair_known": "2026-08-03T17:00:00Z",
+              "event": "same_bar",
+              "bars_between": null,
+              "trend_break_bar": "2026-08-04T16:00:00Z",
+              "turning_break_bar": "2026-08-04T16:00:00Z"
+            }
+          ]
+        }
+      },
+      "events_agree": true,
+      "following": [
+        {
+          "owner": "native_scope:5e10f25cb318bed82450467b",
+          "direction": "down",
+          "event": "2026-08-04T17:00:00Z",
+          "former_extreme": 4019.11,
+          "observations": [
+            {
+              "clock": "2026-08-04T17:00:00Z",
+              "close": 4084.09,
+              "trend": 4077.232666666667,
+              "turning": 4081.4,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-08-04T18:00:00Z",
+              "close": 4083.58,
+              "trend": 4077.038,
+              "turning": 4081.315,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-08-04T19:00:00Z",
+              "close": 4087.37,
+              "trend": 4076.8433333333332,
+              "turning": 4081.23,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-08-04T20:00:00Z",
+              "close": 4093.39,
+              "trend": 4076.6486666666665,
+              "turning": 4081.145,
+              "outside_both": true,
+              "turning_relation": "outside"
+            }
+          ],
+          "gap_at": null,
+          "first_reentry": null,
+          "later_directional_extreme": null
+        },
+        {
+          "owner": "native_scope:60ac7a7affad57c247da29a7",
+          "direction": "down",
+          "event": "2026-08-04T17:00:00Z",
+          "former_extreme": 4019.11,
+          "observations": [
+            {
+              "clock": "2026-08-04T17:00:00Z",
+              "close": 4084.09,
+              "trend": 4077.232666666667,
+              "turning": 4081.4,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-08-04T18:00:00Z",
+              "close": 4083.58,
+              "trend": 4077.038,
+              "turning": 4081.315,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-08-04T19:00:00Z",
+              "close": 4087.37,
+              "trend": 4076.8433333333332,
+              "turning": 4081.23,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-08-04T20:00:00Z",
+              "close": 4093.39,
+              "trend": 4076.6486666666665,
+              "turning": 4081.145,
+              "outside_both": true,
+              "turning_relation": "outside"
+            }
+          ],
+          "gap_at": null,
+          "first_reentry": null,
+          "later_directional_extreme": null
+        },
+        {
+          "owner": "native_scope:c0cf1106dfe529e4d5579be7",
+          "direction": "down",
+          "event": "2026-08-04T17:00:00Z",
+          "former_extreme": 4019.11,
+          "observations": [
+            {
+              "clock": "2026-08-04T17:00:00Z",
+              "close": 4084.09,
+              "trend": 4077.232666666667,
+              "turning": 4081.4,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-08-04T18:00:00Z",
+              "close": 4083.58,
+              "trend": 4077.038,
+              "turning": 4081.315,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-08-04T19:00:00Z",
+              "close": 4087.37,
+              "trend": 4076.8433333333332,
+              "turning": 4081.23,
+              "outside_both": true,
+              "turning_relation": "outside"
+            },
+            {
+              "clock": "2026-08-04T20:00:00Z",
+              "close": 4093.39,
+              "trend": 4076.6486666666665,
+              "turning": 4081.145,
+              "outside_both": true,
+              "turning_relation": "outside"
+            }
+          ],
+          "gap_at": null,
+          "first_reentry": null,
+          "later_directional_extreme": null
+        }
+      ]
+    },
+    {
+      "clock": "2026-08-04T18:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T19:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T20:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T21:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 8
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T22:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-04T23:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T00:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T02:00:00Z",
+      "windows": {
+        "256": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T03:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T04:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T05:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T06:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 7
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 9
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T07:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T08:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T09:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T10:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T11:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T12:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T13:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T14:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T15:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T16:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 3
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T17:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T18:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 4
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T19:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 2
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T20:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T21:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T22:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-05T23:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T00:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T02:00:00Z",
+      "windows": {
+        "256": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T03:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T04:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T05:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T06:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "turn_only": 1
+          },
+          "events": [
+            {
+              "owner": "native_scope:fe5653e8b4de7c8abf34f984",
+              "origin": [
+                1785895200.0,
+                4065.35
+              ],
+              "terminal": [
+                1785988800.0,
+                4302.74
+              ],
+              "direction": "up",
+              "trend": [
+                [
+                  "2026-08-05T02:00:00Z",
+                  4065.35
+                ],
+                [
+                  "2026-08-05T03:00:00Z",
+                  4070.38
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-08-05T08:00:00Z",
+                  4173.0
+                ],
+                [
+                  "2026-08-05T18:00:00Z",
+                  4265.15
+                ],
+                [
+                  "2026-08-05T13:00:00Z",
+                  4150.2
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": false,
+              "pair_known": "2026-08-06T05:00:00Z",
+              "event": "turn_only",
+              "bars_between": null,
+              "trend_break_bar": null,
+              "turning_break_bar": "2026-08-06T05:00:00Z"
+            }
+          ]
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "turn_only": 1
+          },
+          "events": [
+            {
+              "owner": "native_scope:fe5653e8b4de7c8abf34f984",
+              "origin": [
+                1785895200.0,
+                4065.35
+              ],
+              "terminal": [
+                1785988800.0,
+                4302.74
+              ],
+              "direction": "up",
+              "trend": [
+                [
+                  "2026-08-05T02:00:00Z",
+                  4065.35
+                ],
+                [
+                  "2026-08-05T03:00:00Z",
+                  4070.38
+                ]
+              ],
+              "turning": [
+                [
+                  "2026-08-05T08:00:00Z",
+                  4173.0
+                ],
+                [
+                  "2026-08-05T18:00:00Z",
+                  4265.15
+                ],
+                [
+                  "2026-08-05T13:00:00Z",
+                  4150.2
+                ]
+              ],
+              "source_alive": true,
+              "same_terminal": false,
+              "pair_known": "2026-08-06T05:00:00Z",
+              "event": "turn_only",
+              "bars_between": null,
+              "trend_break_bar": null,
+              "turning_break_bar": "2026-08-06T05:00:00Z"
+            }
+          ]
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T07:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T08:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T09:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T10:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T11:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T12:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T13:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T14:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T15:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T16:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T17:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T18:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T19:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T20:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T21:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T22:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-06T23:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T00:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T02:00:00Z",
+      "windows": {
+        "256": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "gap",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T03:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T04:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T05:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T06:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T07:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T08:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T09:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T10:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T11:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T12:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "unknown": 1
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T13:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T14:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T15:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T16:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {
+            "no_new_cross": 6
+          },
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T17:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T18:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T19:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T20:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T21:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T22:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    },
+    {
+      "clock": "2026-08-07T23:00:00Z",
+      "windows": {
+        "256": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        },
+        "512": {
+          "status": "ok",
+          "counts": {},
+          "events": []
+        }
+      },
+      "events_agree": true,
+      "following": []
+    }
+  ]
+}

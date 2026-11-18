@@ -1,0 +1,211 @@
+[
+  {
+    "clock": "2026-07-28T13:00:00Z",
+    "observations": [],
+    "note": null
+  },
+  {
+    "clock": "2026-07-29T22:00:00Z",
+    "observations": [
+      {
+        "owner": "native_scope:1874181f29200601cfa2822b",
+        "direction": "down",
+        "event": "2026-07-29T22:00:00Z",
+        "former_extreme": 3996.02,
+        "observations": [
+          {
+            "clock": "2026-07-29T22:00:00Z",
+            "close": 4106.8,
+            "trend": 4080.734,
+            "turning": 4094.8484615384614,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-07-29T23:00:00Z",
+            "close": 4044.69,
+            "trend": 4080.18,
+            "turning": 4094.515,
+            "outside_both": false,
+            "turning_relation": "inside"
+          },
+          {
+            "clock": "2026-07-30T00:00:00Z",
+            "close": 4066.24,
+            "trend": 4079.626,
+            "turning": 4094.1815384615384,
+            "outside_both": false,
+            "turning_relation": "inside"
+          }
+        ],
+        "gap_at": "2026-07-30T01:00:00Z",
+        "first_reentry": "2026-07-29T23:00:00Z",
+        "later_directional_extreme": null
+      },
+      {
+        "owner": "native_scope:214a1c3873d1d1e5e3137d09",
+        "direction": "down",
+        "event": "2026-07-29T22:00:00Z",
+        "former_extreme": 3996.02,
+        "observations": [
+          {
+            "clock": "2026-07-29T22:00:00Z",
+            "close": 4106.8,
+            "trend": 4044.11,
+            "turning": 4040.406086956522,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-07-29T23:00:00Z",
+            "close": 4044.69,
+            "trend": 4043.7745454545457,
+            "turning": 4039.7339130434784,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-07-30T00:00:00Z",
+            "close": 4066.24,
+            "trend": 4043.4390909090907,
+            "turning": 4039.061739130435,
+            "outside_both": true,
+            "turning_relation": "outside"
+          }
+        ],
+        "gap_at": "2026-07-30T01:00:00Z",
+        "first_reentry": null,
+        "later_directional_extreme": null,
+        "consecutive_break": {
+          "first_close": "2026-07-29T21:00:00Z",
+          "bars": 2,
+          "source_alive": false,
+          "same_terminal": false
+        }
+      },
+      {
+        "owner": "native_scope:35300d985c60486d50f3d4e9",
+        "direction": "down",
+        "event": "2026-07-29T22:00:00Z",
+        "former_extreme": 3996.02,
+        "observations": [
+          {
+            "clock": "2026-07-29T22:00:00Z",
+            "close": 4106.8,
+            "trend": 4080.734,
+            "turning": 4094.8484615384614,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-07-29T23:00:00Z",
+            "close": 4044.69,
+            "trend": 4080.18,
+            "turning": 4094.515,
+            "outside_both": false,
+            "turning_relation": "inside"
+          },
+          {
+            "clock": "2026-07-30T00:00:00Z",
+            "close": 4066.24,
+            "trend": 4079.626,
+            "turning": 4094.1815384615384,
+            "outside_both": false,
+            "turning_relation": "inside"
+          }
+        ],
+        "gap_at": "2026-07-30T01:00:00Z",
+        "first_reentry": "2026-07-29T23:00:00Z",
+        "later_directional_extreme": null
+      },
+      {
+        "owner": "native_scope:9542e54627242d504ae0782e",
+        "direction": "down",
+        "event": "2026-07-29T22:00:00Z",
+        "former_extreme": 3996.02,
+        "observations": [
+          {
+            "clock": "2026-07-29T22:00:00Z",
+            "close": 4106.8,
+            "trend": 4046.4881818181816,
+            "turning": 4040.406086956522,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-07-29T23:00:00Z",
+            "close": 4044.69,
+            "trend": 4045.399090909091,
+            "turning": 4039.7339130434784,
+            "outside_both": false,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-07-30T00:00:00Z",
+            "close": 4066.24,
+            "trend": 4044.31,
+            "turning": 4039.061739130435,
+            "outside_both": true,
+            "turning_relation": "outside"
+          }
+        ],
+        "gap_at": "2026-07-30T01:00:00Z",
+        "first_reentry": null,
+        "later_directional_extreme": null,
+        "consecutive_break": {
+          "first_close": "2026-07-29T21:00:00Z",
+          "bars": 2,
+          "source_alive": true,
+          "same_terminal": true
+        }
+      },
+      {
+        "owner": "native_scope:9c930c82793b3b0a226a4fe0",
+        "direction": "down",
+        "event": "2026-07-29T22:00:00Z",
+        "former_extreme": 3996.02,
+        "observations": [
+          {
+            "clock": "2026-07-29T22:00:00Z",
+            "close": 4106.8,
+            "trend": 4079.6975,
+            "turning": 4040.406086956522,
+            "outside_both": true,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-07-29T23:00:00Z",
+            "close": 4044.69,
+            "trend": 4079.235,
+            "turning": 4039.7339130434784,
+            "outside_both": false,
+            "turning_relation": "outside"
+          },
+          {
+            "clock": "2026-07-30T00:00:00Z",
+            "close": 4066.24,
+            "trend": 4078.7725,
+            "turning": 4039.061739130435,
+            "outside_both": false,
+            "turning_relation": "outside"
+          }
+        ],
+        "gap_at": "2026-07-30T01:00:00Z",
+        "first_reentry": null,
+        "later_directional_extreme": null,
+        "consecutive_break": {
+          "first_close": "2026-07-29T21:00:00Z",
+          "bars": 2,
+          "source_alive": false,
+          "same_terminal": false
+        }
+      }
+    ],
+    "note": "Book双破跟踪：缺柱前已收回拐点线，已跟踪2根，缺柱中止 2组、2根先后收破，原波段已退场，已跟踪2根，缺柱中止 2组、2根先后收破，已跟踪2根，缺柱中止 1组；A点另核"
+  },
+  {
+    "clock": "2026-07-31T17:00:00Z",
+    "observations": [],
+    "note": null
+  }
+]
