@@ -1,0 +1,119 @@
+[
+  {
+    "event": "2026-10-01T06:00:00Z",
+    "owner": "native_scope:44899ecf354108ba8cc9d417",
+    "common_ranges": {
+      "dense_horizontal_pause_v1:body10:2026-10-01T05:00:00+00:00": "box",
+      "dense_horizontal_pause_v1:tight:2026-10-01T05:00:00+00:00": "box",
+      "dense_horizontal_pause_v1:body8:2026-10-01T03:00:00+00:00": "box"
+    },
+    "three_push_outlines_inside_time_scope": [],
+    "directly_owned_counterlegs_at_open": [
+      {
+        "id": "native_scope:21a67072ae17375b93d0771b",
+        "relation": "internal_return_stage",
+        "start": "2026-09-30T20:00:00Z",
+        "start_price": 4147.48,
+        "extreme": "2026-10-01T01:00:00Z",
+        "price": 4164.38,
+        "membership_known": "2026-10-01T04:00:00Z",
+        "resumed_close_time": "2026-10-01T04:00:00Z",
+        "retirement_state": "completed_excursion_before_origin_breach"
+      }
+    ],
+    "archived_adjustment": null,
+    "verified_A": null
+  },
+  {
+    "event": "2026-10-02T19:00:00Z",
+    "owner": "native_scope:0c9e74fb4ef3da214f6c5b05",
+    "common_ranges": {
+      "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00": "box",
+      "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00": "box",
+      "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00": "box"
+    },
+    "three_push_outlines_inside_time_scope": [
+      {
+        "start": "1790712000",
+        "end": "1790780400",
+        "known": "1790791200",
+        "category": "4"
+      }
+    ],
+    "directly_owned_counterlegs_at_open": [],
+    "archived_adjustment": null,
+    "verified_A": null
+  },
+  {
+    "event": "2026-10-02T19:00:00Z",
+    "owner": "native_scope:0d17962a30d1bf49c805e5eb",
+    "common_ranges": {
+      "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00": "box",
+      "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00": "box",
+      "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00": "box"
+    },
+    "three_push_outlines_inside_time_scope": [
+      {
+        "start": "1790712000",
+        "end": "1790780400",
+        "known": "1790791200",
+        "category": "4"
+      }
+    ],
+    "directly_owned_counterlegs_at_open": [],
+    "archived_adjustment": null,
+    "verified_A": null
+  },
+  {
+    "event": "2026-10-02T19:00:00Z",
+    "owner": "native_scope:6a57b8e550c42fe333760a8b",
+    "common_ranges": {
+      "dense_horizontal_pause_v1:2026-10-02T08:00:00+00:00": "box",
+      "price_structure_candidate_v5:48:horizontal:2026-10-02T16:00:00+00:00": "box",
+      "price_structure_candidate_v5:96:horizontal:2026-10-02T08:00:00+00:00": "box"
+    },
+    "three_push_outlines_inside_time_scope": [
+      {
+        "start": "1790712000",
+        "end": "1790780400",
+        "known": "1790791200",
+        "category": "4"
+      }
+    ],
+    "directly_owned_counterlegs_at_open": [],
+    "archived_adjustment": null,
+    "verified_A": null
+  },
+  {
+    "event": "2026-10-29T09:00:00Z",
+    "owner": "native_scope:ba14f438579c4dc6a106f1dd",
+    "common_ranges": {
+      "native_session_triangle_candidate_v1:48:2026-10-29T06:00:00+00:00": "triangle",
+      "price_structure_candidate_v5:revisited:8:auto:2026-10-29T08:00:00+00:00": "channel",
+      "native_boundary_shape_candidate_v1:r8:p6:s1792771200:2026-10-29T07:00:00+00:00": "channel",
+      "price_structure_candidate_v5:96:horizontal:2026-10-28T21:00:00+00:00": "box"
+    },
+    "three_push_outlines_inside_time_scope": [],
+    "directly_owned_counterlegs_at_open": [],
+    "archived_adjustment": null,
+    "verified_A": null
+  },
+  {
+    "event": "2026-11-10T19:00:00Z",
+    "owner": "native_scope:4a4f59f83c162f9304b900a8",
+    "common_ranges": {
+      "price_structure_candidate_v5:96:horizontal:2026-11-10T15:00:00+00:00": "box"
+    },
+    "three_push_outlines_inside_time_scope": [
+      {
+        "start": "1793883600",
+        "end": "1793977200",
+        "known": "1793988000",
+        "category": "2"
+      }
+    ],
+    "directly_owned_counterlegs_at_open": [],
+    "archived_adjustment": null,
+    "verified_A": null
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "checks": [
+    {
+      "lookback": 256,
+      "clock": "2026-10-01T02:00:00Z",
+      "parent_visible": false,
+      "latest_child": null,
+      "observable_completed_candidate": false
+    },
+    {
+      "lookback": 256,
+      "clock": "2026-10-01T03:00:00Z",
+      "parent_visible": false,
+      "latest_child": null,
+      "observable_completed_candidate": false
+    },
+    {
+      "lookback": 256,
+      "clock": "2026-10-01T04:00:00Z",
+      "parent_visible": true,
+      "latest_child": {
+        "id": "native_scope:21a67072ae17375b93d0771b",
+        "relation": "internal_return_stage",
+        "start": "2026-09-30T20:00:00Z",
+        "start_price": 4147.48,
+        "extreme": "2026-10-01T01:00:00Z",
+        "price": 4164.38,
+        "membership_known": "2026-10-01T04:00:00Z",
+        "resumed_close_time": "2026-10-01T04:00:00Z",
+        "retirement_state": "completed_excursion_before_origin_breach"
+      },
+      "observable_completed_candidate": true
+    },
+    {
+      "lookback": 256,
+      "clock": "2026-10-01T05:00:00Z",
+      "parent_visible": true,
+      "latest_child": {
+        "id": "native_scope:21a67072ae17375b93d0771b",
+        "relation": "internal_return_stage",
+        "start": "2026-09-30T20:00:00Z",
+        "start_price": 4147.48,
+        "extreme": "2026-10-01T01:00:00Z",
+        "price": 4164.38,
+        "membership_known": "2026-10-01T04:00:00Z",
+        "resumed_close_time": "2026-10-01T04:00:00Z",
+        "retirement_state": "completed_excursion_before_origin_breach"
+      },
+      "observable_completed_candidate": true
+    },
+    {
+      "lookback": 512,
+      "clock": "2026-10-01T02:00:00Z",
+      "parent_visible": false,
+      "latest_child": null,
+      "observable_completed_candidate": false
+    },
+    {
+      "lookback": 512,
+      "clock": "2026-10-01T03:00:00Z",
+      "parent_visible": false,
+      "latest_child": null,
+      "observable_completed_candidate": false
+    },
+    {
+      "lookback": 512,
+      "clock": "2026-10-01T04:00:00Z",
+      "parent_visible": true,
+      "latest_child": {
+        "id": "native_scope:21a67072ae17375b93d0771b",
+        "relation": "internal_return_stage",
+        "start": "2026-09-30T20:00:00Z",
+        "start_price": 4147.48,
+        "extreme": "2026-10-01T01:00:00Z",
+        "price": 4164.38,
+        "membership_known": "2026-10-01T04:00:00Z",
+        "resumed_close_time": "2026-10-01T04:00:00Z",
+        "retirement_state": "completed_excursion_before_origin_breach"
+      },
+      "observable_completed_candidate": true
+    },
+    {
+      "lookback": 512,
+      "clock": "2026-10-01T05:00:00Z",
+      "parent_visible": true,
+      "latest_child": {
+        "id": "native_scope:21a67072ae17375b93d0771b",
+        "relation": "internal_return_stage",
+        "start": "2026-09-30T20:00:00Z",
+        "start_price": 4147.48,
+        "extreme": "2026-10-01T01:00:00Z",
+        "price": 4164.38,
+        "membership_known": "2026-10-01T04:00:00Z",
+        "resumed_close_time": "2026-10-01T04:00:00Z",
+        "retirement_state": "completed_excursion_before_origin_breach"
+      },
+      "observable_completed_candidate": true
+    },
+    {
+      "lookback": 768,
+      "clock": "2026-10-01T02:00:00Z",
+      "parent_visible": false,
+      "latest_child": null,
+      "observable_completed_candidate": false
+    },
+    {
+      "lookback": 768,
+      "clock": "2026-10-01T03:00:00Z",
+      "parent_visible": false,
+      "latest_child": null,
+      "observable_completed_candidate": false
+    },
+    {
+      "lookback": 768,
+      "clock": "2026-10-01T04:00:00Z",
+      "parent_visible": true,
+      "latest_child": {
+        "id": "native_scope:21a67072ae17375b93d0771b",
+        "relation": "internal_return_stage",
+        "start": "2026-09-30T20:00:00Z",
+        "start_price": 4147.48,
+        "extreme": "2026-10-01T01:00:00Z",
+        "price": 4164.38,
+        "membership_known": "2026-10-01T04:00:00Z",
+        "resumed_close_time": "2026-10-01T04:00:00Z",
+        "retirement_state": "completed_excursion_before_origin_breach"
+      },
+      "observable_completed_candidate": true
+    },
+    {
+      "lookback": 768,
+      "clock": "2026-10-01T05:00:00Z",
+      "parent_visible": true,
+      "latest_child": {
+        "id": "native_scope:21a67072ae17375b93d0771b",
+        "relation": "internal_return_stage",
+        "start": "2026-09-30T20:00:00Z",
+        "start_price": 4147.48,
+        "extreme": "2026-10-01T01:00:00Z",
+        "price": 4164.38,
+        "membership_known": "2026-10-01T04:00:00Z",
+        "resumed_close_time": "2026-10-01T04:00:00Z",
+        "retirement_state": "completed_excursion_before_origin_breach"
+      },
+      "observable_completed_candidate": true
+    }
+  ],
+  "reference": 4164.38,
+  "source_direction": "down",
+  "warmup_equal": true,
+  "after": [
+    {
+      "clock": "2026-10-01T06:00:00Z",
+      "high": 4161.8,
+      "close": 4160.96,
+      "close_above": false
+    },
+    {
+      "clock": "2026-10-01T07:00:00Z",
+      "high": 4177.04,
+      "close": 4175.41,
+      "close_above": true
+    },
+    {
+      "clock": "2026-10-01T08:00:00Z",
+      "high": 4180.6,
+      "close": 4179.88,
+      "close_above": true
+    },
+    {
+      "clock": "2026-10-01T09:00:00Z",
+      "high": 4193.06,
+      "close": 4188.18,
+      "close_above": true
+    }
+  ],
+  "author_degree_verified": false
+}
