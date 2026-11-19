@@ -1,0 +1,22 @@
+{
+  "request_token": "89ebfc5d495214a561b2eddc769d16b60b0cbf34353c3a78182dc6f3891f9264",
+  "chart_id": "104599768801721",
+  "symbol": "XAUUSD",
+  "period_seconds": 3600,
+  "cutoff_platform": "2026-11-13 16:00",
+  "visible_last_h1_platform": "2026-11-13 15:00",
+  "render_stage": "full",
+  "render_version": "1.230-r5p16",
+  "h1_closed_bars": 606,
+  "native_gap_request_rows": 17,
+  "native_gap_audit_rows": 16,
+  "native_gap_drawn_segments": 38,
+  "all_render_rows": 85,
+  "all_native_coordinates_verified": true,
+  "gap_segments_cross_missing_bars": 0,
+  "seconds_from_worker": 55.09299999999348,
+  "legacy_per_object_label": [
+    "1.230-r3"
+  ],
+  "screenshot_sha256": "0d298e9d105da82a0cd175c38bac7009f0765cd9e1ffc4d6ee9244f03e3a3646"
+}
